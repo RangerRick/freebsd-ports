@@ -1,0 +1,76 @@
+TOPDIR= ${.CURDIR}
+PORTSROOT= /usr/obj/${MACHINE}.${MACHINE}/portsroot
+CORES!= sysctl -n hw.ncpu
+.export TOPDIR PORTSROOT CORES
+
+all:
+	@echo An explicit target is required
+
+patch:
+	${TOPDIR}/Tools/patch-ports.sh
+	cp -f ${TOPDIR}/patches/patch-conf.d_link__confs.py /usr/ports/x11-fonts/fontconfig/files/
+	mkdir -p /usr/ports/graphics/jpeg-turbo/files
+	cp -f ${TOPDIR}/patches/patch-cmakescripts_GNUInstallDirs.cmake /usr/ports/graphics/jpeg-turbo/files/
+	cp -f ${TOPDIR}/patches/patch-meson.build /usr/ports/sysutils/polkit/files/
+	cp -f ${TOPDIR}/patches/patch-freebsd_Makefile /usr/ports/shells/bash-completion/files/
+	mkdir -p /usr/ports/sysutils/bsdisks/files
+	cp -f ${TOPDIR}/patches/patch-CMakeLists.txt /usr/ports/sysutils/bsdisks/files/
+	cp -f ${TOPDIR}/patches/patch-mysql57_install__layout.cmake /usr/ports/databases/mysql57-client/files/
+	cp -f ${TOPDIR}/patches/patch-webcamd-Makefile /usr/ports/multimedia/webcamd/files/
+	mkdir -p /usr/ports/audio/lilv/files
+	cp -f ${TOPDIR}/patches/patch-waflib_extras_autowaf.py /usr/ports/audio/lilv/files/
+	cp -f ${TOPDIR}/patches/patch-libsysinfo_Makefile /usr/ports/devel/libsysinfo/files/
+	cp -f ${TOPDIR}/patches/patch-libtaskmanager_xwindowtasksmodel.cpp /usr/ports/x11/plasma5-plasma-workspace/files/
+	cp -f ${TOPDIR}/patches/patch-airyx-boldmenus /usr/ports/x11/plasma5-plasma-workspace/files/
+	mkdir -p /usr/ports/x11-toolkits/kf5-kxmlgui/files
+	cp -f ${TOPDIR}/patches/patch-src_ktoolbarhandler.cpp ${TOPDIR}/patches/patch-src_ui__standards.rc /usr/ports/x11-toolkits/kf5-kxmlgui/files/
+	mkdir -p /usr/ports/devel/kf5-ktexteditor/files
+	cp -f ${TOPDIR}/patches/patch-src_data_katepart5ui.rc /usr/ports/devel/kf5-ktexteditor/files/
+	mkdir -p /usr/ports/distfiles
+
+# Prepare the chroot jail for our ports builds
+prepports:
+	if [ -d ${PORTSROOT} ]; then \
+		chflags -R noschg,nouchg ${PORTSROOT}; \
+		rm -rf ${PORTSROOT}; \
+	fi
+	mkdir -p ${PORTSROOT}/etc ${PORTSROOT}/var/run ${PORTSROOT}/usr/sbin
+	cp -f ${TOPDIR}/make.conf ${TOPDIR}/resolv.conf ${PORTSROOT}/etc/
+	cp -f /var/run/ld-elf.so.hints ${PORTSROOT}/var/run
+	cp -f /usr/sbin/pkg-static ${PORTSROOT}/usr/sbin || true
+	if [ ! -f ${PORTSROOT}/usr/sbin/pkg-static ]; then cp ${PORTSROOT}/usr/sbin/pkg ${PORTSROOT}/usr/sbin/pkg-static; fi
+	mkdir -p ${TOPDIR}/dist
+	if [ ! -f ${TOPDIR}/dist/base.txz ]; then fetch -o ${TOPDIR}/dist/base.txz https://dl.cloudsmith.io/public/airyx/core/raw/files/base_main.txz; fi
+	tar xvf ${TOPDIR}/dist/base.txz -C ${PORTSROOT}
+	ln -s libncurses.so ${PORTSROOT}/usr/lib/libncurses.so.6
+	ln -s python3.8 ${PORTSROOT}/usr/bin/python # for nodejs build
+	git clone https://github.com/mszoek/airyx.git /usr/src
+	mount_nullfs ${.CURDIR} /usr/ports
+
+/usr/ports/{archivers,audio,databases,devel,dns,editors,emulators,graphics,lang,misc,multimedia,net,ports-mgmt,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
+	${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} install
+
+mountsrc:
+	mount_nullfs /usr/src ${PORTSROOT}/usr/src
+
+umountsrc:
+	umount ${PORTSROOT}/usr/src
+
+zsh: /usr/ports/shells/zsh
+	ln -f ${PORTSROOT}/usr/bin/zsh ${PORTSROOT}/bin/zsh
+
+plasma: /usr/ports/x11/plasma5-plasma /usr/ports/x11/konsole /usr/ports/x11-fm/dolphin
+xorg: /usr/ports/x11/xorg /usr/ports/x11-themes/adwaita-icon-theme /usr/ports/devel/desktop-file-utils
+misc: /usr/ports/archivers/brotli /usr/ports/graphics/argyllcms /usr/ports/multimedia/gstreamer1-plugins-all
+misc2: /usr/ports/x11/zenity /usr/ports/sysutils/cpdup /usr/ports/audio/freedesktop-sound-theme /usr/ports/sysutils/fusefs-libs mountsrc /usr/ports/graphics/gpu-firmware-kmod /usr/ports/sysutils/iichid /usr/ports/net/libdnet /usr/ports/archivers/libmspack /usr/ports/security/libretls /usr/ports/devel/libsigc++20 /usr/ports/multimedia/libva-intel-driver /usr/ports/dns/nss_mdns /usr/ports/emulators/open-vm-tools /usr/ports/net/openntpd /usr/ports/sysutils/pv /usr/ports/misc/usbids /usr/ports/misc/utouch-kmod umountsrc /usr/ports/net/wpa_supplicant_gui /usr/ports/devel/xdg-user-dirs
+misc3: /usr/ports/security/sudo /usr/ports/devel/libqtxdg /usr/ports/devel/git /usr/ports/x11/slim /usr/ports/lang/python3 /usr/ports/x11-toolkits/py-qt5-widgets /usr/ports/www/py-qt5-webengine /usr/ports/misc/qt5-l10n /usr/ports/www/py-beautifulsoup /usr/ports/devel/py-dateutil /usr/ports/sysutils/py-psutil /usr/ports/devel/py-qt5-dbus /usr/ports/databases/sqlite3 /usr/ports/devel/py-xmltodict /usr/ports/devel/py-pip /usr/ports/x11-fonts/font-awesome /usr/ports/sysutils/dmidecode /usr/ports/ports-mgmt/pkg /usr/ports/x11/libfm-qt /usr/ports/x11/libfm /usr/ports/graphics/mesa-gallium-xa /usr/ports/x11-drivers/xf86-video-intel /usr/ports/x11-drivers/xf86-video-vmware /usr/ports/x11-fonts/sourcecodepro-ttf /usr/ports/x11-fonts/wqy /usr/ports/databases/py-sqlite3 /usr/ports/multimedia/py-qt5-multimedia /usr/ports/archivers/zip /usr/ports/devel/kf5-ktexteditor
+misc4: /usr/ports/x11-drivers/xf86-input-evdev /usr/ports/x11-drivers/xf86-input-synaptics /usr/ports/x11-drivers/xf86-input-vmmouse /usr/ports/x11-drivers/xf86-video-vmware /usr/ports/x11-drivers/xf86-video-nv /usr/ports/x11-drivers/xf86-video-intel /usr/ports/x11-drivers/xf86-video-ati /usr/ports/x11-drivers/xf86-video-cirrus /usr/ports/www/node /usr/ports/devel/libdbusmenu /usr/ports/editors/vscode /usr/ports/editors/vim
+buildports: zsh xorg plasma misc misc2 misc3 misc4
+
+makepackages:
+	rm -rf /usr/ports/packages
+	mkdir -p /usr/ports/packages
+	mount_nullfs /usr/ports/packages ${PORTSROOT}/mnt
+	chroot ${PORTSROOT} /bin/sh -c '/usr/sbin/pkg-static create -a -o /mnt'
+	umount ${PORTSROOT}/mnt
+	pkg repo -o /usr/ports/packages /usr/ports/packages
