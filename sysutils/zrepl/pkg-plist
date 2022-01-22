@@ -3,7 +3,7 @@ bin/zrepl
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/hooks/template.sh
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/grafana-prometheus-zrepl.json
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/local.yml
-@sample %%EXAMPLESDIR%%/newsyslog.conf etc/newsyslog.conf.d/zrepl.conf
+@sample %%EXAMPLESDIR%%/newsyslog.conf /etc/newsyslog.conf.d/zrepl.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/pull.yml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/pull_ssh.yml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/push.yml
@@ -14,7 +14,7 @@ bin/zrepl
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/snap.yml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/source.yml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/source_ssh.yml
-@sample %%EXAMPLESDIR%%/syslog.conf etc/syslog.d/zrepl.conf
-@dir etc/newsyslog.conf.d
-@dir etc/syslog.d
+@sample %%EXAMPLESDIR%%/syslog.conf /etc/syslog.d/zrepl.conf
+@dir /etc/newsyslog.conf.d
+@dir /etc/syslog.d
 @dir(root,wheel,0750) /var/run/zrepl

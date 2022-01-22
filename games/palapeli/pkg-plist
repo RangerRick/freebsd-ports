@@ -2,7 +2,7 @@ bin/palapeli
 lib/libpala.so
 lib/libpala.so.0
 lib/libpala.so.0.2.0
-etc/xdg/palapeli-collectionrc
+/etc/xdg/palapeli-collectionrc
 include/Pala/Pala/Slicer
 include/Pala/Pala/SlicerJob
 include/Pala/Pala/SlicerMode

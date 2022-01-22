@@ -1682,9 +1682,9 @@ lib/mlton/targets/self/sml/c-types.sml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/thread1.sml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/thread2.sml
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/timeout.sml
-share/man/man1/mllex.1.gz
-share/man/man1/mlnlffigen.1.gz
-share/man/man1/mlprof.1.gz
-share/man/man1/mlton.1.gz
-share/man/man1/mlyacc.1.gz
+%%MANPREFIX%%/man/man1/mllex.1.gz
+%%MANPREFIX%%/man/man1/mlnlffigen.1.gz
+%%MANPREFIX%%/man/man1/mlprof.1.gz
+%%MANPREFIX%%/man/man1/mlton.1.gz
+%%MANPREFIX%%/man/man1/mlyacc.1.gz
 %%PORTDOCS%%@dir %%DOCSDIR%%/examples

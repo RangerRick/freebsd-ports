@@ -1,5 +1,5 @@
 bin/simplescreenrecorder
-man/man1/simplescreenrecorder.1.gz
+%%MANPREFIX%%/man/man1/simplescreenrecorder.1.gz
 share/applications/simplescreenrecorder.desktop
 share/icons/hicolor/128x128/apps/simplescreenrecorder-error.png
 share/icons/hicolor/128x128/apps/simplescreenrecorder-idle.png

@@ -1,6 +1,6 @@
 bin/dvdisaster
-man/de/man1/dvdisaster.1.gz
-man/man1/dvdisaster.1.gz
+%%MANPREFIX%%/man/de/man1/dvdisaster.1.gz
+%%MANPREFIX%%/man/man1/dvdisaster.1.gz
 share/applications/dvdisaster.desktop
 share/pixmaps/dvdisaster48.png
 %%NLS%%share/locale/cs/LC_MESSAGES/dvdisaster.mo

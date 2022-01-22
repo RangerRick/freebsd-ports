@@ -2,9 +2,9 @@ bin/pkaction
 bin/pkcheck
 @(root,,4755) bin/pkexec
 bin/pkttyagent
-@sample etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf.sample
-etc/pam.d/polkit-1
-etc/polkit-1/rules.d/50-default.rules
+@sample /etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf.sample
+/etc/pam.d/polkit-1
+/etc/polkit-1/rules.d/50-default.rules
 include/polkit-1/polkit/polkit.h
 include/polkit-1/polkit/polkitactiondescription.h
 include/polkit-1/polkit/polkitauthority.h
@@ -45,12 +45,12 @@ lib/libpolkit-gobject-1.so.0.0.0
 lib/polkit-1/polkitd
 libdata/pkgconfig/polkit-agent-1.pc
 libdata/pkgconfig/polkit-gobject-1.pc
-%%MANPAGES%%man/man1/pkaction.1.gz
-%%MANPAGES%%man/man1/pkcheck.1.gz
-%%MANPAGES%%man/man1/pkexec.1.gz
-%%MANPAGES%%man/man1/pkttyagent.1.gz
-%%MANPAGES%%man/man8/polkit.8.gz
-%%MANPAGES%%man/man8/polkitd.8.gz
+%%MANPAGES%%%%MANPREFIX%%/man/man1/pkaction.1.gz
+%%MANPAGES%%%%MANPREFIX%%/man/man1/pkcheck.1.gz
+%%MANPAGES%%%%MANPREFIX%%/man/man1/pkexec.1.gz
+%%MANPAGES%%%%MANPREFIX%%/man/man1/pkttyagent.1.gz
+%%MANPAGES%%%%MANPREFIX%%/man/man8/polkit.8.gz
+%%MANPAGES%%%%MANPREFIX%%/man/man8/polkitd.8.gz
 share/dbus-1/system-services/org.freedesktop.PolicyKit1.service
 share/gettext/its/polkit.its
 share/gettext/its/polkit.loc
@@ -75,15 +75,15 @@ share/locale/uk/LC_MESSAGES/polkit-1.mo
 share/locale/zh_CN/LC_MESSAGES/polkit-1.mo
 share/locale/zh_TW/LC_MESSAGES/polkit-1.mo
 share/polkit-1/actions/org.freedesktop.policykit.policy
-@dir(polkitd,,700) etc/polkit-1/rules.d
+@dir(polkitd,,700) /etc/polkit-1/rules.d
 @dir(polkitd,,700) share/polkit-1/rules.d
-@dir etc/polkit-1/localauthority/90-mandatory.d
-@dir etc/polkit-1/localauthority/50-local.d
-@dir etc/polkit-1/localauthority/30-site.d
-@dir etc/polkit-1/localauthority/20-org.d
-@dir etc/polkit-1/localauthority/10-vendor.d
-@dir(,,700) etc/polkit-1/localauthority
-@dir etc/polkit-1
+@dir /etc/polkit-1/localauthority/90-mandatory.d
+@dir /etc/polkit-1/localauthority/50-local.d
+@dir /etc/polkit-1/localauthority/30-site.d
+@dir /etc/polkit-1/localauthority/20-org.d
+@dir /etc/polkit-1/localauthority/10-vendor.d
+@dir(,,700) /etc/polkit-1/localauthority
+@dir /etc/polkit-1
 @dir /var/lib/polkit-1/localauthority/90-mandatory.d
 @dir /var/lib/polkit-1/localauthority/50-local.d
 @dir /var/lib/polkit-1/localauthority/30-site.d

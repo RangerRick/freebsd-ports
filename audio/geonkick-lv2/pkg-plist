@@ -64,5 +64,5 @@ share/icons/hicolor/32x32/apps/geonkick.png
 share/icons/hicolor/48x48/apps/geonkick.png
 share/icons/hicolor/64x64/apps/geonkick.png
 share/icons/hicolor/scalable/apps/geonkick.svg
-share/man/man1/geonkick.1.gz
+%%MANPREFIX%%/man/man1/geonkick.1.gz
 share/mime/packages/geonkick.xml

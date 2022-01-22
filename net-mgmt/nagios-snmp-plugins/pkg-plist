@@ -1,4 +1,4 @@
-@sample etc/nagios/nagios-snmp-plugins.cfg.sample
+@sample /etc/nagios/nagios-snmp-plugins.cfg.sample
 libexec/nagios/check_snmp_disk
 libexec/nagios/check_snmp_load
 libexec/nagios/check_snmp_proc

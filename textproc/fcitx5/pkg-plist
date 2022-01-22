@@ -2,7 +2,7 @@ bin/fcitx5
 bin/fcitx5-configtool
 bin/fcitx5-diagnose
 bin/fcitx5-remote
-etc/xdg/autostart/org.fcitx.Fcitx5.desktop
+/etc/xdg/autostart/org.fcitx.Fcitx5.desktop
 include/Fcitx5/Config/fcitx-config/configuration.h
 include/Fcitx5/Config/fcitx-config/dbushelper.h
 include/Fcitx5/Config/fcitx-config/enum.h

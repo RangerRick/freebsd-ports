@@ -1,6 +1,6 @@
 bin/UserFeedbackConsole
 bin/userfeedbackctl
-etc/xdg/org_kde_UserFeedback.categories
+/etc/xdg/org_kde_UserFeedback.categories
 include/KUserFeedback/AbstractDataSource
 include/KUserFeedback/ApplicationVersionSource
 include/KUserFeedback/CompilerInfoSource

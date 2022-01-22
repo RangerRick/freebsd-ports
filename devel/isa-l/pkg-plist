@@ -15,4 +15,4 @@ lib/libisal.so
 lib/libisal.so.2
 lib/libisal.so.2.0.30
 libdata/pkgconfig/libisal.pc
-man/man1/igzip.1.gz
+%%MANPREFIX%%/man/man1/igzip.1.gz

@@ -45,4 +45,5 @@ USE_GL+=	gl glu
 CMAKE_ARGS+=	-DWITH_CGAL_Qt5=OFF
 .endif
 
+CMAKE_ARGS+=	-DCMAKE_INSTALL_MANDIR=${MANPREFIX}/man
 .include <bsd.port.mk>

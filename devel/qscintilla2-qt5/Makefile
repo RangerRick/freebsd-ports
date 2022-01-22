@@ -32,6 +32,7 @@ post-patch:
 .endif
 
 post-install:
+	mkdir -p ${STAGEDIR}/usr/libdata/ldconfig
 	cd ${WRKSRC} &&\
 		${MKDIR} ${STAGEDIR}${DOCSDIR}/html ${STAGEDIR}${DOCSDIR}/Scintilla &&\
 		${INSTALL_DATA} NEWS ${STAGEDIR}${DOCSDIR} &&\

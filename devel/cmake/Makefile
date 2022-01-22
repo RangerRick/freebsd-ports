@@ -24,7 +24,7 @@ USES=		compiler:c++11-lang cpe ncurses
 CPE_VENDOR=	cmake_project
 HAS_CONFIGURE=	yes
 CONFIGURE_ENV=	MAKE=make
-CONFIGURE_ARGS=	--prefix=${PREFIX} \
+CONFIGURE_ARGS=	--mandir=${MANPREFIX_REL}/man --prefix=${PREFIX} \
 		--datadir="/${DATADIR_REL}" \
 		--docdir="/${DOCSDIR_REL}" \
 		--system-libs \

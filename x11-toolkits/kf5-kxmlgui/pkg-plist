@@ -1,4 +1,4 @@
-etc/xdg/ui/ui_standards.rc
+/etc/xdg/ui/ui_standards.rc
 include/KF5/KXmlGui/KAboutApplicationDialog
 include/KF5/KXmlGui/KAboutPluginDialog
 include/KF5/KXmlGui/KActionCategory

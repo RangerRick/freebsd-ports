@@ -1,4 +1,4 @@
-etc/newsyslog.conf.d/logitechmediaserver.conf
+/etc/newsyslog.conf.d/logitechmediaserver.conf
 %%PORTDOCS%%%%DOCSDIR%%/Changelog.html
 %%PORTDOCS%%%%DOCSDIR%%/Changelog1.html
 %%PORTDOCS%%%%DOCSDIR%%/Changelog2.html

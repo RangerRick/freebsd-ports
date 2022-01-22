@@ -21,4 +21,4 @@ lib/libtimbl.so
 lib/libtimbl.so.6
 lib/libtimbl.so.6.0.0
 libdata/pkgconfig/timbl.pc
-man/man1/timbl.1.gz
+%%MANPREFIX%%/man/man1/timbl.1.gz

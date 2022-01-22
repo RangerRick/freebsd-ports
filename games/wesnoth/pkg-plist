@@ -1,5 +1,5 @@
 bin/wesnoth
-man/man6/wesnoth.6.gz
+%%MANPREFIX%%/man/man6/wesnoth.6.gz
 %%SERVER%%bin/wesnothd
 %%SERVER%%man/man6/wesnothd.6.gz
 share/applications/wesnoth.desktop

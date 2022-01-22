@@ -1,6 +1,6 @@
 @postunexec rm -f %D/%%MMDIR%%/Mailman/mm_cfg.pyc
-@dir etc/newsyslog.conf.d
-@sample %%EXAMPLESDIR%%/mailman.newsyslog.sample etc/newsyslog.conf.d/mailman.conf
+@dir /etc/newsyslog.conf.d
+@sample %%EXAMPLESDIR%%/mailman.newsyslog.sample /etc/newsyslog.conf.d/mailman.conf
 %%IMGDIR%%/mailman-large.jpg
 %%IMGDIR%%/gnu-head-tiny.jpg
 %%IMGDIR%%/mailman.jpg

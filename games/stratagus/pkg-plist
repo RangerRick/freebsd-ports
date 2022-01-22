@@ -4,4 +4,4 @@ bin/stratagus
 include/stratagus-game-launcher.h
 include/stratagus-gameutils.h
 include/stratagus-tinyfiledialogs.h
-share/man/man6/stratagus.6.gz
+%%MANPREFIX%%/man/man6/stratagus.6.gz

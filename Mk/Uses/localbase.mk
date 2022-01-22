@@ -14,9 +14,9 @@ _USES_POST+=	localbase
 .if defined(_POSTMKINCLUDED) && !defined(_INCLUDE_USES_LOCALBASE_POST_MK)
 _INCLUDE_USES_LOCALBASE_POST_MK=yes
 
-CPPFLAGS+=	-isystem ${LOCALBASE}/include
-CFLAGS+=	-isystem ${LOCALBASE}/include
-CXXFLAGS+=	-isystem ${LOCALBASE}/include
+# CPPFLAGS+=	-isystem ${LOCALBASE}/include
+# CFLAGS+=	-isystem ${LOCALBASE}/include
+# CXXFLAGS+=	-isystem ${LOCALBASE}/include
 .if ${localbase_ARGS:Mldflags}
 LDFLAGS+=	-L${LOCALBASE}/lib
 .else

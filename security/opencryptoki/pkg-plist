@@ -1,4 +1,4 @@
-@sample etc/opencryptoki/opencryptoki.conf.sample
+@sample /etc/opencryptoki/opencryptoki.conf.sample
 include/opencryptoki/apiclient.h
 include/opencryptoki/pkcs11.h
 include/opencryptoki/pkcs11types.h
@@ -23,11 +23,11 @@ lib/pkcs11/PKCS11_API.so
 lib/pkcs11/libopencryptoki.so
 lib/pkcs11/methods
 lib/pkcs11/stdll
-man/man1/pkcsconf.1.gz
-man/man1/pkcsicsf.1.gz
-man/man5/opencryptoki.conf.5.gz
-man/man7/opencryptoki.7.gz
-man/man8/pkcsslotd.8.gz
+%%MANPREFIX%%/man/man1/pkcsconf.1.gz
+%%MANPREFIX%%/man/man1/pkcsicsf.1.gz
+%%MANPREFIX%%/man/man5/opencryptoki.conf.5.gz
+%%MANPREFIX%%/man/man7/opencryptoki.7.gz
+%%MANPREFIX%%/man/man8/pkcsslotd.8.gz
 sbin/pkcsconf
 sbin/pkcsicsf
 sbin/pkcsslotd

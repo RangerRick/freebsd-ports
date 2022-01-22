@@ -396,7 +396,7 @@ lib/libsiconos_numerics.so.6.0.0
 %%PYTHON%%%%PYTHON_SITELIBDIR%%/siconos/mechanics/collision/_base.so
 %%PYTHON%%%%PYTHON_SITELIBDIR%%/siconos/mechanics/collision/_bodies.so
 %%PYTHON%%%%PYTHON_SITELIBDIR%%/siconos/mechanics/collision/_native.so
-share/man/man1/siconos.1.gz
+%%MANPREFIX%%/man/man1/siconos.1.gz
 %%PYTHON%%share/man/man1/siconos_compare.1.gz
 %%PYTHON%%share/man/man1/siconos_export_raw_data.1.gz
 %%PYTHON%%share/man/man1/siconos_filter.1.gz

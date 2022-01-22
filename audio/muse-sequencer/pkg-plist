@@ -56,8 +56,8 @@ lib/muse-4.0/synthi/deicsonze.so
 lib/muse-4.0/synthi/organ.so
 lib/muse-4.0/synthi/simpledrums.so
 lib/muse-4.0/synthi/vam.so
-man/man1/grepmidi.1.gz
-man/man1/muse4.1.gz
+%%MANPREFIX%%/man/man1/grepmidi.1.gz
+%%MANPREFIX%%/man/man1/muse4.1.gz
 share/applications/org.musesequencer.Muse4.desktop
 share/icons/hicolor/128x128/apps/muse.png
 share/icons/hicolor/64x64/apps/muse.png

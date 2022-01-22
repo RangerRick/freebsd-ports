@@ -1,6 +1,6 @@
 bin/owncloud
 bin/owncloudcmd
-@sample etc/ownCloud/sync-exclude.lst.sample
+@sample /etc/ownCloud/sync-exclude.lst.sample
 include/owncloudsync/creds/abstractcredentials.h
 include/owncloudsync/creds/httpcredentials.h
 include/owncloudsync/mirall/account.h

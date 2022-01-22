@@ -1,6 +1,6 @@
 bin/xmlsec1
 bin/xmlsec1-config
-etc/xmlsec1Conf.sh
+/etc/xmlsec1Conf.sh
 include/xmlsec1/xmlsec/app.h
 include/xmlsec1/xmlsec/base64.h
 include/xmlsec1/xmlsec/bn.h
@@ -74,6 +74,6 @@ libdata/pkgconfig/xmlsec1-gcrypt.pc
 %%NSS%%libdata/pkgconfig/xmlsec1-nss.pc
 libdata/pkgconfig/xmlsec1-openssl.pc
 libdata/pkgconfig/xmlsec1.pc
-man/man1/xmlsec1-config.1.gz
-man/man1/xmlsec1.1.gz
+%%MANPREFIX%%/man/man1/xmlsec1-config.1.gz
+%%MANPREFIX%%/man/man1/xmlsec1.1.gz
 share/aclocal/xmlsec1.m4

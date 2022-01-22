@@ -54,7 +54,7 @@ post-patch:
 post-install:
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/lib/*.so
 .for f in ${MANPAGE}
-	${INSTALL_MAN} ${WRKSRC}/doc/man/${f} ${STAGEDIR}${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/doc/man/${f} ${STAGEDIR}${MANPREFIX}/man/man1
 .endfor
 	${MKDIR} ${STAGEDIR}${DOCSDIR}
 .for FILE in README AUTHORS COPYING THANKS ChangeLog

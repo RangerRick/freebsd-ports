@@ -1,5 +1,5 @@
 bin/paperless
-@sample(paperless,paperless,0600) etc/paperless.conf.sample
+@sample(paperless,paperless,0600) /etc/paperless.conf.sample
 %%PYTHON_SITELIBDIR%%/paperless/__pycache__/manage.cpython-%%PYTHON_SUFFIX%%.opt-1.pyc
 %%PYTHON_SITELIBDIR%%/paperless/__pycache__/manage.cpython-%%PYTHON_SUFFIX%%.pyc
 %%PYTHON_SITELIBDIR%%/paperless/documents/__init__.py
@@ -328,7 +328,7 @@ bin/paperless
 %%PYTHON_SITELIBDIR%%/paperless/reminders/views.py
 %%PYTHON_SITELIBDIR%%/paperless/setup.cfg
 %%PYTHON_SITELIBDIR%%/paperless/tox.ini
-man/man7/paperless.7.gz
+%%MANPREFIX%%/man/man7/paperless.7.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/README
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/nginx.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/sshd_config

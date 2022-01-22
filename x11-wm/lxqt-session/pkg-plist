@@ -2,7 +2,7 @@ bin/lxqt-config-session
 bin/lxqt-leave
 bin/lxqt-session
 bin/startlxqt
-etc/xdg/autostart/lxqt-xscreensaver-autostart.desktop
+/etc/xdg/autostart/lxqt-xscreensaver-autostart.desktop
 share/applications/lxqt-config-session.desktop
 share/applications/lxqt-hibernate.desktop
 share/applications/lxqt-leave.desktop
@@ -145,8 +145,8 @@ share/kdm/sessions/lxqt.desktop
 %%LXQT_TRANSLATIONS%%/lxqt-session/lxqt-session_zh_CN.qm
 %%LXQT_TRANSLATIONS%%/lxqt-session/lxqt-session_zh_TW.qm
 %%LXQT_SHAREDIR%%/windowmanagers.conf
-share/man/man1/lxqt-config-session.1.gz
-share/man/man1/lxqt-leave.1.gz
-share/man/man1/lxqt-session.1.gz
-share/man/man1/startlxqt.1.gz
+%%MANPREFIX%%/man/man1/lxqt-config-session.1.gz
+%%MANPREFIX%%/man/man1/lxqt-leave.1.gz
+%%MANPREFIX%%/man/man1/lxqt-session.1.gz
+%%MANPREFIX%%/man/man1/startlxqt.1.gz
 share/xsessions/lxqt.desktop

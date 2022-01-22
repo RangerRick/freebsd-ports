@@ -1,5 +1,5 @@
 bin/davmail
-@sample etc/davmail.properties.sample
+@sample /etc/davmail.properties.sample
 share/applications/davmail.desktop
 %%DATADIR%%/%%PORTVERSION%%/RELEASE-NOTES.md
 %%DATADIR%%/DavMail.app/Contents/Info.plist

@@ -27,9 +27,9 @@ share/icons/hicolor/32x32/apps/tiled.png
 share/icons/hicolor/32x32/mimetypes/application-x-tiled.png
 share/icons/hicolor/scalable/apps/tiled.svg
 share/icons/hicolor/scalable/mimetypes/application-x-tiled.svg
-share/man/man1/tiled.1.gz
-share/man/man1/tmxrasterizer.1.gz
-share/man/man1/tmxviewer.1.gz
+%%MANPREFIX%%/man/man1/tiled.1.gz
+%%MANPREFIX%%/man/man1/tmxrasterizer.1.gz
+%%MANPREFIX%%/man/man1/tmxviewer.1.gz
 share/metainfo/org.mapeditor.Tiled.appdata.xml
 share/mime/packages/org.mapeditor.Tiled.xml
 share/thumbnailers/tiled.thumbnailer

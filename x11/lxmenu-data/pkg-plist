@@ -1,4 +1,4 @@
-etc/xdg/menus/lxde-applications.menu
+/etc/xdg/menus/lxde-applications.menu
 share/desktop-directories/lxde-audio-video.directory
 share/desktop-directories/lxde-development.directory
 share/desktop-directories/lxde-education.directory

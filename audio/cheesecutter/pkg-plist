@@ -15,8 +15,8 @@ share/applications/ccutter.desktop
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/example_tunes/tempest-soyoudied.ct
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/example_tunes/vent-arkijuusto.ct
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/example_tunes/wisdom-Adrift.ct
-share/man/fr/man1/ccutter.fr.1.gz
-share/man/fr/man1/ct2util.fr.1.gz
-share/man/man1/ccutter.1.gz
-share/man/man1/ct2util.1.gz
+%%MANPREFIX%%/man/fr/man1/ccutter.fr.1.gz
+%%MANPREFIX%%/man/fr/man1/ct2util.fr.1.gz
+%%MANPREFIX%%/man/man1/ccutter.1.gz
+%%MANPREFIX%%/man/man1/ct2util.1.gz
 share/pixmaps/cheesecutter.png

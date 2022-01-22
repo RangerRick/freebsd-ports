@@ -4,7 +4,7 @@ lib/libnordlicht.so
 lib/libnordlicht.so.0
 lib/libnordlicht.so.%%PORTVERSION%%
 libdata/pkgconfig/nordlicht.pc
-man/man1/nordlicht.1.gz
+%%MANPREFIX%%/man/man1/nordlicht.1.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/mpv-nordlicht
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/mpv-nordlicht.lua
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/nordlicht.thumbnailer

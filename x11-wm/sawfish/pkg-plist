@@ -32,9 +32,9 @@ lib/sawfish/selection.so
 lib/sawfish/x.a
 lib/sawfish/x.so
 libdata/pkgconfig/sawfish.pc
-man/man1/sawfish-client.1.gz
-man/man1/sawfish-config.1.gz
-man/man1/sawfish.1.gz
+%%MANPREFIX%%/man/man1/sawfish-client.1.gz
+%%MANPREFIX%%/man/man1/sawfish-config.1.gz
+%%MANPREFIX%%/man/man1/sawfish.1.gz
 share/applications/sawfish-config.desktop
 share/applications/sawfish.desktop
 share/gnome/wm-properties/sawfish-wm.desktop

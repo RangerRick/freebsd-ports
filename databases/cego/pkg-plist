@@ -12,7 +12,7 @@ bin/cgadm
 bin/cgblow
 bin/cgclt
 bin/cglog
-etc/rc.d/cego
+/etc/rc.d/cego
 include/cego/Cego.h
 include/cego/CegoAVLIndexCursor.h
 include/cego/CegoAVLIndexEntry.h

@@ -1,5 +1,5 @@
 bin/lumina-photo
-man/man1/lumina-photo.1.gz
+%%MANPREFIX%%/man/man1/lumina-photo.1.gz
 share/applications/lumina-photo.desktop
 %%NLS%%share/lumina-desktop/i18n/l-photo_af.qm
 %%NLS%%share/lumina-desktop/i18n/l-photo_ar.qm

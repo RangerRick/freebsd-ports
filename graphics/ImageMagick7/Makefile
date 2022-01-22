@@ -47,7 +47,7 @@ CPE_VENDOR=	imagemagick
 SHEBANG_FILES=	www/source/examples.pl
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	MAKE=${MAKE_CMD}
-CONFIGURE_ARGS=	--without-dps \
+CONFIGURE_ARGS= --sysconfdir=/etc 	--without-dps \
 		--without-flif \
 		--without-zstd
 USE_LDCONFIG=	yes
@@ -353,8 +353,8 @@ pre-configure:
 
 post-install:
 .for i in ${SAMPLE_FILES}
-	@${MV} ${STAGEDIR}${PREFIX}/etc/ImageMagick-7/${i} \
-		${STAGEDIR}${PREFIX}/etc/ImageMagick-7/${i}.sample
+	@${MV} ${STAGEDIR}/etc/ImageMagick-7/${i} \
+		${STAGEDIR}/etc/ImageMagick-7/${i}.sample
 .endfor
 
 post-install-TESTS-on: test

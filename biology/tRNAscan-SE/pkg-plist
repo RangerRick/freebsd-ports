@@ -6,7 +6,7 @@ bin/fasta2gsi
 bin/sstofa
 bin/tRNAscan-SE
 bin/trnascan-1.4
-etc/tRNAscan-SE.conf
+/etc/tRNAscan-SE.conf
 %%DATADIR%%/gcode/gcode.cilnuc
 %%DATADIR%%/gcode/gcode.echdmito
 %%DATADIR%%/gcode/gcode.invmito

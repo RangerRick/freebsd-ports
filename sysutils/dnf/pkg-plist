@@ -2,7 +2,7 @@ bin/dnf
 bin/dnf-3
 bin/dnf-automatic
 bin/dnf-automatic-3
-etc/bash_completion.d/dnf
+/etc/bash_completion.d/dnf
 %%ETCDIR%%/aliases.d/zypper.conf
 %%ETCDIR%%/automatic.conf
 %%ETCDIR%%/dnf-strict.conf

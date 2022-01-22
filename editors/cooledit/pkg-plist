@@ -7,9 +7,9 @@ lib/libCw.a
 lib/libCw.so
 lib/libCw.so.1
 lib/libCw.so.1.0.0
-man/man1/cooledit.1.gz
-man/man1/coolman.1.gz
-man/man1/smalledit.1.gz
+%%MANPREFIX%%/man/man1/cooledit.1.gz
+%%MANPREFIX%%/man/man1/coolman.1.gz
+%%MANPREFIX%%/man/man1/smalledit.1.gz
 %%DATADIR%%/c_utils.py
 %%DATADIR%%/global.py
 %%DATADIR%%/sh_utils.py

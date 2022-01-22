@@ -1,2 +1,2 @@
-@sample etc/geomWatch.conf.sample
+@sample /etc/geomWatch.conf.sample
 sbin/geomWatch

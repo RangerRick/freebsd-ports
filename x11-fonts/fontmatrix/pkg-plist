@@ -1,5 +1,5 @@
 bin/fontmatrix
-man/man1/fontmatrix.1.gz
+%%MANPREFIX%%/man/man1/fontmatrix.1.gz
 share/applications/fontmatrix.desktop
 %%DATADIR%%/help/en/additional.html
 %%DATADIR%%/help/en/additional_db_check.html

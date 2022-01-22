@@ -1,5 +1,5 @@
 bin/bopm
-@sample(bopm,bopm,640) etc/bopm.conf.sample
+@sample(bopm,bopm,640) /etc/bopm.conf.sample
 include/opm.h
 include/opm_error.h
 include/opm_types.h

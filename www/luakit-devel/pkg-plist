@@ -1,8 +1,8 @@
 bin/luakit
-etc/xdg/luakit/rc.lua
-etc/xdg/luakit/theme.lua
+/etc/xdg/luakit/rc.lua
+/etc/xdg/luakit/theme.lua
 lib/luakit/luakit.so
-man/man1/luakit.1.gz
+%%MANPREFIX%%/man/man1/luakit.1.gz
 share/applications/luakit.desktop
 share/doc/luakit/AUTHORS
 share/doc/luakit/COPYING.GPLv3

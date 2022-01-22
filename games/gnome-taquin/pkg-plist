@@ -1,5 +1,5 @@
 bin/gnome-taquin
-man/man6/gnome-taquin.6.gz
+%%MANPREFIX%%/man/man6/gnome-taquin.6.gz
 share/applications/org.gnome.Taquin.desktop
 share/dbus-1/services/org.gnome.Taquin.service
 %%DATADIR%%/sounds/gameover.ogg

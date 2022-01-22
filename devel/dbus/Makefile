@@ -21,7 +21,7 @@ USE_RC_SUBR=	dbus
 SHEBANG_FILES=	tools/GetAllMatchRules.py
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-apparmor \
+CONFIGURE_ARGS= --sysconfdir=/etc 	--disable-apparmor \
 		--disable-doxygen-docs \
 		--disable-selinux \
 		--disable-systemd \
@@ -54,6 +54,8 @@ post-patch:
 	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
 		${WRKSRC}/dbus/dbus-sysdeps-util-unix.c
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 post-install:
 	@${MKDIR} ${STAGEDIR}${EXAMPLESDIR}
 	${MV} ${STAGEDIR}${DOCSDIR}/examples/* ${STAGEDIR}${EXAMPLESDIR}

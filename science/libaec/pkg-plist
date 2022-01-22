@@ -9,4 +9,4 @@ lib/libsz.a
 lib/libsz.so
 lib/libsz.so.2
 lib/libsz.so.2.0.1
-man/man1/aec.1.gz
+%%MANPREFIX%%/man/man1/aec.1.gz

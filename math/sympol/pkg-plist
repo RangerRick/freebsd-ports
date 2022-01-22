@@ -42,4 +42,4 @@ lib/liblrsgmp.so
 lib/libsympol.so
 lib/libsympol.so.0.1
 lib/libsympol.so.0.1.9
-share/man/man1/sympol.1.gz
+%%MANPREFIX%%/man/man1/sympol.1.gz

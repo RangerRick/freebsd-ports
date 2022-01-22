@@ -1,6 +1,6 @@
 bin/socksify
-@sample etc/sockd.conf.sample
-@sample etc/socks.conf.sample
+@sample /etc/sockd.conf.sample
+@sample /etc/socks.conf.sample
 include/socks.h
 lib/libdsocks.so
 lib/libsocks.a
@@ -8,10 +8,10 @@ lib/libsocks.so
 lib/libsocks.so.0
 lib/libsocks.so.0.1.1
 sbin/sockd
-man/man1/socksify.1.gz
-man/man5/sockd.conf.5.gz
-man/man5/socks.conf.5.gz
-man/man8/sockd.8.gz
+%%MANPREFIX%%/man/man1/socksify.1.gz
+%%MANPREFIX%%/man/man5/sockd.conf.5.gz
+%%MANPREFIX%%/man/man5/socks.conf.5.gz
+%%MANPREFIX%%/man/man8/sockd.8.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/sockd-basic.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/sockd-chaining.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/socks-simple-withoutnameserver.conf

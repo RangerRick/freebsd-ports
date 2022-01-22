@@ -1,5 +1,5 @@
 bin/chromium-bsu
-man/man6/chromium-bsu.6.gz
+%%MANPREFIX%%/man/man6/chromium-bsu.6.gz
 share/applications/chromium-bsu.desktop
 share/icons/hicolor/64x64/apps/chromium-bsu.png
 %%NLS%%share/locale/bg/LC_MESSAGES/chromium-bsu.mo

@@ -67,5 +67,5 @@ share/locale/tr/LC_MESSAGES/arandr.mo
 share/locale/uk/LC_MESSAGES/arandr.mo
 share/locale/zh_CN/LC_MESSAGES/arandr.mo
 share/locale/zh_Hant/LC_MESSAGES/arandr.mo
-share/man/man1/arandr.1.gz
-share/man/man1/unxrandr.1.gz
+%%MANPREFIX%%/man/man1/arandr.1.gz
+%%MANPREFIX%%/man/man1/unxrandr.1.gz

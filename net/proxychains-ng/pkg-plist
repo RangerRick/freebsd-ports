@@ -1,4 +1,4 @@
-@sample etc/proxychains.conf.sample
+@sample /etc/proxychains.conf.sample
 bin/proxychains
 bin/proxychains4-daemon
 bin/proxyresolv

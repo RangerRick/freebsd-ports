@@ -1,7 +1,7 @@
-etc/fonts/conf.avail/20-unhint-firge-nerd.conf
-etc/fonts/conf.avail/62-fonts-firge-nerd.conf
-etc/fonts/conf.d/20-unhint-firge-nerd.conf
-etc/fonts/conf.d/62-fonts-firge-nerd.conf
+/etc/fonts/conf.avail/20-unhint-firge-nerd.conf
+/etc/fonts/conf.avail/62-fonts-firge-nerd.conf
+/etc/fonts/conf.d/20-unhint-firge-nerd.conf
+/etc/fonts/conf.d/62-fonts-firge-nerd.conf
 %%FIRGENERD%%%%FONTSDIR%%/FirgeNerd-Regular.ttf
 %%FIRGENERD%%%%FONTSDIR%%/FirgeNerd-Bold.ttf
 %%FIRGENERD_CONS%%%%FONTSDIR%%/FirgeNerdConsole-Regular.ttf

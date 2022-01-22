@@ -1,6 +1,6 @@
 bin/korgac
 bin/korganizer
-etc/xdg/autostart/org.kde.korgac.desktop
+/etc/xdg/autostart/org.kde.korgac.desktop
 share/dbus-1/services/org.kde.korganizer.service
 share/qlogging-categories5/korganizer.categories
 share/qlogging-categories5/korganizer.renamecategories

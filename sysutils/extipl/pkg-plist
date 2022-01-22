@@ -1,4 +1,4 @@
-man/man8/extipl.8.gz
+%%MANPREFIX%%/man/man8/extipl.8.gz
 sbin/extipl
 %%PORTDOCS%%%%DOCSDIR%%/English/extipl.txt
 %%PORTDOCS%%%%DOCSDIR%%/English/scorpius.txt

@@ -1,5 +1,5 @@
 bin/ssamtse
-@sample etc/ssamtse.conf.sample
+@sample /etc/ssamtse.conf.sample
 %%DATADIR%%/ModExt.txt
 %%DATADIR%%/SE1_00.gro
 %%DATADIR%%/SE1_00_Extra.gro

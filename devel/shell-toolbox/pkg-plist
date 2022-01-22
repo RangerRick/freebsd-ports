@@ -1,5 +1,5 @@
 bin/shell
-man/man1/shell.1.gz
+%%MANPREFIX%%/man/man1/shell.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%/NEWS
 %%PORTDOCS%%%%DOCSDIR%%/README

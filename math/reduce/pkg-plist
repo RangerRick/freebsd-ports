@@ -1,5 +1,5 @@
 bin/redcsl
-man/man1/redcsl.1.gz
+%%MANPREFIX%%/man/man1/redcsl.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/insidereduce.pdf
 %%PORTDOCS%%%%DOCSDIR%%/manual.pdf
 %%PORTDOCS%%%%DOCSDIR%%/primer.pdf

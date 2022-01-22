@@ -2,8 +2,8 @@ bin/ltfs
 bin/ltfs_ordered_copy
 bin/ltfsck
 bin/mkltfs
-etc/ltfs.conf
-etc/ltfs.conf.local
+/etc/ltfs.conf
+/etc/ltfs.conf.local
 include/ltfs/config.h
 include/ltfs/libltfs/arch/arch_info.h
 include/ltfs/libltfs/arch/signal_internal.h
@@ -43,9 +43,9 @@ lib/ltfs/libtape-cam.so
 lib/ltfs/libtape-file.so
 lib/ltfs/libtape-itdtimg.so
 libdata/pkgconfig/ltfs.pc
-man/man1/ltfs_ordered_copy.1.gz
-man/man8/ltfs-sde.8.gz
-man/man8/ltfsck.8.gz
-man/man8/mkltfs.8.gz
+%%MANPREFIX%%/man/man1/ltfs_ordered_copy.1.gz
+%%MANPREFIX%%/man/man8/ltfs-sde.8.gz
+%%MANPREFIX%%/man/man8/ltfsck.8.gz
+%%MANPREFIX%%/man/man8/mkltfs.8.gz
 %%SNMP%%share/snmp/LTFS-MIB.txt
 %%SNMP%%share/snmp/LtfsSnmpTrapDef.txt

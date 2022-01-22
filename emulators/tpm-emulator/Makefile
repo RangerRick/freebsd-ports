@@ -26,8 +26,10 @@ GROUPS=		_tss
 SUB_LIST=	USERS="${USERS}" GROUPS="${GROUPS}"
 PLIST_SUB=	USERS="${USERS}" GROUPS="${GROUPS}"
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 post-install:
 	@${MKDIR} ${STAGEDIR}/var/run/tpm
-	@${MKDIR} ${STAGEDIR}${PREFIX}/var/db/tpm
+	@${MKDIR} ${STAGEDIR}/var/db/tpm
 
 .include <bsd.port.mk>

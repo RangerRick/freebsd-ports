@@ -1,5 +1,5 @@
 bin/tellico
-etc/xdg/tellicorc
+/etc/xdg/tellicorc
 share/applications/org.kde.tellico.desktop
 share/config.kcfg/tellico_config.kcfg
 share/doc/HTML/ca/tellico/advanced.docbook

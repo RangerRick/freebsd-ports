@@ -1,6 +1,6 @@
 bin/ccze
 bin/ccze-cssdump
-etc/cczerc-sample
+/etc/cczerc-sample
 include/ccze.h
 lib/ccze/apm.so
 lib/ccze/distcc.so
@@ -21,6 +21,6 @@ lib/ccze/syslog.so
 lib/ccze/ulogd.so
 lib/ccze/vsftpd.so
 lib/ccze/xferlog.so
-man/man1/ccze-cssdump.1.gz
-man/man1/ccze.1.gz
-man/man7/ccze-plugin.7.gz
+%%MANPREFIX%%/man/man1/ccze-cssdump.1.gz
+%%MANPREFIX%%/man/man1/ccze.1.gz
+%%MANPREFIX%%/man/man7/ccze-plugin.7.gz

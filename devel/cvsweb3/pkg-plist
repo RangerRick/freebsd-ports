@@ -1,8 +1,8 @@
-etc/cvsweb/cvsweb.conf.dist
-etc/cvsweb/cvsweb.conf-freebsd.dist
-etc/cvsweb/cvsweb.conf-openbsd.dist
-etc/cvsweb/cvsweb.conf-netbsd.dist
-etc/cvsweb/cvsweb.conf-ruby.dist
+/etc/cvsweb/cvsweb.conf.dist
+/etc/cvsweb/cvsweb.conf-freebsd.dist
+/etc/cvsweb/cvsweb.conf-openbsd.dist
+/etc/cvsweb/cvsweb.conf-netbsd.dist
+/etc/cvsweb/cvsweb.conf-ruby.dist
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog
 %%PORTDOCS%%%%DOCSDIR%%/INSTALL
 %%PORTDOCS%%%%DOCSDIR%%/NEWS

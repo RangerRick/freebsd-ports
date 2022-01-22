@@ -1,5 +1,5 @@
 bin/mmex
-man/man1/mmex.1.gz
+%%MANPREFIX%%/man/man1/mmex.1.gz
 share/applications/mmex.desktop
 share/icons/hicolor/scalable/apps/mmex.svg
 %%DATADIR%%/Info.plist

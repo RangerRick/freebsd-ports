@@ -1,2 +1,2 @@
 bin/flowgger
-@sample etc/flowgger.toml.sample
+@sample /etc/flowgger.toml.sample

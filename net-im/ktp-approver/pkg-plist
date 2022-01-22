@@ -1,4 +1,4 @@
-etc/xdg/ktp_approverrc
+/etc/xdg/ktp_approverrc
 %%QT_PLUGINDIR%%/kded_ktp_approver.so
 share/dbus-1/services/org.freedesktop.Telepathy.Client.KTp.Approver.service
 share/kservices5/kded/ktp_approver.desktop

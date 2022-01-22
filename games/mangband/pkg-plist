@@ -1,6 +1,6 @@
 @(,games,2550) bin/mangband
 bin/mangclient
-@sample etc/mangband.cfg.sample
+@sample /etc/mangband.cfg.sample
 %%DATADIR%%/bone/delete.me
 %%DATADIR%%/data/delete.me
 %%DATADIR%%/edit/artifact.txt

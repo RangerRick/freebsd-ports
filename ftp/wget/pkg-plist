@@ -77,5 +77,5 @@
 %%NLS%%share/locale/zh_CN/LC_MESSAGES/wget.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/wget-gnulib.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/wget.mo
-@sample etc/wgetrc.sample
+@sample /etc/wgetrc.sample
 bin/wget

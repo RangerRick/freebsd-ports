@@ -1,2 +1,2 @@
 bin/pouetChess
-@sample etc/pouetChess.conf.sample
+@sample /etc/pouetChess.conf.sample

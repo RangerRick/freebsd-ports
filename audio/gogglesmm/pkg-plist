@@ -4,7 +4,7 @@ lib/gogglesmm/libgap_oss.so
 %%PULSEAUDIO%%lib/gogglesmm/libgap_pulse.so
 %%SNDIO%%lib/gogglesmm/libgap_sndio.so
 lib/gogglesmm/libgap_wav.so
-man/man1/gogglesmm.1.gz
+%%MANPREFIX%%/man/man1/gogglesmm.1.gz
 share/applications/gogglesmm.desktop
 share/icons/hicolor/16x16/apps/gogglesmm.png
 share/icons/hicolor/22x22/apps/gogglesmm.png

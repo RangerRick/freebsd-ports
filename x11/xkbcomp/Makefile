@@ -13,6 +13,6 @@ USE_XORG=	x11 xkbfile
 
 PLIST_FILES=	bin/xkbcomp \
 		libdata/pkgconfig/xkbcomp.pc \
-		man/man1/xkbcomp.1.gz
+		${MANPREFIX}/man/man1/xkbcomp.1.gz
 
 .include <bsd.port.mk>

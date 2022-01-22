@@ -28,7 +28,7 @@ lib/gforth/%%PORTVERSION%%/libcc-named/fflib.a
 lib/gforth/%%PORTVERSION%%/libcc-named/fflib.so
 lib/gforth/%%PORTVERSION%%/libcc-named/fflib.so.0
 lib/gforth/%%PORTVERSION%%/libcc-named/fflib.so.0.0.0
-man/man1/gforth.1.gz
+%%MANPREFIX%%/man/man1/gforth.1.gz
 %%DATADIR%%/%%PORTVERSION%%/TAGS
 %%DATADIR%%/%%PORTVERSION%%/add.fs
 %%DATADIR%%/%%PORTVERSION%%/ans-report.fs

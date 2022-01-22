@@ -1,6 +1,6 @@
 bin/krita
 bin/krita_version
-etc/xdg/kritarc
+/etc/xdg/kritarc
 lib/kritaplugins/krita_colorspaces_extensions.so
 lib/kritaplugins/krita_flaketools.so
 lib/kritaplugins/krita_karbontools.so

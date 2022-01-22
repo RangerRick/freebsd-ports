@@ -1,4 +1,4 @@
-etc/signond.conf
+/etc/signond.conf
 bin/signond
 bin/signonpluginprocess
 include/signon-extension/SignOn/AbstractAccessControlManager

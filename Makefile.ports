@@ -8,24 +8,24 @@ all:
 
 patch:
 	${TOPDIR}/Tools/patch-ports.sh
-	cp -f ${TOPDIR}/patches/patch-conf.d_link__confs.py /usr/ports/x11-fonts/fontconfig/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-conf.d_link__confs.py /usr/ports/x11-fonts/fontconfig/files/
 	mkdir -p /usr/ports/graphics/jpeg-turbo/files
-	cp -f ${TOPDIR}/patches/patch-cmakescripts_GNUInstallDirs.cmake /usr/ports/graphics/jpeg-turbo/files/
-	cp -f ${TOPDIR}/patches/patch-meson.build /usr/ports/sysutils/polkit/files/
-	cp -f ${TOPDIR}/patches/patch-freebsd_Makefile /usr/ports/shells/bash-completion/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-cmakescripts_GNUInstallDirs.cmake /usr/ports/graphics/jpeg-turbo/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-meson.build /usr/ports/sysutils/polkit/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-freebsd_Makefile /usr/ports/shells/bash-completion/files/
 	mkdir -p /usr/ports/sysutils/bsdisks/files
-	cp -f ${TOPDIR}/patches/patch-CMakeLists.txt /usr/ports/sysutils/bsdisks/files/
-	cp -f ${TOPDIR}/patches/patch-mysql57_install__layout.cmake /usr/ports/databases/mysql57-client/files/
-	cp -f ${TOPDIR}/patches/patch-webcamd-Makefile /usr/ports/multimedia/webcamd/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-CMakeLists.txt /usr/ports/sysutils/bsdisks/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-mysql57_install__layout.cmake /usr/ports/databases/mysql57-client/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-webcamd-Makefile /usr/ports/multimedia/webcamd/files/
 	mkdir -p /usr/ports/audio/lilv/files
-	cp -f ${TOPDIR}/patches/patch-waflib_extras_autowaf.py /usr/ports/audio/lilv/files/
-	cp -f ${TOPDIR}/patches/patch-libsysinfo_Makefile /usr/ports/devel/libsysinfo/files/
-	cp -f ${TOPDIR}/patches/patch-libtaskmanager_xwindowtasksmodel.cpp /usr/ports/x11/plasma5-plasma-workspace/files/
-	cp -f ${TOPDIR}/patches/patch-airyx-boldmenus /usr/ports/x11/plasma5-plasma-workspace/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-waflib_extras_autowaf.py /usr/ports/audio/lilv/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-libsysinfo_Makefile /usr/ports/devel/libsysinfo/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-libtaskmanager_xwindowtasksmodel.cpp /usr/ports/x11/plasma5-plasma-workspace/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-airyx-boldmenus /usr/ports/x11/plasma5-plasma-workspace/files/
 	mkdir -p /usr/ports/x11-toolkits/kf5-kxmlgui/files
-	cp -f ${TOPDIR}/patches/patch-src_ktoolbarhandler.cpp ${TOPDIR}/patches/patch-src_ui__standards.rc /usr/ports/x11-toolkits/kf5-kxmlgui/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-src_ktoolbarhandler.cpp ${TOPDIR}/Tools/patches/patch-src_ui__standards.rc /usr/ports/x11-toolkits/kf5-kxmlgui/files/
 	mkdir -p /usr/ports/devel/kf5-ktexteditor/files
-	cp -f ${TOPDIR}/patches/patch-src_data_katepart5ui.rc /usr/ports/devel/kf5-ktexteditor/files/
+	cp -f ${TOPDIR}/Tools/patches/patch-src_data_katepart5ui.rc /usr/ports/devel/kf5-ktexteditor/files/
 	mkdir -p /usr/ports/distfiles
 
 # Prepare the chroot jail for our ports builds

@@ -25,7 +25,7 @@ USE_GNOME=	glib20 intlhack introspection:build
 GNU_CONFIGURE=	yes
 USE_LDCONFIG=	yes
 MAKE_JOBS_UNSAFE=yes
-CONFIGURE_ARGS=	--disable-udev \
+CONFIGURE_ARGS= --sysconfdir=/etc	--disable-udev \
 		--localstatedir=/var \
 		--enable-gtk-doc-html=no \
 		--disable-bash-completion \

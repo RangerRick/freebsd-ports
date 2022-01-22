@@ -1,7 +1,7 @@
-etc/fonts/conf.avail/20-unhint-hackgen-nerd.conf
-etc/fonts/conf.avail/62-fonts-hackgen-nerd.conf
-etc/fonts/conf.d/20-unhint-hackgen-nerd.conf
-etc/fonts/conf.d/62-fonts-hackgen-nerd.conf
+/etc/fonts/conf.avail/20-unhint-hackgen-nerd.conf
+/etc/fonts/conf.avail/62-fonts-hackgen-nerd.conf
+/etc/fonts/conf.d/20-unhint-hackgen-nerd.conf
+/etc/fonts/conf.d/62-fonts-hackgen-nerd.conf
 %%HACKGENERD%%%%FONTSDIR%%/HackGenNerd-Regular.ttf
 %%HACKGENERD%%%%FONTSDIR%%/HackGenNerd-Bold.ttf
 %%HACKGENERD_CONS%%%%FONTSDIR%%/HackGenNerdConsole-Regular.ttf

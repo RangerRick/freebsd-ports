@@ -5,8 +5,8 @@ bin/edit.munger
 bin/ephemera
 bin/extract.munger
 bin/replace.munger
-etc/rc.d/ephemera
-man/man1/ephemera.1.gz
+/etc/rc.d/ephemera
+%%MANPREFIX%%/man/man1/ephemera.1.gz
 %%DATADIR%%/Merriweather-Bold.ttf
 %%DATADIR%%/Merriweather-BoldIt.ttf
 %%DATADIR%%/Merriweather-Light.ttf

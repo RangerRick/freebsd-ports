@@ -5,7 +5,7 @@ include/tkgeomap/tkgeomapInt.h
 lib/tkgeomap/pkgIndex.tcl
 lib/tkgeomap/tkgeomap_procs.tcl
 lib/tkgeomap/wdgeomap.tcl
-man/mann/igeomap.n.gz
-man/mann/tkgeomap.n.gz
-man/mann/tkgeomap_procs.n.gz
-man/mann/wdgeomap.n.gz
+%%MANPREFIX%%/man/mann/igeomap.n.gz
+%%MANPREFIX%%/man/mann/tkgeomap.n.gz
+%%MANPREFIX%%/man/mann/tkgeomap_procs.n.gz
+%%MANPREFIX%%/man/mann/wdgeomap.n.gz

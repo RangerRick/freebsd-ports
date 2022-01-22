@@ -120,7 +120,7 @@ lib/libec.so
 lib/libec.so.7
 lib/libec.so.7.1.0
 libdata/pkgconfig/eclib.pc
-man/man1/mwrank.1.gz
+%%MANPREFIX%%/man/man1/mwrank.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/g0n.txt
 %%PORTDOCS%%%%DOCSDIR%%/howto.txt
 %%PORTDOCS%%%%DOCSDIR%%/mwrank/mwrank.changes

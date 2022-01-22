@@ -38,4 +38,4 @@ lib/libopendht.so
 lib/libopendht.so.%%SHL1%%
 lib/libopendht.so.%%SHL3%%
 libdata/pkgconfig/opendht.pc
-man/man1/dhtnode.1.gz
+%%MANPREFIX%%/man/man1/dhtnode.1.gz

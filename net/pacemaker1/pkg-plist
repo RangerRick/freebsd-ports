@@ -1,4 +1,4 @@
-etc/logrotate.d/pacemaker
+/etc/logrotate.d/pacemaker
 include/pacemaker/crm/attrd.h
 include/pacemaker/crm/cib.h
 include/pacemaker/crm/cib/util.h

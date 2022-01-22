@@ -1,6 +1,6 @@
 bin/gpo
-man/man1/gpo.1.gz
-man/man1/gpodder-migrate2tres.1.gz
+%%MANPREFIX%%/man/man1/gpo.1.gz
+%%MANPREFIX%%/man/man1/gpodder-migrate2tres.1.gz
 %%GTK3%%man/man1/gpodder.1.gz
 %%GTK3%%bin/gpodder
 bin/gpodder-migrate2tres

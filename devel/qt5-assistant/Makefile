@@ -23,6 +23,7 @@ INSTALL_WRKSRC=	${WRKSRC}/src/${PORTNAME}/${PORTNAME}
 _QT5_ADDITIONAL_LINK=	help
 
 post-install:
+	${MKDIR} -p ${STAGEDIR}/usr/share/pixmaps/ ${STAGEDIR}/usr/share/applications/
 	${INSTALL_DATA} ${INSTALL_WRKSRC}/images/assistant-128.png \
 		${STAGEDIR}${PREFIX}/share/pixmaps/assistant-qt5.png
 

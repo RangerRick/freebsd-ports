@@ -2,7 +2,7 @@ bin/shotcut
 share/applications/org.shotcut.Shotcut.desktop
 share/icons/hicolor/128x128/apps/org.shotcut.Shotcut.png
 share/icons/hicolor/64x64/apps/org.shotcut.Shotcut.png
-share/man/man1/shotcut.1.gz
+%%MANPREFIX%%/man/man1/shotcut.1.gz
 share/metainfo/org.shotcut.Shotcut.metainfo.xml
 share/mime/packages/org.shotcut.Shotcut.xml
 %%DATADIR%%/qml/export-edl/export-edl.js

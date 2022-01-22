@@ -1,4 +1,4 @@
-@sample etc/sshguard.conf.sample
+@sample /etc/sshguard.conf.sample
 sbin/sshguard
 libexec/sshg-blocker
 libexec/sshg-fw-firewalld
@@ -12,5 +12,5 @@ libexec/sshg-fw-null
 libexec/sshg-fw-pf
 libexec/sshg-logtail
 libexec/sshg-parser
-man/man7/sshguard-setup.7.gz
-man/man8/sshguard.8.gz
+%%MANPREFIX%%/man/man7/sshguard-setup.7.gz
+%%MANPREFIX%%/man/man8/sshguard.8.gz

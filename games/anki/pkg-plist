@@ -1,5 +1,5 @@
 bin/anki
-man/man1/anki.1.gz
+%%MANPREFIX%%/man/man1/anki.1.gz
 %%DATADIR%%/anki/__init__.py
 %%DATADIR%%/anki/__pycache__/__init__.cpython-%%PYTHON_SUFFIX%%.opt-1.pyc
 %%DATADIR%%/anki/__pycache__/__init__.cpython-%%PYTHON_SUFFIX%%.pyc

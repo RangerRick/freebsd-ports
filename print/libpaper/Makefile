@@ -28,8 +28,9 @@ post-configure:
 	    ${WRKSRC}/config.h ${WRKSRC}/src/paperconfig
 
 post-install:
+	${MKDIR} -p ${STAGEDIR}/etc
 	cd ${WRKDIR} && \
 	    ${INSTALL_DATA} papersize.a4 papersize.letter \
-	    ${STAGEDIR}${PREFIX}/etc
+	    ${STAGEDIR}/etc
 
 .include <bsd.port.mk>

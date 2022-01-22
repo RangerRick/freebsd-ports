@@ -1,5 +1,5 @@
 bin/gtick
-man/man1/gtick.1.gz
+%%MANPREFIX%%/man/man1/gtick.1.gz
 share/applications/gtick.desktop
 share/icons/hicolor/64x64/apps/gtick.xpm
 share/appdata/gtick.appdata.xml

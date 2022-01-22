@@ -326,9 +326,9 @@ do-install:
 	done
 .  if defined(SERVER_ONLY)
 	@ ${MKDIR} ${STAGEDIR}${PREFIX}/share/postgresql ;\
-	${MKDIR} ${STAGEDIR}${PREFIX}/etc/periodic/daily ;\
+	${MKDIR} ${STAGEDIR}/etc/periodic/daily ;\
 	${INSTALL_SCRIPT} ${WRKDIR}/502.pgsql \
-			${STAGEDIR}${PREFIX}/etc/periodic/daily
+			${STAGEDIR}/etc/periodic/daily
 .  endif # SERVER_ONLY
 .  if defined(CLIENT_ONLY)
 	@ cd ${WRKSRC}/src && ${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS} install-local

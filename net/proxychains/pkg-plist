@@ -1,6 +1,6 @@
 bin/proxychains
 bin/proxyresolv
-@sample etc/proxychains.conf.sample
+@sample /etc/proxychains.conf.sample
 lib/libproxychains.so.3
 lib/libproxychains.so.3.0.0
 lib/libproxychains.so

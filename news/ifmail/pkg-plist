@@ -1,6 +1,6 @@
-man/man3/parsedate.3.gz
-man/man8/ifmail.8.gz
-man/man8/iftoss.8.gz
+%%MANPREFIX%%/man/man3/parsedate.3.gz
+%%MANPREFIX%%/man/man8/ifmail.8.gz
+%%MANPREFIX%%/man/man8/iftoss.8.gz
 @owner ifmail
 @group uucp
 @mode 04711

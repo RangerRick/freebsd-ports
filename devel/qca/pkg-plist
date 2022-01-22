@@ -30,4 +30,4 @@ lib/libqca-qt5.so.%%SHLIB_VER%%
 %%OPENSSL%%lib/qca-qt5/crypto/libqca-ossl.so
 %%QT_MKSPECDIR%%/features/crypto.prf
 libdata/pkgconfig/qca2-qt5.pc
-man/man1/qcatool-qt5.1.gz
+%%MANPREFIX%%/man/man1/qcatool-qt5.1.gz

@@ -1,6 +1,6 @@
 bin/kalendar
 bin/kalendarac
-etc/xdg/autostart/org.kde.kalendarac.desktop
+/etc/xdg/autostart/org.kde.kalendarac.desktop
 share/applications/org.kde.kalendar.desktop
 share/dbus-1/services/org.kde.kalendarac.service
 share/icons/hicolor/scalable/apps/org.kde.kalendar.svg

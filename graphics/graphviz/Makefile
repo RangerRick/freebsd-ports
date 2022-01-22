@@ -204,6 +204,7 @@ CONFIGURE_ENV+=		SWIG="/nonexistent"
 
 .include <bsd.port.pre.mk>
 
+CONFIGURE_ARGS+= --sysconfdir=/etc --mandir=${MANPREFIX}/man
 post-patch:
 	${REINPLACE_CMD} \
 		-e 's|PHP_INSTALL_DATADIR=.*|PHP_INSTALL_DATADIR="${PREFIX}/share/php"|' \
@@ -237,6 +238,8 @@ pre-configure-DOCS-off:
 pre-install-PHP-on:
 	${MKDIR} "${STAGEDIR}/${PREFIX}/share/php"
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig/
 post-install: install-ldconfig-file
 	cd ${WRKSRC} && \
 		${INSTALL_DATA} ${FIX_INCLUDE} ${STAGEDIR}${PREFIX}/include/graphviz/

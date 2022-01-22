@@ -1,4 +1,4 @@
-man/man5/tayga.conf.5.gz
-man/man8/tayga.8.gz
-@sample etc/tayga.conf.example etc/tayga.conf
+%%MANPREFIX%%/man/man5/tayga.conf.5.gz
+%%MANPREFIX%%/man/man8/tayga.8.gz
+@sample /etc/tayga.conf.example etc/tayga.conf
 sbin/tayga

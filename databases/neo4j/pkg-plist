@@ -2,7 +2,7 @@ bin/cypher-shell
 bin/neo4j
 bin/neo4j-admin
 bin/neo4j-import
-@sample etc/neo4j.conf.sample
+@sample /etc/neo4j.conf.sample
 neo4j/lib/FastInfoset-1.2.16.jar
 neo4j/lib/WMI4Java-1.6.1.jar
 neo4j/lib/activation-1.1.1.jar
@@ -128,4 +128,4 @@ neo4j/libexec/tools/2.x-config-migrator.jar
 neo4j/libexec/tools/cypher-shell.jar
 @dir neo4j/lib/plugins
 @dir %%DBDIR%%
-@dir etc/neo4j-certificates
+@dir /etc/neo4j-certificates

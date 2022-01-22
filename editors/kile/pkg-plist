@@ -1,5 +1,5 @@
 bin/kile
-etc/xdg/kile.categories
+/etc/xdg/kile.categories
 lib/libkdeinit5_kile.so
 share/applications/org.kde.kile.desktop
 share/config.kcfg/kile.kcfg

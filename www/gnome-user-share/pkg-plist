@@ -1,4 +1,4 @@
-etc/xdg/autostart/gnome-user-share-obexpush.desktop
+/etc/xdg/autostart/gnome-user-share-obexpush.desktop
 libexec/gnome-user-share-webdav
 lib/nautilus/extensions-3.0/libnautilus-share-extension.so
 share/GConf/gsettings/gnome-user-share.convert

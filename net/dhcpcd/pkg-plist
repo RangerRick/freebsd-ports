@@ -8,8 +8,8 @@ sbin/dhcpcd
 %%EXAMPLESDIR%%/hooks/15-timezone
 %%EXAMPLESDIR%%/hooks/29-lookup-hostname
 %%EXAMPLESDIR%%/hooks/50-ypbind
-share/man/man5/dhcpcd.conf.5.gz
-share/man/man8/dhcpcd-run-hooks.8.gz
-share/man/man8/dhcpcd.8.gz
-@sample etc/dhcpcd.conf.sample
+%%MANPREFIX%%/man/man5/dhcpcd.conf.5.gz
+%%MANPREFIX%%/man/man8/dhcpcd-run-hooks.8.gz
+%%MANPREFIX%%/man/man8/dhcpcd.8.gz
+@sample /etc/dhcpcd.conf.sample
 @dir(_dhcp,_dhcp,) /var/db/dhcpcd

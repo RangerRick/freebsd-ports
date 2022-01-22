@@ -1,21 +1,21 @@
 bin/modlogan
-etc/modlogan/group.extension.conf
-etc/modlogan/group.host.conf
-etc/modlogan/group.os.conf
-etc/modlogan/group.searchengines.conf
-etc/modlogan/group.ua.conf
-etc/modlogan/group.url.conf
-etc/modlogan/ignore.searchengines.conf
-etc/modlogan/match.os.conf
-etc/modlogan/match.searchengines.conf
-etc/modlogan/match.ua.conf
-etc/modlogan/match.useragents.conf
+/etc/modlogan/group.extension.conf
+/etc/modlogan/group.host.conf
+/etc/modlogan/group.os.conf
+/etc/modlogan/group.searchengines.conf
+/etc/modlogan/group.ua.conf
+/etc/modlogan/group.url.conf
+/etc/modlogan/ignore.searchengines.conf
+/etc/modlogan/match.os.conf
+/etc/modlogan/match.searchengines.conf
+/etc/modlogan/match.ua.conf
+/etc/modlogan/match.useragents.conf
 @unexec if cmp -s %D/etc/modlogan/modlogan.conf %D/etc/modlogan/modlogan.conf-dist; then rm -f %D/etc/modlogan/modlogan.conf; fi
-etc/modlogan/modlogan.conf-dist
+/etc/modlogan/modlogan.conf-dist
 @unexec if cmp -s %D/etc/modlogan/modlogan.css %D/etc/modlogan/modlogan.css-dist; then rm -f %D/etc/modlogan/modlogan.css; fi
-etc/modlogan/modlogan.css-dist
+/etc/modlogan/modlogan.css-dist
 @unexec if cmp -s %D/etc/modlogan/modlogan.def.conf %D/etc/modlogan/modlogan.def.conf-dist; then rm -f %D/etc/modlogan/modlogan.def.conf; fi
-etc/modlogan/modlogan.def.conf-dist
+/etc/modlogan/modlogan.def.conf-dist
 lib/libmla_input_bsdftpd.a
 lib/libmla_input_bsdftpd.so
 lib/libmla_input_clf.a
@@ -94,7 +94,7 @@ lib/libmla_processor_telecom.a
 lib/libmla_processor_telecom.so
 lib/libmla_processor_web.a
 lib/libmla_processor_web.so
-man/man1/modlogan.1.gz
+%%MANPREFIX%%/man/man1/modlogan.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/faq.txt
 %%PORTDOCS%%%%DOCSDIR%%/glosar
 %%PORTDOCS%%%%DOCSDIR%%/manual.txt

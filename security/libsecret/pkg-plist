@@ -22,7 +22,7 @@ lib/libsecret-1.so.0
 lib/libsecret-1.so.0.0.0
 libdata/pkgconfig/libsecret-1.pc
 libdata/pkgconfig/libsecret-unstable.pc
-man/man1/secret-tool.1.gz
+%%MANPREFIX%%/man/man1/secret-tool.1.gz
 share/gir-1.0/Secret-1.gir
 share/gtk-doc/html/libsecret-1/SecretCollection.html
 share/gtk-doc/html/libsecret-1/SecretItem.html

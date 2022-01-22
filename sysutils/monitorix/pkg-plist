@@ -1,10 +1,10 @@
 @dir(%%WWW_OWNER%%,%%WWW_GROUP%%,) %%WWWDIR%%/imgs
-@sample etc/monitorix.conf.sample
+@sample /etc/monitorix.conf.sample
 bin/monitorix
 @dir %%WWWDIR%%/usage
 %%CGIDIR%%/monitorix.cgi
-man/man5/monitorix.conf.5.gz
-man/man8/monitorix.8.gz
+%%MANPREFIX%%/man/man5/monitorix.conf.5.gz
+%%MANPREFIX%%/man/man8/monitorix.8.gz
 @rmtry %B/monitorix.conf.path
 %%WWWDIR%%/reports/ca.html.sample
 %%WWWDIR%%/reports/de.html.sample

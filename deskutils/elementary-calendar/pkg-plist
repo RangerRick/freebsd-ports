@@ -1,5 +1,5 @@
 bin/io.elementary.calendar
-etc/xdg/autostart/io.elementary.calendar-daemon.desktop
+/etc/xdg/autostart/io.elementary.calendar-daemon.desktop
 include/elementary-calendar/elementary-calendar.h
 lib/io.elementary.calendar/plugins/CalDAV/libcaldav.so
 lib/io.elementary.calendar/plugins/Google/libgoogle.so

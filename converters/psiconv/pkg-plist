@@ -1,7 +1,7 @@
 bin/psiconv
 bin/psiconv-config
-etc/psiconv/psiconv.conf
-etc/psiconv/psiconv.conf.eg
+/etc/psiconv/psiconv.conf
+/etc/psiconv/psiconv.conf.eg
 include/psiconv/buffer.h
 include/psiconv/common.h
 include/psiconv/configuration.h
@@ -18,9 +18,9 @@ lib/libpsiconv.a
 lib/libpsiconv.so
 lib/libpsiconv.so.6
 lib/libpsiconv.so.6.4.2
-man/man1/psiconv-config.1.gz
-man/man1/psiconv.1.gz
-man/man5/psiconv.conf.5.gz
+%%MANPREFIX%%/man/man1/psiconv-config.1.gz
+%%MANPREFIX%%/man/man1/psiconv.1.gz
+%%MANPREFIX%%/man/man5/psiconv.conf.5.gz
 %%DATADIR%%/psion/ASCII_Codes.psi
 %%DATADIR%%/psion/Application_ID_Section.psi
 %%DATADIR%%/psion/Basic_Elements.psi

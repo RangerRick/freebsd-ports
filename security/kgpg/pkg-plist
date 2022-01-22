@@ -1,5 +1,5 @@
 bin/kgpg
-etc/xdg/autostart/org.kde.kgpg.desktop
+/etc/xdg/autostart/org.kde.kgpg.desktop
 share/qlogging-categories5/kgpg.categories
 share/applications/org.kde.kgpg.desktop
 share/config.kcfg/kgpg.kcfg

@@ -1,5 +1,5 @@
 bin/lprngtool
-@sample etc/lprngtool.conf.sample
+@sample /etc/lprngtool.conf.sample
 libexec/filters/atalkprint
 libexec/filters/ncpprint
 libexec/filters/printerdb
@@ -7,4 +7,4 @@ libexec/filters/smbprint
 libexec/filters/testpage.asc
 libexec/filters/testpage.ps
 libexec/filters/testpage-a4.ps
-man/man1/lprngtool.1.gz
+%%MANPREFIX%%/man/man1/lprngtool.1.gz

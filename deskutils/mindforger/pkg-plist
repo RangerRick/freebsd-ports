@@ -41,4 +41,4 @@ share/icons/mindforger/view-navigator.svg
 share/icons/mindforger/view-outlines.svg
 share/icons/mindforger/view-recent-notes.svg
 share/icons/mindforger/view-tags.svg
-share/man/man1/mindforger.1.gz
+%%MANPREFIX%%/man/man1/mindforger.1.gz

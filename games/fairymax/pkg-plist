@@ -1,7 +1,7 @@
 bin/fairymax
 bin/maxqi
 bin/shamax
-man/man6/fairymax.6.gz
+%%MANPREFIX%%/man/man6/fairymax.6.gz
 %%DATADIR%%/fmax.ini
 %%DATADIR%%/qmax.ini
 %%DATADIR%%/makruk.hash

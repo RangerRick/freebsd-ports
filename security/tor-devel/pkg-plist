@@ -3,7 +3,7 @@ bin/tor-gencert
 bin/tor-print-ed-signing-cert
 bin/tor-resolve
 bin/torify
-@sample etc/tor/torrc.sample
+@sample /etc/tor/torrc.sample
 %%MANPAGES%%man/man1/tor-gencert.1.gz
 %%MANPAGES%%man/man1/tor-print-ed-signing-cert.1.gz
 %%MANPAGES%%man/man1/tor-resolve.1.gz

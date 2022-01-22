@@ -636,4 +636,4 @@ share/icons/hicolor/16x16/apps/ART.png
 share/icons/hicolor/24x24/apps/ART.png
 share/icons/hicolor/256x256/apps/ART.png
 share/icons/hicolor/48x48/apps/ART.png
-share/man/man1/ART.1.gz
+%%MANPREFIX%%/man/man1/ART.1.gz

@@ -27,6 +27,8 @@ GH_ACCOUNT=	${PORTNAME:tu}
 SUB_FILES+=	lmdb.pc
 SUB_LIST+=	PORTVERSION=${PORTVERSION}
 
+post-patch:
+	sed -i_ -e "s,^mandir.*,mandir = ${MANPREFIX}/man," ${WRKSRC}/Makefile
 post-install:
 	${LN} -sf liblmdb.so.0 ${STAGEDIR}${PREFIX}/lib/liblmdb.so
 	${INSTALL_DATA} ${WRKDIR}/lmdb.pc ${STAGEDIR}${PREFIX}/libdata/pkgconfig

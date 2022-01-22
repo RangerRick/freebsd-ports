@@ -1,5 +1,5 @@
 bin/signal-cli
-share/man/man1/signal-cli.1.gz
+%%MANPREFIX%%/man/man1/signal-cli.1.gz
 %%DATADIR%%/bin/signal-cli
 %%DATADIR%%/lib/annotations-13.0.jar
 %%DATADIR%%/lib/argparse4j-0.9.0.jar

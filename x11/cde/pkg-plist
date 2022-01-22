@@ -5972,29 +5972,29 @@ dt/share/palettes/desc.de_DE.UTF-8
 dt/share/palettes/desc.es_ES.UTF-8
 dt/share/palettes/desc.fr_FR.UTF-8
 dt/share/palettes/desc.it_IT.UTF-8
-etc/man.d/cde.conf
-etc/pam.d/cde.conf
+/etc/man.d/cde.conf
+/etc/pam.d/cde.conf
 @dir dt/appconfig/appmanager/de_DE.UTF-8/System_Admin
 @dir dt/appconfig/appmanager/es_ES.UTF-8/System_Admin
 @dir dt/appconfig/appmanager/fr_FR.UTF-8/System_Admin
 @dir dt/appconfig/appmanager/it_IT.UTF-8/System_Admin
-@dir etc/dt/appconfig/appmanager/C
-@dir etc/dt/appconfig/appmanager/de_DE.UTF-8
-@dir etc/dt/appconfig/appmanager/es_ES.UTF-8
-@dir etc/dt/appconfig/appmanager/fr_FR.UTF-8
-@dir etc/dt/appconfig/appmanager/it_IT.UTF-8
-@dir etc/dt/appconfig/help/C
-@dir etc/dt/appconfig/help/de_DE.UTF-8
-@dir etc/dt/appconfig/help/es_ES.UTF-8
-@dir etc/dt/appconfig/help/fr_FR.UTF-8
-@dir etc/dt/appconfig/help/it_IT.UTF-8
-@dir etc/dt/appconfig/icons/C
-@dir etc/dt/appconfig/types/C
-@dir etc/dt/appconfig/types/de_DE.UTF-8
-@dir etc/dt/appconfig/types/es_ES.UTF-8
-@dir etc/dt/appconfig/types/fr_FR.UTF-8
-@dir etc/dt/appconfig/types/it_IT.UTF-8
-@dir etc/dt/config/Xsession.d
+@dir /etc/dt/appconfig/appmanager/C
+@dir /etc/dt/appconfig/appmanager/de_DE.UTF-8
+@dir /etc/dt/appconfig/appmanager/es_ES.UTF-8
+@dir /etc/dt/appconfig/appmanager/fr_FR.UTF-8
+@dir /etc/dt/appconfig/appmanager/it_IT.UTF-8
+@dir /etc/dt/appconfig/help/C
+@dir /etc/dt/appconfig/help/de_DE.UTF-8
+@dir /etc/dt/appconfig/help/es_ES.UTF-8
+@dir /etc/dt/appconfig/help/fr_FR.UTF-8
+@dir /etc/dt/appconfig/help/it_IT.UTF-8
+@dir /etc/dt/appconfig/icons/C
+@dir /etc/dt/appconfig/types/C
+@dir /etc/dt/appconfig/types/de_DE.UTF-8
+@dir /etc/dt/appconfig/types/es_ES.UTF-8
+@dir /etc/dt/appconfig/types/fr_FR.UTF-8
+@dir /etc/dt/appconfig/types/it_IT.UTF-8
+@dir /etc/dt/config/Xsession.d
 @dir /var/dt/appconfig/appmanager
 @dir /var/dt/appconfig
 @dir /var/dt

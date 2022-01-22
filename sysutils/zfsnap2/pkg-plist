@@ -1,8 +1,8 @@
-%%BASH%%etc/bash_completion.d/zfsnap.sh
-etc/periodic/daily/402.zfsnap
-etc/periodic/monthly/402.zfsnap
-etc/periodic/weekly/402.zfsnap
-man/man8/zfsnap.8.gz
+%%BASH%%/etc/bash_completion.d/zfsnap.sh
+/etc/periodic/daily/402.zfsnap
+/etc/periodic/monthly/402.zfsnap
+/etc/periodic/weekly/402.zfsnap
+%%MANPREFIX%%/man/man8/zfsnap.8.gz
 sbin/zfsnap
 %%DATADIR%%/commands/destroy.sh
 %%DATADIR%%/commands/recurseback.sh

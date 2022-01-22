@@ -3309,4 +3309,4 @@
 @dir %%WWWDIR%%/operation/users
 @dir %%WWWDIR%%/operation/visual_console
 @sample(,,444) %%APACHEETCDIR%%/Includes/pandora_console.conf.sample
-etc/newsyslog.conf.d/pandora_console.conf
+/etc/newsyslog.conf.d/pandora_console.conf

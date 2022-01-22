@@ -17,7 +17,7 @@ LIB_DEPENDS=	libdotconf.so:devel/dotconf \
 USES=		alias autoreconf gettext gmake gnome libtool makeinfo pathfix pkgconfig
 USE_GNOME=	glib20 intltool
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-espeak-ng=no \
+CONFIGURE_ARGS= --sysconfdir=/etc	--with-espeak-ng=no \
 		--with-baratinoo=no \
 		--with-kali=no \
 		--with-ibmtts=no

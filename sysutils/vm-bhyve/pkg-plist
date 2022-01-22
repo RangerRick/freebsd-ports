@@ -1,4 +1,4 @@
-etc/rc.d/vm
+/etc/rc.d/vm
 lib/vm-bhyve/vm-base
 lib/vm-bhyve/vm-cmd
 lib/vm-bhyve/vm-config
@@ -16,7 +16,7 @@ lib/vm-bhyve/vm-switch-vale
 lib/vm-bhyve/vm-switch-vxlan
 lib/vm-bhyve/vm-util
 lib/vm-bhyve/vm-zfs
-man/man8/vm.8.gz
+%%MANPREFIX%%/man/man8/vm.8.gz
 sbin/vm
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/alpine.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/arch.conf

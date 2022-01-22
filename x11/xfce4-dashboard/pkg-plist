@@ -1,6 +1,6 @@
 bin/xfdashboard
 bin/xfdashboard-settings
-etc/xdg/autostart/org.xfce.xfdashboard-autostart.desktop
+/etc/xdg/autostart/org.xfce.xfdashboard-autostart.desktop
 include/xfdashboard/libxfdashboard/action-button.h
 include/xfdashboard/libxfdashboard/actor.h
 include/xfdashboard/libxfdashboard/animation.h

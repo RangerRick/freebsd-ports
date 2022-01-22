@@ -1,4 +1,4 @@
-@sample etc/routers2.conf.sample
+@sample /etc/routers2.conf.sample
 @owner %%WWWOWN%%
 @group %%WWWGRP%%
 %%WWWDIR%%/routers2.cgi

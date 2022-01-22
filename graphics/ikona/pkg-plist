@@ -1,6 +1,6 @@
 bin/ikona
 bin/ikona-cli
-etc/bash_completion.d/ikona-cli.bash
+/etc/bash_completion.d/ikona-cli.bash
 lib/libikonars.so
 share/applications/org.kde.Ikona.desktop
 share/fish/completions/ikona-cli.fish

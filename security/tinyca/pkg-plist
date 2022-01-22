@@ -1,5 +1,5 @@
 bin/tinyca
-etc/tinyca.cnf.sample
+/etc/tinyca.cnf.sample
 %%SITE_PERL%%/tinyca/CA.pm
 %%SITE_PERL%%/tinyca/CERT.pm
 %%SITE_PERL%%/tinyca/GUI.pm

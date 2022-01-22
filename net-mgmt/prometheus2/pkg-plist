@@ -34,4 +34,4 @@ bin/promtool
 %%PORTDOCS%%%%DOCSDIR%%/querying/operators.md
 %%PORTDOCS%%%%DOCSDIR%%/stability.md
 %%PORTDOCS%%%%DOCSDIR%%/storage.md
-@sample etc/prometheus.yml.sample
+@sample /etc/prometheus.yml.sample

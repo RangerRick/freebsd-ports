@@ -7,14 +7,14 @@ bin/avahi-resolve
 bin/avahi-resolve-address
 bin/avahi-resolve-host-name
 bin/avahi-set-host-name
-@sample etc/avahi/avahi-daemon.conf.sample
-etc/avahi/avahi-dnsconfd.action
-@sample etc/avahi/hosts.sample
-etc/avahi/services/sftp-ssh.service
-etc/avahi/services/ssh.service
-etc/dbus-1/system.d/avahi-dbus.conf
-etc/rc.d/avahi-daemon
-etc/rc.d/avahi-dnsconfd
+@sample /etc/avahi/avahi-daemon.conf.sample
+/etc/avahi/avahi-dnsconfd.action
+@sample /etc/avahi/hosts.sample
+/etc/avahi/services/sftp-ssh.service
+/etc/avahi/services/ssh.service
+/etc/dbus-1/system.d/avahi-dbus.conf
+/etc/rc.d/avahi-daemon
+/etc/rc.d/avahi-dnsconfd
 include/avahi-client/client.h
 include/avahi-client/lookup.h
 include/avahi-client/publish.h
@@ -97,21 +97,21 @@ libdata/pkgconfig/avahi-core.pc
 libdata/pkgconfig/avahi-glib.pc
 libdata/pkgconfig/avahi-gobject.pc
 libdata/pkgconfig/avahi-libevent.pc
-man/man1/avahi-browse-domains.1.gz
-man/man1/avahi-browse.1.gz
-man/man1/avahi-publish-address.1.gz
-man/man1/avahi-publish-service.1.gz
-man/man1/avahi-publish.1.gz
-man/man1/avahi-resolve-address.1.gz
-man/man1/avahi-resolve-host-name.1.gz
-man/man1/avahi-resolve.1.gz
-man/man1/avahi-set-host-name.1.gz
-man/man5/avahi-daemon.conf.5.gz
-man/man5/avahi.hosts.5.gz
-man/man5/avahi.service.5.gz
-man/man8/avahi-daemon.8.gz
-man/man8/avahi-dnsconfd.8.gz
-man/man8/avahi-dnsconfd.action.8.gz
+%%MANPREFIX%%/man/man1/avahi-browse-domains.1.gz
+%%MANPREFIX%%/man/man1/avahi-browse.1.gz
+%%MANPREFIX%%/man/man1/avahi-publish-address.1.gz
+%%MANPREFIX%%/man/man1/avahi-publish-service.1.gz
+%%MANPREFIX%%/man/man1/avahi-publish.1.gz
+%%MANPREFIX%%/man/man1/avahi-resolve-address.1.gz
+%%MANPREFIX%%/man/man1/avahi-resolve-host-name.1.gz
+%%MANPREFIX%%/man/man1/avahi-resolve.1.gz
+%%MANPREFIX%%/man/man1/avahi-set-host-name.1.gz
+%%MANPREFIX%%/man/man5/avahi-daemon.conf.5.gz
+%%MANPREFIX%%/man/man5/avahi.hosts.5.gz
+%%MANPREFIX%%/man/man5/avahi.service.5.gz
+%%MANPREFIX%%/man/man8/avahi-daemon.8.gz
+%%MANPREFIX%%/man/man8/avahi-dnsconfd.8.gz
+%%MANPREFIX%%/man/man8/avahi-dnsconfd.action.8.gz
 sbin/avahi-daemon
 sbin/avahi-dnsconfd
 %%DATADIR%%/avahi-service.dtd

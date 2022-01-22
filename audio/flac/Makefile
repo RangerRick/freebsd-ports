@@ -46,7 +46,7 @@ CONFIGURE_ARGS+=--disable-vsx
 
 post-install:
 	${REINPLACE_CMD} 's:%%PREFIX%%:${PREFIX}:' \
-	    ${STAGEDIR}${PREFIX}/man/man1/flac.1
-	${RM} ${STAGEDIR}${PREFIX}/man/man1/flac.1.bak
+	    ${STAGEDIR}${MANPREFIX}/man/man1/flac.1
+	${RM} ${STAGEDIR}${MANPREFIX}/man/man1/flac.1.bak
 
 .include <bsd.port.mk>

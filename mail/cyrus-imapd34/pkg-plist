@@ -73,7 +73,7 @@ cyrus/sbin/sieved
 cyrus/sbin/tls_prune
 cyrus/sbin/translatesieve
 cyrus/sbin/unexpunge
-etc/man.d/cyrus-imapd.conf
+/etc/man.d/cyrus-imapd.conf
 include/cyrus/acl.h
 include/cyrus/arrayu64.h
 include/cyrus/assert.h
@@ -154,5 +154,5 @@ libdata/pkgconfig/libcyrus.pc
 libdata/pkgconfig/libcyrus_imap.pc
 libdata/pkgconfig/libcyrus_min.pc
 libdata/pkgconfig/libcyrus_sieve.pc
-@sample %%EXAMPLESDIR%%/imapd.conf etc/imapd.conf
-@sample %%EXAMPLESDIR%%/cyrus.conf etc/cyrus.conf
+@sample %%EXAMPLESDIR%%/imapd.conf /etc/imapd.conf
+@sample %%EXAMPLESDIR%%/cyrus.conf /etc/cyrus.conf

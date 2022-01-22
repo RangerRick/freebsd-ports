@@ -1,5 +1,5 @@
-man/man5/bitlbee.conf.5.gz
-man/man8/bitlbee.8.gz
+%%MANPREFIX%%/man/man5/bitlbee.conf.5.gz
+%%MANPREFIX%%/man/man8/bitlbee.8.gz
 sbin/bitlbee
 include/bitlbee/account.h
 include/bitlbee/arc.h
@@ -41,4 +41,4 @@ include/bitlbee/url.h
 include/bitlbee/xmltree.h
 libdata/pkgconfig/bitlbee.pc
 %%DATADIR%%/help.txt
-@dir etc/bitlbee
+@dir /etc/bitlbee

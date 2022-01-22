@@ -3,6 +3,6 @@ sbin/fixparts
 sbin/gdisk
 sbin/sgdisk
 %%CGDISK%%share/man/man8/cgdisk.8.gz
-share/man/man8/fixparts.8.gz
-share/man/man8/gdisk.8.gz
-share/man/man8/sgdisk.8.gz
+%%MANPREFIX%%/man/man8/fixparts.8.gz
+%%MANPREFIX%%/man/man8/gdisk.8.gz
+%%MANPREFIX%%/man/man8/sgdisk.8.gz

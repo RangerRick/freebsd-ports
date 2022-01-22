@@ -11,6 +11,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xcb xmuu
 
-PLIST_FILES=	bin/xlsclients man/man1/xlsclients.1.gz
+PLIST_FILES=	bin/xlsclients ${MANPREFIX}/man/man1/xlsclients.1.gz
 
 .include <bsd.port.mk>

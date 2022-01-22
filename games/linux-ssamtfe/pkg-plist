@@ -1,5 +1,5 @@
 bin/ssamtfe
-@sample etc/ssamtfe.conf.sample
+@sample /etc/ssamtfe.conf.sample
 %%DATADIR%%/1_00_ExtraTools.gro
 %%NORMAL%%%%DATADIR%%/1_00_a.gro
 %%GOLD%%%%DATADIR%%/1_00c.gro

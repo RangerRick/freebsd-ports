@@ -1,4 +1,4 @@
 bin/pwned-check
-@sample etc/pwned-check.conf.sample
-man/man1/pwned-check.1.gz
+@sample /etc/pwned-check.conf.sample
+%%MANPREFIX%%/man/man1/pwned-check.1.gz
 @dir /var/db/pwned-check

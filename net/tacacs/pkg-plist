@@ -1,5 +1,5 @@
-@dir etc/mavis
-@dir etc/mavis/sample
+@dir /etc/mavis
+@dir /etc/mavis/sample
 @dir lib/mavis
 @dir lib/mavis/extra
 @dir share/mavis
@@ -8,7 +8,7 @@
 @dir share/mavis/railroad/tac_plus
 @dir share/mavis/railroad/spawnd
 @dir share/mavis/railroad/mavisd
-etc/mavis/sample/tac_plus.cfg
+/etc/mavis/sample/tac_plus.cfg
 bin/mavistest
 lib/libmavis.so.0.1
 lib/libmavis.so.0

@@ -1,4 +1,4 @@
-man/man8/nhttpd.8.gz
+%%MANPREFIX%%/man/man8/nhttpd.8.gz
 sbin/crypt
 sbin/nhttpd
 %%NOSTROMODIR%%/conf/mimes

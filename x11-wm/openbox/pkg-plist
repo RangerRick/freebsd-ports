@@ -41,11 +41,11 @@ libdata/pkgconfig/obrender-3.5.pc
 libdata/pkgconfig/obt-3.5.pc
 libexec/openbox-autostart
 libexec/openbox-xdg-autostart
-man/man1/obxprop.1.gz
-man/man1/openbox-gnome-session.1.gz
-man/man1/openbox-kde-session.1.gz
-man/man1/openbox-session.1.gz
-man/man1/openbox.1.gz
+%%MANPREFIX%%/man/man1/obxprop.1.gz
+%%MANPREFIX%%/man/man1/openbox-gnome-session.1.gz
+%%MANPREFIX%%/man/man1/openbox-kde-session.1.gz
+%%MANPREFIX%%/man/man1/openbox-session.1.gz
+%%MANPREFIX%%/man/man1/openbox.1.gz
 share/applications/openbox.desktop
 share/gnome-session/sessions/openbox-gnome-fallback.session
 share/gnome-session/sessions/openbox-gnome.session

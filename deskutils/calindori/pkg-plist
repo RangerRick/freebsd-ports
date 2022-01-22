@@ -1,6 +1,6 @@
 bin/calindac
 bin/calindori
-etc/xdg/autostart/org.kde.calindac.desktop
+/etc/xdg/autostart/org.kde.calindac.desktop
 share/applications/org.kde.calindori.desktop
 share/dbus-1/services/org.kde.calindac.service
 share/icons/hicolor/scalable/apps/calindori.svg

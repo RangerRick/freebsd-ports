@@ -6,7 +6,7 @@ bin/STAFProc
 bin/STAFReg
 bin/fmtlog
 bin/staf
-@sample etc/STAF.cfg.sample
+@sample /etc/STAF.cfg.sample
 include/DeviceService.h
 include/STAF.h
 include/STAFCommandParser.h

@@ -1,7 +1,7 @@
 bin/fio
 bin/fio_generate_plots
-man/man1/fio.1.gz
-man/man1/fio_generate_plots.1.gz
+%%MANPREFIX%%/man/man1/fio.1.gz
+%%MANPREFIX%%/man/man1/fio_generate_plots.1.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/1mbs_clients.fio
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/1mbs_clients.png
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/aio-read.fio

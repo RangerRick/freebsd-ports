@@ -1,2 +1,2 @@
 bin/fileInject
-etc/razorback/fileInject.conf.sample
+/etc/razorback/fileInject.conf.sample

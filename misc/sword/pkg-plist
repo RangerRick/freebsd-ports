@@ -16,7 +16,7 @@ bin/vpl2mod
 bin/vs2osisref
 bin/vs2osisreftxt
 bin/xml2gbs
-@sample etc/sword.conf.sample
+@sample /etc/sword.conf.sample
 include/sword/bz2comprs.h
 include/sword/canon.h
 include/sword/canon_abbrevs.h

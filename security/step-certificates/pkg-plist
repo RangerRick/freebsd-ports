@@ -1,6 +1,6 @@
 bin/step-cloudkms-init
 sbin/step-ca
-@dir etc/step
+@dir /etc/step
 %%DOCSDIR%%/CONTRIBUTING.md
 %%DOCSDIR%%/GETTING_STARTED.md
 %%DOCSDIR%%/README.md

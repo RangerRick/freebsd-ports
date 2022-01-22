@@ -1,5 +1,5 @@
 bin/ump
-@sample etc/ump.conf.sample
+@sample /etc/ump.conf.sample
 %%DATADIR%%/ump-files/Black.ump
 %%DATADIR%%/ump-files/Blue.ump
 %%DATADIR%%/ump-files/Gray.ump

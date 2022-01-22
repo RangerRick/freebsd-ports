@@ -1,5 +1,5 @@
 bin/lxqt-policykit-agent
-etc/xdg/autostart/lxqt-policykit-agent.desktop
+/etc/xdg/autostart/lxqt-policykit-agent.desktop
 %%LXQT_TRANSLATIONS%%/lxqt-policykit-agent/lxqt-policykit-agent_ar.qm
 %%LXQT_TRANSLATIONS%%/lxqt-policykit-agent/lxqt-policykit-agent_arn.qm
 %%LXQT_TRANSLATIONS%%/lxqt-policykit-agent/lxqt-policykit-agent_ast.qm
@@ -33,4 +33,4 @@ etc/xdg/autostart/lxqt-policykit-agent.desktop
 %%LXQT_TRANSLATIONS%%/lxqt-policykit-agent/lxqt-policykit-agent_uk.qm
 %%LXQT_TRANSLATIONS%%/lxqt-policykit-agent/lxqt-policykit-agent_vi.qm
 %%LXQT_TRANSLATIONS%%/lxqt-policykit-agent/lxqt-policykit-agent_zh_CN.qm
-share/man/man1/lxqt-policykit-agent.1.gz
+%%MANPREFIX%%/man/man1/lxqt-policykit-agent.1.gz

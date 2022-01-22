@@ -1,4 +1,4 @@
-etc/man.d/erlang.conf
+/etc/man.d/erlang.conf
 lib/erlang/man/man1/cdv.1
 lib/erlang/man/man1/ct_run.1
 lib/erlang/man/man1/diameterc.1

@@ -19,6 +19,6 @@ SHEBANG_LANG=	nobash
 nobash_OLD_CMD=	/bin/bash
 nobash_CMD=	/bin/sh
 
-PLIST_FILES=	bin/xauth man/man1/xauth.1.gz
+PLIST_FILES=	bin/xauth ${MANPREFIX}/man/man1/xauth.1.gz
 
 .include <bsd.port.mk>

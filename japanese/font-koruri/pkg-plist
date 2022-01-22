@@ -1,7 +1,7 @@
-etc/fonts/conf.avail/20-unhint-koruri.conf
-etc/fonts/conf.avail/62-fonts-koruri.conf
-etc/fonts/conf.d/20-unhint-koruri.conf
-etc/fonts/conf.d/62-fonts-koruri.conf
+/etc/fonts/conf.avail/20-unhint-koruri.conf
+/etc/fonts/conf.avail/62-fonts-koruri.conf
+/etc/fonts/conf.d/20-unhint-koruri.conf
+/etc/fonts/conf.d/62-fonts-koruri.conf
 %%DATADIR%%/Koruri-Bold.ttf
 %%DATADIR%%/Koruri-Extrabold.ttf
 %%DATADIR%%/Koruri-Light.ttf

@@ -18,5 +18,5 @@ lib/ocaml/parmap/setcore.cmi
 lib/ocaml/parmap/setcore.cmx
 lib/ocaml/stublibs/dllparmap_stubs.so
 lib/ocaml/stublibs/dllparmap_stubs.so.owner
-man/man3/Parmap.3o.gz
+%%MANPREFIX%%/man/man3/Parmap.3o.gz
 @dir %%OCAML_SITELIBDIR%%

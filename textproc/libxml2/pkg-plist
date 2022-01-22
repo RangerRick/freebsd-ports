@@ -56,7 +56,7 @@ lib/libxml2.so.%%LIBVERSION%%
 lib/xml2Conf.sh
 libdata/pkgconfig/libxml-2.0.pc
 share/aclocal/libxml.m4
-man/man1/xml2-config.1.gz
-man/man1/xmlcatalog.1.gz
-man/man1/xmllint.1.gz
-man/man3/libxml.3.gz
+%%MANPREFIX%%/man/man1/xml2-config.1.gz
+%%MANPREFIX%%/man/man1/xmlcatalog.1.gz
+%%MANPREFIX%%/man/man1/xmllint.1.gz
+%%MANPREFIX%%/man/man3/libxml.3.gz

@@ -1,15 +1,15 @@
 bin/dm-tool
-etc/apparmor.d/abstractions/lightdm
-etc/apparmor.d/abstractions/lightdm_chromium-browser
-etc/apparmor.d/lightdm-guest-session
-etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
+/etc/apparmor.d/abstractions/lightdm
+/etc/apparmor.d/abstractions/lightdm_chromium-browser
+/etc/apparmor.d/lightdm-guest-session
+/etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
 %%ETCDIR%%/Xsession
 @sample %%ETCDIR%%/keys.conf.sample
 @sample %%ETCDIR%%/lightdm.conf.sample
 @sample %%ETCDIR%%/users.conf.sample
-etc/pam.d/lightdm
-etc/pam.d/lightdm-autologin
-etc/pam.d/lightdm-greeter
+/etc/pam.d/lightdm
+/etc/pam.d/lightdm-autologin
+/etc/pam.d/lightdm-greeter
 include/lightdm-gobject-1/lightdm.h
 include/lightdm-gobject-1/lightdm/greeter.h
 include/lightdm-gobject-1/lightdm/language.h
@@ -25,8 +25,8 @@ lib/liblightdm-gobject-1.so.0
 lib/liblightdm-gobject-1.so.0.0.0
 libdata/pkgconfig/liblightdm-gobject-1.pc
 libexec/lightdm-guest-session
-man/man1/dm-tool.1.gz
-man/man1/lightdm.1.gz
+%%MANPREFIX%%/man/man1/dm-tool.1.gz
+%%MANPREFIX%%/man/man1/lightdm.1.gz
 sbin/lightdm
 share/accountsservice/interfaces/org.freedesktop.DisplayManager.AccountsService.xml
 share/bash-completion/completions/dm-tool

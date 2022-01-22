@@ -2372,7 +2372,7 @@ brlcad/share/doc/mged_old/wm-leg1.ps
 brlcad/share/doc/mged_old/wm-prims.ps
 brlcad/share/doc/mged_old/wm-tube.ps
 brlcad/share/doc/pad_file.xml
-brlcad/share/fonts/ProFont.ttf
+brlcad//System/Library/Fonts/ProFont.ttf
 brlcad/share/gdal/GDALLogoBW.svg
 brlcad/share/gdal/GDALLogoColor.svg
 brlcad/share/gdal/GDALLogoGS.svg

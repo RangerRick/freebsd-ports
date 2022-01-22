@@ -1,6 +1,6 @@
-@sample(,,0400) etc/3dm2/3dm2.conf.sample
-etc/3dm2/msg/tdm_msg_en
-etc/3dm2/msg/tw_msg_en
+@sample(,,0400) /etc/3dm2/3dm2.conf.sample
+/etc/3dm2/msg/tdm_msg_en
+/etc/3dm2/msg/tw_msg_en
 sbin/3dm2
 share/3dm2/help/en/3DM-Intro.4.10.html
 share/3dm2/help/en/3DM-Intro.4.11.html

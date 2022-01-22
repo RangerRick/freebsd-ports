@@ -34,6 +34,7 @@ post-patch:
 		${WRKSRC}/src/${PORTNAME}/src/src.pro
 
 post-install:
+	${MKDIR} -p ${STAGEDIR}/usr/share/pixmaps/ ${STAGEDIR}/usr/share/applications/
 	${INSTALL_DATA} ${WRKSRC}/src/${PORTNAME}/src/designer/images/designer.png \
 		${STAGEDIR}${PREFIX}/share/pixmaps/designer-qt5.png
 	# The generated .pc file refers to a nonexistent other .pc file

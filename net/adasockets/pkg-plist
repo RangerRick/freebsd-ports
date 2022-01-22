@@ -26,4 +26,4 @@ lib/adasockets/sockets.ali
 lib/gnat/adasockets.gpr
 libdata/pkgconfig/adasockets.pc
 share/gpr/adasockets.gpr
-share/man/man1/adasockets-config.1.gz
+%%MANPREFIX%%/man/man1/adasockets-config.1.gz

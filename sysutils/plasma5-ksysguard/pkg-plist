@@ -1,6 +1,6 @@
 bin/ksysguard
 bin/ksysguardd
-etc/ksysguarddrc
+/etc/ksysguarddrc
 share/applications/org.kde.ksysguard.desktop
 share/doc/HTML/ca/ksysguard/index.cache.bz2
 share/doc/HTML/ca/ksysguard/index.docbook

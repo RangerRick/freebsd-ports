@@ -1,5 +1,5 @@
 bin/lxqt-runner
-etc/xdg/autostart/lxqt-runner.desktop
+/etc/xdg/autostart/lxqt-runner.desktop
 %%LXQT_TRANSLATIONS%%/lxqt-runner/lxqt-runner_ar.qm
 %%LXQT_TRANSLATIONS%%/lxqt-runner/lxqt-runner_arn.qm
 %%LXQT_TRANSLATIONS%%/lxqt-runner/lxqt-runner_ast.qm
@@ -46,4 +46,4 @@ etc/xdg/autostart/lxqt-runner.desktop
 %%LXQT_TRANSLATIONS%%/lxqt-runner/lxqt-runner_vi.qm
 %%LXQT_TRANSLATIONS%%/lxqt-runner/lxqt-runner_zh_CN.qm
 %%LXQT_TRANSLATIONS%%/lxqt-runner/lxqt-runner_zh_TW.qm
-share/man/man1/lxqt-runner.1.gz
+%%MANPREFIX%%/man/man1/lxqt-runner.1.gz

@@ -9,4 +9,4 @@ bin/srg
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/srg.daily
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/srg.monthly
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/srg.weekly
-man/man1/srg.1.gz
+%%MANPREFIX%%/man/man1/srg.1.gz

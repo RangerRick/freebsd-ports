@@ -16,5 +16,5 @@ libexec/bats-core/bats-format-pretty
 libexec/bats-core/bats-format-tap
 libexec/bats-core/bats-format-tap13
 libexec/bats-core/bats-preprocess
-share/man/man1/bats.1.gz
-share/man/man7/bats.7.gz
+%%MANPREFIX%%/man/man1/bats.1.gz
+%%MANPREFIX%%/man/man7/bats.7.gz

@@ -1,6 +1,6 @@
 bin/tide
 %%X11%%bin/xtide
-@sample etc/xtide.conf.sample
+@sample /etc/xtide.conf.sample
 include/libxtide/Amplitude.hh
 include/libxtide/Angle.hh
 include/libxtide/Banner.hh
@@ -64,9 +64,9 @@ lib/libxtide.a
 lib/libxtide.so
 lib/libxtide.so.1
 lib/libxtide.so.1.0.3
-man/man1/tide.1.gz
+%%MANPREFIX%%/man/man1/tide.1.gz
 %%X11%%man/man1/xtide.1.gz
-man/man8/xttpd.8.gz
+%%MANPREFIX%%/man/man8/xttpd.8.gz
 sbin/xttpd
 share/libtcd/libtcd.html
 %%X11%%share/pixmaps/xtide.png

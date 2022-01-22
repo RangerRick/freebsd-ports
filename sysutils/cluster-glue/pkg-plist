@@ -1,5 +1,5 @@
-@sample etc/ha_logd.cf.sample
-@comment etc/rc.d/logd
+@sample /etc/ha_logd.cf.sample
+@comment /etc/rc.d/logd
 include/clplumbing/GSource.h
 include/clplumbing/GSource_internal.h
 include/clplumbing/Gmain_timeout.h

@@ -1,5 +1,5 @@
 bin/grisbi
-man/man1/grisbi.1.gz
+%%MANPREFIX%%/man/man1/grisbi.1.gz
 share/applications/grisbi.desktop
 %%PORTDOCS%%%%DOCSDIR%%/C/contents_motif.gif
 %%PORTDOCS%%%%DOCSDIR%%/C/grisbi-manuel.html

@@ -5,8 +5,8 @@ lib/libraptor.so
 lib/libraptor.so.1
 lib/libraptor.so.1.2.0
 libdata/pkgconfig/raptor.pc
-man/man1/raptor-config.1.gz
-man/man3/libraptor.3.gz
+%%MANPREFIX%%/man/man1/raptor-config.1.gz
+%%MANPREFIX%%/man/man3/libraptor.3.gz
 %%PORTDOCS%%%%DOCSDIR%%/parser-rdfa.html
 %%PORTDOCS%%%%DOCSDIR%%/serializer-json.html
 %%PORTDOCS%%%%DOCSDIR%%/raptor-section-sax2.html

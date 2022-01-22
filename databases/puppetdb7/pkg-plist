@@ -12,12 +12,12 @@ bin/puppetdb
 %%DATADIR%%/ezbake.manifest
 %%DATADIR%%/puppetdb.jar
 @group puppetdb
-@sample etc/puppetdb/bootstrap.cfg.sample
-@sample etc/puppetdb/conf.d/auth.conf.sample
-@sample etc/puppetdb/conf.d/config.ini.sample
-@sample etc/puppetdb/conf.d/database.ini.sample
-@sample etc/puppetdb/conf.d/jetty.ini.sample
-@sample etc/puppetdb/conf.d/repl.ini.sample
-@sample etc/puppetdb/logback.xml.sample
-@sample etc/puppetdb/request-logging.xml.sample
+@sample /etc/puppetdb/bootstrap.cfg.sample
+@sample /etc/puppetdb/conf.d/auth.conf.sample
+@sample /etc/puppetdb/conf.d/config.ini.sample
+@sample /etc/puppetdb/conf.d/database.ini.sample
+@sample /etc/puppetdb/conf.d/jetty.ini.sample
+@sample /etc/puppetdb/conf.d/repl.ini.sample
+@sample /etc/puppetdb/logback.xml.sample
+@sample /etc/puppetdb/request-logging.xml.sample
 @group

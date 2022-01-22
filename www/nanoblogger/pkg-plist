@@ -1,5 +1,5 @@
 bin/nb
-@sample etc/nb.conf.sample
+@sample /etc/nb.conf.sample
 %%DATADIR%%/default/articles/example.txt
 %%DATADIR%%/default/blog.conf
 %%DATADIR%%/default/data/cat_1.db

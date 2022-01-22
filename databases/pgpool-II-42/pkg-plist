@@ -18,21 +18,21 @@ bin/pgpool_setup
 bin/pgproto
 bin/watchdog_setup
 bin/wd_cli
-@sample etc/escalation.sh.sample
-@sample etc/failover.sh.sample
-@sample etc/follow_primary.sh.sample
-@sample etc/pcp.conf.sample
-@sample etc/pgpool.conf.sample
-@sample etc/pgpool_remote_start.sample
-@sample etc/pool_hba.conf.sample
-etc/pgpool.conf.sample-logical
-etc/pgpool.conf.sample-raw
-etc/pgpool.conf.sample-replication
-etc/pgpool.conf.sample-stream
-etc/pgpool.conf.sample-slony
-etc/pgpool.conf.sample-snapshot
-etc/recovery_1st_stage.sample
-etc/recovery_2nd_stage.sample
+@sample /etc/escalation.sh.sample
+@sample /etc/failover.sh.sample
+@sample /etc/follow_primary.sh.sample
+@sample /etc/pcp.conf.sample
+@sample /etc/pgpool.conf.sample
+@sample /etc/pgpool_remote_start.sample
+@sample /etc/pool_hba.conf.sample
+/etc/pgpool.conf.sample-logical
+/etc/pgpool.conf.sample-raw
+/etc/pgpool.conf.sample-replication
+/etc/pgpool.conf.sample-stream
+/etc/pgpool.conf.sample-slony
+/etc/pgpool.conf.sample-snapshot
+/etc/recovery_1st_stage.sample
+/etc/recovery_2nd_stage.sample
 include/libpcp_ext.h
 include/pcp.h
 include/pool_process_reporting.h

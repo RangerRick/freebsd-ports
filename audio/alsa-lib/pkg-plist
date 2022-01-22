@@ -136,4 +136,4 @@ share/alsa/pcm/surround41.conf
 share/alsa/pcm/surround50.conf
 share/alsa/pcm/surround51.conf
 share/alsa/pcm/surround71.conf
-@sample etc/asound.conf.sample
+@sample /etc/asound.conf.sample

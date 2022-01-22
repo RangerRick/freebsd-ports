@@ -1,5 +1,5 @@
 bin/mptsd
-etc/mptsd/mptsd.conf
-etc/mptsd/mptsd_channels.conf
-etc/mptsd/mptsd_epg.conf
-etc/mptsd/mptsd_nit.conf
+/etc/mptsd/mptsd.conf
+/etc/mptsd/mptsd_channels.conf
+/etc/mptsd/mptsd_epg.conf
+/etc/mptsd/mptsd_nit.conf

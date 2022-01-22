@@ -119,9 +119,9 @@ CONFIGURE_ENV+=		QTDIR="${QT_ARCHDIR}" QMAKE="${QMAKE}" \
 			MOC="${MOC}" RCC="${RCC}" UIC="${UIC}" \
 			QMAKESPEC="${QMAKESPEC}"
 CONFIGURE_ARGS+=	--with-qt-includes=${QT_INCDIR} \
-			--with-qt-libraries=${QT_LIBDIR} \
-			--with-extra-includes=${LOCALBASE}/include \
-			--with-extra-libs=${LOCALBASE}/lib
+			--with-qt-libraries=${QT_LIBDIR}
+
+
 .  endif
 
 _USES_POST+=		qmake

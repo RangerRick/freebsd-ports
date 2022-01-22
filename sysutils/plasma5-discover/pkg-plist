@@ -1,6 +1,6 @@
 bin/plasma-discover
 bin/plasma-discover-update
-etc/xdg/autostart/org.kde.discover.notifier.desktop
+/etc/xdg/autostart/org.kde.discover.notifier.desktop
 lib/libexec/DiscoverNotifier
 lib/plasma-discover/libDiscoverCommon.so
 lib/plasma-discover/libDiscoverNotifiers.so

@@ -1,5 +1,5 @@
 bin/kdbg
-etc/xdg/kdbgrc
+/etc/xdg/kdbgrc
 share/applications/kdbg.desktop
 share/doc/HTML/de/kdbg/argspwdenv.html
 share/doc/HTML/de/kdbg/breakptlist.html

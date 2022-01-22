@@ -3,4 +3,4 @@
 bin/asmem
 @mode
 @group
-man/man1/asmem.1.gz
+%%MANPREFIX%%/man/man1/asmem.1.gz

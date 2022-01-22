@@ -175,7 +175,7 @@ include/xsd/cxx/xml/string.ixx
 include/xsd/cxx/xml/string.txx
 include/xsd/cxx/zc-istream.hxx
 include/xsd/cxx/zc-istream.txx
-man/man1/xsdcxx.1.gz
+%%MANPREFIX%%/man/man1/xsdcxx.1.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/build/cxx/compilers.make
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/build/cxx/rules.make
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/build/xsd/common.make

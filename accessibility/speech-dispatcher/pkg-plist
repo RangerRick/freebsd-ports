@@ -44,8 +44,8 @@ lib/speech-dispatcher/spd_oss.so
 %%PULSEAUDIO%%lib/speech-dispatcher/spd_pulse.a
 %%PULSEAUDIO%%lib/speech-dispatcher/spd_pulse.so
 libdata/pkgconfig/speech-dispatcher.pc
-man/man1/spd-say.1.gz
-man/man1/speech-dispatcher.1.gz
+%%MANPREFIX%%/man/man1/spd-say.1.gz
+%%MANPREFIX%%/man/man1/speech-dispatcher.1.gz
 share/locale/cs/LC_MESSAGES/speech-dispatcher.mo
 share/locale/de/LC_MESSAGES/speech-dispatcher.mo
 share/locale/fr/LC_MESSAGES/speech-dispatcher.mo

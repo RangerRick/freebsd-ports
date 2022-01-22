@@ -1,5 +1,5 @@
 bin/subtitlecomposer
-etc/xdg/subtitlecomposerrc
+/etc/xdg/subtitlecomposerrc
 share/applications/org.kde.subtitlecomposer.desktop
 share/icons/hicolor/128x128/apps/subtitlecomposer.png
 share/icons/hicolor/16x16/apps/subtitlecomposer.png

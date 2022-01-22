@@ -1,5 +1,5 @@
 bin/iagno
-man/man6/iagno.6.gz
+%%MANPREFIX%%/man/man6/iagno.6.gz
 share/applications/org.gnome.Reversi.desktop
 share/dbus-1/services/org.gnome.Reversi.service
 share/help/C/iagno/2player.page

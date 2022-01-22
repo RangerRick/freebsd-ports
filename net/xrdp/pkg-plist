@@ -54,9 +54,9 @@ lib/xrdp/libxrdpapi.so
 lib/xrdp/libxrdpapi.a
 lib/xrdp/libxrdpapi.so.0
 lib/xrdp/libxrdpapi.so.0.0.0
-etc/pam.d/xrdp-sesman
-etc/rc.d/xrdp
-etc/rc.d/xrdp-sesman
+/etc/pam.d/xrdp-sesman
+/etc/rc.d/xrdp
+/etc/rc.d/xrdp-sesman
 %%ETCDIR%%/km-00000406.ini
 %%ETCDIR%%/km-00000407.ini
 %%ETCDIR%%/km-00000409.ini
@@ -91,16 +91,16 @@ etc/rc.d/xrdp-sesman
 @sample %%ETCDIR%%/reconnectwm.sh.sample
 @sample %%ETCDIR%%/xrdp.ini.sample
 @sample %%ETCDIR%%/xrdp_keyboard.ini.sample
-man/man1/xrdp-dis.1.gz
-man/man5/sesman.ini.5.gz
-man/man8/xrdp.8.gz
-man/man5/xrdp.ini.5.gz
-man/man8/xrdp-chansrv.8.gz
-man/man8/xrdp-genkeymap.8.gz
-man/man8/xrdp-keygen.8.gz
-man/man8/xrdp-sesadmin.8.gz
-man/man8/xrdp-sesman.8.gz
-man/man8/xrdp-sesrun.8.gz
+%%MANPREFIX%%/man/man1/xrdp-dis.1.gz
+%%MANPREFIX%%/man/man5/sesman.ini.5.gz
+%%MANPREFIX%%/man/man8/xrdp.8.gz
+%%MANPREFIX%%/man/man5/xrdp.ini.5.gz
+%%MANPREFIX%%/man/man8/xrdp-chansrv.8.gz
+%%MANPREFIX%%/man/man8/xrdp-genkeymap.8.gz
+%%MANPREFIX%%/man/man8/xrdp-keygen.8.gz
+%%MANPREFIX%%/man/man8/xrdp-sesadmin.8.gz
+%%MANPREFIX%%/man/man8/xrdp-sesman.8.gz
+%%MANPREFIX%%/man/man8/xrdp-sesrun.8.gz
 sbin/xrdp
 sbin/xrdp-chansrv
 sbin/xrdp-sesman

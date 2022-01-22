@@ -1,6 +1,6 @@
 bin/ss
 bin/sudoshell
-etc/rc.d/sudoscriptd.sh
+/etc/rc.d/sudoscriptd.sh
 lib/sudoscript/Sudoscript.pm
 sbin/sudoscriptd
 share/doc/sudoscript-2.1.2/2.0arch.gif
@@ -28,8 +28,8 @@ share/doc/sudoscript-2.1.2/sudoshell-src.html
 share/doc/sudoscript-2.1.2/sudoshell.1.html
 share/doc/sudoscript-2.1.2/xsl/egbokdoc.xsl
 share/doc/sudoscript-2.1.2/xsl/egbokdoc2fop.xsl
-man/man1/ss.1.gz
-man/man1/sudoshell.1.gz
-man/man3/Sudoscript.3pm.gz
-man/man8/sudoscript.8.gz
-man/man8/sudoscriptd.8.gz
+%%MANPREFIX%%/man/man1/ss.1.gz
+%%MANPREFIX%%/man/man1/sudoshell.1.gz
+%%MANPREFIX%%/man/man3/Sudoscript.3pm.gz
+%%MANPREFIX%%/man/man8/sudoscript.8.gz
+%%MANPREFIX%%/man/man8/sudoscriptd.8.gz

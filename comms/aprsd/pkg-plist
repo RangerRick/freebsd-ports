@@ -1,10 +1,10 @@
 bin/aprsd
 bin/aprspass
-etc/aprsd/INIT.TNC.samp
-etc/aprsd/RESTORE.TNC.samp
-etc/aprsd/aprsd.conf.samp
-etc/aprsd/user.deny.samp
-etc/aprsd/welcome.txt.samp
+/etc/aprsd/INIT.TNC.samp
+/etc/aprsd/RESTORE.TNC.samp
+/etc/aprsd/aprsd.conf.samp
+/etc/aprsd/user.deny.samp
+/etc/aprsd/welcome.txt.samp
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/chkaprsd
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/udp_example
 %%PORTDOCS%%%%DOCSDIR%%/aprsddoc.html

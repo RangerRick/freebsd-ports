@@ -1,10 +1,10 @@
 bin/gbsinfo
 bin/gbsplay
-@sample etc/gbsplayrc.sample
-%%BASH_COMPLETIONS%%etc/bash_completion.d/gbsplay
-man/man1/gbsinfo.1.gz
-man/man1/gbsplay.1.gz
-man/man5/gbsplayrc.5.gz
+@sample /etc/gbsplayrc.sample
+%%BASH_COMPLETIONS%%/etc/bash_completion.d/gbsplay
+%%MANPREFIX%%/man/man1/gbsinfo.1.gz
+%%MANPREFIX%%/man/man1/gbsplay.1.gz
+%%MANPREFIX%%/man/man5/gbsplayrc.5.gz
 share/applications/gbsplay.desktop
 share/applications/mimeinfo.cache
 %%PORTDOCS%%%%DOCSDIR%%/README

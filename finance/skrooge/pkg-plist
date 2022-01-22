@@ -1,6 +1,6 @@
 bin/skrooge
 bin/skroogeconvert
-etc/xdg/skrooge_unit.knsrc
+/etc/xdg/skrooge_unit.knsrc
 lib/libskgbankgui.so.2
 lib/libskgbankgui.so.%%SHLIB_VER%%
 lib/libskgbankmodeler.so.2

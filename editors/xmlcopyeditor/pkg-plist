@@ -1,5 +1,5 @@
 bin/xmlcopyeditor
-man/man1/xmlcopyeditor.1.gz
+%%MANPREFIX%%/man/man1/xmlcopyeditor.1.gz
 share/applications/xmlcopyeditor.desktop
 share/metainfo/xmlcopyeditor.appdata.xml
 share/pixmaps/xmlcopyeditor.png

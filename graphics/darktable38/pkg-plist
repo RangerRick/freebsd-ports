@@ -158,11 +158,11 @@ lib/darktable/views/liblighttable.so
 %%PRINT%%lib/darktable/views/libprint.so
 lib/darktable/views/libslideshow.so
 %%GPHOTO%%lib/darktable/views/libtethering.so
-man/man1/darktable-cli.1.gz
-man/man1/darktable-cltest.1.gz
-man/man1/darktable-cmstest.1.gz
-man/man1/darktable-generate-cache.1.gz
-man/man1/darktable.1.gz
+%%MANPREFIX%%/man/man1/darktable-cli.1.gz
+%%MANPREFIX%%/man/man1/darktable-cltest.1.gz
+%%MANPREFIX%%/man/man1/darktable-cmstest.1.gz
+%%MANPREFIX%%/man/man1/darktable-generate-cache.1.gz
+%%MANPREFIX%%/man/man1/darktable.1.gz
 %%NLS%%man/de/man1/darktable-cli.1.gz
 %%NLS%%man/de/man1/darktable-cltest.1.gz
 %%NLS%%man/de/man1/darktable-cmstest.1.gz

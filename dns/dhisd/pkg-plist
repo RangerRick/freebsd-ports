@@ -1,7 +1,7 @@
 @dir(%%USER%%,%%GROUP%%,750) /var/log/dhis
 @dir(%%USER%%,%%GROUP%%,750) /var/run/dhis
-@sample etc/dhisd.conf.sample
-@sample etc/dhisd.db.sample
+@sample /etc/dhisd.conf.sample
+@sample /etc/dhisd.db.sample
 sbin/dhisd
 sbin/dhisgenkeys
 %%PORTDOCS%%%%DOCSDIR%%/CONTRIBUTORS

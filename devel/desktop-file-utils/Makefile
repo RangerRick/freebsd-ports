@@ -20,6 +20,8 @@ SUB_LIST=	MIMEDIRS="${MIMEDIRS}"
 PKGPOSTINSTALL=	${WRKDIR}/pkg-post-install
 SUB_FILES=	pkg-post-install.lua
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/share/applications
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/misc/desktop-entry-mode.el \
 		${STAGEDIR}${PREFIX}/share/emacs/site-lisp/desktop-entry-mode.el

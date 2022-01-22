@@ -1,2 +1,2 @@
 sbin/apinger
-@sample etc/apinger.conf.sample
+@sample /etc/apinger.conf.sample

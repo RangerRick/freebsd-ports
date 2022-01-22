@@ -3,4 +3,4 @@
 bin/wmbluecpu
 @mode
 @group
-man/man1/wmbluecpu.1.gz
+%%MANPREFIX%%/man/man1/wmbluecpu.1.gz

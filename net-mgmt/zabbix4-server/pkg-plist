@@ -17,7 +17,7 @@
 %%PROXY%%@dir %%ETCDIR%%/zabbix_proxy.conf.d
 %%SERVER%%@dir %%ETCDIR%%/zabbix_server.conf.d
 %%SERVER%%@dir %%ETCDIR%%/zabbix/alertscripts
-man/man8/zabbix_%%ZABBIX_BUILD%%.8.gz
+%%MANPREFIX%%/man/man8/zabbix_%%ZABBIX_BUILD%%.8.gz
 sbin/zabbix_%%ZABBIX_BUILD%%
 @dir %%ETCDIR%%/zabbix/externalscripts
 @dir lib/modules

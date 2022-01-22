@@ -1,4 +1,4 @@
-etc/opencbm.conf.d/10xa1541.conf
+/etc/opencbm.conf.d/10xa1541.conf
 lib/opencbm/plugin/libopencbm-xa1541.a
 lib/opencbm/plugin/libopencbm-xa1541.so
 lib/opencbm/plugin/libopencbm-xa1541.so.0

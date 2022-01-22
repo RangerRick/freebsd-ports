@@ -17,7 +17,7 @@ CONFLICTS=	waon
 GNU_CONFIGURE=	yes
 MAKE_ENV+=	LD=${LD}
 
-PLIST_FILES=	bin/pv man/man1/pv.1.gz
+PLIST_FILES=	bin/pv ${MANPREFIX}/man/man1/pv.1.gz
 
 PORTDOCS=	README INSTALL NEWS PACKAGE TODO VERSION release-checklist
 

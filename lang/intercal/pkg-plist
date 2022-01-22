@@ -11,8 +11,8 @@ lib/libick.a
 lib/libickec.a
 lib/libickmt.a
 lib/libyuk.a
-man/man1/ick.1.gz
-man/man1/convickt.1.gz
+%%MANPREFIX%%/man/man1/ick.1.gz
+%%MANPREFIX%%/man/man1/convickt.1.gz
 %%DATADIR%%/COPYING
 %%DATADIR%%/atari.bin
 %%DATADIR%%/baudot.bin

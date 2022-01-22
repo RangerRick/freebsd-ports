@@ -14,7 +14,7 @@ lib/libscanmem.so
 lib/libscanmem.so.1
 lib/libscanmem.so.1.0.0
 %%X11%%man/man1/gameconqueror.1.gz
-man/man1/scanmem.1.gz
+%%MANPREFIX%%/man/man1/scanmem.1.gz
 %%X11%%share/appdata/GameConqueror.appdata.xml
 %%X11%%share/applications/GameConqueror.desktop
 %%X11%%share/gameconqueror/GameConqueror.py

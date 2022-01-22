@@ -11,4 +11,4 @@ libexec/i3blocks/memory
 libexec/i3blocks/mocp
 libexec/i3blocks/volume
 libexec/i3blocks/weather
-@sample etc/i3blocks.conf.sample
+@sample /etc/i3blocks.conf.sample

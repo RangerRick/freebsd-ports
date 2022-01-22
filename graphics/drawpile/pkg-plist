@@ -1,7 +1,7 @@
 bin/drawpile
 bin/drawpile-%%PORTVERSION%%
 bin/drawpile-srv
-man/man1/drawpile-srv.1.gz
+%%MANPREFIX%%/man/man1/drawpile-srv.1.gz
 share/applications/net.drawpile.drawpile.desktop
 share/drawpile/drawpile/i18n/drawpile_cs.qm
 share/drawpile/drawpile/i18n/drawpile_de.qm

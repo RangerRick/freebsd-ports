@@ -1,6 +1,6 @@
 bin/msmtp
 %%MSMTPD%%bin/msmtpd
-man/man1/msmtp.1.gz
+%%MANPREFIX%%/man/man1/msmtp.1.gz
 %%MSMTPD%%man/man1/msmtpd.1.gz
 %%MSMTPQ%%bin/msmtp-queue
 %%MSMTPQ%%bin/msmtpq

@@ -1,4 +1,4 @@
-etc/gdomap_if
+/etc/gdomap_if
 GNUstep/System/Library/Documentation/man/man1/autogsdoc.1.gz
 GNUstep/System/Library/Documentation/man/man1/cvtenc.1.gz
 GNUstep/System/Library/Documentation/man/man1/defaults.1.gz

@@ -1,7 +1,7 @@
 @(,,755) bin/npm
 @(,,755) bin/npx
-etc/man.d/npm.conf
-etc/npmrc
+/etc/man.d/npm.conf
+/etc/npmrc
 lib/node_modules/npm/.licensee.json
 lib/node_modules/npm/.mailmap
 lib/node_modules/npm/.npmignore

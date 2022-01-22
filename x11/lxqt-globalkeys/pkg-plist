@@ -1,6 +1,6 @@
 bin/lxqt-config-globalkeyshortcuts
 bin/lxqt-globalkeysd
-etc/xdg/autostart/lxqt-globalkeyshortcuts.desktop
+/etc/xdg/autostart/lxqt-globalkeyshortcuts.desktop
 %%LXQT_INCLUDEDIR%%-globalkeys-ui/LXQtGlobalKeysUi/ShortcutSelector
 %%LXQT_INCLUDEDIR%%-globalkeys-ui/shortcut_selector.h
 %%LXQT_INCLUDEDIR%%-globalkeys-ui/shortcutselector.h

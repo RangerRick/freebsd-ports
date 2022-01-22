@@ -1,5 +1,5 @@
 bin/whatweb
-man/man1/whatweb.1.gz
+%%MANPREFIX%%/man/man1/whatweb.1.gz
 %%RUBY_SITELIBDIR%%/whatweb/addons/country-scanner
 %%RUBY_SITELIBDIR%%/whatweb/addons/gggooglescan
 %%RUBY_SITELIBDIR%%/whatweb/addons/hunter

@@ -30,8 +30,8 @@ NO_WRKSUBDIR=	yes
 NO_ARCH=	yes
 
 FONTNAME=	wqy
-CONFDDIR=	etc/fonts/conf.d
-CONFAVAILDIR=	etc/fonts/conf.avail
+CONFDDIR=	/etc/fonts/conf.d
+CONFAVAILDIR=	/etc/fonts/conf.avail
 
 PLIST_SUB=	CONFDDIR=${CONFDDIR} \
 		CONFAVAILDIR=${CONFAVAILDIR}
@@ -65,7 +65,7 @@ do-build:
 	${CP} ${WRKSRC}/wqy-microhei/README.txt ${WRKSRC}/wqy-microhei/README.microhei
 
 do-install:
-	${MKDIR} ${STAGEDIR}${FONTSDIR} ${STAGEDIR}${PREFIX}/${CONFDDIR} ${STAGEDIR}${PREFIX}/${CONFAVAILDIR}
+	${MKDIR} ${STAGEDIR}${FONTSDIR} ${STAGEDIR}${CONFDDIR} ${STAGEDIR}${CONFAVAILDIR}
 # WQY Bitmap Song
 	${INSTALL_DATA} ${WRKSRC}/wqy-bitmapsong/*.pcf ${STAGEDIR}${FONTSDIR}
 # WQY Bitmap Song
@@ -77,8 +77,8 @@ do-install:
 # WQY TrueType MicroHei
 	${INSTALL_DATA} ${WRKSRC}/wqy-microhei/wqy-microhei.ttc ${STAGEDIR}${FONTSDIR}
 
-	${INSTALL_DATA} ${FILESDIR}/85-wqy.conf ${STAGEDIR}${PREFIX}/${CONFAVAILDIR}
-	${LN} -sf ${PREFIX}/${CONFAVAILDIR}/85-wqy.conf ${STAGEDIR}${PREFIX}/${CONFDDIR}/85-wqy.conf
+	${INSTALL_DATA} ${FILESDIR}/85-wqy.conf ${STAGEDIR}${CONFAVAILDIR}
+	${LN} -sf ${CONFAVAILDIR}/85-wqy.conf ${STAGEDIR}${CONFDDIR}/85-wqy.conf
 
 	${MKDIR} ${STAGEDIR}${DOCSDIR}
 	${INSTALL_DATA} \

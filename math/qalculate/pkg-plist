@@ -1,6 +1,6 @@
 bin/qalculate-gtk
 lib/qalculate-search-provider
-man/man1/qalculate-gtk.1.gz
+%%MANPREFIX%%/man/man1/qalculate-gtk.1.gz
 share/applications/qalculate-gtk.desktop
 share/dbus-1/services/io.github.Qalculate.SearchProvider.service
 %%DOCSDIR%%/html/figures/calculation-history.png

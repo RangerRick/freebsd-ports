@@ -1,7 +1,7 @@
 bin/cowsay
 bin/cowthink
-man/man1/cowsay.1.gz
-man/man1/cowthink.1.gz
+%%MANPREFIX%%/man/man1/cowsay.1.gz
+%%MANPREFIX%%/man/man1/cowthink.1.gz
 share/cows/DragonAndCow.pm
 share/cows/Example.pm
 share/cows/Frogs.pm

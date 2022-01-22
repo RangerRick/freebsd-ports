@@ -1,3 +1,3 @@
 libexec/milter-callback
-etc/mail/milter-callback.conf.sample
-man/man8/milter-callback.8.gz
+/etc/mail/milter-callback.conf.sample
+%%MANPREFIX%%/man/man8/milter-callback.8.gz

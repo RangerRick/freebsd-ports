@@ -3,4 +3,4 @@ bin/mongo
 bin/mongod
 bin/mongoperf
 bin/mongos
-@sample etc/mongodb.conf.sample
+@sample /etc/mongodb.conf.sample

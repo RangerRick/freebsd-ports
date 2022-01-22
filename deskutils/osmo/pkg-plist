@@ -1,5 +1,5 @@
 bin/osmo
-man/man1/osmo.1.gz
+%%MANPREFIX%%/man/man1/osmo.1.gz
 share/applications/osmo.desktop
 share/icons/hicolor/16x16/actions/osmo-button-insert_timeline.png
 share/icons/hicolor/16x16/actions/osmo-button-select_color.png

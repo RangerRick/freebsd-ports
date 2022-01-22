@@ -4,8 +4,8 @@ bin/iusql
 bin/odbc_config
 bin/odbcinst
 bin/slencheck
-@sample etc/odbc.ini.sample
-@sample etc/odbcinst.ini.sample
+@sample /etc/odbc.ini.sample
+@sample /etc/odbcinst.ini.sample
 include/autotest.h
 include/odbcinst.h
 include/odbcinstext.h
@@ -35,12 +35,12 @@ lib/libodbcinst.so.2.0.0
 libdata/pkgconfig/odbc.pc
 libdata/pkgconfig/odbccr.pc
 libdata/pkgconfig/odbcinst.pc
-man/man1/dltest.1.gz
-man/man1/isql.1.gz
-man/man1/iusql.1.gz
-man/man1/odbc_config.1.gz
-man/man1/odbcinst.1.gz
-man/man5/odbc.ini.5.gz
-man/man5/odbcinst.ini.5.gz
-man/man7/unixODBC.7.gz
-@dir etc/ODBCDataSources
+%%MANPREFIX%%/man/man1/dltest.1.gz
+%%MANPREFIX%%/man/man1/isql.1.gz
+%%MANPREFIX%%/man/man1/iusql.1.gz
+%%MANPREFIX%%/man/man1/odbc_config.1.gz
+%%MANPREFIX%%/man/man1/odbcinst.1.gz
+%%MANPREFIX%%/man/man5/odbc.ini.5.gz
+%%MANPREFIX%%/man/man5/odbcinst.ini.5.gz
+%%MANPREFIX%%/man/man7/unixODBC.7.gz
+@dir /etc/ODBCDataSources

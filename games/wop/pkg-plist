@@ -1,2 +1,2 @@
 bin/wop
-@sample etc/woprc.sample
+@sample /etc/woprc.sample

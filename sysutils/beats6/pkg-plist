@@ -1,8 +1,8 @@
-%%FILEBEAT%%etc/filebeat.yml.sample
+%%FILEBEAT%%/etc/filebeat.yml.sample
 %%FILEBEAT%%sbin/filebeat
-%%HEARTBEAT%%etc/heartbeat.yml.sample
+%%HEARTBEAT%%/etc/heartbeat.yml.sample
 %%HEARTBEAT%%sbin/heartbeat
-%%METRICBEAT%%etc/metricbeat.yml.sample
+%%METRICBEAT%%/etc/metricbeat.yml.sample
 %%METRICBEAT%%sbin/metricbeat
 %%FILEBEAT%%%%ETCDIR%%/filebeat.modules.d/apache2.yml.disabled
 %%FILEBEAT%%%%ETCDIR%%/filebeat.modules.d/auditd.yml.disabled

@@ -1118,8 +1118,8 @@ libdata/pkgconfig/cantera.pc
 %%OCTAVE%%%%DATADIR%%/samples/matlab/tut5.m
 %%OCTAVE%%%%DATADIR%%/samples/matlab/tut6.m
 %%OCTAVE%%%%DATADIR%%/samples/matlab/tut7.m
-share/man/man1/ck2cti.1.gz
-share/man/man1/ck2yaml.1.gz
-share/man/man1/cti2yaml.1.gz
-share/man/man1/ctml2yaml.1.gz
-share/man/man1/ctml_writer.1.gz
+%%MANPREFIX%%/man/man1/ck2cti.1.gz
+%%MANPREFIX%%/man/man1/ck2yaml.1.gz
+%%MANPREFIX%%/man/man1/cti2yaml.1.gz
+%%MANPREFIX%%/man/man1/ctml2yaml.1.gz
+%%MANPREFIX%%/man/man1/ctml_writer.1.gz

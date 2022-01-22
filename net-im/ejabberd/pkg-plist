@@ -1,7 +1,7 @@
 %%ETCDIR%%/%%PORTNAME%%.yml.example
 %%ETCDIR%%/%%PORTNAME%%ctl.cfg.example
 @sample %%ETCDIR%%/inetrc.example %%ETCDIR%%/inetrc
-%%PAM%%etc/pam.d/%%PORTNAME%%
+%%PAM%%/etc/pam.d/%%PORTNAME%%
 %%EJABBERD_LIBDIR%%/%%PORTNAME%%-%%PORTVERSION%%/COPYING
 %%EJABBERD_LIBDIR%%/%%PORTNAME%%-%%PORTVERSION%%/ebin/ELDAPv3.beam
 %%EJABBERD_LIBDIR%%/%%PORTNAME%%-%%PORTVERSION%%/ebin/acl.beam

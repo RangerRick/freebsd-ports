@@ -1,5 +1,5 @@
-@sample(sshd,,0600) etc/login_duo.conf.sample
-@sample(,,0600) etc/pam_duo.conf.sample
+@sample(sshd,,0600) /etc/login_duo.conf.sample
+@sample(,,0600) /etc/pam_duo.conf.sample
 include/duo/common_ini_test.h
 include/duo/duo.h
 include/duo/duo_private.h
@@ -8,9 +8,9 @@ include/duo/util.h
 include/duo/shell.h
 libdata/pkgconfig/libduo.pc
 lib/security/pam_duo.so
-man/man3/duo.3.gz
-man/man8/login_duo.8.gz
-man/man8/pam_duo.8.gz
+%%MANPREFIX%%/man/man3/duo.3.gz
+%%MANPREFIX%%/man/man8/login_duo.8.gz
+%%MANPREFIX%%/man/man8/pam_duo.8.gz
 %%PORTDOCS%%%%DOCSDIR%%/CONTRIBUTING.md
 @comment %%PORTDOCS%%%%DOCSDIR%%_unix/duo_unix_support/README.md
 %%PORTDOCS%%%%DOCSDIR%%/README.md

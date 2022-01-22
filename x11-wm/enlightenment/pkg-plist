@@ -8,7 +8,7 @@ bin/enlightenment_remote
 bin/enlightenment_start
 %%ETCDIR%%/sysactions.conf
 %%ETCDIR%%/system.conf
-etc/xdg/menus/e-applications.menu
+/etc/xdg/menus/e-applications.menu
 include/enlightenment/config.h
 include/enlightenment/e.h
 include/enlightenment/e_Efx.h

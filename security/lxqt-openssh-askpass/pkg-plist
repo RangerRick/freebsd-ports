@@ -34,4 +34,4 @@ bin/lxqt-openssh-askpass
 %%LXQT_TRANSLATIONS%%/lxqt-openssh-askpass/lxqt-openssh-askpass_uk.qm
 %%LXQT_TRANSLATIONS%%/lxqt-openssh-askpass/lxqt-openssh-askpass_vi.qm
 %%LXQT_TRANSLATIONS%%/lxqt-openssh-askpass/lxqt-openssh-askpass_zh_CN.qm
-share/man/man1/lxqt-openssh-askpass.1.gz
+%%MANPREFIX%%/man/man1/lxqt-openssh-askpass.1.gz

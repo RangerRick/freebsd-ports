@@ -21,8 +21,8 @@
 %%SERVER%%bin/nxsnmpset
 %%SERVER%%bin/nxsnmpwalk
 %%SERVER%%bin/nxupload
-%%SERVER%%@sample etc/netxmsd.conf.sample
-%%NXCP%%@sample etc/nxagentd.conf.sample
+%%SERVER%%@sample /etc/netxmsd.conf.sample
+%%NXCP%%@sample /etc/nxagentd.conf.sample
 lib/libnetxms.so
 lib/libnetxms.so.2
 lib/libnetxms.so.2.0.0

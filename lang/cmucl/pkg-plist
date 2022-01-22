@@ -67,7 +67,7 @@ lib/cmucl/lib/subsystems/simple-streams-library.sse2f
 lib/cmucl/lisp.map
 lib/cmucl/lisp.nm
 lib/cmucl/sample-wrapper
-man/man1/cmucl.1.gz
-man/man1/lisp.1.gz
+%%MANPREFIX%%/man/man1/cmucl.1.gz
+%%MANPREFIX%%/man/man1/lisp.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/README
 %%PORTDOCS%%%%DOCSDIR%%/release-%%VER%%.txt

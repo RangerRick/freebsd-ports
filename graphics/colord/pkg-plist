@@ -3,7 +3,7 @@ bin/cd-fix-profile
 bin/cd-iccdump
 bin/cd-it8
 bin/colormgr
-etc/dbus-1/system.d/org.freedesktop.ColorManager.conf
+/etc/dbus-1/system.d/org.freedesktop.ColorManager.conf
 include/colord-1/colord-private.h
 include/colord-1/colord-session/cd-session.h
 include/colord-1/colord.h

@@ -30,10 +30,10 @@ lib/liblrzip.so
 lib/liblrzip.so.0
 lib/liblrzip.so.0.0.0
 libdata/pkgconfig/lrzip.pc
-man/man1/lrunzip.1.gz
-man/man1/lrz.1.gz
-man/man1/lrzcat.1.gz
-man/man1/lrzip.1.gz
-man/man1/lrztar.1.gz
-man/man1/lrzuntar.1.gz
-man/man5/lrzip.conf.5.gz
+%%MANPREFIX%%/man/man1/lrunzip.1.gz
+%%MANPREFIX%%/man/man1/lrz.1.gz
+%%MANPREFIX%%/man/man1/lrzcat.1.gz
+%%MANPREFIX%%/man/man1/lrzip.1.gz
+%%MANPREFIX%%/man/man1/lrztar.1.gz
+%%MANPREFIX%%/man/man1/lrzuntar.1.gz
+%%MANPREFIX%%/man/man5/lrzip.conf.5.gz

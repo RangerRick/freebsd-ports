@@ -1,7 +1,7 @@
 bin/gnokii
 bin/sendsms
 %%X11%%bin/xgnokii
-etc/gnokiirc.sample
+/etc/gnokiirc.sample
 include/gnokii.h
 include/gnokii/bitmaps.h
 include/gnokii/call.h
@@ -23,11 +23,11 @@ lib/libgnokii.so.7
 lib/libgnokii.so.7.0.0
 libdata/pkgconfig/gnokii.pc
 libdata/pkgconfig/xgnokii.pc
-man/man1/gnokii.1.gz
-man/man1/sendsms.1.gz
-man/man1/xgnokii.1.gz
-man/man8/gnokiid.8.gz
-man/man8/mgnokiidev.8.gz
+%%MANPREFIX%%/man/man1/gnokii.1.gz
+%%MANPREFIX%%/man/man1/sendsms.1.gz
+%%MANPREFIX%%/man/man1/xgnokii.1.gz
+%%MANPREFIX%%/man/man8/gnokiid.8.gz
+%%MANPREFIX%%/man/man8/mgnokiidev.8.gz
 %%SMSD%%man/man8/smsd.8.gz
 sbin/gnokiid
 sbin/mgnokiidev

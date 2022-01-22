@@ -1,6 +1,6 @@
 bin/mfdbtool
 bin/mtasim
-@sample etc/mailfromd.mf.sample
+@sample /etc/mailfromd.mf.sample
 sbin/calloutd
 sbin/mailfromd
 %%NLS%%share/locale/da/LC_MESSAGES/mailfromd.mo

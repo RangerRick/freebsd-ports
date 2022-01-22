@@ -80,7 +80,7 @@ lib/libavkys.so.8.8
 lib/libavkys.so.8.8.0
 %%QT_QMLDIR%%/AkQml/libAkQml.so
 %%QT_QMLDIR%%/AkQml/qmldir
-man/man1/webcamoid.1.gz
+%%MANPREFIX%%/man/man1/webcamoid.1.gz
 share/applications/webcamoid.desktop
 share/icons/hicolor/128x128/apps/webcamoid.png
 share/icons/hicolor/16x16/apps/webcamoid.png

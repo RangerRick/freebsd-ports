@@ -5,5 +5,5 @@ bin/count_ipfw
 bin/count_pppd
 bin/count_samba
 bin/count_user
-etc/rc.d/utcount.sh.default
-@sample etc/utcount.conf.sample
+/etc/rc.d/utcount.sh.default
+@sample /etc/utcount.conf.sample

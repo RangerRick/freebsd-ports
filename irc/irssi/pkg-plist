@@ -1,6 +1,6 @@
 %%BOT%%bin/botti
 bin/irssi
-@sample etc/irssi.conf.sample
+@sample /etc/irssi.conf.sample
 include/irssi/irssi-config.h
 include/irssi/irssi-version.h
 include/irssi/src/common.h
@@ -145,7 +145,7 @@ include/irssi/src/lib-config/module.h
 %%PERL%%%%SITE_ARCH%%/auto/Irssi/Irssi.so
 %%PERL%%%%SITE_ARCH%%/auto/Irssi/TextUI/TextUI.so
 %%PERL%%%%SITE_ARCH%%/auto/Irssi/UI/UI.so
-man/man1/irssi.1.gz
+%%MANPREFIX%%/man/man1/irssi.1.gz
 %%CAPSICUM%%%%PORTDOCS%%%%DOCSDIR%%/capsicum.txt
 %%PORTDOCS%%%%DOCSDIR%%/design.html
 %%PORTDOCS%%%%DOCSDIR%%/design.txt

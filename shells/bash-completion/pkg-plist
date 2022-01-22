@@ -1,7 +1,7 @@
-etc/bash_completion.d/make
-etc/bash_completion.d/mandoc
-etc/bash_completion.d/pkg
-etc/bash_completion.d/service
+/etc/bash_completion.d/make
+/etc/bash_completion.d/mandoc
+/etc/bash_completion.d/pkg
+/etc/bash_completion.d/service
 libdata/pkgconfig/bash-completion.pc
 %%DATADIR%%/bash_completion
 %%DATADIR%%/bash_completion.sh

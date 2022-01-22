@@ -1,5 +1,5 @@
-@sample etc/siproxd.conf.sample
-@sample etc/siproxd_passwd.cfg.sample
+@sample /etc/siproxd.conf.sample
+@sample /etc/siproxd_passwd.cfg.sample
 lib/siproxd/plugin_codecfilter.la
 lib/siproxd/plugin_codecfilter.so
 lib/siproxd/plugin_defaulttarget.la

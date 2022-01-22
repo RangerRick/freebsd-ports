@@ -58,7 +58,7 @@ post-install:
 	@${MKDIR} ${STAGEDIR}/var/lib/polkit-1 \
 		  ${STAGEDIR}${PREFIX}/share/polkit-1/rules.d
 .for i in 10-vendor.d 20-org.d 30-site.d 50-local.d 90-mandatory.d
-	${MKDIR} ${STAGEDIR}${PREFIX}/etc/polkit-1/localauthority/${i}
+	${MKDIR} ${STAGEDIR}/etc/polkit-1/localauthority/${i}
 	${MKDIR} ${STAGEDIR}/var/lib/polkit-1/localauthority/${i}
 .endfor
 

@@ -1,8 +1,8 @@
 %%NC%%bin/nc
 bin/ocspcheck
 bin/openssl
-etc/ssl/openssl.cnf
-etc/ssl/x509v3.cnf
+/etc/ssl/openssl.cnf
+/etc/ssl/x509v3.cnf
 include/openssl/aes.h
 include/openssl/asn1.h
 include/openssl/asn1t.h
@@ -94,9 +94,9 @@ libdata/pkgconfig/libssl.pc
 libdata/pkgconfig/libtls.pc
 libdata/pkgconfig/openssl.pc
 %%NC%%man/man1/nc.1.gz
-man/man1/openssl.1.gz
-man/man5/openssl.cnf.5.gz
-man/man5/x509v3.cnf.5.gz
-man/man8/ocspcheck.8.gz
-@dir etc/ssl/certs
+%%MANPREFIX%%/man/man1/openssl.1.gz
+%%MANPREFIX%%/man/man5/openssl.cnf.5.gz
+%%MANPREFIX%%/man/man5/x509v3.cnf.5.gz
+%%MANPREFIX%%/man/man8/ocspcheck.8.gz
+@dir /etc/ssl/certs
 @dir include/openssl

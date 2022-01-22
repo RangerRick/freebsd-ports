@@ -23,7 +23,7 @@ LDFLAGS+=	-L${LOCALBASE}/lib
 
 PLIST_FILES=	bin/pdfclose \
 		bin/pdfopen \
-		man/man1/pdfclose.1.gz \
-		man/man1/pdfopen.1.gz
+		${MANPREFIX}/man/man1/pdfclose.1.gz \
+		${MANPREFIX}/man/man1/pdfopen.1.gz
 
 .include <bsd.port.mk>

@@ -62,7 +62,7 @@ share/locale/sv/LC_MESSAGES/pdfarranger.mo
 share/locale/tr/LC_MESSAGES/pdfarranger.mo
 share/locale/zh_CN/LC_MESSAGES/pdfarranger.mo
 share/locale/zh_TW/LC_MESSAGES/pdfarranger.mo
-share/man/man1/pdfarranger.1.gz
+%%MANPREFIX%%/man/man1/pdfarranger.1.gz
 share/metainfo/com.github.jeromerobert.pdfarranger.metainfo.xml
 %%DATADIR%%/menu.ui
 %%DATADIR%%/pdfarranger.ui

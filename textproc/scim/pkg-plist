@@ -1,8 +1,8 @@
 bin/scim
 bin/scim-config-agent
 bin/scim-setup
-etc/scim/config
-etc/scim/global
+/etc/scim/config
+/etc/scim/global
 include/scim-1.0/gtk/scimkeyselection.h
 include/scim-1.0/gtk/scimstringview.h
 include/scim-1.0/gtk/scimtrayicon.h

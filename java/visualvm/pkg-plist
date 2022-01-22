@@ -379,7 +379,7 @@ share/applications/visualvm.desktop
 %%DATADIR%%/visualvm/update_tracking/org-graalvm-visualvm-threaddump.xml
 %%DATADIR%%/visualvm/update_tracking/org-graalvm-visualvm-tools.xml
 %%DATADIR%%/visualvm/update_tracking/org-graalvm-visualvm-uisupport.xml
-@sample etc/visualvm.conf.sample
-@sample etc/visualvm.clusters.sample
-@sample etc/visualvm.icns.sample
+@sample /etc/visualvm.conf.sample
+@sample /etc/visualvm.clusters.sample
+@sample /etc/visualvm.icns.sample
 @dir %%DATADIR%%/platform/modules/lib/x86

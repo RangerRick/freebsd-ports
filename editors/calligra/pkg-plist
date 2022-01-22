@@ -4,11 +4,11 @@ bin/calligrasheets
 bin/calligrastage
 bin/calligrawords
 bin/karbon
-etc/xdg/calligra_stencils.knsrc
-etc/xdg/calligrasheetsrc
-etc/xdg/calligrastagerc
-etc/xdg/calligrawordsrc
-etc/xdg/karbonrc
+/etc/xdg/calligra_stencils.knsrc
+/etc/xdg/calligrasheetsrc
+/etc/xdg/calligrastagerc
+/etc/xdg/calligrawordsrc
+/etc/xdg/karbonrc
 lib/libRtfReader.so
 lib/libRtfReader.so.17
 lib/libRtfReader.so.%%SHLIB_VER%%

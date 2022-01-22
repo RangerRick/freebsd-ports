@@ -1,4 +1,4 @@
-@sample etc/digdag.conf.sample
+@sample /etc/digdag.conf.sample
 %%JAVAJARDIR%%/digdag/digdag-%%VERSION%%.jar
 bin/digdag
 @owner %%USERS%%

@@ -3,15 +3,15 @@ bin/carbon-aggregator-cache.py
 bin/carbon-cache.py
 bin/carbon-relay.py
 bin/validate-storage-schemas.py
-@sample %%ETCDIR%%/aggregation-rules.conf.example etc/carbon/aggregation-rules.conf
-@sample %%ETCDIR%%/blacklist.conf.example etc/carbon/blacklist.conf
-@sample %%ETCDIR%%/carbon.amqp.conf.example etc/carbon/carbon.amqp.conf
-@sample %%ETCDIR%%/carbon.conf.example etc/carbon/carbon.conf
-@sample %%ETCDIR%%/relay-rules.conf.example etc/carbon/relay-rules.conf
-@sample %%ETCDIR%%/rewrite-rules.conf.example etc/carbon/rewrite-rules.conf
-@sample %%ETCDIR%%/storage-aggregation.conf.example etc/carbon/storage-aggregation.conf
-@sample %%ETCDIR%%/storage-schemas.conf.example etc/carbon/storage-schemas.conf
-@sample %%ETCDIR%%/whitelist.conf.example etc/carbon/whitelist.conf
+@sample %%ETCDIR%%/aggregation-rules.conf.example /etc/carbon/aggregation-rules.conf
+@sample %%ETCDIR%%/blacklist.conf.example /etc/carbon/blacklist.conf
+@sample %%ETCDIR%%/carbon.amqp.conf.example /etc/carbon/carbon.amqp.conf
+@sample %%ETCDIR%%/carbon.conf.example /etc/carbon/carbon.conf
+@sample %%ETCDIR%%/relay-rules.conf.example /etc/carbon/relay-rules.conf
+@sample %%ETCDIR%%/rewrite-rules.conf.example /etc/carbon/rewrite-rules.conf
+@sample %%ETCDIR%%/storage-aggregation.conf.example /etc/carbon/storage-aggregation.conf
+@sample %%ETCDIR%%/storage-schemas.conf.example /etc/carbon/storage-schemas.conf
+@sample %%ETCDIR%%/whitelist.conf.example /etc/carbon/whitelist.conf
 %%PYTHON_SITELIBDIR%%/carbon/__init__.py
 %%PYTHON_SITELIBDIR%%/carbon/__init__.pyc
 %%PYTHON_SITELIBDIR%%/carbon/__init__.pyo

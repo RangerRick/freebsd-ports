@@ -642,8 +642,8 @@ bin/waver
 bin/whereami
 bin/whirlgif
 bin/xmat_tool.py
-etc/mri/afni.cshrc
-etc/mri/afni.profile
+/etc/mri/afni.cshrc
+/etc/mri/afni.profile
 include/afni/3ddata.h
 include/afni/AFNI_label.h
 include/afni/Amalloc.h

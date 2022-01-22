@@ -23,6 +23,7 @@ PKGNAMESUFFIX=	-${SUBPORT}
 .endif
 
 .if ${SUBPORT} == core
+FLAVOR=tiny
 FLAVORS=	default lite tiny
 default_CONFLICTS_INSTALL=	git-lite git-tiny
 lite_CONFLICTS_INSTALL=		git git-tiny
@@ -48,8 +49,6 @@ GROUPS=		git_daemon
 SUB_FILES=	pkg-message gitweb.conf
 
 GNU_CONFIGURE=	yes
-CPPFLAGS+=	-isystem${LOCALBASE}/include
-LDFLAGS+=	-L${LOCALBASE}/lib
 MAKE_ARGS=	DEVELOPER= NO_TCLTK=yes
 MAKE_ENV+=	V=1
 .if ${SUBPORT} == core
@@ -68,7 +67,7 @@ SHEBANG_FILES=	*.perl */*.perl */*/*.perl */*.pl */*/*.pl */*/*/*.pl \
 		templates/hooks--fsmonitor-watchman.sample
 TEST_TARGET=	test
 
-CONFIGURE_ARGS=	--enable-pthreads=-pthread ac_cv_header_libcharset_h=no
+CONFIGURE_ARGS= --sysconfdir=/etc 	--enable-pthreads=-pthread ac_cv_header_libcharset_h=no
 
 .if ${SUBPORT} == core
 
@@ -246,6 +245,7 @@ post-build-CONTRIB-on:
 	${RM} ${WRKSRC}/contrib/diff-highlight/shebang.perl
 
 post-install:
+	mkdir -p ${STAGEDIR}/etc/rc.d
 	(cd ${WRKDIR}/man1/ && \
 		${COPYTREE_SHARE} . ${STAGEDIR}${MANPREFIX}/man/man1)
 	(cd ${WRKDIR}/man5/ && \
@@ -257,9 +257,9 @@ post-install:
 		${STAGEDIR}${PREFIX}/share/emacs/site-lisp/git/
 	${INSTALL_DATA} ${WRKSRC}/contrib/emacs/git-blame.el \
 		${STAGEDIR}${PREFIX}/share/emacs/site-lisp/git/
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/bash_completion.d
+	@${MKDIR} ${STAGEDIR}/etc/bash_completion.d
 	${INSTALL_SCRIPT} ${WRKSRC}/contrib/completion/git-completion.bash \
-		${STAGEDIR}${PREFIX}/etc/bash_completion.d/
+		${STAGEDIR}/etc/bash_completion.d/
 
 post-install-HTMLDOCS-on:
 	# Manually remove the index.html symlink before installing, and then

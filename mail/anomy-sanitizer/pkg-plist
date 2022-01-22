@@ -1,6 +1,6 @@
 bin/sanitizer.pl
 bin/simplify.pl
-@sample etc/sanitizer.cfg.sample
+@sample /etc/sanitizer.cfg.sample
 %%SITE_PERL%%/Anomy/HTMLCleaner.pm
 %%SITE_PERL%%/Anomy/Log.pm
 %%SITE_PERL%%/Anomy/MIMEStream.pm

@@ -1,11 +1,11 @@
-%%DAEMON%%@sample etc/bitmarkd.conf.sample
-%%DAEMON%%etc/bitmarkd.conf.sub
-%%DAEMON%%etc/newsyslog.conf.d/bitmarkd.conf
-%%DAEMON%%etc/syslog.d/bitmarkd.conf
+%%DAEMON%%@sample /etc/bitmarkd.conf.sample
+%%DAEMON%%/etc/bitmarkd.conf.sub
+%%DAEMON%%/etc/newsyslog.conf.d/bitmarkd.conf
+%%DAEMON%%/etc/syslog.d/bitmarkd.conf
 %%DAEMON%%sbin/bitmarkd
-%%RECORDER%%@sample etc/recorderd.conf.sample
-%%RECORDER%%etc/newsyslog.conf.d/recorderd.conf
-%%RECORDER%%etc/syslog.d/recorderd.conf
+%%RECORDER%%@sample /etc/recorderd.conf.sample
+%%RECORDER%%/etc/newsyslog.conf.d/recorderd.conf
+%%RECORDER%%/etc/syslog.d/recorderd.conf
 %%RECORDER%%sbin/recorderd
 %%CLI%%bin/bitmark-cli
 %%DUMPER%%bin/bitmark-dumpdb

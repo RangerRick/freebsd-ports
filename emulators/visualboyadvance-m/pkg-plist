@@ -1,6 +1,6 @@
 %%GVBAM%%bin/gvbam
 %%SDL%%bin/vbam
-%%SDL%%@sample etc/vbam.cfg-example etc/vbam.cfg
+%%SDL%%@sample /etc/vbam.cfg-example etc/vbam.cfg
 %%GVBAM%%share/applications/gvbam.desktop
 %%GVBAM%%share/icons/hicolor/16x16/apps/vbam.png
 %%GVBAM%%share/icons/hicolor/22x22/apps/vbam.png
@@ -45,5 +45,5 @@
 %%GVBAM%%share/icons/hicolor/48x48/apps/vbam.png
 %%GVBAM%%share/icons/hicolor/64x64/apps/vbam.png
 %%GVBAM%%share/icons/hicolor/96x96/apps/vbam.png
-man/man1/vbam.1.gz
+%%MANPREFIX%%/man/man1/vbam.1.gz
 %%GVBAM%%man/man1/gvbam.1.gz

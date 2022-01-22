@@ -180,10 +180,10 @@ libdata/pkgconfig/Cutelyst3Qt5UtilsPagination.pc
 libdata/pkgconfig/Cutelyst3Qt5UtilsSql.pc
 libdata/pkgconfig/Cutelyst3Qt5UtilsValidator.pc
 libdata/pkgconfig/Cutelyst3Qt5ViewJSON.pc
-share/man/man1/cutelyst3-qt5.1.gz
-share/man/man1/cutelystd3-qt5.1.gz
-share/man/man5/Cutelyst3Qt5CSRFProtection.5.gz
-share/man/man5/Cutelyst3Qt5Session.5.gz
+%%MANPREFIX%%/man/man1/cutelyst3-qt5.1.gz
+%%MANPREFIX%%/man/man1/cutelystd3-qt5.1.gz
+%%MANPREFIX%%/man/man5/Cutelyst3Qt5CSRFProtection.5.gz
+%%MANPREFIX%%/man/man5/Cutelyst3Qt5Session.5.gz
 %%DATADIR%%3/translations/cutelystcmd.de.qm
 %%DATADIR%%3/translations/cutelystcore.de.qm
 %%DATADIR%%3/translations/cutelystwsgi.de.qm

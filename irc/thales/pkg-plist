@@ -1,5 +1,5 @@
 sbin/thales
-etc/thales.conf.default
+/etc/thales.conf.default
 %%DATADIR%%/mysql-bahamut.sql
 %%DATADIR%%/mysql-hybrid.sql
 %%DATADIR%%/mysql-ircdru.sql

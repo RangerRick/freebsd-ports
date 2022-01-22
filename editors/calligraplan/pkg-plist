@@ -1,7 +1,7 @@
 bin/calligraplan
 bin/calligraplanwork
-etc/xdg/calligraplanrc
-etc/xdg/calligraplanworkrc
+/etc/xdg/calligraplanrc
+/etc/xdg/calligraplanworkrc
 lib/libkdeinit5_calligraplan.so
 lib/libkdeinit5_calligraplanwork.so
 lib/libplankernel.so

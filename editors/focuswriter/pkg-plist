@@ -1,5 +1,5 @@
 bin/focuswriter
-man/man1/focuswriter.1.gz
+%%MANPREFIX%%/man/man1/focuswriter.1.gz
 share/metainfo/focuswriter.appdata.xml
 share/applications/focuswriter.desktop
 share/icons/hicolor/1024x1024/apps/focuswriter.png

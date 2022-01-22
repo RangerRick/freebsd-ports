@@ -1,5 +1,5 @@
 bin/analog
-@sample etc/analog.cfg.sample
+@sample /etc/analog.cfg.sample
 %%DATADIR%%/lang/README.txt
 %%DATADIR%%/lang/am.lng
 %%DATADIR%%/lang/amdom.tab
@@ -385,4 +385,4 @@ bin/analog
 %%IMGDIR%%/sq8.png
 %%IMGDIR%%/sq9.png
 %%IMGDIR%%/sqg.png
-man/man1/analog.1.gz
+%%MANPREFIX%%/man/man1/analog.1.gz

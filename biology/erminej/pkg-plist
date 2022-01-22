@@ -1,5 +1,5 @@
 bin/ermineJ
-etc/forehead.conf
+/etc/forehead.conf
 %%JAVAJARDIR%%/erminej/antlr.jar
 %%JAVAJARDIR%%/erminej/baseCode.jar
 %%JAVAJARDIR%%/erminej/colt.jar

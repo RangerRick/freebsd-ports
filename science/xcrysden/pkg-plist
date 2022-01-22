@@ -28,11 +28,11 @@ lib/xcrysden/xcrys
 lib/xcrysden/xctclsh
 lib/xcrysden/xsf2cube
 lib/xcrysden/xsf2xsf
-share/man/man1/ptable.1.gz
-share/man/man1/pwi2xsf.1.gz
-share/man/man1/pwo2xsf.1.gz
-share/man/man1/unitconv.1.gz
-share/man/man1/xcrysden.1.gz
+%%MANPREFIX%%/man/man1/ptable.1.gz
+%%MANPREFIX%%/man/man1/pwi2xsf.1.gz
+%%MANPREFIX%%/man/man1/pwo2xsf.1.gz
+%%MANPREFIX%%/man/man1/unitconv.1.gz
+%%MANPREFIX%%/man/man1/xcrysden.1.gz
 %%DATADIR%%/Awk/getOV.awk
 %%DATADIR%%/Awk/ginp.awk
 %%DATADIR%%/Awk/in1.awk

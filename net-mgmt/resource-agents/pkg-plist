@@ -1,6 +1,6 @@
-etc/ha.d/resource.d/ldirectord
-etc/ha.d/shellfuncs
-etc/logrotate.d/ldirectord
+/etc/ha.d/resource.d/ldirectord
+/etc/ha.d/shellfuncs
+/etc/logrotate.d/ldirectord
 include/heartbeat/agent_config.h
 lib/ocf/lib/heartbeat/apache-conf.sh
 lib/ocf/lib/heartbeat/findif.sh

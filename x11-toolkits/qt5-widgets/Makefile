@@ -59,6 +59,8 @@ post-build:
 		${_MAKE_JOBS} ${MAKE_ARGS} ${ALL_TARGET}
 .endfor
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/usr/share/pixmaps
 post-install:
 .for d in src/tools/uic ${MORE_WRKSRCS}
 	@cd ${WRKSRC}/${d} && \

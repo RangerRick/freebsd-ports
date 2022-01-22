@@ -42,7 +42,7 @@ SHEBANG_FILES=	shell-completion/bash/pulseaudio \
 bash_CMD=	${SETENV} bash
 SUB_FILES=	pkg-message
 
-CONFIGURE_ARGS=	--localstatedir=/var \
+CONFIGURE_ARGS= --sysconfdir=/etc	--localstatedir=/var \
 		--without-caps \
 		--disable-esound \
 		--disable-udev \
@@ -109,7 +109,7 @@ PLIST_SUB=	PULSE_VERSION=${PULSE_VERSION}
 post-patch:
 	@${REINPLACE_CMD} -e 's|/usr/share|${LOCALBASE}/share|g' \
 		${WRKSRC}/src/daemon/default.pa.in
-	@${REINPLACE_CMD} -e 's|/etc|${PREFIX}/etc|g' \
+	@${REINPLACE_CMD} -e 's|/etc|/etc|g' \
 		-e 's|--directory|-d|g' \
 		${WRKSRC}/src/utils/pa-info
 	@${REINPLACE_CMD} -e 's|-Wmissing-include-dirs||g' \
@@ -118,10 +118,10 @@ post-patch:
 pre-install-TEST-on: do-test
 
 post-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/pulse
+	@${MKDIR} ${STAGEDIR}/etc/pulse
 .for ii in default.pa daemon.conf client.conf system.pa
 	${INSTALL_DATA} ${WRKSRC}/src/${ii} \
-		${STAGEDIR}${PREFIX}/etc/pulse/${ii}.sample
+		${STAGEDIR}/etc/pulse/${ii}.sample
 .endfor
 # Delete ${STAGEDIR}${PREFIX}/libexec/pulse directory, if it's empty
 	@(cd ${STAGEDIR}${PREFIX}/libexec && \

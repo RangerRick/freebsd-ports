@@ -6,7 +6,7 @@ bin/ebstopcode
 bin/ebunzip
 bin/ebzip
 bin/ebzipinfo
-etc/eb.conf
+/etc/eb.conf
 include/eb/appendix.h
 include/eb/binary.h
 include/eb/booklist.h

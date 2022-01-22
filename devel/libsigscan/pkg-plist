@@ -1,5 +1,5 @@
 bin/sigscan
-@sample etc/sigscan.conf.sample
+@sample /etc/sigscan.conf.sample
 include/libsigscan.h
 include/libsigscan/codepage.h
 include/libsigscan/definitions.h
@@ -14,5 +14,5 @@ lib/libsigscan.so.1.0.0
 %%PYTHON_SITELIBDIR%%/pysigscan.a
 %%PYTHON_SITELIBDIR%%/pysigscan.so
 libdata/pkgconfig/libsigscan.pc
-man/man1/sigscan.1.gz
-man/man3/libsigscan.3.gz
+%%MANPREFIX%%/man/man1/sigscan.1.gz
+%%MANPREFIX%%/man/man3/libsigscan.3.gz

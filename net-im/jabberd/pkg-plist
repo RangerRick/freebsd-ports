@@ -3,14 +3,14 @@ bin/jabberd
 bin/router
 bin/s2s
 bin/sm
-@sample etc/jabberd/c2s.xml.sample
-@sample etc/jabberd/jabberd.cfg.sample
-@sample etc/jabberd/router-filter.xml.sample
-@sample etc/jabberd/router-users.xml.sample
-@sample etc/jabberd/router.xml.sample
-@sample etc/jabberd/s2s.xml.sample
-@sample etc/jabberd/sm.xml.sample
-@sample etc/jabberd/templates/roster.xml.sample
+@sample /etc/jabberd/c2s.xml.sample
+@sample /etc/jabberd/jabberd.cfg.sample
+@sample /etc/jabberd/router-filter.xml.sample
+@sample /etc/jabberd/router-users.xml.sample
+@sample /etc/jabberd/router.xml.sample
+@sample /etc/jabberd/s2s.xml.sample
+@sample /etc/jabberd/sm.xml.sample
+@sample /etc/jabberd/templates/roster.xml.sample
 %%ANON%%lib/jabberd/authreg_anon.so
 %%BDB%%lib/jabberd/authreg_db.so
 %%LDAP%%lib/jabberd/authreg_ldap.so
@@ -104,11 +104,11 @@ lib/jabberd/mod_verify.so.0.0.0
 %%MYSQL%%lib/jabberd/storage_mysql.so
 %%PGSQL%%lib/jabberd/storage_pgsql.so
 %%SQLITE%%lib/jabberd/storage_sqlite.so
-man/man8/c2s.8.gz
-man/man8/jabberd.8.gz
-man/man8/router.8.gz
-man/man8/s2s.8.gz
-man/man8/sm.8.gz
+%%MANPREFIX%%/man/man8/c2s.8.gz
+%%MANPREFIX%%/man/man8/jabberd.8.gz
+%%MANPREFIX%%/man/man8/router.8.gz
+%%MANPREFIX%%/man/man8/s2s.8.gz
+%%MANPREFIX%%/man/man8/sm.8.gz
 @dir(%%JABBER_USER%%,%%JABBER_GROUP%%,0700) %%JABBER_RUNDIR%%/db
 @dir(%%JABBER_USER%%,%%JABBER_GROUP%%,0700) %%JABBER_RUNDIR%%/logs
 @dir(%%JABBER_USER%%,%%JABBER_GROUP%%,0700) %%JABBER_RUNDIR%%/pid

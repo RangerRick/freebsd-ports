@@ -1,5 +1,5 @@
 bin/lingot
-man/man1/lingot.1.gz
+%%MANPREFIX%%/man/man1/lingot.1.gz
 share/applications/org.nongnu.lingot.desktop
 %%PORTDOCS%%%%DOCSDIR%%/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog

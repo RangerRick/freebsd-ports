@@ -1,5 +1,5 @@
 bin/jython
-etc/jython.reg
+/etc/jython.reg
 %%JYTHON_DIR%%/ACKNOWLEDGMENTS
 %%JYTHON_DIR%%/CoreExposed.includes
 %%JYTHON_DIR%%/Demo/applet/README.txt

@@ -1,4 +1,4 @@
-etc/mp3archiverc
+/etc/mp3archiverc
 %%SITE_PERL%%/MP3/Archive.pm
 %%SITE_PERL%%/MP3/Archive/Config.pm
 %%SITE_PERL%%/MP3/Archive/Format.pm

@@ -137,8 +137,8 @@ FONTNAME?=	${PORTNAME:C/.*-//g:S/type/Type/:S/ttf/TTF/:S/speedo/Speedo/}
 .    if ${_XORG_BUILDSYS} == meson
 # Put special stuff for meson here
 .    else
-CONFIGURE_ARGS+=	--with-fontrootdir=${PREFIX}/share/fonts
-CONFIGURE_ENV+=	FONTROOTDIR=${PREFIX}/share/fonts
+CONFIGURE_ARGS+=	--with-fontrootdir=/System/Library/Fonts
+CONFIGURE_ENV+=	FONTROOTDIR=/System/Library/Fonts
 .    endif
 .    if !defined(NOFONT)
 .include "${USESDIR}/fonts.mk"
@@ -171,7 +171,7 @@ CFLAGS+=	-Werror=uninitialized
 # put meson stuff here
 .    else
 CONFIGURE_ARGS+=	--with-xkb-path=${LOCALBASE}/share/X11/xkb \
-			--with-fontrootdir=${LOCALBASE}/share/fonts
+			--with-fontrootdir=/System/Library/Fonts
 libtool_ARGS?=	# empty
 .include "${USESDIR}/libtool.mk"
 .    endif

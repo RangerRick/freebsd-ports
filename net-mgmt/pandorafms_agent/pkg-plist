@@ -4,10 +4,10 @@ bin/pandora_agent_exec
 bin/pandora_revent
 %%TENTACLE_SERVER%%bin/tentacle_server
 bin/tentacle_client
-etc/rc.d/pandora_agent
+/etc/rc.d/pandora_agent
 @sample(pandora,,400) %%ETCDIR%%/pandora_agent.conf.sample
-man/man1/tentacle_client.1.gz
-man/man1/pandora_agent.1.gz
+%%MANPREFIX%%/man/man1/tentacle_client.1.gz
+%%MANPREFIX%%/man/man1/pandora_agent.1.gz
 @mode 555
 %%DATADIR%%/plugins/files_indir
 %%DATADIR%%/plugins/grep_log

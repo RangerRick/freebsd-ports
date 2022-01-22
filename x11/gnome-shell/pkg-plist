@@ -4,7 +4,7 @@ bin/gnome-shell
 bin/gnome-shell-extension-prefs
 bin/gnome-shell-extension-tool
 bin/gnome-shell-perf-tool
-etc/xdg/autostart/gnome-shell-overrides-migration.desktop
+/etc/xdg/autostart/gnome-shell-overrides-migration.desktop
 lib/gnome-shell/Gvc-1.0.typelib
 lib/gnome-shell/Shell-0.1.typelib
 lib/gnome-shell/St-1.0.typelib
@@ -18,8 +18,8 @@ libexec/gnome-shell-calendar-server
 libexec/gnome-shell-hotplug-sniffer
 libexec/gnome-shell-overrides-migration.sh
 libexec/gnome-shell-perf-helper
-man/man1/gnome-extensions.1.gz
-man/man1/gnome-shell.1.gz
+%%MANPREFIX%%/man/man1/gnome-extensions.1.gz
+%%MANPREFIX%%/man/man1/gnome-shell.1.gz
 share/applications/evolution-calendar.desktop
 share/applications/org.gnome.Extensions.desktop
 share/applications/org.gnome.Shell.Extensions.desktop

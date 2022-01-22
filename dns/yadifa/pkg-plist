@@ -1,7 +1,7 @@
-%%EXAMPLES%%etc/bash_completion.d/yadifa.sh
-%%EXAMPLES%%etc/bash_completion.d/yadifad.sh
-@sample etc/yadifad.conf.sample
-etc/yakeyrolld.conf
+%%EXAMPLES%%/etc/bash_completion.d/yadifa.sh
+%%EXAMPLES%%/etc/bash_completion.d/yadifad.sh
+@sample /etc/yadifad.conf.sample
+/etc/yakeyrolld.conf
 include/dnscore/acl-config.h
 include/dnscore/acl.h
 include/dnscore/alarm.h
@@ -234,13 +234,13 @@ include/zdb-config-features.h
 lib/libdnscore.a
 lib/libdnsdb.a
 lib/libdnslg.a
-man/man5/yadifa.conf.5.gz
-man/man5/yadifa.rc.5.gz
-man/man5/yadifad.conf.5.gz
-man/man5/yakeyrolld.conf.5.gz
-man/man8/yadifa.8.gz
-man/man8/yadifad.8.gz
-man/man8/yakeyrolld.8.gz
+%%MANPREFIX%%/man/man5/yadifa.conf.5.gz
+%%MANPREFIX%%/man/man5/yadifa.rc.5.gz
+%%MANPREFIX%%/man/man5/yadifad.conf.5.gz
+%%MANPREFIX%%/man/man5/yakeyrolld.conf.5.gz
+%%MANPREFIX%%/man/man8/yadifa.8.gz
+%%MANPREFIX%%/man/man8/yadifad.8.gz
+%%MANPREFIX%%/man/man8/yakeyrolld.8.gz
 sbin/yadifad
 sbin/yakeyrolld
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/keys.conf

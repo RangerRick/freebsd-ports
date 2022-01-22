@@ -1,4 +1,4 @@
 bin/fiz
 bin/zoo
-man/man1/fiz.1.gz
-man/man1/zoo.1.gz
+%%MANPREFIX%%/man/man1/fiz.1.gz
+%%MANPREFIX%%/man/man1/zoo.1.gz

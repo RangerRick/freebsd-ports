@@ -1,4 +1,4 @@
-@sample etc/razorback/clamav.conf.sample
+@sample /etc/razorback/clamav.conf.sample
 lib/razorback/clamavNugget.so.2.0.0
 lib/razorback/clamavNugget.so.2
 lib/razorback/clamavNugget.so

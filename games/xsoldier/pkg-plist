@@ -1,5 +1,5 @@
 @(,games,2555) bin/xsoldier
-man/man6/xsoldier.6.gz
+%%MANPREFIX%%/man/man6/xsoldier.6.gz
 @sample(,games,664) %%EXAMPLESDIR%%/xsoldier.scores /var/games/xsoldier.scores
 %%DATADIR%%/Boss1.xpm
 %%DATADIR%%/Boss2.xpm

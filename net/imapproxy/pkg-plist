@@ -1,2 +1,2 @@
 sbin/imapproxy
-etc/imapproxy.conf.dist
+/etc/imapproxy.conf.dist

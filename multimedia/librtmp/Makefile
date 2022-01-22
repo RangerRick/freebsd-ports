@@ -17,5 +17,8 @@ CFLAGS+=	-I${OPENSSLINC}
 LDFLAGS+=	-L${OPENSSLLIB}
 PATCH_WRKSRC=	${WRKDIR}/rtmpdump-c5f04a5
 WRKSRC=		${WRKDIR}/rtmpdump-c5f04a5/${PORTNAME}
+post-patch:
+	sed -i_ -e "/^mandir/s,/man,/share/man," ${WRKSRC}/Makefile
+
 
 .include <bsd.port.mk>

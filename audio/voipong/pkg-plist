@@ -1,6 +1,6 @@
 bin/voipong
 bin/voipctl
-etc/voipong/voipong.conf
+/etc/voipong/voipong.conf
 %%PORTDOCS%%%%DOCSDIR%%/users-manual/book.html
 %%PORTDOCS%%%%DOCSDIR%%/users-manual/compilation.html
 %%PORTDOCS%%%%DOCSDIR%%/users-manual/config-netfile.html

@@ -19,7 +19,7 @@ USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
 LDFLAGS+=	-lgcc
 
-CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc \
+CONFIGURE_ARGS=	--sysconfdir=/etc \
 		--with-ignore-dot \
 		--with-tty-tickets \
 		--with-env-editor \
@@ -67,7 +67,7 @@ INSULTS_CONFIGURE_ON+=	--with-all-insults
 LDAP_USE=	OPENLDAP=yes
 LDAP_CONFIGURE_ON=	--with-ldap=${PREFIX}
 SUDO_LDAP_CONF?=	ldap.conf
-LDAP_CONFIGURE_ON+=	--with-ldap-conf-file=${PREFIX}/etc/${SUDO_LDAP_CONF}
+LDAP_CONFIGURE_ON+=	--with-ldap-conf-file=/etc/${SUDO_LDAP_CONF}
 
 DISABLE_ROOT_SUDO_CONFIGURE_ON=	--disable-root-sudo
 DISABLE_AUTH_CONFIGURE_ON=	--disable-authentication
@@ -108,10 +108,11 @@ post-patch:
 		${WRKSRC}/plugins/sudoers/Makefile.in
 
 post-install:
-	${INSTALL_DATA} ${FILESDIR}/pam.conf ${STAGEDIR}${PREFIX}/etc/pam.d/sudo.default
-	${MV} ${STAGEDIR}${PREFIX}/etc/sudo.conf ${STAGEDIR}${PREFIX}/etc/sudo.conf.sample
-	${MV} ${STAGEDIR}${PREFIX}/etc/sudo_logsrvd.conf ${STAGEDIR}${PREFIX}/etc/sudo_logsrvd.conf.sample
-	${RM} ${STAGEDIR}${PREFIX}/etc/sudoers
+	mkdir -p ${STAGEDIR}/etc/pam.d
+	${INSTALL_DATA} ${FILESDIR}/pam.conf ${STAGEDIR}/etc/pam.d/sudo.default
+	${MV} ${STAGEDIR}/etc/sudo.conf ${STAGEDIR}/etc/sudo.conf.sample
+	${MV} ${STAGEDIR}/etc/sudo_logsrvd.conf ${STAGEDIR}/etc/sudo_logsrvd.conf.sample
+	${RM} ${STAGEDIR}/etc/sudoers
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/cvtsudoers
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/sudoreplay
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/sbin/sudo_logsrvd

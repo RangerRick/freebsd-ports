@@ -42,9 +42,9 @@ share/locale/sr/LC_MESSAGES/birdfont.mo
 share/locale/sv/LC_MESSAGES/birdfont.mo
 share/locale/tr/LC_MESSAGES/birdfont.mo
 share/locale/uk/LC_MESSAGES/birdfont.mo
-share/man/man1/birdfont-autotrace.1.gz
-share/man/man1/birdfont-export.1.gz
-share/man/man1/birdfont-import.1.gz
-share/man/man1/birdfont.1.gz
+%%MANPREFIX%%/man/man1/birdfont-autotrace.1.gz
+%%MANPREFIX%%/man/man1/birdfont-export.1.gz
+%%MANPREFIX%%/man/man1/birdfont-import.1.gz
+%%MANPREFIX%%/man/man1/birdfont.1.gz
 share/metainfo/birdfont.appdata.xml
 share/mime/packages/birdfont.xml

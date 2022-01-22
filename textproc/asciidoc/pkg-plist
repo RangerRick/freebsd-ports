@@ -93,6 +93,6 @@ bin/asciidoc.py
 @sample %%ETCDIR%%/xhtml11.conf.sample
 @sample %%ETCDIR%%/xhtml11-quirks.conf.sample
 %%PYTHON_SITELIBDIR%%/asciidocapi.py
-man/man1/a2x.1.gz
-man/man1/asciidoc.1.gz
-man/man1/testasciidoc.1.gz
+%%MANPREFIX%%/man/man1/a2x.1.gz
+%%MANPREFIX%%/man/man1/asciidoc.1.gz
+%%MANPREFIX%%/man/man1/testasciidoc.1.gz

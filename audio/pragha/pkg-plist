@@ -10,7 +10,7 @@ lib/pragha/plugins/notify/libnotify.so
 lib/pragha/plugins/notify/notify.plugin
 lib/pragha/plugins/tunein/libtunein.so
 lib/pragha/plugins/tunein/tunein.plugin
-man/man1/pragha.1.gz
+%%MANPREFIX%%/man/man1/pragha.1.gz
 share/appdata/pragha.appdata.xml
 share/applications/pragha.desktop
 %%DOCSDIR%%/ChangeLog

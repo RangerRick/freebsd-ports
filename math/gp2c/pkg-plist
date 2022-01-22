@@ -1,7 +1,7 @@
 bin/gp2c
 bin/gp2c-run
-man/man1/gp2c-run.1.gz
-man/man1/gp2c.1.gz
+%%MANPREFIX%%/man/man1/gp2c-run.1.gz
+%%MANPREFIX%%/man/man1/gp2c.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/gp2c.dvi
 %%PORTDOCS%%%%DOCSDIR%%/gp2c.html
 %%PORTDOCS%%%%DOCSDIR%%/gp2c.pdf

@@ -13,6 +13,6 @@ USE_XORG=	xkbfile x11
 
 CONFIGURE_ARGS=	--with-xkb-config-root=${LOCALBASE}/share/X11/xkb
 
-PLIST_FILES=	bin/setxkbmap man/man1/setxkbmap.1.gz
+PLIST_FILES=	bin/setxkbmap ${MANPREFIX}/man/man1/setxkbmap.1.gz
 
 .include <bsd.port.mk>

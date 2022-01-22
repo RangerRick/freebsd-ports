@@ -44,4 +44,4 @@ libexec/bcftools/trio-dnm2.so
 libexec/bcftools/trio-stats.so
 libexec/bcftools/trio-switch-rate.so
 libexec/bcftools/variantkey-hex.so
-man/man1/bcftools.1.gz
+%%MANPREFIX%%/man/man1/bcftools.1.gz

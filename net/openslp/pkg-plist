@@ -1,7 +1,7 @@
 bin/slptool
-@sample etc/openslp/slp.conf.sample
-@sample etc/openslp/slp.reg.sample
-@sample etc/openslp/slp.spi.sample
+@sample /etc/openslp/slp.conf.sample
+@sample /etc/openslp/slp.reg.sample
+@sample /etc/openslp/slp.spi.sample
 include/slp.h
 lib/libslp.a
 lib/libslp.so

@@ -4,8 +4,8 @@ bin/c-icap-config
 bin/c-icap-libicapapi-config
 %%BDB%%bin/c-icap-mkbdb
 bin/c-icap-stretch
-@sample etc/c-icap/c-icap.conf.sample
-@sample etc/c-icap/c-icap.magic.sample
+@sample /etc/c-icap/c-icap.conf.sample
+@sample /etc/c-icap/c-icap.magic.sample
 include/c_icap/access.h
 include/c_icap/acl.h
 include/c_icap/array.h
@@ -54,11 +54,11 @@ lib/c_icap/sys_logger.so
 lib/libicapapi.so
 lib/libicapapi.so.5
 lib/libicapapi.so.5.0.10
-man/man8/c-icap-client.8.gz
-man/man8/c-icap-config.8.gz
-man/man8/c-icap-libicapapi-config.8.gz
-man/man8/c-icap-mkbdb.8.gz
-man/man8/c-icap-stretch.8.gz
-man/man8/c-icap.8.gz
+%%MANPREFIX%%/man/man8/c-icap-client.8.gz
+%%MANPREFIX%%/man/man8/c-icap-config.8.gz
+%%MANPREFIX%%/man/man8/c-icap-libicapapi-config.8.gz
+%%MANPREFIX%%/man/man8/c-icap-mkbdb.8.gz
+%%MANPREFIX%%/man/man8/c-icap-stretch.8.gz
+%%MANPREFIX%%/man/man8/c-icap.8.gz
 @dir(%%CICAP_USER%%,%%CICAP_GROUP%%,) %%RUN_DIR%%
 @dir(%%CICAP_USER%%,%%CICAP_GROUP%%,) %%LOG_DIR%%

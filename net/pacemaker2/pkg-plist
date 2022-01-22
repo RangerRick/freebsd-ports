@@ -1,6 +1,6 @@
-etc/logrotate.d/pacemaker
-etc/sysconfig/crm_mon
-etc/sysconfig/pacemaker
+/etc/logrotate.d/pacemaker
+/etc/sysconfig/crm_mon
+/etc/sysconfig/pacemaker
 include/pacemaker/crm/cib.h
 include/pacemaker/crm/cib/cib_types.h
 include/pacemaker/crm/cib/util.h

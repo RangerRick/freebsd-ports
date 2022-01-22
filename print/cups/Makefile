@@ -18,17 +18,17 @@ GH_ACCOUNT=	OpenPrinting
 
 DESTDIRNAME=	DSTROOT
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-dnssd						\
+CONFIGURE_ARGS= --sysconfdir=/etc	--disable-dnssd						\
 		--disable-gssapi					\
 		--disable-launchd					\
 		--disable-systemd					\
 		--with-cups-user=${USERS}				\
 		--with-cups-group=${GROUPS}				\
 		--with-system-groups=wheel				\
-		--with-dbusdir="${PREFIX}/etc/dbus-1"			\
+		--with-dbusdir="/etc/dbus-1"			\
 		--with-icondir="${PREFIX}/share/icons"			\
 		--with-menudir="${DESKTOPDIR}"				\
-		--with-printcap="${PREFIX}/etc/printcap"		\
+		--with-printcap="/etc/printcap"		\
 		--with-rcdir=no						\
 		--with-optim=" "					\
 		--with-pam-module="unix"				\
@@ -94,12 +94,12 @@ CONFIGURE_ARGS+=ac_cv_search_libiconv_open=no
 post-patch:
 	@${REINPLACE_CMD} -e '/SILENT/d' ${WRKSRC}/Makedefs.in
 	@${REINPLACE_CMD} 's/usblp/ulpt/g' ${WRKSRC}/backend/usb-libusb.c
-	@${REINPLACE_CMD} -e 's|/usr/local/etc/pam.d|${LOCALBASE}/etc/pam.d|' \
+	@${REINPLACE_CMD} -e 's|/usr/local/etc/pam.d|/etc/pam.d|' \
 		-e 's/-fstack-protector//' ${WRKSRC}/configure
 	@${FIND} ${WRKSRC}/doc ${WRKSRC}/templates -type f -exec ${SED} -i '' \
 		's|http://www.cups.org|https://www.cups.org|g' {} +
 	@${REINPLACE_CMD} '/stripopt=/s/-x//' ${WRKSRC}/install-sh
-	@${REINPLACE_CMD} 's|/etc/cups|${LOCALBASE}/etc/cups|g' \
+	@${REINPLACE_CMD} 's|/etc/cups|/etc/cups|g' \
 		${WRKSRC}/man/*.[1-9]
 	@${REINPLACE_CMD} -e 's|\.default|.sample|'\
 		${WRKSRC}/cgi-bin/admin.c\
@@ -116,9 +116,10 @@ post-patch-DOCS-off:
 		-e 's|[Hh][Rr][Ee][Ff]="/*help/|href="https://www.cups.org/doc/|g' {} +
 
 post-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d ${STAGEDIR}/etc/pam.d ${STAGEDIR}/etc/devd
 	${LN} -sf lpr ${STAGEDIR}${PREFIX}/bin/lpr-cups
 	${INSTALL_DATA} ${FILESDIR}/cups.conf.sample \
-		${STAGEDIR}${PREFIX}/etc/devd
-	${INSTALL_DATA} ${FILESDIR}/cups ${STAGEDIR}${PREFIX}/etc/pam.d
+		${STAGEDIR}/etc/devd
+	${INSTALL_DATA} ${FILESDIR}/cups ${STAGEDIR}/etc/pam.d
 
 .include <bsd.port.post.mk>

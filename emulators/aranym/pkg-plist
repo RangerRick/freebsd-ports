@@ -1,7 +1,7 @@
 bin/aranym
-man/man1/aranym-jit.1.gz
-man/man1/aranym-mmu.1.gz
-man/man1/aranym.1.gz
+%%MANPREFIX%%/man/man1/aranym-jit.1.gz
+%%MANPREFIX%%/man/man1/aranym-mmu.1.gz
+%%MANPREFIX%%/man/man1/aranym.1.gz
 share/applications/aranym-jit.desktop
 share/applications/aranym-mmu.desktop
 share/applications/aranym.desktop

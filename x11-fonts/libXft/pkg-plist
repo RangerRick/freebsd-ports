@@ -6,4 +6,4 @@ lib/libXft.so
 lib/libXft.so.2
 lib/libXft.so.2.3.4
 libdata/pkgconfig/xft.pc
-man/man3/Xft.3.gz
+%%MANPREFIX%%/man/man3/Xft.3.gz

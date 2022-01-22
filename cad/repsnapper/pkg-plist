@@ -1,5 +1,5 @@
 bin/repsnapper
-@sample etc/xdg/repsnapper/repsnapper.conf.sample
+@sample /etc/xdg/repsnapper/repsnapper.conf.sample
 share/applications/repsnapper.desktop
 share/appdata/repsnapper.appdata.xml
 share/locale/en_GB/LC_MESSAGES/repsnapper.mo

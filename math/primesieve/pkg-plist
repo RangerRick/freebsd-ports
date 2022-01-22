@@ -13,4 +13,4 @@ lib/libprimesieve.so
 lib/libprimesieve.so.9
 lib/libprimesieve.so.9.7.0
 libdata/pkgconfig/primesieve.pc
-man/man1/primesieve.1.gz
+%%MANPREFIX%%/man/man1/primesieve.1.gz

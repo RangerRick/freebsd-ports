@@ -1,7 +1,7 @@
 bin/dwdiff
 bin/dwfilter
-man/man1/dwdiff.1.gz
-man/man1/dwfilter.1.gz
+%%MANPREFIX%%/man/man1/dwdiff.1.gz
+%%MANPREFIX%%/man/man1/dwfilter.1.gz
 %%NLS%%man/nl.UTF-8/man1/dwdiff.1.gz
 %%NLS%%man/nl.UTF-8/man1/dwfilter.1.gz
 %%NLS%%man/nl/man1/dwdiff.1.gz

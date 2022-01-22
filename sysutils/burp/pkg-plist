@@ -1,18 +1,18 @@
 bin/vss_strip
-@dir etc/burp/CA-client
-@sample etc/burp/CA.cnf.sample
-@dir etc/burp/autoupgrade/server/win32
-@dir etc/burp/autoupgrade/server/win64/%%PORTVERSION%%
-@sample etc/burp/burp-server.conf.sample
-@sample etc/burp/burp.conf.sample
-etc/burp/clientconfdir/incexc/example
-@sample etc/burp/clientconfdir/testclient.sample
-man/man8/bedup.8.gz
-man/man8/bsigs.8.gz
-man/man8/bsparse.8.gz
-man/man8/burp.8.gz
-man/man8/burp_ca.8.gz
-man/man8/vss_strip.8.gz
+@dir /etc/burp/CA-client
+@sample /etc/burp/CA.cnf.sample
+@dir /etc/burp/autoupgrade/server/win32
+@dir /etc/burp/autoupgrade/server/win64/%%PORTVERSION%%
+@sample /etc/burp/burp-server.conf.sample
+@sample /etc/burp/burp.conf.sample
+/etc/burp/clientconfdir/incexc/example
+@sample /etc/burp/clientconfdir/testclient.sample
+%%MANPREFIX%%/man/man8/bedup.8.gz
+%%MANPREFIX%%/man/man8/bsigs.8.gz
+%%MANPREFIX%%/man/man8/bsparse.8.gz
+%%MANPREFIX%%/man/man8/burp.8.gz
+%%MANPREFIX%%/man/man8/burp_ca.8.gz
+%%MANPREFIX%%/man/man8/vss_strip.8.gz
 sbin/bedup
 sbin/bsigs
 sbin/bsparse

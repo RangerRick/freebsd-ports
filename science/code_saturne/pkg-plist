@@ -1,6 +1,6 @@
 bin/code_saturne
 bin/ple-config
-etc/bash_completion.d/code_saturne
+/etc/bash_completion.d/code_saturne
 %%ETCDIR%%.cfg.template
 include/code_saturne/alaste.mod
 include/code_saturne/albase.mod
@@ -1613,8 +1613,8 @@ lib/libsaturne.so
 libexec/code_saturne/cs_io_dump
 libexec/code_saturne/cs_preprocess
 libexec/code_saturne/cs_solver
-man/man1/code_saturne.1.gz
-man/man1/ple-config.1.gz
+%%MANPREFIX%%/man/man1/code_saturne.1.gz
+%%MANPREFIX%%/man/man1/ple-config.1.gz
 %%DATADIR%%/COPYING
 %%DATADIR%%/batch/batch.CCC
 %%DATADIR%%/batch/batch.LSF

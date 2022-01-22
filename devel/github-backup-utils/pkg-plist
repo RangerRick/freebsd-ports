@@ -1,7 +1,7 @@
 bin/ghe-backup
 bin/ghe-host-check
 bin/ghe-restore
-@sample etc/github.backup.config.sample
+@sample /etc/github.backup.config.sample
 %%DATADIR%%/bm.sh
 %%DATADIR%%/ghe-backup-actions
 %%DATADIR%%/ghe-backup-config

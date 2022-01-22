@@ -12,4 +12,4 @@ lib/BibTool/month.rsc
 lib/BibTool/opt.rsc
 lib/BibTool/sort_fld.rsc
 lib/BibTool/tex_def.rsc
-man/man1/bibtool.1.gz
+%%MANPREFIX%%/man/man1/bibtool.1.gz

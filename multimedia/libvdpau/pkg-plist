@@ -1,4 +1,4 @@
-@sample etc/vdpau_wrapper.cfg.sample
+@sample /etc/vdpau_wrapper.cfg.sample
 include/vdpau/vdpau.h
 include/vdpau/vdpau_x11.h
 lib/libvdpau.so

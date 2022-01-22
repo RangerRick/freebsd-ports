@@ -1,6 +1,6 @@
 bin/abcde
 bin/abcde-musicbrainz-tool
 bin/cddb-tool
-@sample etc/abcde.conf.sample
-man/man1/abcde.1.gz
-man/man1/cddb-tool.1.gz
+@sample /etc/abcde.conf.sample
+%%MANPREFIX%%/man/man1/abcde.1.gz
+%%MANPREFIX%%/man/man1/cddb-tool.1.gz

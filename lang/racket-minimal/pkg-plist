@@ -1964,5 +1964,5 @@ lib/racket/compiled/usr/local/%%DATADIR%%/collects/xml/private/compiled/xexpr_rk
 %%CS%%lib/racket/racket.boot
 %%CS%%lib/racket/scheme.boot
 %%BC%%lib/racket/mzdyn3m.o
-man/man1/racket.1.gz
-man/man1/raco.1.gz
+%%MANPREFIX%%/man/man1/racket.1.gz
+%%MANPREFIX%%/man/man1/raco.1.gz

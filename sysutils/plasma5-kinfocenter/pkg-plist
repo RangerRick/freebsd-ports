@@ -1,6 +1,6 @@
 bin/kinfocenter
-etc/xdg/kcm-about-distrorc
-etc/xdg/menus/kinfocenter.menu
+/etc/xdg/kcm-about-distrorc
+/etc/xdg/menus/kinfocenter.menu
 %%QT_PLUGINDIR%%/kcm_devinfo.so
 %%QT_PLUGINDIR%%/kcm_info.so
 %%QT_PLUGINDIR%%/kcm_memory.so

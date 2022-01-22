@@ -1,4 +1,4 @@
-@sample etc/exabgp/exabgp.env.sample
+@sample /etc/exabgp/exabgp.env.sample
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/api-add-remove.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/api-announce.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/api-announcement.conf
@@ -97,5 +97,5 @@
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/run/watchdog-1.pl
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/run/watchdog-1.sh
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/run/watchdog.run
-@dir etc/exabgp
+@dir /etc/exabgp
 @postunexec if [ -d %D/%%ETCDIR%% ]; then echo "==> If you are permanently removing this port, you should do a ``rm -rf ${PKG_PREFIX}/etc/exabgp`` to remove any configuration files left."; fi

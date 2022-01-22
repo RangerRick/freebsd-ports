@@ -110,22 +110,22 @@ lib/Unreal/m_who.so
 lib/Unreal/m_whois.so
 lib/Unreal/m_whowas.so
 libexec/ircd
-@sample %%EXAMPLESDIR%%/aliases/aliases.conf etc/Unreal/aliases/aliases.conf
-@sample %%EXAMPLESDIR%%/aliases/anope.conf etc/Unreal/aliases/anope.conf
-@sample %%EXAMPLESDIR%%/aliases/atheme.conf etc/Unreal/aliases/atheme.conf
-@sample %%EXAMPLESDIR%%/aliases/auspice.conf etc/Unreal/aliases/auspice.conf
-@sample %%EXAMPLESDIR%%/aliases/cygnus.conf etc/Unreal/aliases/cygnus.conf
-@sample %%EXAMPLESDIR%%/aliases/epona.conf etc/Unreal/aliases/epona.conf
-@sample %%EXAMPLESDIR%%/aliases/generic.conf etc/Unreal/aliases/generic.conf
-@sample %%EXAMPLESDIR%%/aliases/genericstats.conf etc/Unreal/aliases/genericstats.conf
-@sample %%EXAMPLESDIR%%/aliases/ircservices.conf etc/Unreal/aliases/ircservices.conf
-@sample %%EXAMPLESDIR%%/aliases/operstats.conf etc/Unreal/aliases/operstats.conf
-@sample %%EXAMPLESDIR%%/badwords.channel.conf etc/Unreal/badwords.channel.conf
-@sample %%EXAMPLESDIR%%/badwords.message.conf etc/Unreal/badwords.message.conf
-@sample %%EXAMPLESDIR%%/badwords.quit.conf etc/Unreal/badwords.quit.conf
-@sample %%EXAMPLESDIR%%/help.conf etc/Unreal/help.conf
-@sample %%EXAMPLESDIR%%/spamfilter.conf etc/Unreal/spamfilter.conf
-@sample %%EXAMPLESDIR%%/unrealircd.conf etc/Unreal/unrealircd.conf
+@sample %%EXAMPLESDIR%%/aliases/aliases.conf /etc/Unreal/aliases/aliases.conf
+@sample %%EXAMPLESDIR%%/aliases/anope.conf /etc/Unreal/aliases/anope.conf
+@sample %%EXAMPLESDIR%%/aliases/atheme.conf /etc/Unreal/aliases/atheme.conf
+@sample %%EXAMPLESDIR%%/aliases/auspice.conf /etc/Unreal/aliases/auspice.conf
+@sample %%EXAMPLESDIR%%/aliases/cygnus.conf /etc/Unreal/aliases/cygnus.conf
+@sample %%EXAMPLESDIR%%/aliases/epona.conf /etc/Unreal/aliases/epona.conf
+@sample %%EXAMPLESDIR%%/aliases/generic.conf /etc/Unreal/aliases/generic.conf
+@sample %%EXAMPLESDIR%%/aliases/genericstats.conf /etc/Unreal/aliases/genericstats.conf
+@sample %%EXAMPLESDIR%%/aliases/ircservices.conf /etc/Unreal/aliases/ircservices.conf
+@sample %%EXAMPLESDIR%%/aliases/operstats.conf /etc/Unreal/aliases/operstats.conf
+@sample %%EXAMPLESDIR%%/badwords.channel.conf /etc/Unreal/badwords.channel.conf
+@sample %%EXAMPLESDIR%%/badwords.message.conf /etc/Unreal/badwords.message.conf
+@sample %%EXAMPLESDIR%%/badwords.quit.conf /etc/Unreal/badwords.quit.conf
+@sample %%EXAMPLESDIR%%/help.conf /etc/Unreal/help.conf
+@sample %%EXAMPLESDIR%%/spamfilter.conf /etc/Unreal/spamfilter.conf
+@sample %%EXAMPLESDIR%%/unrealircd.conf /etc/Unreal/unrealircd.conf
 %%SQLMOD%%%%ETCDIR%%/m_sqlmod.conf
 %%SQLMOD%%lib/Unreal/m_sqlmod.so
 @owner ircd

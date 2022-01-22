@@ -27,18 +27,18 @@ libexec/uconnect/logrotate.d.entry
 %%SMAIL%%libexec/uconnect/zbatchsmtp
 %%CNEWS%%libexec/uconnect/viazconnect
 %%INN%%libexec/uconnect/send-zcon
-etc/uconnect/alias
-etc/uconnect/approved
-etc/uconnect/autoeintrag.zconnect
-etc/uconnect/config
-etc/uconnect/myself.zconnect
-etc/uconnect/systems.sample
-etc/uconnect/xprogs
-etc/uconnect/zconnecthosts
+/etc/uconnect/alias
+/etc/uconnect/approved
+/etc/uconnect/autoeintrag.zconnect
+/etc/uconnect/config
+/etc/uconnect/myself.zconnect
+/etc/uconnect/systems.sample
+/etc/uconnect/xprogs
+/etc/uconnect/zconnecthosts
 @owner news
 @group dialer
-@dir etc/uconnect
-@dir etc/uconnect/systems
+@dir /etc/uconnect
+@dir /etc/uconnect/systems
 @dir /var/spool/uconnect/backin
 @dir /var/spool/uconnect/backout
 @dir /var/spool/uconnect/error

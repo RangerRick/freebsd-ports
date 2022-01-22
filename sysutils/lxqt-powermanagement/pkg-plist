@@ -1,6 +1,6 @@
 bin/lxqt-config-powermanagement
 bin/lxqt-powermanagement
-etc/xdg/autostart/lxqt-powermanagement.desktop
+/etc/xdg/autostart/lxqt-powermanagement.desktop
 share/applications/lxqt-config-powermanagement.desktop
 share/icons/hicolor/scalable/devices/laptop-lid.svg
 %%LXQT_TRANSLATIONS%%/lxqt-config-powermanagement/lxqt-config-powermanagement_ar.qm

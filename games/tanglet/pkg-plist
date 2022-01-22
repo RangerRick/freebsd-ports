@@ -1,5 +1,5 @@
 bin/tanglet
-man/man6/tanglet.6.gz
+%%MANPREFIX%%/man/man6/tanglet.6.gz
 share/applications/tanglet.desktop
 %%PORTDOCS%%%%DOCSDIR%%/CREDITS
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog

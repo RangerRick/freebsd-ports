@@ -25,7 +25,7 @@ bin/unicode2sms
 %%DATADIR%%/smstest.php
 %%DATADIR%%/sql_demo
 %%DATADIR%%/unicode2sms
-@sample etc/smsd.conf.sample
+@sample /etc/smsd.conf.sample
 @dir(%%SMSD_USER%%,%%SMSD_GROUP%%,) %%SPOOLDIR%%/incoming
 @dir(%%SMSD_USER%%,%%SMSD_GROUP%%,) %%SPOOLDIR%%/outgoing
 @dir(%%SMSD_USER%%,%%SMSD_GROUP%%,) %%SPOOLDIR%%/checked

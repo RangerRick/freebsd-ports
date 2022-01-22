@@ -10,4 +10,4 @@ lib/libuninameslist.so.1
 lib/libuninameslist.so.1.0.7
 libdata/pkgconfig/libuninameslist.pc
 %%FRENCH%%man/man3/libuninameslist-fr.3.gz
-man/man3/libuninameslist.3.gz
+%%MANPREFIX%%/man/man3/libuninameslist.3.gz

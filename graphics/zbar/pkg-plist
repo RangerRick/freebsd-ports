@@ -4,7 +4,7 @@
 %%V4L%%%%QT5%%bin/zbarcam-qt
 %%GRAPHICSMAGICK%%bin/zbarimg
 %%IMAGEMAGICK%%bin/zbarimg
-%%DBUS%%etc/dbus-1/system.d/org.linuxtv.Zbar.conf
+%%DBUS%%/etc/dbus-1/system.d/org.linuxtv.Zbar.conf
 include/zbar.h
 include/zbar/Decoder.h
 include/zbar/Exception.h

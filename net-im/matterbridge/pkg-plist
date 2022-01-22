@@ -1,2 +1,2 @@
 bin/matterbridge
-@sample(%%MATTERBRIDGE_USER%%,%%MATTERBRIDGE_GROUP%%,440) etc/matterbridge.toml.sample
+@sample(%%MATTERBRIDGE_USER%%,%%MATTERBRIDGE_GROUP%%,440) /etc/matterbridge.toml.sample

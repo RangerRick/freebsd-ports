@@ -17,10 +17,10 @@ USE_RC_SUBR=	smartd
 
 SHEBANG_FILES=	examplescripts/Example5
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-dependency-tracking \
+CONFIGURE_ARGS= --sysconfdir=/etc 	--disable-dependency-tracking \
 		--enable-sample \
 		--with-gnupg=no \
-		--with-initscriptdir=${PREFIX}/etc/rc.d \
+		--with-initscriptdir=/etc/rc.d \
 		--with-nvme-devicescan=yes
 
 SUB_FILES=	pkg-message smart
@@ -32,10 +32,12 @@ OPTIONS_DEFINE=	DOCS
 post-patch:
 	@${REINPLACE_CMD} -e 's| install-initdDATA| |' ${WRKSRC}/Makefile.in
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 post-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/periodic/daily
+	@${MKDIR} ${STAGEDIR}/etc/periodic/daily
 	${INSTALL_SCRIPT} ${WRKDIR}/smart \
-		${STAGEDIR}${PREFIX}/etc/periodic/daily
+		${STAGEDIR}/etc/periodic/daily
 	${MV} ${STAGEDIR}${DATADIR}/drivedb.h \
 		${STAGEDIR}${DATADIR}/drivedb.h.sample
 

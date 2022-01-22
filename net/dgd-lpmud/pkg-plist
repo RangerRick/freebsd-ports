@@ -1,7 +1,7 @@
 bin/lpmud-hname
 bin/lpmud-oconv
-etc/dgd-lpmud/lpmud.dgd
-etc/rc.d/dgd-lpmud.sh.sample
+/etc/dgd-lpmud/lpmud.dgd
+/etc/rc.d/dgd-lpmud.sh.sample
 @owner mud
 @group mud
 %%DATADIR%%/lpmud/ACCESS.ALLOW.example

@@ -1,6 +1,6 @@
 bin/soundtracker
 bin/soundtracker_convert_config
-man/man1/soundtracker.1.gz
+%%MANPREFIX%%/man/man1/soundtracker.1.gz
 share/appdata/soundtracker.appdata.xml
 share/applications/soundtracker.desktop
 share/locale/da/LC_MESSAGES/soundtracker.mo

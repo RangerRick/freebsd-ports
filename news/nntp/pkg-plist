@@ -1,6 +1,6 @@
-man/man1/nntpxmit.1.gz
-man/man8/nntpd.8c.gz
-man/man8/acttimes.8c.gz
+%%MANPREFIX%%/man/man1/nntpxmit.1.gz
+%%MANPREFIX%%/man/man8/nntpd.8c.gz
+%%MANPREFIX%%/man/man8/acttimes.8c.gz
 libexec/nntpd
 sbin/nntpd
 %%NEWSBIN%%/acttimes

@@ -17,8 +17,8 @@ lib/liferea/plugins/trayicon.plugin
 lib/liferea/plugins/trayicon.py
 lib/liferea/web-extension/liblifereawebextension.a
 lib/liferea/web-extension/liblifereawebextension.so
-man/man1/liferea.1.gz
-man/pl/man1/liferea.1.gz
+%%MANPREFIX%%/man/man1/liferea.1.gz
+%%MANPREFIX%%/man/pl/man1/liferea.1.gz
 share/GConf/gsettings/liferea.convert
 share/appdata/liferea.appdata.xml
 share/applications/net.sourceforge.liferea.desktop

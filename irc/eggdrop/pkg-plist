@@ -1,5 +1,5 @@
 bin/eggdrop
-etc/eggdrop.conf.sample
+/etc/eggdrop.conf.sample
 lib/eggdrop/assoc.so
 lib/eggdrop/blowfish.so
 lib/eggdrop/channels.so
@@ -15,7 +15,7 @@ lib/eggdrop/server.so
 lib/eggdrop/share.so
 lib/eggdrop/transfer.so
 lib/eggdrop/uptime.so
-man/man1/eggdrop.1.gz
+%%MANPREFIX%%/man/man1/eggdrop.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/ABOUT
 %%PORTDOCS%%%%DOCSDIR%%/BANS
 %%PORTDOCS%%%%DOCSDIR%%/BOTNET

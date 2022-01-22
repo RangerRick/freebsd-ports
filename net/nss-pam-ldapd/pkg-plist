@@ -1,4 +1,4 @@
-@sample etc/%%CONFIG%%.sample
+@sample /etc/%%CONFIG%%.sample
 %%NSS%%lib/nss_ldap.so
 %%NSS%%lib/nss_ldap.so.%%NSS_LDAP_SHMAJOR%%
 %%PAM%%lib/pam_ldap.so

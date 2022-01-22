@@ -1,8 +1,8 @@
 bin/djview
 bin/djview4
 lib/djview4/plugins/nsdejavu.so
-man/man1/djview.1.gz
-man/man1/nsdejavu.1.gz
+%%MANPREFIX%%/man/man1/djview.1.gz
+%%MANPREFIX%%/man/man1/nsdejavu.1.gz
 share/applications/djvulibre-djview4.desktop
 share/djvu/djview4/djview_cs.qm
 share/djvu/djview4/djview_de.qm

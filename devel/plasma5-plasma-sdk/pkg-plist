@@ -4,8 +4,8 @@ bin/plasmaengineexplorer
 bin/plasmathemeexplorer
 bin/plasmoidviewer
 %%QT_PLUGINDIR%%/ktexteditor/cuttlefishplugin.so
-man/man1/plasmaengineexplorer.1.gz
-man/man1/plasmoidviewer.1.gz
+%%MANPREFIX%%/man/man1/plasmaengineexplorer.1.gz
+%%MANPREFIX%%/man/man1/plasmoidviewer.1.gz
 share/applications/org.kde.cuttlefish.desktop
 share/applications/org.kde.plasma.lookandfeelexplorer.desktop
 share/applications/org.kde.plasma.themeexplorer.desktop

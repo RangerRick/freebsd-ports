@@ -75,8 +75,8 @@ lib/libextractor_common.so
 lib/libextractor_common.so.1
 lib/libextractor_common.so.1.0.0
 libdata/pkgconfig/libextractor.pc
-man/man1/extract.1.gz
-man/man3/libextractor.3.gz
+%%MANPREFIX%%/man/man1/extract.1.gz
+%%MANPREFIX%%/man/man3/libextractor.3.gz
 %%NLS%%share/locale/da/LC_MESSAGES/libextractor.mo
 %%NLS%%share/locale/de/LC_MESSAGES/libextractor.mo
 %%NLS%%share/locale/es/LC_MESSAGES/libextractor.mo

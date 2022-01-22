@@ -9,4 +9,4 @@ bin/ly
 @sample %%ETCDIR%%/config.ini.sample
 @sample %%ETCDIR%%/wsetup.sh.sample
 @sample %%ETCDIR%%/xsetup.sh.sample
-etc/pam.d/ly
+/etc/pam.d/ly

@@ -6,4 +6,4 @@ bin/xpipeman
 lib/X11/xpipescores
 @mode
 @group
-man/man6/xpipeman.6.gz
+%%MANPREFIX%%/man/man6/xpipeman.6.gz

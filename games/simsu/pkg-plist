@@ -11,7 +11,7 @@ share/icons/hicolor/48x48/apps/simsu.png
 share/icons/hicolor/512x512/apps/simsu.png
 share/icons/hicolor/64x64/apps/simsu.png
 share/icons/hicolor/scalable/apps/simsu.svg
-share/man/man6/simsu.6.gz
+%%MANPREFIX%%/man/man6/simsu.6.gz
 share/metainfo/simsu.appdata.xml
 %%NLS%%%%DATADIR%%/translations/simsu_bg.qm
 %%NLS%%%%DATADIR%%/translations/simsu_ca.qm

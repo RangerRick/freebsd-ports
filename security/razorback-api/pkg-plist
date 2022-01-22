@@ -1,5 +1,5 @@
-@sample etc/razorback/api.conf.sample
-@sample etc/razorback/magic.sample
+@sample /etc/razorback/api.conf.sample
+@sample /etc/razorback/magic.sample
 include/razorback.h
 include/razorback/api.h
 include/razorback/block.h

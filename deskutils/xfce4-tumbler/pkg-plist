@@ -1,4 +1,4 @@
-etc/xdg/tumbler/tumbler.rc
+/etc/xdg/tumbler/tumbler.rc
 include/tumbler-1/tumbler/tumbler-abstract-thumbnailer.h
 include/tumbler-1/tumbler/tumbler-cache-plugin.h
 include/tumbler-1/tumbler/tumbler-cache.h

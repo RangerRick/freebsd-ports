@@ -14,6 +14,6 @@ lib/liboggkate.so.1
 lib/liboggkate.so.1.2.2
 libdata/pkgconfig/kate.pc
 libdata/pkgconfig/oggkate.pc
-man/man1/katalyzer.1.gz
-man/man1/katedec.1.gz
-man/man1/kateenc.1.gz
+%%MANPREFIX%%/man/man1/katalyzer.1.gz
+%%MANPREFIX%%/man/man1/katedec.1.gz
+%%MANPREFIX%%/man/man1/kateenc.1.gz

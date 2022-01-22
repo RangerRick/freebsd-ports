@@ -56,7 +56,7 @@ RUN_DEPENDS+=	mkfontscale:x11-fonts/mkfontscale
 .endif
 
 FONTNAME?=	${PORTNAME}
-FONTSDIR?=	${PREFIX}/share/fonts/${FONTNAME}
+FONTSDIR?=	/System/Library/Fonts/${FONTNAME}
 .if !empty(fonts_ARGS:Nnone)
 PLIST_FILES+=	"@${fonts_ARGS} ${FONTSDIR}"
 .endif

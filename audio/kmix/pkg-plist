@@ -1,8 +1,8 @@
 bin/kmix
 bin/kmixctrl
 bin/kmixremote
-etc/xdg/autostart/kmix_autostart.desktop
-etc/xdg/autostart/restore_kmix_volumes.desktop
+/etc/xdg/autostart/kmix_autostart.desktop
+/etc/xdg/autostart/restore_kmix_volumes.desktop
 lib/libkmixcore.so.5
 lib/libkmixcore.so.%%KDE_APPLICATIONS_VERSION%%
 %%QT_PLUGINDIR%%/kf5/kded/kmixd.so

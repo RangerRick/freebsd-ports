@@ -1,7 +1,7 @@
 bin/tarantool
 bin/tarantoolctl
-etc/tarantool/default/tarantool
-etc/tarantool/instances.available/example.lua
+/etc/tarantool/default/tarantool
+/etc/tarantool/instances.available/example.lua
 include/tarantool/lauxlib.h
 include/tarantool/lmisclib.h
 include/tarantool/lua.h
@@ -10,8 +10,8 @@ include/tarantool/luaconf.h
 include/tarantool/luajit.h
 include/tarantool/lualib.h
 include/tarantool/module.h
-man/man1/tarantool.1.gz
-man/man1/tarantoolctl.1.gz
+%%MANPREFIX%%/man/man1/tarantool.1.gz
+%%MANPREFIX%%/man/man1/tarantoolctl.1.gz
 %%DATADIR%%/luarocks/admin/cache.lua
 %%DATADIR%%/luarocks/admin/cmd/add.lua
 %%DATADIR%%/luarocks/admin/cmd/make_manifest.lua

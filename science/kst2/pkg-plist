@@ -80,5 +80,5 @@ share/icons/hicolor/64x64/apps/kst.png
 share/icons/hicolor/64x64/mimetypes/application-x-kst.png
 share/icons/hicolor/scalable/apps/kst.svg
 share/icons/hicolor/scalable/mimetypes/application-x-kst.svg
-share/man/man1/kst2.1.gz
+%%MANPREFIX%%/man/man1/kst2.1.gz
 share/mime/packages/x-kst.xml

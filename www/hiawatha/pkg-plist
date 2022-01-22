@@ -16,10 +16,10 @@ bin/ssi-cgi
 %%LEFH%%lib/hiawatha/letsencrypt/openssl.conf
 %%LEFH%%lib/hiawatha/letsencrypt/rsa.php
 %%CGIWRAPPER%%man/man1/cgi-wrapper.1.gz
-man/man1/hiawatha.1.gz
+%%MANPREFIX%%/man/man1/hiawatha.1.gz
 %%LEFH%%man/man1/lefh.1.gz
-man/man1/ssi-cgi.1.gz
-man/man1/wigwam.1.gz
+%%MANPREFIX%%/man/man1/ssi-cgi.1.gz
+%%MANPREFIX%%/man/man1/wigwam.1.gz
 %%CGIWRAPPER%%sbin/cgi-wrapper
 sbin/hiawatha
 %%LEFH%%sbin/lefh

@@ -5,4 +5,4 @@ lib/liborcania.so
 lib/liborcania.so.2.2
 lib/liborcania.so.2.2.1
 libdata/pkgconfig/liborcania.pc
-man/man1/base64url.1.gz
+%%MANPREFIX%%/man/man1/base64url.1.gz

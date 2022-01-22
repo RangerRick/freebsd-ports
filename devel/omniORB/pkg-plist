@@ -8,7 +8,7 @@ bin/omniNames
 bin/omnicpp
 bin/omniidl
 bin/omniidlrun.py
-@sample etc/omniORB.cfg.sample
+@sample /etc/omniORB.cfg.sample
 include/COS/COS_sysdep.h
 include/COS/CosEventChannelAdmin.hh
 include/COS/CosEventComm.hh
@@ -255,14 +255,14 @@ libdata/pkgconfig/omniORB4.pc
 libdata/pkgconfig/omniZIOP4.pc
 libdata/pkgconfig/omniZIOPDynamic4.pc
 libdata/pkgconfig/omnithread3.pc
-man/man1/catior.1.gz
-man/man1/convertior.1.gz
-man/man1/genior.1.gz
-man/man1/nameclt.1.gz
-man/man8/omniMapper.8.gz
-man/man8/omniNames.8.gz
-man/man1/omnicpp.1.gz
-man/man1/omniidl.1.gz
+%%MANPREFIX%%/man/man1/catior.1.gz
+%%MANPREFIX%%/man/man1/convertior.1.gz
+%%MANPREFIX%%/man/man1/genior.1.gz
+%%MANPREFIX%%/man/man1/nameclt.1.gz
+%%MANPREFIX%%/man/man8/omniMapper.8.gz
+%%MANPREFIX%%/man/man8/omniNames.8.gz
+%%MANPREFIX%%/man/man1/omnicpp.1.gz
+%%MANPREFIX%%/man/man1/omniidl.1.gz
 %%PYTHON2%%%%PYTHON_SITELIBDIR%%/_omniidlmodule.so
 %%PYTHON2%%%%PYTHON_SITELIBDIR%%/_omniidlmodule.so.4
 %%PYTHON2%%%%PYTHON_SITELIBDIR%%/_omniidlmodule.so.4.2

@@ -1,5 +1,5 @@
 bin/datagrip
-man/man1/datagrip.1.gz
+%%MANPREFIX%%/man/man1/datagrip.1.gz
 share/applications/datagrip.desktop
 %%DATADIR%%/Install-Linux-tar.txt
 %%DATADIR%%/bin/brokenPlugins.db

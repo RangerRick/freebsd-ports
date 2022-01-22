@@ -20,7 +20,7 @@ lib/libexec/rkward.rbackend
 %%INSTTEST%%lib/R/library/rkwardtests/R/rkwardtests
 %%INSTTEST%%lib/R/library/rkwardtests/R/rkwardtests.rdb
 %%INSTTEST%%lib/R/library/rkwardtests/R/rkwardtests.rdx
-man/man1/rkward.1.gz
+%%MANPREFIX%%/man/man1/rkward.1.gz
 share/applications/org.kde.rkward.desktop
 %%PORTDOCS%%%%DOCSDIR%%/index.cache.bz2
 %%PORTDOCS%%%%DOCSDIR%%/index.docbook

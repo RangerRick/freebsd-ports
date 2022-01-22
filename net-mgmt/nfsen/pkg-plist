@@ -2,7 +2,7 @@ bin/testPlugin
 bin/nfsend
 bin/nfsen
 bin/RebuildHierarchy.pl
-@sample etc/nfsen-dist.conf etc/nfsen.conf
+@sample /etc/nfsen-dist.conf etc/nfsen.conf
 libexec/%%PORTNAME%%/plugins/smily.jpg
 libexec/%%PORTNAME%%/plugins/demoplugin.pm
 libexec/%%PORTNAME%%/RRDconvertv1.pm

@@ -4,8 +4,8 @@ bin/chipcard-tool
 bin/geldkarte
 bin/kvkcard
 bin/memcard
-etc/chipcard/chipcardc.conf.default
-@sample etc/chipcard/chipcardc.conf.example etc/chipcard/chipcardc.conf
+/etc/chipcard/chipcardc.conf.default
+@sample /etc/chipcard/chipcardc.conf.example etc/chipcard/chipcardc.conf
 include/libchipcard5/chipcard/card.h
 include/libchipcard5/chipcard/card_imp.h
 include/libchipcard5/chipcard/card_l.h

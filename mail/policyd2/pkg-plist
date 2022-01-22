@@ -1,6 +1,6 @@
 bin/cbpadmin
 bin/cbpolicyd
-@sample etc/cluebringer.conf.sample
+@sample /etc/cluebringer.conf.sample
 %%SITE_PERL%%/cbp/cache.pm
 %%SITE_PERL%%/cbp/config.pm
 %%SITE_PERL%%/cbp/dbilayer.pm

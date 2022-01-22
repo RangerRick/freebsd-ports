@@ -1,5 +1,5 @@
 bin/nzbget
-@sample etc/nzbget.conf.sample
+@sample /etc/nzbget.conf.sample
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog
 %%PORTDOCS%%%%DOCSDIR%%/COPYING
 %%PORTDOCS%%%%DOCSDIR%%/README

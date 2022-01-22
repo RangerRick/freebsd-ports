@@ -6,9 +6,9 @@ arpwatch/euppertolower.awk
 arpwatch/massagevendor
 arpwatch/p.awk
 arpwatch/update-ethercodes
-etc/rc.d/arpwatch
-man/man8/arpsnmp.8.gz
-man/man8/arpwatch.8.gz
+/etc/rc.d/arpwatch
+%%MANPREFIX%%/man/man8/arpsnmp.8.gz
+%%MANPREFIX%%/man/man8/arpwatch.8.gz
 sbin/arpsnmp
 sbin/arpwatch
 @touch arpwatch/arp.dat

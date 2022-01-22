@@ -1,7 +1,7 @@
 bin/ja2
 bin/ja2-launcher
 bin/ja2-resource-pack
-man/man6/ja2.6.gz
+%%MANPREFIX%%/man/man6/ja2.6.gz
 share/applications/ja2-stracciatella.desktop
 share/icons/hicolor/scalable/apps/ja2-stracciatella.svg
 %%DATADIR%%/externalized/ammo_types.json

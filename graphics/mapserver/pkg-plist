@@ -8,7 +8,7 @@ bin/shptreetst
 bin/shptreevis
 bin/sortshp
 bin/tile4ms
-%%PHP%%etc/php/ext-20-php_mapscript.ini
+%%PHP%%/etc/php/ext-20-php_mapscript.ini
 lib/libmapserver.so
 lib/libmapserver.so.2
 lib/libmapserver.so.7.6.4

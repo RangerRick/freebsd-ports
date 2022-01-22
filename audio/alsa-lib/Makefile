@@ -40,7 +40,9 @@ post-patch:
 	@${REINPLACE_CMD} 's|%%PREFIX%%|${PREFIX}|g' \
 		${WRKSRC}/src/conf/alsa.conf
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc
 post-install:
-	${INSTALL_DATA} ${FILESDIR}/asound.conf.sample ${STAGEDIR}${PREFIX}/etc
+	${INSTALL_DATA} ${FILESDIR}/asound.conf.sample ${STAGEDIR}/etc
 
 .include <bsd.port.mk>

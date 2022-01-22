@@ -1401,6 +1401,6 @@ lib/libQuantLib.so.0
 lib/libQuantLib.so.0.0.0
 lib/libQuantLib.a
 libdata/pkgconfig/quantlib.pc
-man/man1/quantlib-config.1.gz
-man/man1/quantlib-test-suite.1.gz
+%%MANPREFIX%%/man/man1/quantlib-config.1.gz
+%%MANPREFIX%%/man/man1/quantlib-test-suite.1.gz
 share/aclocal/quantlib.m4

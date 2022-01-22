@@ -1,6 +1,6 @@
 bin/massxpert
-man/man1/massxpert.1.gz
-man/man7/massxpert-data.7.gz
+%%MANPREFIX%%/man/man1/massxpert.1.gz
+%%MANPREFIX%%/man/man7/massxpert-data.7.gz
 share/applications/massxpert.desktop
 %%DATADIR%%/chem_pad.conf
 %%DATADIR%%/dictionaries/codon-to-protein-1.dic

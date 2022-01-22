@@ -30,7 +30,7 @@ share/applications/gnomint.desktop
 %%DATADIR%%/preferences_dialog.ui
 %%DATADIR%%/sign.png
 share/mime/packages/gnomint.xml
-etc/gconf/schemas/gnomint.schemas
+/etc/gconf/schemas/gnomint.schemas
 %%NLS%%share/locale/ca/LC_MESSAGES/gnomint.mo
 %%NLS%%share/locale/cs/LC_MESSAGES/gnomint.mo
 %%NLS%%share/locale/de/LC_MESSAGES/gnomint.mo

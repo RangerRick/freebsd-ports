@@ -44,8 +44,8 @@ do-build:
 do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/${CERTDIR}
 	${INSTALL_DATA} ${WRKDIR}/ca-root-nss.crt ${STAGEDIR}${PREFIX}/${CERTDIR}
-	${MKDIR} ${STAGEDIR}${PREFIX}/etc/ssl
-	${LN} -sf ../../${CERTDIR}/ca-root-nss.crt ${STAGEDIR}${PREFIX}/etc/ssl/cert.pem.sample
+	${MKDIR} ${STAGEDIR}/etc/ssl
+	${LN} -sf ../../${CERTDIR}/ca-root-nss.crt ${STAGEDIR}/etc/ssl/cert.pem.sample
 	${MKDIR} ${STAGEDIR}${PREFIX}/openssl
 	${LN} -sf ../${CERTDIR}/ca-root-nss.crt ${STAGEDIR}${PREFIX}/openssl/cert.pem.sample
 

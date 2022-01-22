@@ -1,5 +1,5 @@
 bin/wdiff
-man/man1/wdiff.1.gz
+%%MANPREFIX%%/man/man1/wdiff.1.gz
 %%NLS%%share/locale/af/LC_MESSAGES/wdiff-gnulib.mo
 %%NLS%%share/locale/be/LC_MESSAGES/wdiff-gnulib.mo
 %%NLS%%share/locale/bg/LC_MESSAGES/wdiff-gnulib.mo

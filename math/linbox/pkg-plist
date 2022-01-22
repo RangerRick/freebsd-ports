@@ -432,7 +432,7 @@ lib/liblinbox.so
 lib/liblinbox.so.0
 lib/liblinbox.so.0.0.0
 libdata/pkgconfig/linbox.pc
-man/man1/linbox-config.1.gz
+%%MANPREFIX%%/man/man1/linbox-config.1.gz
 %%DOXYGEN%%%%DOCSDIR%%/linbox-dev-html/index.html
 %%DOXYGEN%%%%DOCSDIR%%/linbox-html/AUTHORS
 %%DOXYGEN%%%%DOCSDIR%%/linbox-html/COPYING

@@ -173,4 +173,4 @@ libexec/kak/kak
 %%DATADIR%%/rc/windowing/tmux.kak
 %%DATADIR%%/rc/windowing/wayland.kak
 %%DATADIR%%/rc/windowing/x11.kak
-share/man/man1/kak.1.gz
+%%MANPREFIX%%/man/man1/kak.1.gz

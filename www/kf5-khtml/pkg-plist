@@ -1,4 +1,4 @@
-etc/xdg/khtmlrc
+/etc/xdg/khtmlrc
 include/KF5/KHtml/KHTMLPart
 include/KF5/KHtml/KHTMLSettings
 include/KF5/KHtml/KHTMLView

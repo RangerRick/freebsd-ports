@@ -1,4 +1,4 @@
-etc/xdg/autostart/powerdevil.desktop
+/etc/xdg/autostart/powerdevil.desktop
 lib/libexec/kauth/backlighthelper
 lib/libexec/kauth/chargethresholdhelper
 lib/libexec/kauth/discretegpuhelper

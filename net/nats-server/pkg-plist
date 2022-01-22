@@ -1,5 +1,5 @@
 bin/nats-server
-@sample etc/nats.conf.sample
+@sample /etc/nats.conf.sample
 %%PORTDOCS%%%%DOCSDIR%%/README.md
 %%PORTDOCS%%%%DOCSDIR%%/configs/accounts.conf
 %%PORTDOCS%%%%DOCSDIR%%/configs/authorization.conf

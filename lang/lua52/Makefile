@@ -40,7 +40,7 @@ MAKE_ARGS+=	MYCFLAGS="${CFLAGS} ${CPPFLAGS} -DLUA_USE_LINUX" \
 		TO_LIB="liblua-${LUA_VER}.a liblua-${LUA_VER}.so" \
 		INSTALL_TOP=${STAGEDIR}${PREFIX} \
 		INSTALL_INC=${STAGEDIR}${PREFIX}/include/lua52 \
-		INSTALL_EXEC="${INSTALL_PROGRAM}"
+		INSTALL_MAN=${STAGEDIR}${MANPREFIX}/man/man1 INSTALL_EXEC="${INSTALL_PROGRAM}"
 
 SUB_FILES=	lua-${LUA_VER}.pc
 SUB_LIST=	version=${PORTVERSION} \
@@ -60,10 +60,10 @@ post-patch:
 
 post-install:
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/lib/liblua-${LUA_VER}.so
-	@${MV} ${STAGEDIR}${PREFIX}/man/man1/lua.1 \
-		${STAGEDIR}${PREFIX}/man/man1/lua52.1
-	@${MV} ${STAGEDIR}${PREFIX}/man/man1/luac.1 \
-		${STAGEDIR}${PREFIX}/man/man1/luac52.1
+	@${MV} ${STAGEDIR}${MANPREFIX}/man/man1/lua.1 \
+		${STAGEDIR}${MANPREFIX}/man/man1/lua52.1
+	@${MV} ${STAGEDIR}${MANPREFIX}/man/man1/luac.1 \
+		${STAGEDIR}${MANPREFIX}/man/man1/luac52.1
 	${INSTALL_DATA} ${WRKDIR}/lua-${LUA_VER}.pc \
 		${STAGEDIR}${PREFIX}/libdata/pkgconfig
 

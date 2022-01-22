@@ -17,5 +17,8 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 WRKSRC=		${WRKDIR}/gsm-1.0-pl19
 
 USE_LDCONFIG=	yes
+post-patch:
+	sed -i_ -e "s,/man/man,/share/man/man," ${WRKSRC}/Makefile
+
 
 .include <bsd.port.mk>

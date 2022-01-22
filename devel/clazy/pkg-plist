@@ -84,4 +84,4 @@ lib/ClazyPlugin.so
 %%PORTDOCS%%%%DOCSDIR%%/manuallevel/README-qt4-qstring-from-array.md
 %%PORTDOCS%%%%DOCSDIR%%/manuallevel/README-raw-environment-function.md
 %%PORTDOCS%%%%DOCSDIR%%/manuallevel/README-tr-non-literal.md
-man/man1/clazy.1.gz
+%%MANPREFIX%%/man/man1/clazy.1.gz

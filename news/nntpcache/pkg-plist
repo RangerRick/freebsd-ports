@@ -19,8 +19,8 @@ libexec/nntpcache-gdb.sh
 libexec/nntpcache.gdb
 libexec/nntpcached.debug
 @(root,news,4550) libexec/unixauth
-man/man8/newshound.8.gz
-man/man8/nntpcached.8.gz
+%%MANPREFIX%%/man/man8/newshound.8.gz
+%%MANPREFIX%%/man/man8/nntpcached.8.gz
 sbin/innreport.sh
 sbin/newshound
 sbin/newshound.pl

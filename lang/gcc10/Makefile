@@ -134,6 +134,8 @@ full-regression-test: build
 	; ${WRKSRC}/contrib/test_summary
 .endif
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
 post-stage:
 	${RM} ${STAGEDIR}${PREFIX}/man/man7/*
 	${RM} -r ${STAGEDIR}${TARGLIB}/gcc/*/${GCC_VERSION}/include-fixed/

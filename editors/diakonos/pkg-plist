@@ -1,6 +1,6 @@
 bin/diakonos
-@sample etc/diakonos.conf.sample
-@sample etc/diakonos-256-colour.conf.sample
+@sample /etc/diakonos.conf.sample
+@sample /etc/diakonos-256-colour.conf.sample
 %%RUBY_SITELIBDIR%%/diakonos.rb
 %%RUBY_SITELIBDIR%%/diakonos/about.rb
 %%RUBY_SITELIBDIR%%/diakonos/bookmark.rb

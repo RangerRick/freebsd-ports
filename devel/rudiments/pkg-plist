@@ -267,4 +267,4 @@ lib/librudiments.so
 lib/librudiments.so.6
 lib/librudiments.so.6.0.1
 libdata/pkgconfig/rudiments.pc
-man/man1/rudiments-config.1.gz
+%%MANPREFIX%%/man/man1/rudiments-config.1.gz

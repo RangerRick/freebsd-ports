@@ -1,6 +1,6 @@
 @owner www
 @group www
-etc/exilog.conf-dist
+/etc/exilog.conf-dist
 @owner
 @group
 %%AGENT%%sbin/exilog_agent.pl

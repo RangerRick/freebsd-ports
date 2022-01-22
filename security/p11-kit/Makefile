@@ -45,7 +45,7 @@ TEST_MESON_TRUE=	test
 
 post-install:
 	${MKDIR} ${STAGEDIR}${EXAMPLESDIR}
-	${MV} ${STAGEDIR}${PREFIX}/etc/pkcs11/pkcs11.conf.example ${STAGEDIR}${EXAMPLESDIR}
-	${RMDIR} ${STAGEDIR}${PREFIX}/etc/pkcs11
+	${MV} ${STAGEDIR}/etc/pkcs11/pkcs11.conf.example ${STAGEDIR}${EXAMPLESDIR}
+	${RMDIR} ${STAGEDIR}/etc/pkcs11
 
 .include <bsd.port.mk>

@@ -11,8 +11,8 @@ bin/vmware-toolbox-cmd
 %%X11%%bin/vmware-user-suid-wrapper
 %%FUSE%%bin/vmware-vmblock-fuse
 bin/vmware-xferlogs
-etc/pam.d/vmtoolsd
-%%X11%%etc/xdg/autostart/vmware-user.desktop
+/etc/pam.d/vmtoolsd
+%%X11%%/etc/xdg/autostart/vmware-user.desktop
 include/vmGuestLib/includeCheck.h
 include/vmGuestLib/vmGuestLib.h
 include/vmGuestLib/vmSessionId.h

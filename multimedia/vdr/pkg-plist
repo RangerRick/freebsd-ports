@@ -13,8 +13,8 @@ lib/vdr/libvdr-svdrpdemo.so.1.7.29
 lib/vdr/libvdr-epgtableid0.so.1.7.29
 lib/vdr/libvdr-rcu.so.1.7.29
 libdata/pkgconfig/vdr.pc
-man/man1/vdr.1.gz
-man/man5/vdr.5.gz
+%%MANPREFIX%%/man/man1/vdr.1.gz
+%%MANPREFIX%%/man/man5/vdr.5.gz
 %%NLS%%share/locale/ar/LC_MESSAGES/vdr.mo
 %%NLS%%share/locale/es_ES/LC_MESSAGES/vdr.mo
 %%NLS%%share/locale/es_ES/LC_MESSAGES/vdr-hello.mo
@@ -141,12 +141,12 @@ include/vdr/tools.h
 include/vdr/transfer.h
 include/vdr/videodir.h
 %%TTXPATCH%%include/vdr/vdrttxtsubshooks.h
-@dir(%%VDR_USER%%,%%VDR_GROUP%%,) etc/vdr/plugins
-@sample etc/vdr/remote.conf.sample
-@sample etc/vdr/channels.conf.sample
-@sample etc/vdr/diseqc.conf.sample
-@sample etc/vdr/keymacros.conf.sample
-@sample etc/vdr/scr.conf.sample
-@sample etc/vdr/sources.conf.sample
-@sample etc/vdr/svdrphosts.conf.sample
+@dir(%%VDR_USER%%,%%VDR_GROUP%%,) /etc/vdr/plugins
+@sample /etc/vdr/remote.conf.sample
+@sample /etc/vdr/channels.conf.sample
+@sample /etc/vdr/diseqc.conf.sample
+@sample /etc/vdr/keymacros.conf.sample
+@sample /etc/vdr/scr.conf.sample
+@sample /etc/vdr/sources.conf.sample
+@sample /etc/vdr/svdrphosts.conf.sample
 @unexec echo "Warning: If you will *NOT* use this package anymore, please remove the vdr user and group manually."

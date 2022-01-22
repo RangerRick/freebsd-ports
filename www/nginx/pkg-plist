@@ -97,6 +97,6 @@ share/vim/vimfiles/indent/nginx.vim
 share/vim/vimfiles/syntax/nginx.vim
 @dir %%NGINX_TMPDIR%%
 @dir %%NGINX_LOGDIR%%
-man/man8/nginx.8.gz
+%%MANPREFIX%%/man/man8/nginx.8.gz
 %%HTTP_PERL%%%%SITE_ARCH%%/auto/nginx/nginx.so
 %%HTTP_PERL%%%%SITE_ARCH%%/nginx.pm

@@ -2803,9 +2803,9 @@ share/applications/denemo.desktop
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/TemperamentShiftingPlayback.denemo
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/TextPosition.denemo
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/Upbeat.denemo
-share/fonts/truetype/denemo/Denemo.ttf
-share/fonts/truetype/denemo/emmentaler.ttf
-share/fonts/truetype/denemo/feta.ttf
+/System/Library/Fonts/truetype/denemo/Denemo.ttf
+/System/Library/Fonts/truetype/denemo/emmentaler.ttf
+/System/Library/Fonts/truetype/denemo/feta.ttf
 share/locale/ca/LC_MESSAGES/denemo.mo
 share/locale/cs/LC_MESSAGES/denemo.mo
 share/locale/da/LC_MESSAGES/denemo.mo

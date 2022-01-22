@@ -1,8 +1,8 @@
 bin/mrxvt
-etc/mrxvt/default.menu.sample
-etc/mrxvt/mrxvtrc.sample
-etc/mrxvt/submenus.menu.sample
-man/man1/mrxvt.1.gz
+/etc/mrxvt/default.menu.sample
+/etc/mrxvt/mrxvtrc.sample
+/etc/mrxvt/submenus.menu.sample
+%%MANPREFIX%%/man/man1/mrxvt.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/README.greek
 %%PORTDOCS%%%%DOCSDIR%%/README.menu
 %%PORTDOCS%%%%DOCSDIR%%/README.xvt

@@ -1,4 +1,4 @@
-etc/libmap.d/mesa.conf
+/etc/libmap.d/mesa.conf
 include/EGL/eglextchromium.h
 include/EGL/eglmesaext.h
 @comment include/GL/internal/dri_interface.h

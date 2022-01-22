@@ -1,16 +1,16 @@
-@sample etc/nagios/%%PORTNAME%%/access.conf.sample
-@sample etc/nagios/%%PORTNAME%%/datasetdb.conf.sample
-@sample etc/nagios/%%PORTNAME%%/groupdb.conf.sample
-@sample etc/nagios/%%PORTNAME%%/hostdb.conf.sample
-@sample etc/nagios/%%PORTNAME%%/labels.conf.sample
-@sample etc/nagios/%%PORTNAME%%/map.sample
-@sample etc/nagios/%%PORTNAME%%/%%PORTNAME%%.conf.sample
-@sample etc/nagios/%%PORTNAME%%/%%PORTNAME%%_de.conf.sample
-@sample etc/nagios/%%PORTNAME%%/%%PORTNAME%%_es.conf.sample
-@sample etc/nagios/%%PORTNAME%%/%%PORTNAME%%_fr.conf.sample
-etc/nagios/%%PORTNAME%%/ngshared.pm
-@sample etc/nagios/%%PORTNAME%%/rrdopts.conf.sample
-@sample etc/nagios/%%PORTNAME%%/servdb.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/access.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/datasetdb.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/groupdb.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/hostdb.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/labels.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/map.sample
+@sample /etc/nagios/%%PORTNAME%%/%%PORTNAME%%.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/%%PORTNAME%%_de.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/%%PORTNAME%%_es.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/%%PORTNAME%%_fr.conf.sample
+/etc/nagios/%%PORTNAME%%/ngshared.pm
+@sample /etc/nagios/%%PORTNAME%%/rrdopts.conf.sample
+@sample /etc/nagios/%%PORTNAME%%/servdb.conf.sample
 libexec/%%PORTNAME%%/insert.pl
 %%PORTDOCS%%%%DOCSDIR%%/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/CHANGELOG

@@ -31,8 +31,8 @@ VERSION=	1.8.0
 LIBVERSION=	0.4800.11
 PLIST_SUB+=     VERSION=${VERSION} LIBVERSION=${LIBVERSION}
 
-FONTSCALE=	${LOCALBASE}/share/fonts/TTF/luximb.ttf
-FONTENCOD=	${LOCALBASE}/share/fonts/encodings/encodings.dir
+FONTSCALE=	/System/Library/Fonts/TTF/luximb.ttf
+FONTENCOD=	/System/Library/Fonts/encodings/encodings.dir
 
 OPTIONS_SUB=	yes
 OPTIONS_DEFINE=	X11 DOCS MANPAGES

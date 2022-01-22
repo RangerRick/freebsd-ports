@@ -165,7 +165,7 @@
 %%DATADIR%%/vi.words
 %%DATADIR%%/workman_us.kbd
 bin/klavaro
-man/man1/klavaro.1.gz
+%%MANPREFIX%%/man/man1/klavaro.1.gz
 share/appdata/klavaro.appdata.xml
 share/applications/klavaro.desktop
 share/icons/hicolor/16x16/apps/klavaro.png

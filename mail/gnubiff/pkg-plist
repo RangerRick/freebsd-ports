@@ -1,5 +1,5 @@
 bin/gnubiff
-man/man1/gnubiff.1.gz
+%%MANPREFIX%%/man/man1/gnubiff.1.gz
 share/applications/gnubiff.desktop
 %%NLS%%share/locale/cs/LC_MESSAGES/gnubiff.mo
 %%NLS%%share/locale/de/LC_MESSAGES/gnubiff.mo

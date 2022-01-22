@@ -54,7 +54,7 @@ lib/qbs/plugins/libqbs_qt_scanner.so
 lib/qbs/plugins/libvisualstudiogenerator.so
 libexec/qbs/dmgbuild
 libexec/qbs/qbs_processlauncher
-share/man/man1/qbs.1.gz
+%%MANPREFIX%%/man/man1/qbs.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/html/attributions.html
 %%PORTDOCS%%%%DOCSDIR%%/html/building-applications.html
 %%PORTDOCS%%%%DOCSDIR%%/html/building-qbs.html

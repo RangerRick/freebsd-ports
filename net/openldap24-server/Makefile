@@ -422,7 +422,7 @@ CONFIGURE_ARGS+=	--with-cyrus-sasl
 .if defined(CLIENT_ONLY)
 # client specific configuration
 
-CONFIGURE_ARGS+=	--disable-slapd \
+CONFIGURE_ARGS+=	--disable-slapd --sysconfdir=/etc --mandir=${MANPREFIX}/man  \
 			--disable-monitor \
 			--disable-bdb \
 			--disable-relay \

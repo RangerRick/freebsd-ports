@@ -1,15 +1,15 @@
 bin/bprintf
-@sample etc/buildflags.conf.sample
-man/man1/bprintf.1.gz
-man/man1/buildflags.awk.1.gz
-man/man1/buildflags.conf.1.gz
-man/man1/buildflags.mk.1.gz
-man/man1/pkg_libchk.1.gz
-man/man1/pkg_validate.1.gz
-man/man8/distviper.8.gz
-man/man8/loaderupdate.8.gz
-man/man8/makeplist.8.gz
-man/man8/pkg_trim.8.gz
+@sample /etc/buildflags.conf.sample
+%%MANPREFIX%%/man/man1/bprintf.1.gz
+%%MANPREFIX%%/man/man1/buildflags.awk.1.gz
+%%MANPREFIX%%/man/man1/buildflags.conf.1.gz
+%%MANPREFIX%%/man/man1/buildflags.mk.1.gz
+%%MANPREFIX%%/man/man1/pkg_libchk.1.gz
+%%MANPREFIX%%/man/man1/pkg_validate.1.gz
+%%MANPREFIX%%/man/man8/distviper.8.gz
+%%MANPREFIX%%/man/man8/loaderupdate.8.gz
+%%MANPREFIX%%/man/man8/makeplist.8.gz
+%%MANPREFIX%%/man/man8/pkg_trim.8.gz
 sbin/distviper
 sbin/loaderupdate
 sbin/makeplist

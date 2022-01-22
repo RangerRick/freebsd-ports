@@ -9,6 +9,6 @@ COMMENT=	Query configuration information of DRI drivers
 USES=		gl xorg xorg-cat:app
 USE_GL=		gl
 USE_XORG=	x11 xorgproto
-PLIST_FILES=	bin/xdriinfo man/man1/xdriinfo.1.gz
+PLIST_FILES=	bin/xdriinfo ${MANPREFIX}/man/man1/xdriinfo.1.gz
 
 .include <bsd.port.mk>

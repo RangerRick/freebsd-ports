@@ -1,7 +1,7 @@
 bin/mp3lint
 bin/mp3lintskip
 bin/mp3lintsum
-etc/mp3lintrc
+/etc/mp3lintrc
 %%SITE_PERL%%/MP3/Archive/Lint.pm
 %%SITE_PERL%%/MP3/Archive/Lint/Conf.pm
 %%SITE_PERL%%/MP3/Archive/Lint/Skip.pm
@@ -21,4 +21,4 @@ etc/mp3lintrc
 %%PERL5_MAN1%%/mp3lintskip.1.gz
 %%PERL5_MAN1%%/mp3lintsum.1.gz
 %%PERL5_MAN3%%/mp3lint-tools.3.gz
-man/man5/mp3lintrc.5.gz
+%%MANPREFIX%%/man/man5/mp3lintrc.5.gz

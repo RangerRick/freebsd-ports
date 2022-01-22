@@ -35,7 +35,7 @@ lib/pstoedit/libp2edrvstd.so.0.0.0
 %%EMF%%lib/pstoedit/libp2edrvwmf.so.0
 %%EMF%%lib/pstoedit/libp2edrvwmf.so.0.0.0
 libdata/pkgconfig/pstoedit.pc
-man/man1/pstoedit.1.gz
+%%MANPREFIX%%/man/man1/pstoedit.1.gz
 share/aclocal/pstoedit.m4
 %%DATADIR%%/drvhpgl.pencolors
 %%DATADIR%%/examplefigmap.fmp

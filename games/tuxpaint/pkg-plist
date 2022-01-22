@@ -52,10 +52,10 @@ lib/tuxpaint/plugins/tornado.so
 lib/tuxpaint/plugins/tv.so
 lib/tuxpaint/plugins/waves.so
 lib/tuxpaint/plugins/xor.so
-man/man1/tp-magic-config.1.gz
-man/man1/tuxpaint.1.gz
-man/man1/tuxpaint-import.1.gz
-man/pl/man1/tuxpaint.1.gz
+%%MANPREFIX%%/man/man1/tp-magic-config.1.gz
+%%MANPREFIX%%/man/man1/tuxpaint.1.gz
+%%MANPREFIX%%/man/man1/tuxpaint-import.1.gz
+%%MANPREFIX%%/man/pl/man1/tuxpaint.1.gz
 share/locale/ach/LC_MESSAGES/tuxpaint.mo
 share/locale/af/LC_MESSAGES/tuxpaint.mo
 share/locale/ak/LC_MESSAGES/tuxpaint.mo

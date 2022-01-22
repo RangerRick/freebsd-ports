@@ -1,5 +1,5 @@
-@fcfontsdir share/fonts/OTF
-share/fonts/OTF/GohaTibebZemen.otf
-share/fonts/TTF/GohaTibebZemen.ttf
-@comment share/fonts/OTF/fonts.dir
-@comment share/fonts/OTF/fonts.scale
+@fcfontsdir /System/Library/Fonts/OTF
+/System/Library/Fonts/OTF/GohaTibebZemen.otf
+/System/Library/Fonts/TTF/GohaTibebZemen.ttf
+@comment /System/Library/Fonts/OTF/fonts.dir
+@comment /System/Library/Fonts/OTF/fonts.scale

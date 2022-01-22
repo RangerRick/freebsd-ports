@@ -33,7 +33,7 @@ lib/%%PORTNAME%%/Resources/UI.xml
 %%PORTDOCS%%%%DOCSDIR%%/CHANGES-DEV-v4
 %%PORTDOCS%%%%DOCSDIR%%/CHANGES-v4
 %%PORTDOCS%%%%DOCSDIR%%/Mulberry_License
-@sample %%EXAMPLESDIR%%/mailcap etc/mailcap
+@sample %%EXAMPLESDIR%%/mailcap /etc/mailcap
 @sample %%EXAMPLESDIR%%/url.helpers lib/url.helpers
 share/pixmaps/%%PORTNAME%%.png
 share/pixmaps/%%PORTNAME%%.xpm

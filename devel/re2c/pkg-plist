@@ -147,6 +147,6 @@ bin/re2c
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/go/submatch/02_mtags.re
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/go/submatch/03_posix.go
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/go/submatch/03_posix.re
-share/man/man1/re2c.1.gz
+%%MANPREFIX%%/man/man1/re2c.1.gz
 %%RE2GO%%share/man/man1/re2go.1.gz
 %%DATADIR%%/stdlib/unicode_categories.re

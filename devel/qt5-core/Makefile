@@ -65,6 +65,8 @@ pre-build:
 		${_MAKE_JOBS} ${MAKE_ARGS} ${ALL_TARGET}
 .endfor
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
 post-install:
 # Allow qconfig.h to be customized by single ports.
 	${AWK} 'BEGIN{print "#include <QtCore/qconfig-modules.h>"}{print}' \

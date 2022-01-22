@@ -1,7 +1,7 @@
 libdata/pkgconfig/libquvi-scripts-%%QUVIVERSION%%.pc
-man/man7/libquvi-scripts%%PKGNAMESUFFIX%%.7.gz
-man/man7/quvi-modules-3rdparty%%PKGNAMESUFFIX%%.7.gz
-man/man7/quvi-modules%%PKGNAMESUFFIX%%.7.gz
+%%MANPREFIX%%/man/man7/libquvi-scripts%%PKGNAMESUFFIX%%.7.gz
+%%MANPREFIX%%/man/man7/quvi-modules-3rdparty%%PKGNAMESUFFIX%%.7.gz
+%%MANPREFIX%%/man/man7/quvi-modules%%PKGNAMESUFFIX%%.7.gz
 %%DATADIR%%/%%QUVIVERSION%%
 %%DATADIR%%/%%PORTVERSION%%/README
 %%DATADIR%%/%%PORTVERSION%%/common/quvi/const.lua

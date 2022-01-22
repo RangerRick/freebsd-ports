@@ -1,4 +1,4 @@
-etc/jupyter/nbconfig/notebook.d/jupyter_jsmol.json
+/etc/jupyter/nbconfig/notebook.d/jupyter_jsmol.json
 %%PYTHON_SITELIBDIR%%/jupyter_jsmol/__init__.py
 %%PYTHON_SITELIBDIR%%/jupyter_jsmol/__pycache__/__init__.cpython-%%PYTHON_SUFFIX%%.opt-1.pyc
 %%PYTHON_SITELIBDIR%%/jupyter_jsmol/__pycache__/__init__.cpython-%%PYTHON_SUFFIX%%.pyc

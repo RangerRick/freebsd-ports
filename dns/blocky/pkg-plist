@@ -1,2 +1,2 @@
-@sample etc/blocky-config.yml.sample
+@sample /etc/blocky-config.yml.sample
 sbin/blocky

@@ -132,7 +132,7 @@ cricket/cricket-%%VERSION%%/util/systemPerfConf.pl
 cricket/cricket-%%VERSION%%/util/test-url
 cricket/cricket-%%VERSION%%/util/testwbem.pl
 cricket/cricket-%%VERSION%%/util/usrModemUsage
-etc/cricket-conf.pl.dist
+/etc/cricket-conf.pl.dist
 @dir cricket/cricket-%%VERSION%%/util/LeanODBC
 @dir cricket/cricket-%%VERSION%%/util
 @dir cricket/cricket-%%VERSION%%/sample-config/wbem

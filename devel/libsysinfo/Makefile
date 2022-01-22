@@ -23,7 +23,7 @@ PLIST_FILES=	include/sys/sysinfo.h \
 		lib/libsysinfo.so \
 		lib/libsysinfo.so.0 \
 		libdata/pkgconfig/libsysinfo.pc \
-		man/man3/sysinfo.3.gz
+		${MANPREFIX}/man/man3/sysinfo.3.gz
 
 SUB_FILES=	libsysinfo.pc
 SUB_LIST=	PREFIX="${PREFIX}" PORTVERSION="${PORTVERSION}" COMMENT="${COMMENT}"

@@ -6,13 +6,13 @@ lib/tdbc%%VERSION%%/libtdbcstub%%VERSION%%.a
 lib/tdbc%%VERSION%%/pkgIndex.tcl
 lib/tdbc%%VERSION%%/tdbc.tcl
 lib/tdbc%%VERSION%%/tdbcConfig.sh
-man/man3/Tdbc_Init.3.gz
-man/mann/tdbc.n.gz
-man/mann/tdbc_connection.n.gz
-man/mann/tdbc_mapSqlState.n.gz
-man/mann/tdbc_resultset.n.gz
-man/mann/tdbc_statement.n.gz
-man/mann/tdbc_tokenize.n.gz
+%%MANPREFIX%%/man/man3/Tdbc_Init.3.gz
+%%MANPREFIX%%/man/mann/tdbc.n.gz
+%%MANPREFIX%%/man/mann/tdbc_connection.n.gz
+%%MANPREFIX%%/man/mann/tdbc_mapSqlState.n.gz
+%%MANPREFIX%%/man/mann/tdbc_resultset.n.gz
+%%MANPREFIX%%/man/mann/tdbc_statement.n.gz
+%%MANPREFIX%%/man/mann/tdbc_tokenize.n.gz
 @comment MySQL
 %%MYSQL%%include/tdbc/fakemysql.h
 %%MYSQL%%include/tdbc/mysqlStubs.h

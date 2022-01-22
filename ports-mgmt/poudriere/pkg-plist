@@ -1,9 +1,9 @@
 bin/poudriere
-@sample etc/poudriere.conf.sample
+@sample /etc/poudriere.conf.sample
 %%ETCDIR%%/hooks/bulk.sh.sample
 %%ETCDIR%%/hooks/pkgbuild.sh.sample
-@sample etc/poudriered.conf.sample
-etc/rc.d/poudriered
+@sample /etc/poudriered.conf.sample
+/etc/rc.d/poudriered
 libexec/poudriere/cachec
 libexec/poudriere/cached
 libexec/poudriere/clock
@@ -22,19 +22,19 @@ libexec/poudriere/rexec
 libexec/poudriere/sh
 libexec/poudriere/timeout
 libexec/poudriere/timestamp
-man/man8/poudriere.8.gz
-man/man8/poudriere-bulk.8.gz
-man/man8/poudriere-distclean.8.gz
-man/man8/poudriere-image.8.gz
-man/man8/poudriere-jail.8.gz
-man/man8/poudriere-logclean.8.gz
-man/man8/poudriere-options.8.gz
-man/man8/poudriere-pkgclean.8.gz
-man/man8/poudriere-ports.8.gz
-man/man8/poudriere-queue.8.gz
-man/man8/poudriere-status.8.gz
-man/man8/poudriere-testport.8.gz
-man/man8/poudriere-version.8.gz
+%%MANPREFIX%%/man/man8/poudriere.8.gz
+%%MANPREFIX%%/man/man8/poudriere-bulk.8.gz
+%%MANPREFIX%%/man/man8/poudriere-distclean.8.gz
+%%MANPREFIX%%/man/man8/poudriere-image.8.gz
+%%MANPREFIX%%/man/man8/poudriere-jail.8.gz
+%%MANPREFIX%%/man/man8/poudriere-logclean.8.gz
+%%MANPREFIX%%/man/man8/poudriere-options.8.gz
+%%MANPREFIX%%/man/man8/poudriere-pkgclean.8.gz
+%%MANPREFIX%%/man/man8/poudriere-ports.8.gz
+%%MANPREFIX%%/man/man8/poudriere-queue.8.gz
+%%MANPREFIX%%/man/man8/poudriere-status.8.gz
+%%MANPREFIX%%/man/man8/poudriere-testport.8.gz
+%%MANPREFIX%%/man/man8/poudriere-version.8.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/httpd.conf.sample
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/nginx.conf.sample
 %%DATADIR%%/MANIFESTS

@@ -12,12 +12,12 @@ bin/pasuspender
 bin/pulseaudio
 bin/qpaeq
 %%X11%%bin/start-pulseaudio-x11
-etc/dbus-1/system.d/pulseaudio-system.conf
-@sample etc/pulse/client.conf.sample
-@sample etc/pulse/daemon.conf.sample
-@sample etc/pulse/default.pa.sample
-@sample etc/pulse/system.pa.sample
-%%X11%%etc/xdg/autostart/pulseaudio.desktop
+/etc/dbus-1/system.d/pulseaudio-system.conf
+@sample /etc/pulse/client.conf.sample
+@sample /etc/pulse/daemon.conf.sample
+@sample /etc/pulse/default.pa.sample
+@sample /etc/pulse/system.pa.sample
+%%X11%%/etc/xdg/autostart/pulseaudio.desktop
 include/pulse/cdecl.h
 include/pulse/channelmap.h
 include/pulse/context.h
@@ -155,22 +155,22 @@ libdata/pkgconfig/libpulse-simple.pc
 libdata/pkgconfig/libpulse.pc
 %%GCONF%%libexec/pulse/gconf-helper
 %%GSETTINGS%%libexec/pulse/gsettings-helper
-man/man1/pacat.1.gz
-man/man1/pacmd.1.gz
-man/man1/pactl.1.gz
-man/man1/padsp.1.gz
-man/man1/pamon.1.gz
-man/man1/paplay.1.gz
-man/man1/parec.1.gz
-man/man1/parecord.1.gz
-man/man1/pasuspender.1.gz
-%%X11%%man/man1/pax11publish.1.gz
-man/man1/pulseaudio.1.gz
-%%X11%%man/man1/start-pulseaudio-x11.1.gz
-man/man5/default.pa.5.gz
-man/man5/pulse-cli-syntax.5.gz
-man/man5/pulse-client.conf.5.gz
-man/man5/pulse-daemon.conf.5.gz
+%%MANPREFIX%%/man/man1/pacat.1.gz
+%%MANPREFIX%%/man/man1/pacmd.1.gz
+%%MANPREFIX%%/man/man1/pactl.1.gz
+%%MANPREFIX%%/man/man1/padsp.1.gz
+%%MANPREFIX%%/man/man1/pamon.1.gz
+%%MANPREFIX%%/man/man1/paplay.1.gz
+%%MANPREFIX%%/man/man1/parec.1.gz
+%%MANPREFIX%%/man/man1/parecord.1.gz
+%%MANPREFIX%%/man/man1/pasuspender.1.gz
+%%X11%%%%MANPREFIX%%/man/man1/pax11publish.1.gz
+%%MANPREFIX%%/man/man1/pulseaudio.1.gz
+%%X11%%%%MANPREFIX%%/man/man1/start-pulseaudio-x11.1.gz
+%%MANPREFIX%%/man/man5/default.pa.5.gz
+%%MANPREFIX%%/man/man5/pulse-cli-syntax.5.gz
+%%MANPREFIX%%/man/man5/pulse-client.conf.5.gz
+%%MANPREFIX%%/man/man5/pulse-daemon.conf.5.gz
 %%GSETTINGS%%share/GConf/gsettings/pulseaudio.convert
 share/bash-completion/completions/pacat
 share/bash-completion/completions/pacmd

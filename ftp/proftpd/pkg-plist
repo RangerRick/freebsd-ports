@@ -6,10 +6,10 @@ bin/ftpquota
 bin/ftptop
 bin/ftpwho
 bin/prxs
-etc/PROFTPD-MIB.txt
-@sample etc/proftpd.conf.sample
-@sample etc/proftpd/dhparams.pem.sample
-@sample etc/proftpd/blacklist.dat.sample
+/etc/PROFTPD-MIB.txt
+@sample /etc/proftpd.conf.sample
+@sample /etc/proftpd/dhparams.pem.sample
+@sample /etc/proftpd/blacklist.dat.sample
 include/proftpd/acconfig.h
 include/proftpd/ascii.h
 include/proftpd/auth.h
@@ -167,18 +167,18 @@ libexec/proftpd/mod_wrap2_file.so
 %%REDIS%%libexec/proftpd/mod_wrap2_redis.so
 libexec/proftpd/mod_wrap2_sql.a
 libexec/proftpd/mod_wrap2_sql.so
-man/man1/ftpcount.1.gz
-man/man1/ftpmail.1.gz
-man/man1/ftpasswd.1.gz
-man/man1/ftpquota.1.gz
-man/man1/ftpwho.1.gz
-man/man1/ftptop.1.gz
-man/man5/proftpd.conf.5.gz
-man/man5/xferlog.5.gz
-man/man8/proftpd.8.gz
-man/man8/ftpscrub.8.gz
-man/man8/ftpshut.8.gz
-man/man8/ftpdctl.8.gz
+%%MANPREFIX%%/man/man1/ftpcount.1.gz
+%%MANPREFIX%%/man/man1/ftpmail.1.gz
+%%MANPREFIX%%/man/man1/ftpasswd.1.gz
+%%MANPREFIX%%/man/man1/ftpquota.1.gz
+%%MANPREFIX%%/man/man1/ftpwho.1.gz
+%%MANPREFIX%%/man/man1/ftptop.1.gz
+%%MANPREFIX%%/man/man5/proftpd.conf.5.gz
+%%MANPREFIX%%/man/man5/xferlog.5.gz
+%%MANPREFIX%%/man/man8/proftpd.8.gz
+%%MANPREFIX%%/man/man8/ftpscrub.8.gz
+%%MANPREFIX%%/man/man8/ftpshut.8.gz
+%%MANPREFIX%%/man/man8/ftpdctl.8.gz
 sbin/ftpscrub
 sbin/ftpshut
 sbin/in.proftpd

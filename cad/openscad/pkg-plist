@@ -1,5 +1,5 @@
 bin/openscad
-man/man1/openscad.1.gz
+%%MANPREFIX%%/man/man1/openscad.1.gz
 share/applications/openscad.desktop
 share/icons/hicolor/128x128/apps/openscad.png
 share/icons/hicolor/256x256/apps/openscad.png

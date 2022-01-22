@@ -1,5 +1,5 @@
 bin/caribou-preferences
-etc/xdg/autostart/caribou-autostart.desktop
+/etc/xdg/autostart/caribou-autostart.desktop
 include/libcaribou/caribou.h
 lib/girepository-1.0/Caribou-1.0.typelib
 lib/gnome-settings-daemon-3.0/gtk-modules/caribou-gtk-module.desktop

@@ -2,11 +2,11 @@ bin/bfindex
 bin/bforce
 bin/bfstat
 bin/nlookup
-etc/fido/bforce/bforce.conf.sample
-etc/fido/bforce/bforce.passwd.sample
-etc/fido/bforce/bforce.subst.sample
-etc/fido/bforce/freq.aliases.sample
-etc/fido/bforce/freq.dirs.sample
+/etc/fido/bforce/bforce.conf.sample
+/etc/fido/bforce/bforce.passwd.sample
+/etc/fido/bforce/bforce.subst.sample
+/etc/fido/bforce/freq.aliases.sample
+/etc/fido/bforce/freq.dirs.sample
 %%DATADIR%%/bfha/README
 %%DATADIR%%/bfha/bfha.pl
 %%DATADIR%%/bflan

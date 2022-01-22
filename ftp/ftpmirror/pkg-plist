@@ -1,6 +1,6 @@
 bin/rotate
 bin/ftpmirror
-etc/ftpmirror.cf-sample
+/etc/ftpmirror.cf-sample
 %%SITE_ARCH%%/auto/Fan/MD5/MD5.so
 %%SITE_ARCH%%/auto/Fan/MD5/MD5File.al
 %%SITE_ARCH%%/auto/Fan/MD5/MD5String.al

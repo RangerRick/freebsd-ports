@@ -15,6 +15,7 @@ BUILD_DEPENDS=	doxygen:devel/doxygen
 LIB_DEPENDS=	libpcre2-8.so:devel/pcre2
 
 USES=		cmake
+CMAKE_ARGS+= -DCMAKE_INSTALL_MANDIR=${MANPREFIX}/man
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	editorconfig

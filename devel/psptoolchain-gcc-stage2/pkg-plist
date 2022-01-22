@@ -249,10 +249,10 @@ libexec/gcc/psp/4.9.3/liblto_plugin.so.0.0.0
 libexec/gcc/psp/4.9.3/lto-wrapper
 libexec/gcc/psp/4.9.3/lto1
 libexec/gcc/psp/4.9.3/plugin/gengtype
-man/man1/psp-cpp.1.gz
-man/man1/psp-g++.1.gz
-man/man1/psp-gcc.1.gz
-man/man1/psp-gcov.1.gz
+%%MANPREFIX%%/man/man1/psp-cpp.1.gz
+%%MANPREFIX%%/man/man1/psp-g++.1.gz
+%%MANPREFIX%%/man/man1/psp-gcc.1.gz
+%%MANPREFIX%%/man/man1/psp-gcov.1.gz
 psp/include/c++/4.9.3/algorithm
 psp/include/c++/4.9.3/array
 psp/include/c++/4.9.3/atomic

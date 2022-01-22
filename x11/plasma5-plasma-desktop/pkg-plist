@@ -6,7 +6,7 @@ bin/knetattach
 bin/krunner-plugininstaller
 bin/solid-action-desktop-gen
 bin/tastenbrett
-etc/xdg/autostart/kaccess.desktop
+/etc/xdg/autostart/kaccess.desktop
 lib/libexec/kauth/kcmdatetimehelper
 %%IBUS%%lib/libexec/kimpanel-ibus-panel
 %%IBUS%%lib/libexec/kimpanel-ibus-panel-launcher

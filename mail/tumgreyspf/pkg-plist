@@ -3,7 +3,7 @@ bin/tumgreyspf-clean
 bin/tumgreyspf-configtest
 bin/tumgreyspf-gentest
 bin/tumgreyspf-stat
-@sample etc/tumgreyspf.conf.sample
+@sample /etc/tumgreyspf.conf.sample
 %%PYTHON_SITELIBDIR%%/tumgreyspfsupp.py
 @sample %%DATADIR%%/__default__.sample
 @dir(%%TUMGREYSPF_USER%%,%%TUMGREYSPF_GROUP%%,700) %%TUMGREYSPF_DIR%%/data

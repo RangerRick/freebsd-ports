@@ -1,6 +1,6 @@
 bin/catalog_convert
-etc/skycat.cfg.sample
-etc/sss.cfg.sample
+/etc/skycat.cfg.sample
+/etc/sss.cfg.sample
 %%SITE_PERL%%/Astro/Catalog.pm
 %%SITE_PERL%%/Astro/Catalog/IO/ASCII.pm
 %%SITE_PERL%%/Astro/Catalog/IO/ASSM.pm

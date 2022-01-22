@@ -1,4 +1,4 @@
-etc/periodic/daily/111.clean-squirrelmail
+/etc/periodic/daily/111.clean-squirrelmail
 %%SQUIRRELDIR%%/attach/.htaccess
 %%SQUIRRELDIR%%/class/.htaccess
 %%SQUIRRELDIR%%/class/deliver/Deliver.class.php

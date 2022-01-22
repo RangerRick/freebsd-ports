@@ -1,2 +1,2 @@
 bin/wping
-@sample etc/wping.conf.sample
+@sample /etc/wping.conf.sample

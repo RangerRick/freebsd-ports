@@ -1,8 +1,8 @@
 bin/sq
 bin/sqop
 bin/sqv
-etc/bash_completion.d/sq
-etc/bash_completion.d/sqv
+/etc/bash_completion.d/sq
+/etc/bash_completion.d/sqv
 include/sequoia.h
 include/sequoia/core.h
 include/sequoia/io.h

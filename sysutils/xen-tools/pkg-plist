@@ -15,9 +15,9 @@ bin/xenstore-rm
 bin/xenstore-watch
 bin/xenstore-write
 bin/xentrace_format
-etc/bash_completion.d/xl
-etc/rc.d/xencommons
-etc/rc.d/xendriverdomain
+/etc/bash_completion.d/xl
+/etc/rc.d/xencommons
+/etc/rc.d/xendriverdomain
 %%ETCDIR%%/README
 %%ETCDIR%%/cpupool
 %%ETCDIR%%/scripts/block

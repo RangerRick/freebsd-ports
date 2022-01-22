@@ -2,9 +2,9 @@ bin/wavbreaker
 bin/wavgen
 bin/wavinfo
 bin/wavmerge
-man/man1/wavbreaker.1.gz
-man/man1/wavinfo.1.gz
-man/man1/wavmerge.1.gz
+%%MANPREFIX%%/man/man1/wavbreaker.1.gz
+%%MANPREFIX%%/man/man1/wavinfo.1.gz
+%%MANPREFIX%%/man/man1/wavmerge.1.gz
 share/applications/net.sourceforge.wavbreaker.desktop
 share/icons/hicolor/scalable/apps/net.sourceforge.wavbreaker.svg
 share/locale/de/LC_MESSAGES/wavbreaker.mo

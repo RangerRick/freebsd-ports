@@ -63,24 +63,24 @@ IGNORE=	not compatible DEFAULT_VERSIONS+=ssl=${SSL_DEFAULT}
 OPENSSLBASE=		/usr
 OPENSSLDIR?=		/etc/ssl
 
-.  if !exists(${DESTDIR}/usr/lib/libcrypto.so)
-check-depends::
-	@${ECHO_CMD} "Dependency error: This port requires the OpenSSL library, which is part of"
-	@${ECHO_CMD} "the FreeBSD crypto distribution, but not installed on your"
-	@${ECHO_CMD} "machine. Please see the \"OpenSSL\" section in the handbook"
-	@${ECHO_CMD} "(at \"https://docs.FreeBSD.org/en/books/handbook/security/#openssl\", for instance)"
-	@${ECHO_CMD} "for instructions on how to obtain and install the FreeBSD"
-	@${ECHO_CMD} "OpenSSL distribution."
-	@${FALSE}
-.  endif
-.  if exists(${LOCALBASE}/lib/libcrypto.so)
-check-depends::
-	@${ECHO_CMD} "Dependency error: This port wants the OpenSSL library from the FreeBSD"
-	@${ECHO_CMD} "base system. You can't build against it, while a newer"
-	@${ECHO_CMD} "version is installed by a port."
-	@${ECHO_CMD} "Please deinstall the port, remove DEFAULT_VERSIONS=ssl=base or undefine WITH_OPENSSL_BASE."
-	@${FALSE}
-.  endif
+#.  if !exists(${DESTDIR}/usr/lib/libcrypto.so)
+#check-depends::
+#	@${ECHO_CMD} "Dependency error: This port requires the OpenSSL library, which is part of"
+#	@${ECHO_CMD} "the FreeBSD crypto distribution, but not installed on your"
+#	@${ECHO_CMD} "machine. Please see the \"OpenSSL\" section in the handbook"
+#	@${ECHO_CMD} "(at \"https://docs.FreeBSD.org/en/books/handbook/security/#openssl\", for instance)"
+#	@${ECHO_CMD} "for instructions on how to obtain and install the FreeBSD"
+#	@${ECHO_CMD} "OpenSSL distribution."
+#	@${FALSE}
+#.  endif
+#.  if exists(${LOCALBASE}/lib/libcrypto.so)
+#check-depends::
+#	@${ECHO_CMD} "Dependency error: This port wants the OpenSSL library from the FreeBSD"
+#	@${ECHO_CMD} "base system. You can't build against it, while a newer"
+#	@${ECHO_CMD} "version is installed by a port."
+#	@${ECHO_CMD} "Please deinstall the port, remove DEFAULT_VERSIONS=ssl=base or undefine WITH_OPENSSL_BASE."
+#	@${FALSE}
+#.  endif
 
 .else # ${SSL_DEFAULT} != base
 

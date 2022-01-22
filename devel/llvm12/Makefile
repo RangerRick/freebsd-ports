@@ -477,6 +477,8 @@ post-patch-LLD-on:
 	${REINPLACE_CMD} -e "s|'indexsidebar.html'|['indexsidebar.html']|" \
 		${WRKSRC}/lld/docs/conf.py
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
 post-install:
 	${RM} -r ${STAGEDIR}${LLVM_PREFIX}/include/llvm/MC/MCAnalysis
 	${INSTALL_SCRIPT} ${WRKDIR}/llvm-wrapper.sh \

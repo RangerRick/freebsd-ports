@@ -2,7 +2,7 @@ bin/kopete
 bin/winpopup-install
 bin/winpopup-send
 share/qlogging-categories5/kopete.categories
-etc/xdg/kopeterc
+/etc/xdg/kopeterc
 include/kopete/kabcpersistence.h
 include/kopete/kopeteaccount.h
 include/kopete/kopeteaccountmanager.h

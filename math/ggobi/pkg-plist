@@ -1,5 +1,5 @@
 bin/ggobi
-@sample etc/xdg/ggobi/ggobirc.sample
+@sample /etc/xdg/ggobi/ggobirc.sample
 include/ggobi/GGStructSizes.c
 include/ggobi/GGobiAPI.h
 include/ggobi/GGobiApp.h

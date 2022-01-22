@@ -1,2 +1,2 @@
-@sample etc/uvncrepeater.ini.sample
+@sample /etc/uvncrepeater.ini.sample
 sbin/repeater

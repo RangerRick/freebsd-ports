@@ -72,7 +72,7 @@ CFLAGS+=		-fno-color-diagnostics
 CONFIGURE_ENV+=		NOCOLOR=yes
 MAKE_ENV+=		NOCOLOR=yes
 
-TALLOC_MAN3=		man/man3/talloc.3.gz
+TALLOC_MAN3=		${MANPREFIX}/man/man3/talloc.3.gz
 
 PLIST_FILES+=		${TALLOC_MAN3}
 

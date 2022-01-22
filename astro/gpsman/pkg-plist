@@ -338,4 +338,4 @@ bin/gpsman
 %%GPSMANDIR%%/util/mou2gmn.tcl
 %%GPSMANDIR%%/util/shape2quadr.tcl
 %%GPSMANDIR%%/util/wpsinfull.tcl
-share/man/man1/gpsman.1.gz
+%%MANPREFIX%%/man/man1/gpsman.1.gz

@@ -1,7 +1,7 @@
 bin/scanbuttond
-@sample etc/scanbuttond/buttonpressed.sh.sample
-@sample etc/scanbuttond/initscanner.sh.sample
-@sample etc/scanbuttond/meta.conf.sample
+@sample /etc/scanbuttond/buttonpressed.sh.sample
+@sample /etc/scanbuttond/initscanner.sh.sample
+@sample /etc/scanbuttond/meta.conf.sample
 lib/libscanbtnd-backend_epson.so
 lib/libscanbtnd-backend_epson.so.1
 lib/libscanbtnd-backend_epson.so.1.0.0

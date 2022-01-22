@@ -1,4 +1,4 @@
-@sample etc/sampsvr.cfg.sample
+@sample /etc/sampsvr.cfg.sample
 %%SAMPDIR%%/announce
 %%SAMPDIR%%/samp-npc
 %%SAMPDIR%%/samp03svr

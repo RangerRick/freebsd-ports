@@ -57,7 +57,7 @@ share/icons/hicolor/scalable/apps/org.xfce.PanelProfiles.svg
 %%NLS%%share/locale/zh_CN/LC_MESSAGES/xfce4-panel-profiles.mo
 %%NLS%%share/locale/zh_HK/LC_MESSAGES/xfce4-panel-profiles.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/xfce4-panel-profiles.mo
-share/man/man1/xfce4-panel-profiles.1.gz
+%%MANPREFIX%%/man/man1/xfce4-panel-profiles.1.gz
 share/metainfo/org.xfce.PanelProfiles.appdata.xml
 %%DATADIR%%/layouts/Cupertino.tar.bz2
 %%DATADIR%%/layouts/GNOME 2.tar.bz2

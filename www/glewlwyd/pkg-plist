@@ -1,5 +1,5 @@
 sbin/glewlwyd
-etc/rc.d/glewlwyd
+/etc/rc.d/glewlwyd
 @sample %%ETCDIR%%/glewlwyd.conf.sample
 @sample %%ETCDIR%%/config.json.sample
 lib/glewlwyd/client/libclientmoddatabase.so

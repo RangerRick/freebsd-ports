@@ -2,8 +2,8 @@ bin/highlight
 %%GUI%%bin/highlight-gui
 @sample %%ETCDIR%%/filetypes.conf.sample
 @sample %%ETCDIR%%/lsp.conf.sample
-man/man1/highlight.1.gz
-man/man5/filetypes.conf.5.gz
+%%MANPREFIX%%/man/man1/highlight.1.gz
+%%MANPREFIX%%/man/man5/filetypes.conf.5.gz
 %%GUI%%share/applications/highlight.desktop
 %%GUI%%share/icons/hicolor/256x256/apps/highlight.png
 %%GUI%%%%DATADIR%%/gui_files/ext/fileopenfilter.conf

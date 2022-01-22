@@ -45,9 +45,9 @@ CMAKE_ARGS+=	-DINSTALL_LAYOUT=FREEBSD \
 		-DINSTALL_INCLUDEDIR="include/mysql" \
 		-DINSTALL_INFODIR="${INFO_PATH}" \
 		-DINSTALL_LIBDIR="lib/mysql" \
-		-DINSTALL_MANDIR="man" \
+		-DINSTALL_MANDIR="${MANPREFIX}/man" \
 		-DINSTALL_MYSQLDATADIR="${MY_DBDIR}" \
-		-DINSTALL_MYSQLKEYRINGDIR="etc/mysql/keyring" \
+		-DINSTALL_MYSQLKEYRINGDIR="/etc/mysql/keyring" \
 		-DINSTALL_MYSQLSHAREDIR="share/mysql" \
 		-DINSTALL_MYSQLTESTDIR="share/mysql/tests" \
 		-DINSTALL_PLUGINDIR="lib/mysql/plugin" \
@@ -176,6 +176,7 @@ post-patch:
 
 .if !defined(CLIENT_ONLY)
 post-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d ${STAGEDIR}${PREFIX}/libdata/ldconfig
 	${MKDIR} ${STAGEDIR}${ETCDIR}
 	${INSTALL_DATA} ${WRKDIR}/my.cnf.sample ${STAGEDIR}${ETCDIR}/my.cnf.sample
 	${MKDIR} ${STAGEDIR}${ETCDIR}/keyring

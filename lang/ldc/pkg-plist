@@ -3,7 +3,7 @@ bin/ldc-profdata
 bin/ldc-prune-cache
 bin/ldc2
 bin/ldmd2
-etc/ldc2.conf
+/etc/ldc2.conf
 include/d/core/atomic.d
 include/d/core/attribute.d
 include/d/core/bitop.d

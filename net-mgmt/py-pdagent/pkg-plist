@@ -1,7 +1,7 @@
 bin/pd-queue
 bin/pd-send
 bin/pdagentd.py
-@sample etc/pdagent/pdagent.conf.sample
+@sample /etc/pdagent/pdagent.conf.sample
 %%PYTHON_SITELIBDIR%%/pdagent/__init__.py
 %%PYTHON_SITELIBDIR%%/pdagent/confdirs.py
 %%PYTHON_SITELIBDIR%%/pdagent/config.py

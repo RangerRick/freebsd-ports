@@ -30,7 +30,7 @@ USE_GNOME+=	glib20 intltool introspection:build
 USE_GNOME_SUBR=	yes
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS?=--with-distro=freebsd \
+CONFIGURE_ARGS?= --sysconfdir=/etc --with-distro=freebsd \
 		--with-dbus-system-socket=unix:path=/var/run/dbus/system_bus_socket \
 		--enable-introspection=yes \
 		--disable-static \
@@ -140,9 +140,9 @@ avahi-post-install:
 	${INSTALL_DATA} ${WRKSRC}/${f} ${STAGEDIR}${PREFIX}/libdata/pkgconfig
 .endfor
 .for f in ${DAEMON_CONFIG_FILES}
-	${MKDIR} ${STAGEDIR}${PREFIX}/etc/avahi
+	${MKDIR} ${STAGEDIR}/etc/avahi
 	${INSTALL_DATA} ${WRKSRC}/avahi-daemon/${f} \
-		${STAGEDIR}${PREFIX}/etc/avahi/${f}.sample
+		${STAGEDIR}/etc/avahi/${f}.sample
 .endfor
 .if ${AVAHI_SLAVE}==no
 	${MKDIR} ${STAGEDIR}${PREFIX}/share/dbus-1/system-services

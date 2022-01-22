@@ -102,4 +102,4 @@ share/vim/vimfiles/syntax/nginx.vim
 %%WWW%%@postunexec if [ -L %D/www/nginx ]; then rm -f %D/www/nginx; fi
 @dir %%NGINX_TMPDIR%%
 @dir %%NGINX_LOGDIR%%
-share/man/man8/nginx.8.gz
+%%MANPREFIX%%/man/man8/nginx.8.gz

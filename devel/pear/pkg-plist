@@ -1,7 +1,7 @@
 bin/pear
 bin/peardev
 bin/pecl
-@sample etc/pear.conf.sample
+@sample /etc/pear.conf.sample
 %%PORTDOCS%%%%DOCSDIR%%/Archive_Tar/docs/Archive_Tar.txt
 %%PORTDOCS%%%%DOCSDIR%%/PEAR/INSTALL
 %%PORTDOCS%%%%DOCSDIR%%/PEAR/LICENSE

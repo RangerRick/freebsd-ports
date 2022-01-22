@@ -2,7 +2,7 @@ bin/mod2ogg2.sh
 bin/uade123
 %%FUSE%%bin/uadefs
 %%FUSE%%man/man1/uadefs.1.gz
-man/man1/uade123.1.gz
+%%MANPREFIX%%/man/man1/uade123.1.gz
 lib/uade2/uadecore
 libdata/pkgconfig/uade.pc
 %%DATADIR%%/eagleplayer.conf

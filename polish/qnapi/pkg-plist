@@ -1,7 +1,7 @@
 bin/qnapi
-man/it/man1/qnapi.1.gz
-man/man1/qnapi.1.gz
-man/pl/man1/qnapi.1.gz
+%%MANPREFIX%%/man/it/man1/qnapi.1.gz
+%%MANPREFIX%%/man/man1/qnapi.1.gz
+%%MANPREFIX%%/man/pl/man1/qnapi.1.gz
 share/applications/qnapi-download.desktop
 share/applications/qnapi-scan.desktop
 share/applications/qnapi.desktop

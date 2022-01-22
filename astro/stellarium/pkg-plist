@@ -1,5 +1,5 @@
 bin/stellarium
-man/man1/stellarium.1.gz
+%%MANPREFIX%%/man/man1/stellarium.1.gz
 share/applications/org.stellarium.Stellarium.desktop
 share/icons/hicolor/128x128/apps/stellarium.png
 share/icons/hicolor/16x16/apps/stellarium.png

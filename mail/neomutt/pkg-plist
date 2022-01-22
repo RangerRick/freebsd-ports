@@ -7,7 +7,7 @@ libexec/neomutt/smime_keys
 %%PORTDOCS%%man/man5/mbox_neomutt.5.gz
 %%PORTDOCS%%man/man5/mmdf_neomutt.5.gz
 %%PORTDOCS%%man/man5/neomuttrc.5.gz
-@sample etc/neomuttrc.dist etc/neomuttrc
+@sample /etc/neomuttrc.dist etc/neomuttrc
 %%NLS%%share/locale/bg/LC_MESSAGES/neomutt.mo
 %%NLS%%share/locale/ca/LC_MESSAGES/neomutt.mo
 %%NLS%%share/locale/cs/LC_MESSAGES/neomutt.mo

@@ -704,7 +704,7 @@ lib/libvisp_vs.so
 lib/libvisp_vs.so.3.4
 lib/libvisp_vs.so.3.4.0
 libdata/pkgconfig/visp.pc
-share/man/man1/visp-config.1.gz
+%%MANPREFIX%%/man/man1/visp-config.1.gz
 %%DATADIR%%/data/robot-simulator/afma6_arm1.bnd
 %%DATADIR%%/data/robot-simulator/afma6_arm2.bnd
 %%DATADIR%%/data/robot-simulator/afma6_arm3.bnd

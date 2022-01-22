@@ -1,4 +1,4 @@
-etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop
+/etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop
 include/evolution-data-server/camel/camel-address.h
 include/evolution-data-server/camel/camel-async-closure.h
 include/evolution-data-server/camel/camel-autocleanups.h

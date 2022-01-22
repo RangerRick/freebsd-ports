@@ -1,2 +1,2 @@
 lib/aoe/aoe.ko
-man/man4/aoe.4.gz
+%%MANPREFIX%%/man/man4/aoe.4.gz

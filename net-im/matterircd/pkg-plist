@@ -1,2 +1,2 @@
-@sample etc/matterircd.toml.sample
+@sample /etc/matterircd.toml.sample
 bin/matterircd

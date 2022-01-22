@@ -268,11 +268,11 @@ libexec/gcc/%%GCC_TARG%%/%%GCC_REV%%/liblto_plugin.so.0.0.0
 libexec/gcc/%%GCC_TARG%%/%%GCC_REV%%/lto-wrapper
 libexec/gcc/%%GCC_TARG%%/%%GCC_REV%%/lto1
 libexec/gcc/%%GCC_TARG%%/%%GCC_REV%%/plugin/gengtype
-man/man1/%%GCC_TARG%%-cpp.1.gz
-man/man1/%%GCC_TARG%%-g++.1.gz
-man/man1/%%GCC_TARG%%-gcc.1.gz
-man/man1/%%GCC_TARG%%-gcov.1.gz
-man/man1/%%GCC_TARG%%-gfortran.1.gz
+%%MANPREFIX%%/man/man1/%%GCC_TARG%%-cpp.1.gz
+%%MANPREFIX%%/man/man1/%%GCC_TARG%%-g++.1.gz
+%%MANPREFIX%%/man/man1/%%GCC_TARG%%-gcc.1.gz
+%%MANPREFIX%%/man/man1/%%GCC_TARG%%-gcov.1.gz
+%%MANPREFIX%%/man/man1/%%GCC_TARG%%-gfortran.1.gz
 %%GCC_TARG%%/bin/c++
 %%GCC_TARG%%/bin/cpp
 %%GCC_TARG%%/bin/g++

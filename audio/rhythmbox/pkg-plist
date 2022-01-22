@@ -284,8 +284,8 @@ lib/rhythmbox/sample-plugins/sample/libsample.so
 lib/rhythmbox/sample-plugins/sample/sample.plugin
 libdata/pkgconfig/rhythmbox.pc
 libexec/rhythmbox-metadata
-man/man1/rhythmbox-client.1.gz
-man/man1/rhythmbox.1.gz
+%%MANPREFIX%%/man/man1/rhythmbox-client.1.gz
+%%MANPREFIX%%/man/man1/rhythmbox.1.gz
 share/applications/rhythmbox-device.desktop
 share/applications/rhythmbox.desktop
 share/dbus-1/services/org.gnome.Rhythmbox3.service

@@ -1,5 +1,5 @@
 bin/cqrlog
-man/man1/cqrlog.1.gz
+%%MANPREFIX%%/man/man1/cqrlog.1.gz
 share/appdata/cqrlog.appdata.xml
 share/applications/cqrlog.desktop
 %%DATADIR%%/changelog.html

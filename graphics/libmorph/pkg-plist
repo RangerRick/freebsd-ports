@@ -1,4 +1,4 @@
-etc/libmorphConf.sh
+/etc/libmorphConf.sh
 include/morph/morph-io.h
 include/morph/morph.h
 lib/libmorph.a

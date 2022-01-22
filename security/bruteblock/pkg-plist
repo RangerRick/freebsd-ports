@@ -1,5 +1,5 @@
 sbin/bruteblock
 sbin/bruteblockd
-@sample etc/bruteblock/proftpd.conf.sample
-@sample etc/bruteblock/ssh.conf.sample
-man/man8/bruteblock.8.gz
+@sample /etc/bruteblock/proftpd.conf.sample
+@sample /etc/bruteblock/ssh.conf.sample
+%%MANPREFIX%%/man/man8/bruteblock.8.gz

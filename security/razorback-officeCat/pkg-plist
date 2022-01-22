@@ -1,4 +1,4 @@
-etc/razorback/officecat.conf.sample
+/etc/razorback/officecat.conf.sample
 lib/razorback/officeCat.so.2.0.0
 lib/razorback/officeCat.so.2
 lib/razorback/officeCat.so

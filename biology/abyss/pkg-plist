@@ -54,7 +54,7 @@ bin/abyss-todot
 bin/abyss-tofastq
 bin/konnector
 bin/logcounter
-man/man1/ABYSS.1.gz
-man/man1/abyss-pe.1.gz
-man/man1/abyss-sealer.1.gz
-man/man1/abyss-tofastq.1.gz
+%%MANPREFIX%%/man/man1/ABYSS.1.gz
+%%MANPREFIX%%/man/man1/abyss-pe.1.gz
+%%MANPREFIX%%/man/man1/abyss-sealer.1.gz
+%%MANPREFIX%%/man/man1/abyss-tofastq.1.gz

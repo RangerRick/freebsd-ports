@@ -1,6 +1,6 @@
 bin/lilyterm
-@sample etc/xdg/lilyterm.conf.sample
-man/man1/lilyterm.1.gz
+@sample /etc/xdg/lilyterm.conf.sample
+%%MANPREFIX%%/man/man1/lilyterm.1.gz
 share/applications/lilyterm.desktop
 %%PORTDOCS%%%%DOCSDIR%%/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/COPYING

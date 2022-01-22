@@ -1,5 +1,5 @@
 bin/zeronet
-etc/rc.d/zeronet
+/etc/rc.d/zeronet
 %%DATADIR%%/__pycache__/start.cpython-%%PYTHON_SUFFIX%%.opt-1.pyc
 %%DATADIR%%/__pycache__/start.cpython-%%PYTHON_SUFFIX%%.pyc
 %%DATADIR%%/__pycache__/update.cpython-%%PYTHON_SUFFIX%%.opt-1.pyc

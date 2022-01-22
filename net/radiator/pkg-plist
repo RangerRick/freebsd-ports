@@ -2,11 +2,11 @@ bin/builddbm
 bin/buildsql
 bin/radiusd
 bin/radpwtst
-etc/radiator/dictionary
-etc/radiator/dictionary.ascend
-etc/radiator/dictionary.cisco-vpn
-etc/radiator/dictionary.sip
-@sample etc/radiator/radius.cfg.sample
+/etc/radiator/dictionary
+/etc/radiator/dictionary.ascend
+/etc/radiator/dictionary.cisco-vpn
+/etc/radiator/dictionary.sip
+@sample /etc/radiator/radius.cfg.sample
 %%SITE_PERL%%/Radius/AES.pm
 %%SITE_PERL%%/Radius/AES_GCM.pm
 %%SITE_PERL%%/Radius/ASN1.pm

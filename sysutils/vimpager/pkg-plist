@@ -1,6 +1,6 @@
 bin/vimcat
 bin/vimpager
-etc/vimpagerrc
+/etc/vimpagerrc
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog_vimcat.yml
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog_vimpager.yml
 %%PORTDOCS%%%%DOCSDIR%%/DOC_AUTHORS.yml

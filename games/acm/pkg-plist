@@ -1,5 +1,5 @@
 bin/acm
-man/man6/acm.6.gz
+%%MANPREFIX%%/man/man6/acm.6.gz
 %%DATADIR%%/acmlogo-unix.xwd
 %%DATADIR%%/aconnon.au
 %%DATADIR%%/aim9.obv

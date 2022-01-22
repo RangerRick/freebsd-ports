@@ -2,6 +2,6 @@ bin/mozplugger-controller
 bin/mozplugger-helper
 bin/mozplugger-linker
 bin/mozplugger-update
-etc/mozpluggerrc
-man/man7/mozplugger.7.gz
+/etc/mozpluggerrc
+%%MANPREFIX%%/man/man7/mozplugger.7.gz
 %%WEBPLUGIN_DIR%%/mozplugger.so

@@ -25,7 +25,7 @@ lib/libmp4v2.a
 lib/libmp4v2.so
 lib/libmp4v2.so.2
 lib/libmp4v2.so.2.0.0
-man/man1/mp4art.1.gz
-man/man1/mp4file.1.gz
-man/man1/mp4subtitle.1.gz
-man/man1/mp4track.1.gz
+%%MANPREFIX%%/man/man1/mp4art.1.gz
+%%MANPREFIX%%/man/man1/mp4file.1.gz
+%%MANPREFIX%%/man/man1/mp4subtitle.1.gz
+%%MANPREFIX%%/man/man1/mp4track.1.gz

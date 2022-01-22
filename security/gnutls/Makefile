@@ -23,7 +23,7 @@ USE_LDCONFIG=	yes
 
 CPE_VENDOR=	gnu
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-guile \
+CONFIGURE_ARGS= --sysconfdir=/etc --mandir=${MANPREFIX}/man	--disable-guile \
 		--enable-local-libopts \
 		--with-system-priority-file=${PREFIX}/etc/gnutls/default-priorities \
 		--with-default-trust-store-file=${LOCALBASE}/share/certs/ca-root-nss.crt \
@@ -66,30 +66,6 @@ post-patch:
 	@${RM} ${WRKSRC}/doc/*.info*
 	@${REINPLACE_CMD} 's,/usr/share,${PREFIX}/share,' \
 		${WRKSRC}/doc/manpages/*.[13]
-	@${REINPLACE_CMD} -E 's,/etc/(gnutls|tpasswd),${PREFIX}&,g' \
-		${WRKSRC}/doc/cha-gtls-app.texi \
-		${WRKSRC}/doc/gnutls-api.texi \
-		${WRKSRC}/doc/invoke-certtool.texi \
-		${WRKSRC}/doc/invoke-gnutls-cli.texi \
-		${WRKSRC}/doc/invoke-gnutls-serv.texi \
-		${WRKSRC}/doc/invoke-p11tool.texi \
-		${WRKSRC}/doc/invoke-srptool.texi \
-		${WRKSRC}/doc/manpages/certtool.1 \
-		${WRKSRC}/doc/manpages/gnutls_priority_init2.3 \
-		${WRKSRC}/doc/manpages/gnutls-cli.1 \
-		${WRKSRC}/doc/manpages/gnutls-serv.1 \
-		${WRKSRC}/doc/manpages/p11tool.1 \
-		${WRKSRC}/doc/manpages/srptool.1 \
-		${WRKSRC}/lib/includes/gnutls/pkcs11.h \
-		${WRKSRC}/lib/pkcs11.c \
-		${WRKSRC}/src/p11tool-args.c.bak \
-		${WRKSRC}/src/srptool.c
-	@${REINPLACE_CMD} \
-		's,/etc/pkcs11/modules,${PREFIX}/share/p11-kit/modules,' \
-		${WRKSRC}/doc/cha-tokens.texi \
-		${WRKSRC}/doc/invoke-p11tool.texi \
-		${WRKSRC}/doc/manpages/p11tool.1 \
-		${WRKSRC}/src/p11tool-args.c.bak
 # Bug 260078
 	@${REINPLACE_CMD} 's/-Wa,-march=all//' \
 		${WRKSRC}/lib/accelerated/aarch64/Makefile.in

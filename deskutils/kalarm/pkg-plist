@@ -1,6 +1,6 @@
 bin/kalarm
 bin/kalarmautostart
-etc/xdg/autostart/kalarm.autostart.desktop
+/etc/xdg/autostart/kalarm.autostart.desktop
 share/qlogging-categories5/kalarm.categories
 share/qlogging-categories5/kalarm.renamecategories
 lib/libexec/kauth/kalarm_helper

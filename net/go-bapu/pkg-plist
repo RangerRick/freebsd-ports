@@ -1,2 +1,2 @@
 bin/bapu
-@sample etc/bapu.toml.sample
+@sample /etc/bapu.toml.sample

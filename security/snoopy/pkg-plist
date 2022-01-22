@@ -1,4 +1,4 @@
-etc/snoopy.ini
+/etc/snoopy.ini
 lib/libsnoopy.so
 lib/libsnoopy.so.0
 lib/libsnoopy.so.0.0.0

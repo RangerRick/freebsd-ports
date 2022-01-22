@@ -6,4 +6,4 @@ lib/libjanet.so
 lib/libjanet.so.%%SOVERSION_R%%
 lib/libjanet.so.%%SOVERSION%%
 libdata/pkgconfig/janet.pc
-man/man1/janet.1.gz
+%%MANPREFIX%%/man/man1/janet.1.gz

@@ -1,5 +1,5 @@
-etc/fonts/conf.avail/42-luxi-mono.conf
-etc/fonts/conf.d/42-luxi-mono.conf
+/etc/fonts/conf.avail/42-luxi-mono.conf
+/etc/fonts/conf.d/42-luxi-mono.conf
 %%FONTSDIR%%/luximb.ttf
 %%FONTSDIR%%/luximbi.ttf
 %%FONTSDIR%%/luximr.ttf

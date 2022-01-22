@@ -1,5 +1,5 @@
 sbin/suphp
-etc/suphp.conf-example
+/etc/suphp.conf-example
 %%APACHEMODDIR%%/mod_suphp.so
 @postexec %D/sbin/apxs -e -a -n suphp %D/%f
 @preunexec %D/sbin/apxs -e -A -n suphp %D/%f

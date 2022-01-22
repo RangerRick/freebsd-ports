@@ -1,5 +1,5 @@
 bin/gpa
-man/man1/gpa.1.gz
+%%MANPREFIX%%/man/man1/gpa.1.gz
 share/applications/gpa.desktop
 %%DATADIR%%/gpa-logo.ppm
 %%DATADIR%%/gpa.png

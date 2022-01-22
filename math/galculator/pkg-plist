@@ -1,5 +1,5 @@
 bin/galculator
-man/man1/galculator.1.gz
+%%MANPREFIX%%/man/man1/galculator.1.gz
 share/appdata/galculator.appdata.xml
 share/applications/galculator.desktop
 %%DATADIR%%/ui/about.ui

@@ -1,5 +1,5 @@
 bin/ftpgw.tcl
 bin/zebedee
-etc/server.zbd.sample
-man/man1/ftpgw.tcl.1.gz
-man/man1/zebedee.1.gz
+/etc/server.zbd.sample
+%%MANPREFIX%%/man/man1/ftpgw.tcl.1.gz
+%%MANPREFIX%%/man/man1/zebedee.1.gz

@@ -16,4 +16,6 @@ USE_LDCONFIG=	${KDE_PREFIX}/${SE_DIR}
 PLIST_FILES=	${SE_DIR}/libkeyring-kwallet.so
 SE_DIR=		lib/signon/extensions
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
 .include <bsd.port.mk>

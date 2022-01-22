@@ -3,16 +3,16 @@ bin/pk-debuginfo-install
 bin/pkcon
 bin/pkgenpack
 bin/pkmon
-@sample etc/PackageKit/CommandNotFound.conf.default etc/PackageKit/CommandNotFound.conf
-@sample etc/PackageKit/PackageKit.conf.default etc/PackageKit/PackageKit.conf
-etc/PackageKit/Vendor.conf
-etc/PackageKit/events/post-transaction.d/README
-etc/PackageKit/events/pre-transaction.d/README
-etc/bash_completion.d/pk-completion.bash
-etc/cron.daily/packagekit-background.cron
-etc/dbus-1/system.d/org.freedesktop.PackageKit.conf
-etc/profile.d/PackageKit.sh
-etc/sysconfig/packagekit-background
+@sample /etc/PackageKit/CommandNotFound.conf.default etc/PackageKit/CommandNotFound.conf
+@sample /etc/PackageKit/PackageKit.conf.default etc/PackageKit/PackageKit.conf
+/etc/PackageKit/Vendor.conf
+/etc/PackageKit/events/post-transaction.d/README
+/etc/PackageKit/events/pre-transaction.d/README
+/etc/bash_completion.d/pk-completion.bash
+/etc/cron.daily/packagekit-background.cron
+/etc/dbus-1/system.d/org.freedesktop.PackageKit.conf
+/etc/profile.d/PackageKit.sh
+/etc/sysconfig/packagekit-background
 include/PackageKit/backend/pk-backend-spawn.h
 include/PackageKit/backend/pk-backend.h
 include/PackageKit/packagekit-glib2/packagekit.h

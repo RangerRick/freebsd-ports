@@ -1,5 +1,5 @@
 bin/qbittorrent
-man/man1/qbittorrent.1.gz
+%%MANPREFIX%%/man/man1/qbittorrent.1.gz
 share/applications/org.qbittorrent.qBittorrent.desktop
 share/icons/hicolor/128x128/apps/qbittorrent.png
 share/icons/hicolor/128x128/status/qbittorrent-tray.png

@@ -1,5 +1,5 @@
-@sample etc/ezjail.conf.sample
-etc/rc.d/ezjail
+@sample /etc/ezjail.conf.sample
+/etc/rc.d/ezjail
 bin/ezjail-admin
 share/zsh/site-functions/_ezjail-admin
 %%EXAMPLESDIR%%/example/etc/make.conf
@@ -11,7 +11,7 @@ share/zsh/site-functions/_ezjail-admin
 %%EXAMPLESDIR%%/nullmailer-example/etc/rc.conf
 %%EXAMPLESDIR%%/nullmailer-example/etc/mail/mailer.conf
 %%EXAMPLESDIR%%/nullmailer-example/usr/local/etc/nullmailer/remotes
-man/man5/ezjail.conf.5.gz
-man/man7/ezjail.7.gz
-man/man8/ezjail-admin.8.gz
+%%MANPREFIX%%/man/man5/ezjail.conf.5.gz
+%%MANPREFIX%%/man/man7/ezjail.7.gz
+%%MANPREFIX%%/man/man8/ezjail-admin.8.gz
 @dir %%ETCDIR%%

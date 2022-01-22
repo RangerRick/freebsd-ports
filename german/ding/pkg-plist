@@ -1,5 +1,5 @@
 bin/ding
-man/man1/ding.1.gz
+%%MANPREFIX%%/man/man1/ding.1.gz
 %%DATADIR%%/de-en.txt
 %%DATADIR%%/de_ch-en.txt
 %%DATADIR%%/ding.desktop

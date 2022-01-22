@@ -277,4 +277,4 @@ share/applications/openage.desktop
 %%DATADIR%%/textures/torn_paper_edge.docx
 %%DATADIR%%/textures/torn_paper_edge.png
 share/pixmaps/openage.svg
-@dir etc/xdg
+@dir /etc/xdg

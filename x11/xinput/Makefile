@@ -13,6 +13,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	xorgproto x11 xi xext xrandr xinerama
 
-PLIST_FILES=	bin/xinput man/man1/xinput.1.gz
+PLIST_FILES=	bin/xinput ${MANPREFIX}/man/man1/xinput.1.gz
 
 .include <bsd.port.mk>

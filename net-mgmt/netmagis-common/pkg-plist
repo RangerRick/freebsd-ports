@@ -1,5 +1,5 @@
 bin/netmagis-config
-etc/netmagis.conf.sample
+/etc/netmagis.conf.sample
 lib/netmagis/libnetmagis.tcl
 lib/netmagis/msgs/C.msg
 lib/netmagis/msgs/en.msg

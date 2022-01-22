@@ -1,7 +1,7 @@
 bin/driverless
 bin/driverless-fax
 bin/foomatic-rip
-@sample etc/cups/cups-browsed.conf.sample
+@sample /etc/cups/cups-browsed.conf.sample
 include/cupsfilters/colord.h
 include/cupsfilters/colormanager.h
 include/cupsfilters/driver.h
@@ -76,10 +76,10 @@ libexec/cups/filter/texttotext
 %%BRAILLE%%libexec/cups/filter/vectortoubrl
 %%BRAILLE%%libexec/cups/filter/wmftopdf
 %%BRAILLE%%libexec/cups/filter/xfigtopdf
-man/man1/driverless.1.gz
-man/man1/foomatic-rip.1.gz
-man/man5/cups-browsed.conf.5.gz
-man/man8/cups-browsed.8.gz
+%%MANPREFIX%%/man/man1/driverless.1.gz
+%%MANPREFIX%%/man/man1/foomatic-rip.1.gz
+%%MANPREFIX%%/man/man5/cups-browsed.conf.5.gz
+%%MANPREFIX%%/man/man8/cups-browsed.8.gz
 sbin/cups-browsed
 share/cups/banners/classified
 share/cups/banners/confidential

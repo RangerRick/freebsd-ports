@@ -55,5 +55,5 @@ share/locale/tr/LC_MESSAGES/newsboat.mo
 share/locale/uk/LC_MESSAGES/newsboat.mo
 share/locale/zh/LC_MESSAGES/newsboat.mo
 share/locale/zh_TW/LC_MESSAGES/newsboat.mo
-share/man/man1/newsboat.1.gz
-share/man/man1/podboat.1.gz
+%%MANPREFIX%%/man/man1/newsboat.1.gz
+%%MANPREFIX%%/man/man1/podboat.1.gz

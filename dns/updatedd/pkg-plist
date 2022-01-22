@@ -1,6 +1,6 @@
 bin/updatedd
 bin/updatedd-wrapper
-@sample etc/updatedd-wrapper.conf.sample
+@sample /etc/updatedd-wrapper.conf.sample
 lib/updatedd/libchangeip.a
 lib/updatedd/libchangeip.so
 lib/updatedd/libchangeip.so.0
@@ -48,9 +48,9 @@ include/libregfish.h
 include/libtzo.h
 %%DATADIR%%/interface.pl
 %%DATADIR%%/ipserv.pl
-man/man1/updatedd-wrapper.1.gz
-man/man1/updatedd.1.gz
-man/man5/updatedd-wrapper.conf.5.gz
+%%MANPREFIX%%/man/man1/updatedd-wrapper.1.gz
+%%MANPREFIX%%/man/man1/updatedd.1.gz
+%%MANPREFIX%%/man/man5/updatedd-wrapper.conf.5.gz
 %%PORTDOCS%%%%DOCSDIR%%/updatedd-2.4-english.pdf
 %%PORTDOCS%%%%DOCSDIR%%/updatedd-2.4-german.pdf
 %%PORTDOCS%%%%DOCSDIR%%/updatedd-pppd-rc

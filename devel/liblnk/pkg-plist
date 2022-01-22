@@ -13,5 +13,5 @@ lib/liblnk.so.1.0.0
 %%PYTHON_SITELIBDIR%%/pylnk.a
 %%PYTHON_SITELIBDIR%%/pylnk.so
 libdata/pkgconfig/liblnk.pc
-man/man1/lnkinfo.1.gz
-man/man3/liblnk.3.gz
+%%MANPREFIX%%/man/man1/lnkinfo.1.gz
+%%MANPREFIX%%/man/man3/liblnk.3.gz

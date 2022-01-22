@@ -81,8 +81,10 @@ do-configure:
 post-patch:
 	@(cd ${WEBCAMDDIR}/patches && ${SH} ./do_patch.sh)
 
+pre-install:
+	mkdir -p ${STAGEDIR}/etc/rc.d
 post-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/devd
-	${INSTALL_DATA} "${WRKDIR}/webcamd.conf" ${STAGEDIR}${PREFIX}/etc/devd
+	@${MKDIR} ${STAGEDIR}/etc/devd
+	${INSTALL_DATA} "${WRKDIR}/webcamd.conf" ${STAGEDIR}/etc/devd
 
 .include <bsd.port.mk>

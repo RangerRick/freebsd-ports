@@ -1,6 +1,6 @@
 sbin/dns_balance
-@sample etc/dns_balance/addrdb.rb.dist etc/dns_balance/addrdb.rb
-@sample etc/dns_balance/namespace.rb.dist etc/dns_balance/namespace.rb
+@sample /etc/dns_balance/addrdb.rb.dist etc/dns_balance/addrdb.rb
+@sample /etc/dns_balance/namespace.rb.dist etc/dns_balance/namespace.rb
 lib/dns_balance/as_search.rb
 lib/dns_balance/cache.rb
 lib/dns_balance/datatype.rb

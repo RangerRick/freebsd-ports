@@ -8,6 +8,6 @@ COMMENT=	Utility for killing a client by its X resource
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xmuu
 
-PLIST_FILES=	bin/xkill man/man1/xkill.1.gz
+PLIST_FILES=	bin/xkill ${MANPREFIX}/man/man1/xkill.1.gz
 
 .include <bsd.port.mk>

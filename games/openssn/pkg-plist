@@ -1,5 +1,5 @@
 bin/openssn
-man/man6/openssn.6.gz
+%%MANPREFIX%%/man/man6/openssn.6.gz
 share/applications/openssn.desktop
 %%DATADIR%%/data/font.dat
 %%DATADIR%%/data/information.txt

@@ -24,8 +24,8 @@ MAKEFILE=	unix/Makefile
 ALL_TARGET=	generic
 
 PLIST_FILES=	bin/zip bin/zipcloak bin/zipnote bin/zipsplit \
-		man/man1/zip.1.gz man/man1/zipcloak.1.gz \
-		man/man1/zipnote.1.gz man/man1/zipsplit.1.gz
+		${MANPREFIX}/man/man1/zip.1.gz ${MANPREFIX}/man/man1/zipcloak.1.gz \
+		${MANPREFIX}/man/man1/zipnote.1.gz ${MANPREFIX}/man/man1/zipsplit.1.gz
 PORTDOCS=	*
 
 do-install:

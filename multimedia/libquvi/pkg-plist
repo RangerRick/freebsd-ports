@@ -6,4 +6,4 @@ lib/libquvi.so
 lib/libquvi.so.7
 lib/libquvi.so.7.0.1
 libdata/pkgconfig/libquvi.pc
-man/man3/libquvi.3.gz
+%%MANPREFIX%%/man/man3/libquvi.3.gz

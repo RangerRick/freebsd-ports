@@ -1,10 +1,10 @@
 bin/lxpanel
 bin/lxpanelctl
-etc/xdg/lxpanel/default/config
-etc/xdg/lxpanel/default/panels/panel
-etc/xdg/lxpanel/two_panels/config
-etc/xdg/lxpanel/two_panels/panels/bottom
-etc/xdg/lxpanel/two_panels/panels/top
+/etc/xdg/lxpanel/default/config
+/etc/xdg/lxpanel/default/panels/panel
+/etc/xdg/lxpanel/two_panels/config
+/etc/xdg/lxpanel/two_panels/panels/bottom
+/etc/xdg/lxpanel/two_panels/panels/top
 include/lxpanel/conf.h
 include/lxpanel/icon-grid.h
 include/lxpanel/misc.h
@@ -22,8 +22,8 @@ lib/lxpanel/plugins/volume.so
 %%WEATHER%%lib/lxpanel/plugins/weather.so
 lib/lxpanel/plugins/xkb.so
 libdata/pkgconfig/lxpanel.pc
-man/man1/lxpanel.1.gz
-man/man1/lxpanelctl.1.gz
+%%MANPREFIX%%/man/man1/lxpanel.1.gz
+%%MANPREFIX%%/man/man1/lxpanelctl.1.gz
 %%NLS%%share/locale/af/LC_MESSAGES/lxpanel.mo
 %%NLS%%share/locale/ar/LC_MESSAGES/lxpanel.mo
 %%NLS%%share/locale/be/LC_MESSAGES/lxpanel.mo

@@ -23,7 +23,7 @@ SUB_LIST=	XMLCATMGR=${XMLCATMGR} \
 		CATALOG_MASTER_XML=${CATALOG_MASTER_XML} \
 		CATALOG_PORTS_SGML=${CATALOG_PORTS_SGML} \
 		CATALOG_PORTS_XML=${CATALOG_PORTS_XML}
-PLIST_FILES=	bin/xmlcatmgr man/man1/xmlcatmgr.1.gz
+PLIST_FILES=	bin/xmlcatmgr ${MANPREFIX}/man/man1/xmlcatmgr.1.gz
 PLIST_DIRS=	share/xml share/sgml
 PORTDOCS=	AUTHORS COPYING NEWS README TODO
 
@@ -37,4 +37,6 @@ OPTIONS_DEFINE=	DOCS
 
 DOCS_CONFIGURE_OFF=	--disable-docs
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/share/xml ${STAGEDIR}${PREFIX}/share/sgml
 .include <bsd.port.mk>

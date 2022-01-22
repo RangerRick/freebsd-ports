@@ -1,5 +1,5 @@
 bin/qlipper
-%%LXQTAUTOSTART%%etc/xdg/autostart/lxqt-qlipper-autostart.desktop
+%%LXQTAUTOSTART%%/etc/xdg/autostart/lxqt-qlipper-autostart.desktop
 share/applications/qlipper.desktop
 share/icons/hicolor/128x128/apps/qlipper.png
 %%DATADIR%%/translations/qlipper_ca.qm

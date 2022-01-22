@@ -1,5 +1,5 @@
 bin/photoflare
-man/man1/photoflare.1.gz
+%%MANPREFIX%%/man/man1/photoflare.1.gz
 share/applications/photoflare.desktop
 share/icons/hicolor/128x128/apps/photoflare.png
 share/icons/hicolor/16x16/apps/photoflare.png

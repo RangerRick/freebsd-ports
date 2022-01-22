@@ -1,5 +1,5 @@
 @(,games,2555) bin/toppler
-man/man6/toppler.6.gz
+%%MANPREFIX%%/man/man6/toppler.6.gz
 share/applications/toppler.desktop
 %%NLS%%share/locale/cs/LC_MESSAGES/toppler.mo
 %%NLS%%share/locale/de/LC_MESSAGES/toppler.mo

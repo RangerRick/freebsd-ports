@@ -19,7 +19,7 @@ lib/libnomacsCore.so.3.16.0
 %%PLUGINS%%lib/nomacs-plugins/libpaintPlugin.so.3.16.0
 share/applications/org.nomacs.ImageLounge.desktop
 share/icons/hicolor/scalable/apps/org.nomacs.ImageLounge.svg
-share/man/man1/nomacs.1.gz
+%%MANPREFIX%%/man/man1/nomacs.1.gz
 share/metainfo/org.nomacs.ImageLounge.appdata.xml
 %%DATADIR%%/Image Lounge/themes/Dark-Theme.css
 %%DATADIR%%/Image Lounge/themes/Light-Theme.css

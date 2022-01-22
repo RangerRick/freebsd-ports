@@ -3,10 +3,10 @@ bin/imv-folder
 bin/imv-msg
 %%ALL%%bin/imv-wayland
 %%ALL%%bin/imv-x11
-etc/imv_config
-man/man1/imv-folder.1.gz
-man/man1/imv-msg.1.gz
-man/man1/imv.1.gz
-man/man5/imv.5.gz
+/etc/imv_config
+%%MANPREFIX%%/man/man1/imv-folder.1.gz
+%%MANPREFIX%%/man/man1/imv-msg.1.gz
+%%MANPREFIX%%/man/man1/imv.1.gz
+%%MANPREFIX%%/man/man5/imv.5.gz
 share/applications/imv-folder.desktop
 share/applications/imv.desktop

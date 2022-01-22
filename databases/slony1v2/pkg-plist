@@ -1,8 +1,8 @@
 bin/slon
 bin/slonik
 bin/slony_logshipper
-etc/slon.conf-sample
-%%PERLTOOLS%%etc/slon_tools.conf-sample
+/etc/slon.conf-sample
+%%PERLTOOLS%%/etc/slon_tools.conf-sample
 lib/postgresql/slony1_funcs.2.2.10.so
 %%PERLTOOLS%%lib/slon-tools.pm
 sbin/slon-mkservice

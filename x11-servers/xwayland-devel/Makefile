@@ -44,8 +44,8 @@ MESON_ARGS=	-D${PORTNAME}=true \
 PLIST_FILES=	bin/Xwayland \
 		"@comment lib/xorg/protocol.txt" \
 		libdata/pkgconfig/xwayland.pc \
-		"@comment man/man1/Xserver.1.gz" \
-		man/man1/Xwayland.1.gz
+		"@comment %%MANPREFIX%%/man/man1/Xserver.1.gz" \
+		%%MANPREFIX%%/man/man1/Xwayland.1.gz
 
 # Keep in sync with xorg-server
 FONTPATH_ROOT?=	${LOCALBASE}/share/fonts

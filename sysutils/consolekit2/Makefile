@@ -48,7 +48,7 @@ USE_CSTD=	gnu99
 USE_GNOME=	glib20 libxslt introspection:build
 GNU_CONFIGURE=	yes
 USE_LDCONFIG=	yes
-CONFIGURE_ARGS=	--with-pid-file=/var/run/${PORTNAME}.pid \
+CONFIGURE_ARGS= --sysconfdir=/etc 	--with-pid-file=/var/run/${PORTNAME}.pid \
 		--enable-pam-module \
 		--with-pam-module-dir=${PREFIX}/lib \
 		--localstatedir=/var \

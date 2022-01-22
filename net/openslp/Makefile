@@ -13,7 +13,7 @@ GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install-strip
 USES=		alias cpe libtool ssl
 USE_LDCONFIG=	yes
-CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/openslp \
+CONFIGURE_ARGS=	--sysconfdir=/etc/openslp \
 		--localstatedir=/var
 CPPFLAGS+=	-DHAVE_STRNCASECMP
 
@@ -31,9 +31,11 @@ post-extract:
 		${FIND} doc -type f -path '*/CVS/*' -delete; \
 		${FIND} doc -type d -name CVS -delete)
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 post-install:
 .for FILE in slp.conf slp.reg slp.spi
-	${INSTALL_DATA} ${WRKSRC}/etc/${FILE} ${STAGEDIR}${PREFIX}/etc/openslp/${FILE}.sample
+	${INSTALL_DATA} ${WRKSRC}/etc/${FILE} ${STAGEDIR}/etc/openslp/${FILE}.sample
 .endfor
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}
 	(cd ${INSTALL_WRKSRC}/doc && ${COPYTREE_SHARE} . ${STAGEDIR}${DOCSDIR})

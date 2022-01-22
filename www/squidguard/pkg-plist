@@ -1,5 +1,5 @@
 bin/squidGuard
-@sample etc/squid/squidGuard.conf.sample
+@sample /etc/squid/squidGuard.conf.sample
 %%PORTDOCS%%%%DOCSDIR%%/LDAPFlow.txt
 %%PORTDOCS%%%%DOCSDIR%%/README
 %%PORTDOCS%%%%DOCSDIR%%/authentication.html

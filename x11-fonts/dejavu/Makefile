@@ -38,9 +38,9 @@ OPTIONS_SUB=	yes
 LINKS_DESC=	Install links of configuration files in conf.d
 
 do-install:
-	cd ${STAGEDIR}${PREFIX}/ && ${MKDIR} ${FCDIR}/ ${FCDIR_LINKS}/ ${STAGEDIR}${FONTSDIR}/
-	${INSTALL_DATA} ${WRKSRC}/fontconfig/*.conf ${STAGEDIR}${PREFIX}/${FCDIR}/
-	cd ${STAGEDIR}${PREFIX}/${FCDIR_LINKS}/ && ${LN} -fs ../conf.avail/*dejavu*.conf .
+	cd ${STAGEDIR}/ && ${MKDIR} ${FCDIR}/ ${FCDIR_LINKS}/ ${STAGEDIR}${FONTSDIR}/
+	${INSTALL_DATA} ${WRKSRC}/fontconfig/*.conf ${STAGEDIR}/${FCDIR}/
+	cd ${STAGEDIR}/${FCDIR_LINKS}/ && ${LN} -fs ../conf.avail/*dejavu*.conf .
 	${INSTALL_DATA} ${WRKSRC}/ttf/*.ttf ${STAGEDIR}${FONTSDIR}/
 
 do-install-DOCS-on:

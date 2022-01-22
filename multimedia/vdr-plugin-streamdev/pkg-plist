@@ -1,7 +1,7 @@
 lib/vdr/libvdr-streamdev-client.so.%%APIVERSION%%
 lib/vdr/libvdr-streamdev-server.so.%%APIVERSION%%
-@sample etc/vdr/plugins/streamdev-server/externremux.sh.sample
-@sample etc/vdr/plugins/streamdev-server/streamdevhosts.conf.sample
+@sample /etc/vdr/plugins/streamdev-server/externremux.sh.sample
+@sample /etc/vdr/plugins/streamdev-server/streamdevhosts.conf.sample
 %%NLS%%share/locale/de_DE/LC_MESSAGES/vdr-streamdev-client.mo
 %%NLS%%share/locale/de_DE/LC_MESSAGES/vdr-streamdev-server.mo
 %%NLS%%share/locale/es_ES/LC_MESSAGES/vdr-streamdev-client.mo

@@ -33,5 +33,5 @@ lib/libquicktime/lqt_videocodec.so
 lib/libquicktime/lqt_vorbis.so
 %%X264%%lib/libquicktime/lqt_x264.so
 libdata/pkgconfig/libquicktime.pc
-man/man1/lqtplay.1.gz
+%%MANPREFIX%%/man/man1/lqtplay.1.gz
 share/locale/de/LC_MESSAGES/libquicktime.mo

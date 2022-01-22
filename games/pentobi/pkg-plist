@@ -5,10 +5,10 @@ bin/pentobi
 %%GNOME%%man/es/man6/pentobi-thumbnailer.6.gz
 %%GNOME%%man/man6/pentobi-thumbnailer.6.gz
 %%GNOME%%man/ru/man6/pentobi-thumbnailer.6.gz
-man/de/man6/pentobi.6.gz
-man/es/man6/pentobi.6.gz
-man/man6/pentobi.6.gz
-man/ru/man6/pentobi.6.gz
+%%MANPREFIX%%/man/de/man6/pentobi.6.gz
+%%MANPREFIX%%/man/es/man6/pentobi.6.gz
+%%MANPREFIX%%/man/man6/pentobi.6.gz
+%%MANPREFIX%%/man/ru/man6/pentobi.6.gz
 share/applications/io.sourceforge.pentobi.desktop
 share/help/C/pentobi/analysis.jpg
 share/help/C/pentobi/become_stronger.html

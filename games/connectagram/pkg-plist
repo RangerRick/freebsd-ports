@@ -1,5 +1,5 @@
 bin/connectagram
-man/man6/connectagram.6.gz
+%%MANPREFIX%%/man/man6/connectagram.6.gz
 share/applications/connectagram.desktop
 %%DATADIR%%/data/en/words
 %%DATADIR%%/data/fr/words

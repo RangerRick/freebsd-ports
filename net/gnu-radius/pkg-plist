@@ -1,12 +1,12 @@
-man/man1/radgrep.1.gz
-man/man1/radlast.1.gz
-man/man1/raduse.1.gz
-man/man1/radwho.1.gz
-man/man8/builddbm.8.gz
-man/man8/radctl.8.gz
-man/man8/radiusd.8.gz
-man/man8/radping.8.gz
-man/man8/radzap.8.gz
+%%MANPREFIX%%/man/man1/radgrep.1.gz
+%%MANPREFIX%%/man/man1/radlast.1.gz
+%%MANPREFIX%%/man/man1/raduse.1.gz
+%%MANPREFIX%%/man/man1/radwho.1.gz
+%%MANPREFIX%%/man/man8/builddbm.8.gz
+%%MANPREFIX%%/man/man8/radctl.8.gz
+%%MANPREFIX%%/man/man8/radiusd.8.gz
+%%MANPREFIX%%/man/man8/radping.8.gz
+%%MANPREFIX%%/man/man8/radzap.8.gz
 bin/builddbm
 bin/radgrep
 bin/radlast
@@ -17,29 +17,29 @@ bin/radzap
 sbin/radauth
 sbin/radctl
 sbin/radiusd
-@sample etc/raddb/access.deny.sample
-@sample etc/raddb/client.conf.sample
-@sample etc/raddb/clients.sample
-@sample etc/raddb/config.sample
-etc/raddb/dict/ascend
-etc/raddb/dict/ascend.vs
-etc/raddb/dict/cisco
-etc/raddb/dict/compat
-etc/raddb/dict/livingston
-etc/raddb/dict/microsoft
-etc/raddb/dict/standard
-etc/raddb/dict/tunnel
-etc/raddb/dict/usr
-etc/raddb/dict/voip
-@sample etc/raddb/dictionary.sample
-@sample etc/raddb/hints.sample
-@sample etc/raddb/huntgroups.sample
-etc/raddb/nas.rc
-@sample etc/raddb/naslist.sample
-@sample etc/raddb/nastypes.sample
-@sample etc/raddb/realms.sample
-@sample etc/raddb/sqlserver.sample
-@sample etc/raddb/users.sample
+@sample /etc/raddb/access.deny.sample
+@sample /etc/raddb/client.conf.sample
+@sample /etc/raddb/clients.sample
+@sample /etc/raddb/config.sample
+/etc/raddb/dict/ascend
+/etc/raddb/dict/ascend.vs
+/etc/raddb/dict/cisco
+/etc/raddb/dict/compat
+/etc/raddb/dict/livingston
+/etc/raddb/dict/microsoft
+/etc/raddb/dict/standard
+/etc/raddb/dict/tunnel
+/etc/raddb/dict/usr
+/etc/raddb/dict/voip
+@sample /etc/raddb/dictionary.sample
+@sample /etc/raddb/hints.sample
+@sample /etc/raddb/huntgroups.sample
+/etc/raddb/nas.rc
+@sample /etc/raddb/naslist.sample
+@sample /etc/raddb/nastypes.sample
+@sample /etc/raddb/realms.sample
+@sample /etc/raddb/sqlserver.sample
+@sample /etc/raddb/users.sample
 include/radius/argcv.h
 include/radius/debug.h
 include/radius/dictionary.h

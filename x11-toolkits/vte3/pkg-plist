@@ -1,6 +1,6 @@
 bin/vte-%%VERSION%%
-etc/profile.d/vte.csh
-etc/profile.d/vte.sh
+/etc/profile.d/vte.csh
+/etc/profile.d/vte.sh
 include/vte-%%VERSION%%/vte/vte.h
 include/vte-%%VERSION%%/vte/vtedeprecated.h
 include/vte-%%VERSION%%/vte/vteenums.h

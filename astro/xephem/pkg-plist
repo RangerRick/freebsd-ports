@@ -168,4 +168,4 @@ lib/X11/xephem/help/png/wcssolver.png
 lib/X11/xephem/help/xephem.html
 lib/X11/xephem/lo/lodb.xml
 lib/X11/xephem/lo/._lodb.xml
-man/man1/xephem.1.gz
+%%MANPREFIX%%/man/man1/xephem.1.gz

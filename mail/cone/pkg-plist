@@ -1,11 +1,11 @@
 bin/cone
 bin/leaf
 bin/mailtool
-@sample etc/cone.dist etc/cone
+@sample /etc/cone.dist etc/cone
 libexec/cone
-man/man1/cone.1.gz
-man/man1/leaf.1.gz
-man/man1/mailtool.1.gz
+%%MANPREFIX%%/man/man1/cone.1.gz
+%%MANPREFIX%%/man/man1/leaf.1.gz
+%%MANPREFIX%%/man/man1/mailtool.1.gz
 sbin/cone-sysconftool
 %%DATADIR%%/APPLICATION.PDF.filter
 %%DATADIR%%/FAQ.html

@@ -1,6 +1,6 @@
 bin/netustadctl
 bin/netustadpasswd
-@sample etc/netustad/netustad.conf.sample
+@sample /etc/netustad/netustad.conf.sample
 sbin/netustad
 share/locale/tr/LC_MESSAGES/netustad.mo
 %%DATADIR%%/script/action1.inc

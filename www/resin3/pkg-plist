@@ -1,5 +1,5 @@
-etc/%%APP_NAME%%/app-default.xml
-@sample etc/%%APP_NAME%%/resin.xml.sample
+/etc/%%APP_NAME%%/app-default.xml
+@sample /etc/%%APP_NAME%%/resin.xml.sample
 @owner %%USERS%%
 @group %%GROUPS%%
 %%APP_NAME%%/lib/activation.jar

@@ -1,7 +1,7 @@
-@sample etc/pdnsd.conf.sample
-man/man5/pdnsd.conf.5.gz
-man/man8/pdnsd-ctl.8.gz
-man/man8/pdnsd.8.gz
+@sample /etc/pdnsd.conf.sample
+%%MANPREFIX%%/man/man5/pdnsd.conf.5.gz
+%%MANPREFIX%%/man/man8/pdnsd-ctl.8.gz
+%%MANPREFIX%%/man/man8/pdnsd.8.gz
 sbin/pdnsd
 sbin/pdnsd-ctl
 %%PORTDOCS%%%%DOCSDIR%%/dl.html

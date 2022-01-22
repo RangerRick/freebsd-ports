@@ -62,9 +62,9 @@
 %%PORTDOCS%%%%DOCSDIR%%/images/toc-plus.png
 %%PORTDOCS%%%%DOCSDIR%%/images/up.png
 %%PORTDOCS%%%%DOCSDIR%%/images/warning.png
-@sample etc/amavisd-custom.conf.sample
-etc/amavisd.conf-default
-@sample etc/amavisd.conf.sample
+@sample /etc/amavisd-custom.conf.sample
+/etc/amavisd.conf-default
+@sample /etc/amavisd.conf.sample
 %%AMAVIS_NOP0F%%sbin/p0f-analyzer.pl
 sbin/amavisd
 sbin/amavisd-agent

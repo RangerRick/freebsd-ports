@@ -57,7 +57,7 @@ cyrus/bin/squatter
 cyrus/bin/timsieved
 cyrus/bin/tls_prune
 cyrus/bin/unexpunge
-etc/man.d/cyrus-imapd.conf
+/etc/man.d/cyrus-imapd.conf
 include/cyrus/acl.h
 include/cyrus/assert.h
 include/cyrus/auth.h
@@ -103,5 +103,5 @@ lib/libcyrus_min.a
 %%SITE_ARCH%%/Cyrus/SIEVE/managesieve.pm
 %%SITE_ARCH%%/auto/Cyrus/IMAP/IMAP.so
 %%SITE_ARCH%%/auto/Cyrus/SIEVE/managesieve/managesieve.so
-@sample %%EXAMPLESDIR%%/imapd.conf etc/imapd.conf
-@sample %%EXAMPLESDIR%%/normal.conf etc/cyrus.conf
+@sample %%EXAMPLESDIR%%/imapd.conf /etc/imapd.conf
+@sample %%EXAMPLESDIR%%/normal.conf /etc/cyrus.conf

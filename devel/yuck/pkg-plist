@@ -1,5 +1,5 @@
 bin/yuck
-man/man1/yuck.1.gz
+%%MANPREFIX%%/man/man1/yuck.1.gz
 share/aclocal/yuck.m4
 %%DATADIR%%/yuck-coru.c.m4
 %%DATADIR%%/yuck-coru.h.m4

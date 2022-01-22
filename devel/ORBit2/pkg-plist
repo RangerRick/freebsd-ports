@@ -1,7 +1,7 @@
 bin/linc-cleanup-sockets
 bin/orbit-idl-2
 bin/orbit2-config
-@sample etc/orbit2rc.sample
+@sample /etc/orbit2rc.sample
 include/orbit-2.0/ORBitservices/CosNaming.h
 include/orbit-2.0/ORBitservices/CosNaming_impl.h
 include/orbit-2.0/ORBitservices/orbit-imodule.h

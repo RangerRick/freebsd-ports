@@ -15,6 +15,6 @@ USES=		localbase xorg xorg-cat:app
 
 USE_XORG=	xorgproto
 
-PLIST_FILES=	bin/bdftopcf man/man1/bdftopcf.1.gz
+PLIST_FILES=	bin/bdftopcf ${MANPREFIX}/man/man1/bdftopcf.1.gz
 
 .include <bsd.port.mk>

@@ -10,6 +10,6 @@ LICENSE=	MIT
 USES=		xorg xorg-cat:app
 USE_XORG=	xcb
 
-PLIST_FILES=	bin/xlsatoms man/man1/xlsatoms.1.gz
+PLIST_FILES=	bin/xlsatoms ${MANPREFIX}/man/man1/xlsatoms.1.gz
 
 .include <bsd.port.mk>

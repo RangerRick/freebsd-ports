@@ -7,13 +7,13 @@ lib/wolfpack/empsched
 lib/wolfpack/fairland
 lib/wolfpack/files
 lib/wolfpack/pconfig
-man/man6/emp_server.6.gz
-man/man6/empdump.6.gz
-man/man6/empire.6.gz
-man/man6/empsched.6.gz
-man/man6/fairland.6.gz
-man/man6/files.6.gz
-man/man6/pconfig.6.gz
+%%MANPREFIX%%/man/man6/emp_server.6.gz
+%%MANPREFIX%%/man/man6/empdump.6.gz
+%%MANPREFIX%%/man/man6/empire.6.gz
+%%MANPREFIX%%/man/man6/empsched.6.gz
+%%MANPREFIX%%/man/man6/fairland.6.gz
+%%MANPREFIX%%/man/man6/files.6.gz
+%%MANPREFIX%%/man/man6/pconfig.6.gz
 @owner wolfpack
 @group wolfpack
 @mode 644
@@ -297,13 +297,13 @@ man/man6/pconfig.6.gz
 %%DATADIR%%/info.nr/xdump
 %%DATADIR%%/info.nr/zdone
 @mode 640
-etc/wolfpack/schedule
-@sample etc/wolfpack/econfig.sample
+/etc/wolfpack/schedule
+@sample /etc/wolfpack/econfig.sample
 @mode 755
 @dir %%DATADIR%%/builtin
 @dir %%DATADIR%%/info.nr
 @dir %%DATADIR%%
 @dir lib/wolfpack
 @mode 750
-@dir etc/wolfpack
+@dir /etc/wolfpack
 @dir /var/wolfpack

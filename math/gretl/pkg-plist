@@ -142,7 +142,7 @@ lib/libgretl-1.0.so
 lib/libgretl-1.0.so.40
 lib/libgretl-1.0.so.40.0.0
 libdata/pkgconfig/gretl.pc
-man/man1/gretl.1.gz
+%%MANPREFIX%%/man/man1/gretl.1.gz
 %%GUI%%share/appdata/gretl.appdata.xml
 %%GUI%%share/applications/gretl.desktop
 %%GUI%%%%DATADIR%%/COPYING

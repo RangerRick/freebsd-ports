@@ -1,6 +1,6 @@
 @sample(,ot-recorder,640) %%ETCDIR%%/ot-recorder.conf.sample
 bin/ocat
-etc/rc.d/ot-recorder
+/etc/rc.d/ot-recorder
 sbin/ot-recorder
 %%WWWDIR%%/favicon.ico
 %%WWWDIR%%/index.html

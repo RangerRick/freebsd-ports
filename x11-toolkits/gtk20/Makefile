@@ -32,7 +32,7 @@ USE_LDCONFIG=	yes
 USE_PERL5=	build
 USE_XORG=	xext xrender x11 xinerama xi xrandr xcursor xfixes xdamage \
 		xcomposite
-CONFIGURE_ARGS=	--with-xinput=yes
+CONFIGURE_ARGS= --sysconfdir=/etc	--with-xinput=yes
 INSTALL_TARGET=	install-strip
 
 OPTIONS_DEFINE=	CUPS DEBUG

@@ -1,5 +1,5 @@
 bin/icingacli
-etc/bash_completion.d/icingacli
+/etc/bash_completion.d/icingacli
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/apache/icingaweb2.conf
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/nginx/icingaweb2.conf
 %%WWWDIR%%/AUTHORS

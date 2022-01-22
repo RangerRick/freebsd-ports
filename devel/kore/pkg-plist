@@ -72,4 +72,4 @@ include/kore/tasks.h
 %%DATADIR%%/src/validator.c
 %%DATADIR%%/src/websocket.c
 %%DATADIR%%/src/worker.c
-share/man/man1/kodev.1.gz
+%%MANPREFIX%%/man/man1/kodev.1.gz

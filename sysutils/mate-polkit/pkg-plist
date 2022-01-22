@@ -1,4 +1,4 @@
-etc/xdg/autostart/polkit-mate-authentication-agent-1.desktop
+/etc/xdg/autostart/polkit-mate-authentication-agent-1.desktop
 libexec/polkit-mate-authentication-agent-1
 share/locale/af/LC_MESSAGES/mate-polkit.mo
 share/locale/am/LC_MESSAGES/mate-polkit.mo

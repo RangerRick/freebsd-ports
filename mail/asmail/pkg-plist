@@ -1,6 +1,6 @@
 bin/asmail
-man/man1/asmail.1.gz
-man/man5/asmailrc.5.gz
+%%MANPREFIX%%/man/man1/asmail.1.gz
+%%MANPREFIX%%/man/man5/asmailrc.5.gz
 %%DATADIR%%/pixmaps/e-no.xpm
 %%DATADIR%%/pixmaps/e0.xpm
 %%DATADIR%%/pixmaps/e1.xpm

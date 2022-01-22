@@ -1,9 +1,9 @@
 bin/build-index
 bin/build-index.sh
-@sample etc/graphite/dashboard.conf.example etc/graphite/dashboard.conf
-@sample etc/graphite/graphTemplates.conf.example etc/graphite/graphTemplates.conf
-@sample etc/graphite/graphite.wsgi.example etc/graphite/graphite.wsgi
-@sample etc/graphite/local_settings.py.example etc/graphite/local_settings.py
+@sample /etc/graphite/dashboard.conf.example etc/graphite/dashboard.conf
+@sample /etc/graphite/graphTemplates.conf.example etc/graphite/graphTemplates.conf
+@sample /etc/graphite/graphite.wsgi.example etc/graphite/graphite.wsgi
+@sample /etc/graphite/local_settings.py.example etc/graphite/local_settings.py
 %%DATADIR%%/content/css/darkX.css
 %%DATADIR%%/content/css/darkX/button-close-focused.png
 %%DATADIR%%/content/css/darkX/button-maximize-focused.png

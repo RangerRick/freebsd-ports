@@ -1,4 +1,4 @@
-etc/gnome-vfs-mime-magic
+/etc/gnome-vfs-mime-magic
 libdata/pkgconfig/gnome-mime-data-2.0.pc
 share/application-registry/gnome-vfs.applications
 share/mime-info/gnome-vfs.keys

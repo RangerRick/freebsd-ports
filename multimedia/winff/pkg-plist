@@ -1,5 +1,5 @@
 bin/winff
-man/man1/winff.1.gz
+%%MANPREFIX%%/man/man1/winff.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/WinFF.ca.pdf
 %%PORTDOCS%%%%DOCSDIR%%/WinFF.en.pdf
 %%PORTDOCS%%%%DOCSDIR%%/WinFF.es.pdf

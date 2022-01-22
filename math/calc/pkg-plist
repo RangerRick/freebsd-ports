@@ -42,7 +42,7 @@ lib/libcustcalc.so.%%VERSION%%
 %%FULL%%libexec/cscript/powerterm
 %%FULL%%libexec/cscript/simple
 %%FULL%%libexec/cscript/square
-man/man1/calc.1.gz
+%%MANPREFIX%%/man/man1/calc.1.gz
 %%FULL%%%%DATADIR%%/README
 %%FULL%%%%DATADIR%%/alg_config.cal
 %%FULL%%%%DATADIR%%/beer.cal

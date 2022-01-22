@@ -1,4 +1,4 @@
-etc/bash_completion.d/icinga2
+/etc/bash_completion.d/icinga2
 @sample %%ETCDIR%%/conf.d/app.conf.sample
 @sample %%ETCDIR%%/conf.d/commands.conf.sample
 @sample %%ETCDIR%%/conf.d/downtimes.conf.sample
@@ -44,7 +44,7 @@ etc/bash_completion.d/icinga2
 %%PGSQL%%lib/icinga2/libpgsql_shim.so.2.13.2
 lib/icinga2/sbin/icinga2
 libexec/nagios/check_nscp_api
-man/man8/icinga2.8.gz
+%%MANPREFIX%%/man/man8/icinga2.8.gz
 sbin/icinga2
 %%PORTDOCS%%%%DOCSDIR%%/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/CHANGELOG.md

@@ -1357,5 +1357,5 @@
 bin/dune
 bin/dune4kids
 bin/illegal2vrml
-man/man1/dune.1.gz
-man/man1/illegal2vrml.1.gz
+%%MANPREFIX%%/man/man1/dune.1.gz
+%%MANPREFIX%%/man/man1/illegal2vrml.1.gz

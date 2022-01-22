@@ -548,5 +548,5 @@
 @(,,00555) %%WEBPLUGIN_DIR%%/wfica
 bin/wfcmgr
 bin/wfica
-etc/icalicense/clientlicense
+/etc/icalicense/clientlicense
 @dir %%WEBPLUGIN_DIR%%/PKCS#11

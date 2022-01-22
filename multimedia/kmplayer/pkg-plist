@@ -1,7 +1,7 @@
 bin/kmplayer
 bin/knpplayer
 bin/kphononplayer
-etc/xdg/kmplayerrc
+/etc/xdg/kmplayerrc
 lib/libkdeinit5_kmplayer.so
 lib/libkmplayercommon.so
 %%QT_PLUGINDIR%%/kmplayerpart.so

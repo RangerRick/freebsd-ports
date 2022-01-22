@@ -85,6 +85,8 @@ post-extract:
 		${WRKDIR}/bsd-xterm-icons-1/*.xpm \
 			${WRKSRC}/icons/
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/usr/share/applications
 post-install:
 .for f in koi8rxterm resize uxterm xterm
 	@${CHMOD} ${BINMODE} ${STAGEDIR}${PREFIX}/bin/${f}

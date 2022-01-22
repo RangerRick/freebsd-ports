@@ -1,4 +1,4 @@
 bin/dynip
-etc/rc.d/dynip
-etc/periodic/daily/dynip
-man/man8/dynip.8.gz
+/etc/rc.d/dynip
+/etc/periodic/daily/dynip
+%%MANPREFIX%%/man/man8/dynip.8.gz

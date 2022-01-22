@@ -14,20 +14,20 @@ lib/liblirc_client.a
 lib/liblirc_client.so
 lib/liblirc_client.so.0
 lib/liblirc_client.so.0.2.1
-man/man1/ircat.1.gz
-man/man1/irexec.1.gz
-man/man1/irpty.1.gz
-man/man1/irrecord.1.gz
-man/man1/irsend.1.gz
-man/man1/irw.1.gz
-man/man1/irxevent.1.gz
-man/man1/lircrcd.1.gz
-man/man1/mode2.1.gz
-man/man1/smode2.1.gz
-man/man1/xmode2.1.gz
-man/man8/lircd.8.gz
-man/man8/lircmd.8.gz
+%%MANPREFIX%%/man/man1/ircat.1.gz
+%%MANPREFIX%%/man/man1/irexec.1.gz
+%%MANPREFIX%%/man/man1/irpty.1.gz
+%%MANPREFIX%%/man/man1/irrecord.1.gz
+%%MANPREFIX%%/man/man1/irsend.1.gz
+%%MANPREFIX%%/man/man1/irw.1.gz
+%%MANPREFIX%%/man/man1/irxevent.1.gz
+%%MANPREFIX%%/man/man1/lircrcd.1.gz
+%%MANPREFIX%%/man/man1/mode2.1.gz
+%%MANPREFIX%%/man/man1/smode2.1.gz
+%%MANPREFIX%%/man/man1/xmode2.1.gz
+%%MANPREFIX%%/man/man8/lircd.8.gz
+%%MANPREFIX%%/man/man8/lircmd.8.gz
 sbin/lircd
 sbin/lircmd
-@sample etc/lircd.conf.sample
+@sample /etc/lircd.conf.sample
 @dir /var/run/lirc

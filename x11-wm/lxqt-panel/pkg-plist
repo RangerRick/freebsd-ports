@@ -1,6 +1,6 @@
 bin/lxqt-panel
-etc/xdg/autostart/lxqt-panel.desktop
-etc/xdg/menus/lxqt-applications.menu
+/etc/xdg/autostart/lxqt-panel.desktop
+/etc/xdg/menus/lxqt-applications.menu
 %%LXQT_INCLUDEDIR%%/ilxqtpanel.h
 %%LXQT_INCLUDEDIR%%/ilxqtpanelplugin.h
 %%LXQT_INCLUDEDIR%%/lxqtpanelglobals.h
@@ -705,4 +705,4 @@ share/desktop-directories/lxqt-settings.directory
 %%LXQT_TRANSLATIONS%%/lxqt-panel/worldclock/worldclock_tr.qm
 %%LXQT_TRANSLATIONS%%/lxqt-panel/worldclock/worldclock_uk.qm
 %%LXQT_TRANSLATIONS%%/lxqt-panel/worldclock/worldclock_zh_CN.qm
-share/man/man1/lxqt-panel.1.gz
+%%MANPREFIX%%/man/man1/lxqt-panel.1.gz

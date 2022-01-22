@@ -13,6 +13,6 @@ USES=		xorg xorg-cat:app
 USE_XORG=	x11 xcursor xorgproto
 INSTALL_TARGET=	install-strip
 
-PLIST_FILES=	bin/xcursorgen man/man1/xcursorgen.1.gz
+PLIST_FILES=	bin/xcursorgen ${MANPREFIX}/man/man1/xcursorgen.1.gz
 
 .include <bsd.port.mk>

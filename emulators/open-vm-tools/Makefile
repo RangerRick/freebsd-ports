@@ -35,7 +35,7 @@ USE_RC_SUBR=	vmware-guestd vmware-kmod
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--disable-vgauth \
-		--sysconfdir=${PREFIX}/etc \
+		--sysconfdir=/etc \
 		--without-icu
 CONFIGURE_ENV+=	SYSDIR=${SRC_BASE}/sys
 
@@ -76,6 +76,8 @@ post-patch:
 post-build:
 	cd ${WRKSRC}/modules && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_ARGS}
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 post-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/lib/vmware-tools/modules/drivers
 	${MKDIR} ${STAGEDIR}${PREFIX}/lib/vmware-tools/modules/input

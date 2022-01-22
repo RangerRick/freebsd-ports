@@ -12,6 +12,6 @@ bin/antimicro
 %%DATADIR%%/translations/antimicro_zh_CN.qm
 %%DATADIR%%/translations/antimicro.qm
 share/applications/antimicro.desktop
-share/man/man1/antimicro.1.gz
+%%MANPREFIX%%/man/man1/antimicro.1.gz
 share/mime/packages/antimicro.xml
 share/pixmaps/antimicro.png

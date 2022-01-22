@@ -1,5 +1,5 @@
 bin/kamerka
-man/man1/kamerka.1.gz
+%%MANPREFIX%%/man/man1/kamerka.1.gz
 share/applications/kamerka.desktop
 share/config.kcfg/kamerka.kcfg
 %%DATADIR%%/camera_click.ogg

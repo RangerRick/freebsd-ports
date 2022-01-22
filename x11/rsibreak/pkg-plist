@@ -1,5 +1,5 @@
 bin/rsibreak
-etc/xdg/autostart/rsibreak_autostart.desktop
+/etc/xdg/autostart/rsibreak_autostart.desktop
 share/applications/org.kde.rsibreak.desktop
 share/dbus-1/interfaces/org.rsibreak.rsiwidget.xml
 share/doc/HTML/ca/rsibreak/index.cache.bz2

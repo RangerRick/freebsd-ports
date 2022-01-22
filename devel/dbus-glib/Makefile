@@ -20,7 +20,7 @@ USE_LDCONFIG=	yes
 
 CPE_VENDOR=	freedesktop
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-test-socket-dir=${WRKDIR} \
+CONFIGURE_ARGS= --sysconfdir=/etc 	--with-test-socket-dir=${WRKDIR} \
 		--disable-gtk-doc \
 		--with-html-dir=${PREFIX}/share/doc
 INSTALL_TARGET=	install-strip

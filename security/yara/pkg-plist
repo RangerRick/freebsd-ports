@@ -38,5 +38,5 @@ lib/libyara.so
 lib/libyara.so.8
 lib/libyara.so.8.0.0
 libdata/pkgconfig/yara.pc
-man/man1/yara.1.gz
-man/man1/yarac.1.gz
+%%MANPREFIX%%/man/man1/yara.1.gz
+%%MANPREFIX%%/man/man1/yarac.1.gz

@@ -4,7 +4,7 @@
 %%FONTSDIR%%/TakaoMincho.otf
 %%FONTSDIR%%/TakaoPMincho.otf
 %%FONTSDIR%%/TakaoExMincho.otf
-etc/fonts/conf.avail/20-unhint-takao.conf
-etc/fonts/conf.avail/62-fonts-takao.conf
-etc/fonts/conf.d/20-unhint-takao.conf
-etc/fonts/conf.d/62-fonts-takao.conf
+/etc/fonts/conf.avail/20-unhint-takao.conf
+/etc/fonts/conf.avail/62-fonts-takao.conf
+/etc/fonts/conf.d/20-unhint-takao.conf
+/etc/fonts/conf.d/62-fonts-takao.conf

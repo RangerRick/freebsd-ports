@@ -4,8 +4,8 @@ bin/mtbatch
 bin/seewbmp
 bin/wmlsc
 bin/wmlsdasm
-@sample etc/smskannel.conf.sample
-@sample etc/wapkannel.conf.sample
+@sample /etc/smskannel.conf.sample
+@sample /etc/wapkannel.conf.sample
 include/kannel/gw-config.h
 include/kannel/gw/alt_charsets.h
 include/kannel/gw/bb.h
@@ -141,12 +141,12 @@ lib/kannel/libgw.a
 lib/kannel/libgwlib.a
 lib/kannel/libwap.a
 lib/kannel/libwmlscript.a
-man/man1/mtbatch.1.gz
-man/man1/seewbmp.1.gz
-man/man1/wmlsc.1.gz
-man/man1/wmlsdasm.1.gz
-man/man8/kannel.8.gz
-man/man8/run_kannel_box.8.gz
+%%MANPREFIX%%/man/man1/mtbatch.1.gz
+%%MANPREFIX%%/man/man1/seewbmp.1.gz
+%%MANPREFIX%%/man/man1/wmlsc.1.gz
+%%MANPREFIX%%/man/man1/wmlsdasm.1.gz
+%%MANPREFIX%%/man/man8/kannel.8.gz
+%%MANPREFIX%%/man/man8/run_kannel_box.8.gz
 sbin/bearerbox
 sbin/run_kannel_box
 sbin/smsbox

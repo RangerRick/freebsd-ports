@@ -1,7 +1,7 @@
 bin/LDView
 bin/ldraw-thumbnailer
-man/man1/LDView.1.gz
-man/man1/ldraw-thumbnailer.1.gz
+%%MANPREFIX%%/man/man1/LDView.1.gz
+%%MANPREFIX%%/man/man1/ldraw-thumbnailer.1.gz
 share/application-registry/ldview.applications
 share/applications/ldview.desktop
 share/icons/gnome/32x32/mimetypes/gnome-mime-application-x-ldraw.png

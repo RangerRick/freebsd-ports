@@ -32,10 +32,10 @@ bin/xadump
 lib/recoll/librecoll-%%VERSION%%.so
 lib/recoll/librecoll.so
 %%QT5%%man/man1/recoll.1.gz
-man/man1/recollindex.1.gz
-man/man1/recollq.1.gz
-man/man1/xadump.1.gz
-man/man5/recoll.conf.5.gz
+%%MANPREFIX%%/man/man1/recollindex.1.gz
+%%MANPREFIX%%/man/man1/recollq.1.gz
+%%MANPREFIX%%/man/man1/xadump.1.gz
+%%MANPREFIX%%/man/man5/recoll.conf.5.gz
 %%QT5%%share/applications/recoll-searchgui.desktop
 %%QT5%%share/icons/hicolor/48x48/apps/recoll.png
 %%QT5%%share/metainfo/recoll.appdata.xml

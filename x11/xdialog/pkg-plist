@@ -1,5 +1,5 @@
 bin/Xdialog
-man/man1/Xdialog.1.gz
+%%MANPREFIX%%/man/man1/Xdialog.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/2ranges.png
 %%PORTDOCS%%%%DOCSDIR%%/authors.html
 %%PORTDOCS%%%%DOCSDIR%%/box.html

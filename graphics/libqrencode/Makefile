@@ -19,14 +19,14 @@ GH_ACCOUNT=	fukuchi
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
 
-CMAKE_ARGS=	-DBUILD_SHARED_LIBS=ON
+CMAKE_ARGS= -DCMAKE_INSTALL_MANDIR=${MANPREFIX}/man	-DBUILD_SHARED_LIBS=ON
 PLIST_FILES=	bin/qrencode \
 		include/qrencode.h \
 		lib/libqrencode.so \
 		lib/libqrencode.so.4 \
 		lib/libqrencode.so.${PORTVERSION} \
 		libdata/pkgconfig/libqrencode.pc \
-		man/man1/qrencode.1.gz
+		${MANPREFIX}/man/man1/qrencode.1.gz
 
 post-patch:
 	@${SED} -i -e 's|share\/man\/man1|man\/man1|' \

@@ -1,5 +1,5 @@
 @(,games,2555) bin/bastet
-man/man6/bastet.6.gz
+%%MANPREFIX%%/man/man6/bastet.6.gz
 share/appdata/bastet.appdata.xml
 share/applications/bastet.desktop
 share/pixmaps/bastet.png

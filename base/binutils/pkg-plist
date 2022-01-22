@@ -558,7 +558,7 @@ bin/objdump
 %%SPARC%%%%BUTARGET%%/lib/ldscripts/elf64_sparc_fbsd.xsc
 %%SPARC%%%%BUTARGET%%/lib/ldscripts/elf64_sparc_fbsd.xsw
 %%SPARC%%%%BUTARGET%%/lib/ldscripts/elf64_sparc_fbsd.xu
-share/man/man1/as.1.gz
-share/man/man1/ld.1.gz
-share/man/man1/objdump.1.gz
+%%MANPREFIX%%/man/man1/as.1.gz
+%%MANPREFIX%%/man/man1/ld.1.gz
+%%MANPREFIX%%/man/man1/objdump.1.gz
 share/toolchains/freebsd-binutils.mk

@@ -37,8 +37,8 @@
 %%EXIM%%%%PORTDOCS%%%%EXAMPLESDIR%%/convert4r3
 %%EXIM%%%%PORTDOCS%%%%EXAMPLESDIR%%/convert4r4
 %%EXIM%%%%PORTDOCS%%%%EXAMPLESDIR%%/transport-filter.pl
-%%EXIMDAEMON%%etc/periodic/daily/150.exim-tidydb
-%%EXIMDAEMON%%etc/periodic/daily/460.exim-mail-rejects
+%%EXIMDAEMON%%/etc/periodic/daily/150.exim-tidydb
+%%EXIMDAEMON%%/etc/periodic/daily/460.exim-mail-rejects
 @sample %%ETCDIR%%/configure.sample
 %%SA_EXIM%%@sample %%ETCDIR%%/sa-exim.conf.sample
 %%EXIM%%@dir(%%EXIM_USER%%,%%EXIM_GROUP%%,) /%%LOGDIR%%

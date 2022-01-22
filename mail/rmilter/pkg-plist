@@ -1,5 +1,5 @@
-etc/rc.d/rmilter
-@sample etc/rmilter.conf.sample
+/etc/rc.d/rmilter
+@sample /etc/rmilter.conf.sample
 sbin/rmilter
 @owner _rmilter
 @group mail

@@ -6,10 +6,10 @@
 @dir %%QBASEDIR%%/outbound
 @dir %%QBASEDIR%%/qstoutb
 @dir %%QLOGDIR%%
-@dir etc/fido/qico
-@sample etc/fido/qico/qico.conf.sample
-@sample etc/fido/qico/qico.passwd.sample
-@sample etc/fido/qico/qico.substs.sample
+@dir /etc/fido/qico
+@sample /etc/fido/qico/qico.conf.sample
+@sample /etc/fido/qico/qico.passwd.sample
+@sample /etc/fido/qico/qico.substs.sample
 %%DOCSDIR%%/Changes.ru
 %%DOCSDIR%%/FAQ.ru
 %%DOCSDIR%%/README.ru
@@ -26,6 +26,6 @@
 %%QCC%%bin/qcc
 %%QCC%%man/man8/qcc.8.gz
 bin/qctl
-man/man8/qctl.8.gz
-man/man8/qico.8.gz
+%%MANPREFIX%%/man/man8/qctl.8.gz
+%%MANPREFIX%%/man/man8/qico.8.gz
 sbin/qico

@@ -11,6 +11,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xmuu xau
 
-PLIST_FILES=	bin/xhost man/man1/xhost.1.gz
+PLIST_FILES=	bin/xhost ${MANPREFIX}/man/man1/xhost.1.gz
 
 .include <bsd.port.mk>

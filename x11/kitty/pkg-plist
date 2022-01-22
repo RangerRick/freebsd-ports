@@ -181,7 +181,7 @@ lib/kitty/terminfo/x/xterm-kitty
 share/applications/kitty.desktop
 share/icons/hicolor/256x256/apps/kitty.png
 share/icons/hicolor/scalable/apps/kitty.svg
-share/man/man1/kitty.1.gz
-share/man/man5/kitty.conf.5.gz
+%%MANPREFIX%%/man/man1/kitty.1.gz
+%%MANPREFIX%%/man/man5/kitty.conf.5.gz
 share/misc/kitty.terminfo
 share/terminfo/x/xterm-kitty

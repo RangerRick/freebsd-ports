@@ -1,6 +1,6 @@
 bin/arv-viewer
-man/man1/arv-tool-0.6.1.gz
-man/man1/arv-viewer.1.gz
+%%MANPREFIX%%/man/man1/arv-tool-0.6.1.gz
+%%MANPREFIX%%/man/man1/arv-viewer.1.gz
 share/appdata/arv-viewer.appdata.xml
 share/applications/arv-viewer.desktop
 %%DATADIR%%-0.6/arv-viewer.ui

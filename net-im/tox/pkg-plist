@@ -1,6 +1,6 @@
 %%DAEMON%%bin/DHT_bootstrap
 %%DAEMON%%bin/tox-bootstrapd
-%%DAEMON%%@sample etc/tox-bootstrapd.conf.sample
+%%DAEMON%%@sample /etc/tox-bootstrapd.conf.sample
 include/tox/tox.h
 include/tox/toxav.h
 include/tox/toxencryptsave.h

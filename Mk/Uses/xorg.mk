@@ -134,7 +134,7 @@ xxf86vm_LIB_PC_DEPENDS=		${LOCALBASE}/libdata/pkgconfig/xxf86vm.pc:x11/libXxf86v
 
 # Add explicit X options to avoid problems with false positives in configure
 .  if defined(GNU_CONFIGURE)
-CONFIGURE_ARGS+=--x-libraries=${LOCALBASE}/lib --x-includes=${LOCALBASE}/include
+# CONFIGURE_ARGS+=--x-libraries=${LOCALBASE}/lib --x-includes=${LOCALBASE}/include
 .  endif
 
 .  for _module in ${USE_XORG:M*\:both:C/\:.*//g}

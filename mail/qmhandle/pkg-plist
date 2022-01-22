@@ -1,2 +1,2 @@
 bin/qmHandle
-@sample etc/qmHandle.conf.sample
+@sample /etc/qmHandle.conf.sample

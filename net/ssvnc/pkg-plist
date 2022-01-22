@@ -13,9 +13,9 @@ lib/ssvnc/util/ssvnc.tcl
 %%ULTRAFTP%%lib/ssvnc/util/ultraftp.jar
 lib/ssvnc/vncstorepw
 lib/ssvnc/vncviewer
-man/man1/ssvnc-gui.1.gz
-man/man1/ssvnc.1.gz
-man/man1/ssvncviewer.1.gz
+%%MANPREFIX%%/man/man1/ssvnc-gui.1.gz
+%%MANPREFIX%%/man/man1/ssvnc.1.gz
+%%MANPREFIX%%/man/man1/ssvncviewer.1.gz
 share/applications/ssvnc.desktop
 %%PORTDOCS%%%%DOCSDIR%%/README
 %%PORTDOCS%%%%DOCSDIR%%/stunnel-server.conf

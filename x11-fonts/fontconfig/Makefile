@@ -30,7 +30,7 @@ SUB_FILES=	pkg-install
 SUB_LIST=	PREFIX=${PREFIX}
 
 # Custom configuration variables
-FCDEFAULTFONTS=	${PREFIX}/share/fonts
+FCDEFAULTFONTS= /System/Library/Fonts</dir> <dir>/Library/Fonts</dir> <dir>~/Library/Fonts
 FCADDFONTS=	${LOCALBASE}/lib/X11/fonts
 
 # To avoid circular dependency rebuild of docs (including manpages) needs to be
@@ -60,6 +60,7 @@ NLS_MESON_ENABLED=	nls
 TEST_MESON_ENABLED=	tests
 
 post-patch:
+	${REINPLACE_CMD} -e "s,%%STAGEDIR%%,${STAGEDIR},g" ${PATCH_WRKSRC}/conf.d/link_confs.py
 	@${REINPLACE_CMD} -e 's|%%FCDEFAULTFONTS%%|${FCDEFAULTFONTS}|g' \
 	    ${PATCH_WRKSRC}/meson.build
 	@${REINPLACE_CMD} -e 's|%%FCADDFONTS%%|${FCADDFONTS}|g' \
@@ -71,7 +72,7 @@ post-install:
 	${INSTALL_MAN} ${WRKSRC}/fc-*/*.1 ${STAGEDIR}${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/doc/*.3 ${STAGEDIR}${PREFIX}/man/man3
 	${INSTALL_MAN} ${WRKSRC}/doc/*.5 ${STAGEDIR}${PREFIX}/man/man5
-	${MV} ${STAGEDIR}${PREFIX}/etc/fonts/fonts.conf ${STAGEDIR}${PREFIX}/etc/fonts/fonts.conf.sample
+	${MV} ${STAGEDIR}/etc/fonts/fonts.conf ${STAGEDIR}/etc/fonts/fonts.conf.sample
 	@${MKDIR} ${STAGEDIR}/var/db/fontconfig
 
 post-install-DOCS-on:
@@ -79,10 +80,10 @@ post-install-DOCS-on:
 	${INSTALL_DATA} ${PORTDOCS:S|^|${WRKSRC}/doc/|} ${STAGEDIR}${DOCSDIR}
 
 post-install-BITMAPS-off:
-	${RLN} ${STAGEDIR}${PREFIX}/etc/fonts/conf.avail/70-no-bitmaps.conf ${STAGEDIR}${PREFIX}/etc/fonts/conf.d/70-no-bitmaps.conf
+	${RLN} ${STAGEDIR}/etc/fonts/conf.avail/70-no-bitmaps.conf ${STAGEDIR}/etc/fonts/conf.d/70-no-bitmaps.conf
 
 post-install-BITMAPS-on:
-	${RM} ${STAGEDIR}${PREFIX}/etc/fonts/conf.d/70-no-bitmaps.conf
-	${RLN} ${STAGEDIR}${PREFIX}/etc/fonts/conf.avail/70-yes-bitmaps.conf ${STAGEDIR}${PREFIX}/etc/fonts/conf.d/70-yes-bitmaps.conf
+	${RM} ${STAGEDIR}/etc/fonts/conf.d/70-no-bitmaps.conf
+	${RLN} ${STAGEDIR}/etc/fonts/conf.avail/70-yes-bitmaps.conf ${STAGEDIR}/etc/fonts/conf.d/70-yes-bitmaps.conf
 
 .include <bsd.port.mk>

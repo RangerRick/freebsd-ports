@@ -2,7 +2,7 @@
 @group wheel
 bin/xboard
 bin/cmail
-man/man6/xboard.6.gz
+%%MANPREFIX%%/man/man6/xboard.6.gz
 share/applications/xboard-config.desktop
 share/applications/xboard-fen-viewer.desktop
 share/applications/xboard-pgn-viewer.desktop
@@ -211,4 +211,4 @@ share/mime/packages/xboard.xml
 %%NLS%%share/locale/zh_CN/LC_MESSAGES/xboard.mo
 %%NLS%%share/locale/zh_HK/LC_MESSAGES/xboard.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/xboard.mo
-@sample etc/xboard.conf.sample
+@sample /etc/xboard.conf.sample

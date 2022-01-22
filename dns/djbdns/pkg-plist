@@ -29,7 +29,7 @@ bin/tinydns-edit
 bin/tinydns-get
 bin/walldns
 bin/walldns-conf
-etc/dnsroots.global
+/etc/dnsroots.global
 %%MAN%%man/man1/dnsfilter.1.gz
 %%MAN%%man/man1/dnsip.1.gz
 %%MAN%%man/man1/dnsipq.1.gz

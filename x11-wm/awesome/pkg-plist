@@ -284,5 +284,5 @@
 %%PORTDOCS%%%%DOCSDIR%%/LICENSE
 bin/awesome
 bin/awesome-client
-etc/xdg/awesome/rc.lua
+/etc/xdg/awesome/rc.lua
 share/xsessions/awesome.desktop

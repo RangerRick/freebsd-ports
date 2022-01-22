@@ -1,8 +1,8 @@
 bin/newlisp
 bin/newlisp-10.7.5
 bin/newlispdoc
-man/man1/newlisp.1.gz
-man/man1/newlispdoc.1.gz
+%%MANPREFIX%%/man/man1/newlisp.1.gz
+%%MANPREFIX%%/man/man1/newlispdoc.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/ANDROID.txt
 %%PORTDOCS%%%%DOCSDIR%%/Android.html
 %%PORTDOCS%%%%DOCSDIR%%/CHANGES

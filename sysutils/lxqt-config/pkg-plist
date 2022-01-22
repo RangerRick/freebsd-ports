@@ -5,7 +5,7 @@ bin/lxqt-config-file-associations
 bin/lxqt-config-input
 bin/lxqt-config-locale
 bin/lxqt-config-monitor
-etc/xdg/menus/lxqt-config.menu
+/etc/xdg/menus/lxqt-config.menu
 lib/lxqt-config/liblxqt-config-cursor.so
 share/applications/lxqt-config-appearance.desktop
 share/applications/lxqt-config-brightness.desktop
@@ -342,6 +342,6 @@ share/icons/hicolor/48x48/apps/brightnesssettings.svg
 %%LXQT_TRANSLATIONS%%/lxqt-config/lxqt-config_vi.qm
 %%LXQT_TRANSLATIONS%%/lxqt-config/lxqt-config_zh_CN.qm
 %%LXQT_TRANSLATIONS%%/lxqt-config/lxqt-config_zh_TW.qm
-share/man/man1/lxqt-config-appearance.1.gz
-share/man/man1/lxqt-config-mouse.1.gz
-share/man/man1/lxqt-config.1.gz
+%%MANPREFIX%%/man/man1/lxqt-config-appearance.1.gz
+%%MANPREFIX%%/man/man1/lxqt-config-mouse.1.gz
+%%MANPREFIX%%/man/man1/lxqt-config.1.gz

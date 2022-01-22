@@ -303,5 +303,5 @@ libdata/pkgconfig/fox.pc
 %%APPS%%man/man1/PathFinder-16.1.gz
 %%APPS%%man/man1/adie-16.1.gz
 %%APPS%%man/man1/calculator-16.1.gz
-man/man1/reswrap-16.1.gz
-man/man1/shutterbug-16.1.gz
+%%MANPREFIX%%/man/man1/reswrap-16.1.gz
+%%MANPREFIX%%/man/man1/shutterbug-16.1.gz

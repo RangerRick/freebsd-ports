@@ -3,7 +3,7 @@ bin/qpdfview
 lib/qpdfview/libqpdfview_image.so
 lib/qpdfview/libqpdfview_pdf.so
 %%PS%%lib/qpdfview/libqpdfview_ps.so
-man/man1/qpdfview.1.gz
+%%MANPREFIX%%/man/man1/qpdfview.1.gz
 share/appdata/qpdfview.appdata.xml
 share/applications/qpdfview.desktop
 share/icons/hicolor/scalable/apps/qpdfview.svg

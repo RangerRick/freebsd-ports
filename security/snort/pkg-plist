@@ -5,16 +5,16 @@ bin/u2boat
 bin/u2spewfoo
 %%APPID%%bin/u2openappid
 %%APPID%%bin/u2streamer
-@sample etc/snort/classification.config-sample etc/snort/classification.config
-@sample etc/snort/gen-msg.map-sample etc/snort/gen-msg.map
-@sample etc/snort/preproc_rules/decoder.rules-sample etc/snort/preproc_rules/decoder.rules
-@sample etc/snort/preproc_rules/preprocessor.rules-sample etc/snort/preproc_rules/preprocessor.rules
-@sample etc/snort/preproc_rules/sensitive-data.rules-sample etc/snort/preproc_rules/sensitive-data.rules
-@sample etc/snort/reference.config-sample etc/snort/reference.config
-@sample etc/snort/snort.conf-sample etc/snort/snort.conf
-@sample etc/snort/threshold.conf-sample etc/snort/threshold.conf
-@sample etc/snort/unicode.map-sample etc/snort/unicode.map
-@sample etc/snort/file_magic.conf-sample etc/snort/file_magic.conf
+@sample /etc/snort/classification.config-sample etc/snort/classification.config
+@sample /etc/snort/gen-msg.map-sample etc/snort/gen-msg.map
+@sample /etc/snort/preproc_rules/decoder.rules-sample etc/snort/preproc_rules/decoder.rules
+@sample /etc/snort/preproc_rules/preprocessor.rules-sample etc/snort/preproc_rules/preprocessor.rules
+@sample /etc/snort/preproc_rules/sensitive-data.rules-sample etc/snort/preproc_rules/sensitive-data.rules
+@sample /etc/snort/reference.config-sample etc/snort/reference.config
+@sample /etc/snort/snort.conf-sample etc/snort/snort.conf
+@sample /etc/snort/threshold.conf-sample etc/snort/threshold.conf
+@sample /etc/snort/unicode.map-sample etc/snort/unicode.map
+@sample /etc/snort/file_magic.conf-sample etc/snort/file_magic.conf
 include/snort/dynamic_output/bitop.h
 include/snort/dynamic_output/ipv6_port.h
 include/snort/dynamic_output/obfuscation.h
@@ -172,7 +172,7 @@ lib/snort_dynamicpreprocessor/libsf_ssl_preproc.so.0.0.0
 libdata/pkgconfig/snort.pc
 libdata/pkgconfig/snort_output.pc
 libdata/pkgconfig/snort_preproc.pc
-man/man8/snort.8.gz
+%%MANPREFIX%%/man/man8/snort.8.gz
 %%PORTDOCS%%%%DOCSDIR%%/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/BUGS
 %%PORTDOCS%%%%DOCSDIR%%/CREDITS
@@ -330,6 +330,6 @@ src/snort_dynamicsrc/util_unfold.h
 @dir include/snort/dynamic_preproc
 @dir include/snort/dynamic_output
 @dir include/snort
-@dir etc/snort/rules
-@dir etc/snort/preproc_rules
-@dir etc/snort
+@dir /etc/snort/rules
+@dir /etc/snort/preproc_rules
+@dir /etc/snort

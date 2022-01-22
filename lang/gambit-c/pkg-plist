@@ -55,7 +55,7 @@ lib/gambit-c/libgambitgsi.a
 lib/gambit-c/r4rs#.scm
 lib/gambit-c/r5rs#.scm
 lib/gambit-c/syntax-case.scm
-man/man1/gsi.1.gz
+%%MANPREFIX%%/man/man1/gsi.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/gambit.html
 %%PORTDOCS%%%%DOCSDIR%%/gambit.pdf
 %%PORTDOCS%%%%DOCSDIR%%/gambit.txt

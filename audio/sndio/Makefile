@@ -27,6 +27,8 @@ post-patch:
 	@${REINPLACE_CMD} 's|err(1, "setpriority")|warn("setpriority")|' \
 		${WRKSRC}/sndiod/sndiod.c
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 post-install:
 	cd ${STAGEDIR}${PREFIX}/bin && ${STRIP_CMD} \
 		aucat midicat sndioctl sndiod

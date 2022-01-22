@@ -1,6 +1,6 @@
 bin/poedit
 libexec/poedit-dump-legacy-tm
-man/man1/poedit.1.gz
+%%MANPREFIX%%/man/man1/poedit.1.gz
 share/applications/poedit-uri.desktop
 share/applications/poedit.desktop
 share/icons/hicolor/16x16/apps/poedit.png

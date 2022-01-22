@@ -1,5 +1,5 @@
 bin/ksudoku
-etc/xdg/ksudokurc
+/etc/xdg/ksudokurc
 share/applications/org.kde.ksudoku.desktop
 share/icons/hicolor/128x128/apps/ksudoku.png
 share/icons/hicolor/16x16/apps/ksudoku.png

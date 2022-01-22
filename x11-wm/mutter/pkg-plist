@@ -240,7 +240,7 @@ libdata/pkgconfig/mutter-clutter-9.pc
 libdata/pkgconfig/mutter-cogl-9.pc
 libdata/pkgconfig/mutter-cogl-pango-9.pc
 libexec/mutter-restart-helper
-man/man1/mutter.1.gz
+%%MANPREFIX%%/man/man1/mutter.1.gz
 share/GConf/gsettings/mutter-schemas.convert
 share/applications/mutter.desktop
 share/gnome-control-center/keybindings/50-mutter-navigation.xml

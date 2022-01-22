@@ -1,6 +1,6 @@
 bin/awffull
-man/man1/awffull.1.gz
-man/man5/awffull.conf.5.gz
+%%MANPREFIX%%/man/man1/awffull.1.gz
+%%MANPREFIX%%/man/man5/awffull.conf.5.gz
 %%NLS%%share/locale/ca/LC_MESSAGES/awffull.mo
 %%NLS%%share/locale/cs/LC_MESSAGES/awffull.mo
 %%NLS%%share/locale/da/LC_MESSAGES/awffull.mo

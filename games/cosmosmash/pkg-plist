@@ -1,5 +1,5 @@
 bin/cosmosmash
-man/man6/cosmosmash.6.gz
+%%MANPREFIX%%/man/man6/cosmosmash.6.gz
 share/applications/cosmosmash.desktop
 share/pixmaps/cosmosmash.png
 %%DATADIR%%/sounds/rock-hit-0.wav

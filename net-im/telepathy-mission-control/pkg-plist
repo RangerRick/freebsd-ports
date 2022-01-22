@@ -17,9 +17,9 @@ lib/libmission-control-plugins.so.0
 lib/libmission-control-plugins.so.0.5.1
 libdata/pkgconfig/mission-control-plugins.pc
 libexec/mission-control-5
-man/man1/mc-tool.1.gz
-man/man1/mc-wait-for-name.1.gz
-man/man8/mission-control-5.8.gz
+%%MANPREFIX%%/man/man1/mc-tool.1.gz
+%%MANPREFIX%%/man/man1/mc-wait-for-name.1.gz
+%%MANPREFIX%%/man/man8/mission-control-5.8.gz
 %%DOCSDIR%%/mission-control-plugins/McpAccountManager.html
 %%DOCSDIR%%/mission-control-plugins/McpDispatchOperation.html
 %%DOCSDIR%%/mission-control-plugins/McpDispatchOperationPolicy.html

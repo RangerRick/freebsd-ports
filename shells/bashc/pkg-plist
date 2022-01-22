@@ -2,8 +2,8 @@
 @shell bin/bashc
 @shell bin/rbash
 bin/bashbug
-etc/bash_commander
-etc/bash_dialog
+/etc/bash_commander
+/etc/bash_dialog
 %%NO_STATIC%%include/bash/alias.h
 %%NO_STATIC%%include/bash/array.h
 %%NO_STATIC%%include/bash/arrayfunc.h
@@ -130,5 +130,5 @@ etc/bash_dialog
 %%NLS%%share/locale/vi/LC_MESSAGES/bash.mo
 %%NLS%%share/locale/zh_CN/LC_MESSAGES/bash.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/bash.mo
-man/man1/bash.1.gz
-man/man1/bashbug.1.gz
+%%MANPREFIX%%/man/man1/bash.1.gz
+%%MANPREFIX%%/man/man1/bashbug.1.gz

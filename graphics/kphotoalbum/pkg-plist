@@ -2,7 +2,7 @@ bin/kpa-backup.sh
 bin/kpa-thumbnailtool
 bin/kphotoalbum
 bin/open-raw.pl
-etc/xdg/kphotoalbumrc
+/etc/xdg/kphotoalbumrc
 lib/libkpabase.so
 lib/libkpaexif.so
 lib/libkpathumbnails.so

@@ -1,4 +1,4 @@
-@sample etc/imapproxyd.conf.sample
+@sample /etc/imapproxyd.conf.sample
 sbin/pimpstat
 sbin/in.imapproxyd
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog

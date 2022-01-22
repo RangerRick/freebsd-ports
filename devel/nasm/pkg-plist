@@ -1,7 +1,7 @@
 bin/nasm
 bin/ndisasm
-man/man1/nasm.1.gz
-man/man1/ndisasm.1.gz
+%%MANPREFIX%%/man/man1/nasm.1.gz
+%%MANPREFIX%%/man/man1/ndisasm.1.gz
 %%RDOFF%%bin/ldrdf
 %%RDOFF%%bin/rdf2bin
 %%RDOFF%%bin/rdf2com

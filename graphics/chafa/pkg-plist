@@ -38,4 +38,4 @@ libdata/pkgconfig/chafa.pc
 %%PORTDOCS%%%%DOCSDIR%%/html/chafa/style.css
 %%PORTDOCS%%%%DOCSDIR%%/html/chafa/up-insensitive.png
 %%PORTDOCS%%%%DOCSDIR%%/html/chafa/up.png
-share/man/man1/chafa.1.gz
+%%MANPREFIX%%/man/man1/chafa.1.gz

@@ -2,17 +2,17 @@ bin/xfce4-screensaver
 bin/xfce4-screensaver-command
 bin/xfce4-screensaver-configure
 bin/xfce4-screensaver-preferences
-%%PAM%%@sample etc/pam.d/xfce4-screensaver.sample
-etc/xdg/autostart/xfce4-screensaver.desktop
-etc/xdg/menus/xfce4-screensavers.menu
+%%PAM%%@sample /etc/pam.d/xfce4-screensaver.sample
+/etc/xdg/autostart/xfce4-screensaver.desktop
+/etc/xdg/menus/xfce4-screensavers.menu
 libexec/xfce4-screensaver-dialog
 libexec/xfce4-screensaver-gl-helper
 libexec/xfce4-screensaver/floaters
 libexec/xfce4-screensaver/popsquares
 libexec/xfce4-screensaver/slideshow
-man/man1/xfce4-screensaver-command.1.gz
-man/man1/xfce4-screensaver-preferences.1.gz
-man/man1/xfce4-screensaver.1.gz
+%%MANPREFIX%%/man/man1/xfce4-screensaver-command.1.gz
+%%MANPREFIX%%/man/man1/xfce4-screensaver-preferences.1.gz
+%%MANPREFIX%%/man/man1/xfce4-screensaver.1.gz
 share/applications/screensavers/xfce-personal-slideshow.desktop
 share/applications/screensavers/xfce-popsquares.desktop
 share/applications/screensavers/xfce-floaters.desktop

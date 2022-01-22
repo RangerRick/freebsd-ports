@@ -10,7 +10,7 @@ bin/pinot-search
 %%ETCDIR%%/textcat32_conf.txt
 %%ETCDIR%%/textcat3_conf.txt
 %%ETCDIR%%/textcat_conf.txt
-etc/xdg/autostart/pinot-dbus-daemon.desktop
+/etc/xdg/autostart/pinot-dbus-daemon.desktop
 include/pinot/ActionQueue.h
 include/pinot/CommandLine.h
 include/pinot/CrawlHistory.h
@@ -98,11 +98,11 @@ lib/pinot/libSQLite.a
 lib/pinot/libThread.a
 lib/pinot/libTokenize.a
 lib/pinot/libUtils.a
-man/man1/pinot-dbus-daemon.1.gz
-man/man1/pinot-index.1.gz
-man/man1/pinot-label.1.gz
-man/man1/pinot-search.1.gz
-man/man1/pinot.1.gz
+%%MANPREFIX%%/man/man1/pinot-dbus-daemon.1.gz
+%%MANPREFIX%%/man/man1/pinot-index.1.gz
+%%MANPREFIX%%/man/man1/pinot-label.1.gz
+%%MANPREFIX%%/man/man1/pinot-search.1.gz
+%%MANPREFIX%%/man/man1/pinot.1.gz
 share/applications/pinot-prefs.desktop
 share/applications/pinot.desktop
 share/dbus-1/services/com.github.fabricecolin.Pinot.service

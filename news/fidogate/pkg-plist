@@ -36,28 +36,28 @@ bin/runinc
 bin/senduu
 bin/senduumail
 bin/sumcrc
-etc/fido/gate/areafix.help.rus
-etc/fido/gate/areas.sample
-etc/fido/gate/bounce.acl
-etc/fido/gate/bounce.acl_netmail
-etc/fido/gate/bounce.addrinto
-etc/fido/gate/bounce.down
-etc/fido/gate/bounce.insecure
-etc/fido/gate/bounce.noto
-etc/fido/gate/bounce.restricted
-@sample etc/fido/gate/acl.sample
-@sample etc/fido/gate/aliases.sample
-@sample etc/fido/gate/areafix.help.sample
-@sample etc/fido/gate/fidogate.conf.sample
-@sample etc/fido/gate/fidokill.sample
-@sample etc/fido/gate/ftnacl.sample
-@sample etc/fido/gate/hosts.sample
-@sample etc/fido/gate/packing.sample
-@sample etc/fido/gate/passwd.sample
-@sample etc/fido/gate/routing.sample
-@sample etc/fido/gate/spyes.sample
-@sample etc/fido/gate/uplinks.sample
-etc/newsyslog.conf.d/fidogate.conf
+/etc/fido/gate/areafix.help.rus
+/etc/fido/gate/areas.sample
+/etc/fido/gate/bounce.acl
+/etc/fido/gate/bounce.acl_netmail
+/etc/fido/gate/bounce.addrinto
+/etc/fido/gate/bounce.down
+/etc/fido/gate/bounce.insecure
+/etc/fido/gate/bounce.noto
+/etc/fido/gate/bounce.restricted
+@sample /etc/fido/gate/acl.sample
+@sample /etc/fido/gate/aliases.sample
+@sample /etc/fido/gate/areafix.help.sample
+@sample /etc/fido/gate/fidogate.conf.sample
+@sample /etc/fido/gate/fidokill.sample
+@sample /etc/fido/gate/ftnacl.sample
+@sample /etc/fido/gate/hosts.sample
+@sample /etc/fido/gate/packing.sample
+@sample /etc/fido/gate/passwd.sample
+@sample /etc/fido/gate/routing.sample
+@sample /etc/fido/gate/spyes.sample
+@sample /etc/fido/gate/uplinks.sample
+/etc/newsyslog.conf.d/fidogate.conf
 libexec/fidogate/confval
 libexec/fidogate/ftn2ftn
 libexec/fidogate/ftn2rfc

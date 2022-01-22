@@ -1,5 +1,5 @@
 bin/rssroll
-@sample etc/rssrollrc.sample
+@sample /etc/rssrollrc.sample
 %%WWWDIR%%/css/common.css
 %%WWWDIR%%/css/default.css
 %%WWWDIR%%/css/flak.css

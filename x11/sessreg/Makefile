@@ -11,6 +11,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	x11
 
-PLIST_FILES=	bin/sessreg man/man1/sessreg.1.gz
+PLIST_FILES=	bin/sessreg ${MANPREFIX}/man/man1/sessreg.1.gz
 
 .include <bsd.port.mk>

@@ -8,4 +8,4 @@ share/ncrack/minimal.usr
 share/ncrack/myspace.pwd
 share/ncrack/phpbb.pwd
 share/ncrack/top50000.pwd
-man/man1/ncrack.1.gz
+%%MANPREFIX%%/man/man1/ncrack.1.gz

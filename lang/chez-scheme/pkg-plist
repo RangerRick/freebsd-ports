@@ -37,5 +37,5 @@ bin/%%PORTNAME%%-script
 %%CHEZ_LIBDIR%%/%%CHEZ_ARCH%%/kernel.o
 %%CHEZ_LIBDIR%%/%%CHEZ_ARCH%%/main.o
 %%CHEZ_LIBDIR%%/%%CHEZ_ARCH%%/revision
-man/man1/petite.1.gz
-man/man1/%%PORTNAME%%.1.gz
+%%MANPREFIX%%/man/man1/petite.1.gz
+%%MANPREFIX%%/man/man1/%%PORTNAME%%.1.gz

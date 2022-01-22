@@ -1,2 +1,2 @@
-@sample etc/asterisk/flite.conf.sample
+@sample /etc/asterisk/flite.conf.sample
 lib/asterisk/modules/app_flite.so

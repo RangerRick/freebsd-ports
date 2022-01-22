@@ -14,4 +14,4 @@ bin/influx_stress
 @dir(%%INFLUXD_USER%%,%%INFLUXD_GROUP%%,0750) %%INFLUXD_DBDIR%%
 @dir(%%INFLUXD_USER%%,%%INFLUXD_GROUP%%,0750) %%INFLUXD_LOGDIR%%
 @dir(%%INFLUXD_USER%%,%%INFLUXD_GROUP%%,0750) %%INFLUXD_PIDDIR%%
-@sample etc/influxd.conf.sample
+@sample /etc/influxd.conf.sample

@@ -113,9 +113,9 @@ lib/janus/transports/libjanus_pfunix.so.0.0.0
 lib/janus/transports/libjanus_websockets.so
 lib/janus/transports/libjanus_websockets.so.0
 lib/janus/transports/libjanus_websockets.so.0.0.0
-man/man1/janus-cfgconv.1.gz
+%%MANPREFIX%%/man/man1/janus-cfgconv.1.gz
 %%POSTPROCESSING%%man/man1/janus-pp-rec.1.gz
-man/man1/janus.1.gz
+%%MANPREFIX%%/man/man1/janus.1.gz
 %%POSTPROCESSING%%man/man1/mjr2pcap.1.gz
 share/doc/janus-gateway/README.md
 %%DATADIR%%/demos/admin.html

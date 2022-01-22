@@ -52,8 +52,8 @@ share/bash-completion/completions/wxmaxima
 %%NLS%%share/locale/uk/LC_MESSAGES/wxMaxima.mo
 %%NLS%%share/locale/zh_CN/LC_MESSAGES/wxMaxima.mo
 %%NLS%%share/locale/zh_TW/LC_MESSAGES/wxMaxima.mo
-share/man/de/man1/wxmaxima.1.gz
-share/man/man1/wxmaxima.1.gz
+%%MANPREFIX%%/man/de/man1/wxmaxima.1.gz
+%%MANPREFIX%%/man/man1/wxmaxima.1.gz
 share/metainfo/io.github.wxmaxima_developers.wxMaxima.appdata.xml
 share/mime/packages/x-wxmathml.xml
 share/mime/packages/x-wxmaxima-batch.xml

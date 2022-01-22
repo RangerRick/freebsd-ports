@@ -4,7 +4,7 @@ bin/gdb%%VER%%
 %%TUI%%bin/gdbtui%%VER%%
 %%KGDB%%bin/kgdb%%VER%%
 %%GDB_LINK%%man/man1/gdb.1.gz
-man/man1/gdb%%VER%%.1.gz
+%%MANPREFIX%%/man/man1/gdb%%VER%%.1.gz
 %%GDB_LINK%%%%KGDB%%man/man1/kgdb.1.gz
 %%KGDB%%man/man1/kgdb%%VER%%.1.gz
 %%LIBCXX%%%%DATADIR%%/auto-load/usr/lib/libc++.so.1-gdb.py

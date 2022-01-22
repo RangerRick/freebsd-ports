@@ -1,5 +1,5 @@
-etc/fonts/conf.avail/90-classiclooks_qt5fontfix.conf
-etc/fonts/conf.d/90-classiclooks_qt5fontfix.conf
+/etc/fonts/conf.avail/90-classiclooks_qt5fontfix.conf
+/etc/fonts/conf.d/90-classiclooks_qt5fontfix.conf
 share/themes/ClassicLooks (HDPI)/classiclooks_mark
 share/themes/ClassicLooks (HDPI)/gtk-2.0/assets
 share/themes/ClassicLooks (HDPI)/gtk-2.0/gtkrc

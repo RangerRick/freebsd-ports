@@ -10,10 +10,10 @@ bin/xfce4-mouse-settings
 bin/xfce4-settings-editor
 bin/xfce4-settings-manager
 bin/xfsettingsd
-etc/xdg/autostart/xfsettingsd.desktop
-etc/xdg/menus/xfce-settings-manager.menu
-etc/xdg/xfce4/helpers.rc
-etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+/etc/xdg/autostart/xfsettingsd.desktop
+/etc/xdg/menus/xfce-settings-manager.menu
+/etc/xdg/xfce4/helpers.rc
+/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 lib/xfce4/settings/appearance-install-theme
 lib/xfce4/xfce4-compose-mail
 share/applications/xfce-display-settings.desktop

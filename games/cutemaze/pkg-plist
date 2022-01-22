@@ -1,5 +1,5 @@
 bin/cutemaze
-man/man6/cutemaze.6.gz
+%%MANPREFIX%%/man/man6/cutemaze.6.gz
 share/applications/cutemaze.desktop
 %%NLS%%%%DATADIR%%/translations/cutemaze_cs.qm
 %%NLS%%%%DATADIR%%/translations/cutemaze_de.qm

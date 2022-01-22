@@ -1,5 +1,5 @@
 bin/vaultwarden
-@sample etc/rc.conf.d/vaultwarden.sample
+@sample /etc/rc.conf.d/vaultwarden.sample
 %%WWWDIR%%/web-vault/.nojekyll
 %%WWWDIR%%/web-vault/404.html
 %%WWWDIR%%/web-vault/404/bootstrap.min.css

@@ -37,8 +37,8 @@ lib/libklfbackend.so.4
 lib/libklfbackend_auto.a
 lib/libklftools.so
 lib/libklftools.so.4
-man/man1/klatexformula.1.gz
-man/man1/klatexformula_cmdl.1.gz
+%%MANPREFIX%%/man/man1/klatexformula.1.gz
+%%MANPREFIX%%/man/man1/klatexformula_cmdl.1.gz
 share/applications/klatexformula.desktop
 %%DATADIR%%/userscripts/customtemplate.klfuserscript/customtemplate.py
 %%DATADIR%%/userscripts/customtemplate.klfuserscript/customtemplate_input.ui

@@ -2,11 +2,11 @@ bin/indexer
 bin/indextool
 bin/spelldump
 bin/wordbreaker
-@sample etc/sphinx.conf.sample
-man/man1/indexer.1.gz
-man/man1/indextool.1.gz
-man/man1/spelldump.1.gz
-man/man8/searchd.8.gz
+@sample /etc/sphinx.conf.sample
+%%MANPREFIX%%/man/man1/indexer.1.gz
+%%MANPREFIX%%/man/man1/indextool.1.gz
+%%MANPREFIX%%/man/man1/spelldump.1.gz
+%%MANPREFIX%%/man/man8/searchd.8.gz
 sbin/searchd
 %%PORTDOCS%%%%DOCSDIR%%/sphinx-min.conf.dist
 %%PORTDOCS%%%%DOCSDIR%%/sphinx.css

@@ -1,6 +1,6 @@
 bin/gdm-screenshot
 bin/gdmflexiserver
-@sample etc/dbus-1/system.d/gdm.conf.sample
+@sample /etc/dbus-1/system.d/gdm.conf.sample
 @sample %%ETCDIR%%/Init/Default.sample
 @sample %%ETCDIR%%/PostLogin/Default.sample
 @sample %%ETCDIR%%/PostSession/Default.sample
@@ -9,9 +9,9 @@ bin/gdmflexiserver
 @sample %%ETCDIR%%/custom.conf.sample
 @sample %%ETCDIR%%/home/.pulse/client.conf.sample
 @sample %%ETCDIR%%/locale.conf.sample
-@sample etc/pam.d/gdm-autologin.sample
-@sample etc/pam.d/gdm-launch-environment.sample
-@sample etc/pam.d/gdm-password.sample
+@sample /etc/pam.d/gdm-autologin.sample
+@sample /etc/pam.d/gdm-launch-environment.sample
+@sample /etc/pam.d/gdm-password.sample
 include/gdm/gdm-client-glue.h
 include/gdm/gdm-client.h
 include/gdm/gdm-sessions.h
@@ -204,13 +204,13 @@ share/pixmaps/nohost.png
 @postexec dconf update
 @postunexec dconf update
 @mode 1775
-@dir etc/gdm/home
+@dir /etc/gdm/home
 @mode
 @postunexec rm -rf %D/etc/gdm/home/.gconf*
 @dir %%ETCDIR%%/Sessions
 @dir %%ETCDIR%%/home/.local/share/applications
-@dir etc/dm
-@dir etc/dm/Sessions
+@dir /etc/dm
+@dir /etc/dm/Sessions
 @dir share/xsessions
 @dir /var/cache/gdm/
 @dir /var/run/gdm/greeter

@@ -1,5 +1,5 @@
 bin/tilp
-man/man1/tilp.1.gz
+%%MANPREFIX%%/man/man1/tilp.1.gz
 share/appdata/tilp.appdata.xml
 share/applications/tilp.desktop
 %%NLS%%share/locale/de/LC_MESSAGES/tilp2.mo

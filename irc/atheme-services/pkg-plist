@@ -5,13 +5,13 @@ bin/ecdsakeygen
 @dir(ircservices,ircservices,) /var/log/atheme
 @dir(ircservices,ircservices,) /var/run/atheme
 @group ircservices
-@dir etc/atheme
+@dir /etc/atheme
 @mode 640
-@sample etc/atheme/atheme.conf.example etc/atheme/atheme.conf
-@sample etc/atheme/atheme.motd.example etc/atheme/atheme.motd
-etc/atheme/atheme.conf.operserv-example
-etc/atheme/atheme.conf.userserv-example
-etc/atheme/atheme.cron.example
+@sample /etc/atheme/atheme.conf.example etc/atheme/atheme.conf
+@sample /etc/atheme/atheme.motd.example etc/atheme/atheme.motd
+/etc/atheme/atheme.conf.operserv-example
+/etc/atheme/atheme.conf.userserv-example
+/etc/atheme/atheme.cron.example
 @mode
 @group
 @dir /var/lib

@@ -9,7 +9,7 @@ COMMENT=	X.Org syscons display driver
 
 USES=		xorg-cat:driver
 PLIST_FILES=	lib/xorg/modules/drivers/scfb_drv.so \
-		man/man4/scfb.4x.gz
+		${MANPREFIX}/man/man4/scfb.4x.gz
 
 IGNORE_MASTER_SITE_XORG=yes
 USE_GITHUB=	yes

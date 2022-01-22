@@ -3,8 +3,8 @@ bin/xpra
 bin/xpra_launcher
 bin/xpra_signal_listener
 bin/xpra_udev_product_version
-etc/X11/xorg.conf.d/90-xpra-virtual.conf
-etc/dbus-1/system.d/xpra.conf
+/etc/X11/xorg.conf.d/90-xpra-virtual.conf
+/etc/dbus-1/system.d/xpra.conf
 %%ETCDIR%%/conf.d/05_features.conf
 %%ETCDIR%%/conf.d/10_network.conf
 %%ETCDIR%%/conf.d/12_ssl.conf
@@ -1401,9 +1401,9 @@ libexec/xpra/auth_dialog
 libexec/xpra/gnome-open
 libexec/xpra/gvfs-open
 libexec/xpra/xdg-open
-man/man1/run_scaled.1.gz
-man/man1/xpra.1.gz
-man/man1/xpra_launcher.1.gz
+%%MANPREFIX%%/man/man1/run_scaled.1.gz
+%%MANPREFIX%%/man/man1/xpra.1.gz
+%%MANPREFIX%%/man/man1/xpra_launcher.1.gz
 share/applications/xpra-gui.desktop
 share/applications/xpra-launcher.desktop
 share/applications/xpra-shadow.desktop

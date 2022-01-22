@@ -1,6 +1,6 @@
 bin/cinnamon-screensaver
 bin/cinnamon-screensaver-command
-etc/pam.d/cinnamon-screensaver
+/etc/pam.d/cinnamon-screensaver
 include/cinnamon-screensaver/libcscreensaver/cs-auth.h
 include/cinnamon-screensaver/libcscreensaver/setuid.h
 lib/girepository-1.0/CScreensaver-1.0.typelib

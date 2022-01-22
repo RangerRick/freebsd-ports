@@ -1,4 +1,4 @@
-etc/ledger-smb-httpd.conf
+/etc/ledger-smb-httpd.conf
 @owner %%WWWOWN%%
 @group %%WWWGRP%%
 ledgersmb/BUGS

@@ -1,4 +1,4 @@
-@sample etc/c-icap/squidclamav.conf.sample
+@sample /etc/c-icap/squidclamav.conf.sample
 %%DATADIR%%/README
 share/c_icap/templates/squidclamav/en/MALWARE_FOUND
 lib/c_icap/squidclamav.a
@@ -9,4 +9,4 @@ libexec/squidclamav/clwarn.cgi.en_EN
 libexec/squidclamav/clwarn.cgi.fr_FR
 libexec/squidclamav/clwarn.cgi.pt_BR
 libexec/squidclamav/clwarn.cgi.ru_RU
-man/man1/squidclamav.1.gz
+%%MANPREFIX%%/man/man1/squidclamav.1.gz

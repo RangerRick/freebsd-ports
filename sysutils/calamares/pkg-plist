@@ -234,7 +234,7 @@ lib/libcalamares.so
 lib/libcalamares.so.3.2.44.2
 lib/libcalamaresui.so
 lib/libcalamaresui.so.3.2.44.2
-man/man8/calamares.8.gz
+%%MANPREFIX%%/man/man8/calamares.8.gz
 share/applications/calamares.desktop
 %%DATADIR%%/branding/default/banner.png
 %%DATADIR%%/branding/default/banner.png.license

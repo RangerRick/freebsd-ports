@@ -30,8 +30,8 @@ LDFLAGS+=-ldevinfo
 post-install:
 	${MKDIR} ${STAGEDIR}/${DATADIR}/images
 	${INSTALL_DATA} ${FILESDIR}/freebsd_logo.svg   ${STAGEDIR}/${DATADIR}/images/
-	${MKDIR} ${STAGEDIR}/${PREFIX}/etc/xdg
-	${INSTALL_DATA} ${FILESDIR}/kcm-about-distrorc ${STAGEDIR}/${PREFIX}/etc/xdg/
-	${REINPLACE_CMD} -i "" -e "s#%%DATADIR%%#${DATADIR}#"  ${STAGEDIR}/${PREFIX}/etc/xdg/kcm-about-distrorc
+	${MKDIR} ${STAGEDIR}//etc/xdg
+	${INSTALL_DATA} ${FILESDIR}/kcm-about-distrorc ${STAGEDIR}//etc/xdg/
+	${REINPLACE_CMD} -i "" -e "s#%%DATADIR%%#${DATADIR}#"  ${STAGEDIR}//etc/xdg/kcm-about-distrorc
 
 .include <bsd.port.mk>

@@ -9,7 +9,7 @@ include/tqslconvert.h
 include/tqslerrno.h
 include/tqsllib.h
 lib/libtqsllib.so
-man/man5/tqsl.5.gz
+%%MANPREFIX%%/man/man5/tqsl.5.gz
 share/TrustedQSL/config.xml
 share/TrustedQSL/help/tqslapp/BrokenCert.bmp
 share/TrustedQSL/help/tqslapp/CertProp.bmp

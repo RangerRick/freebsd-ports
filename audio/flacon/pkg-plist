@@ -1,5 +1,5 @@
 bin/flacon
-man/man1/flacon.1.gz
+%%MANPREFIX%%/man/man1/flacon.1.gz
 share/applications/flacon.desktop
 share/icons/hicolor/16x16/apps/flacon.png
 share/icons/hicolor/32x32/apps/flacon.png

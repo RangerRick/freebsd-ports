@@ -10,6 +10,6 @@ LICENSE=	MIT
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xkbfile
 
-PLIST_FILES=	bin/xwd man/man1/xwd.1.gz
+PLIST_FILES=	bin/xwd ${MANPREFIX}/man/man1/xwd.1.gz
 
 .include <bsd.port.mk>

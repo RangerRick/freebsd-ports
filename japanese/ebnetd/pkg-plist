@@ -1,4 +1,4 @@
-@sample etc/ebnetd.conf.sample
+@sample /etc/ebnetd.conf.sample
 libexec/ebhtstat
 libexec/ebnstat
 libexec/ndtpstat

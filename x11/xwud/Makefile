@@ -8,5 +8,5 @@ COMMENT=	Image displayer for X
 USES=		xorg xorg-cat:app
 USE_XORG=	x11
 
-PLIST_FILES=	bin/xwud man/man1/xwud.1.gz
+PLIST_FILES=	bin/xwud ${MANPREFIX}/man/man1/xwud.1.gz
 .include <bsd.port.mk>

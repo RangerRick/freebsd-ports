@@ -253,5 +253,5 @@ bin/xaos
 %%EXAMPLES%%%%EXAMPLESDIR%%/ZsKovacs/pavaszem2.xpf
 %%EXAMPLES%%%%EXAMPLESDIR%%/ZsKovacs/pepita.xpf
 %%EXAMPLES%%%%EXAMPLESDIR%%/ZsKovacs/zsigapro.xpf
-share/man/man6/xaos.6.gz
+%%MANPREFIX%%/man/man6/xaos.6.gz
 share/pixmaps/xaos.png

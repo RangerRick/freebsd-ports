@@ -1,6 +1,6 @@
 bin/dstask
 bin/dstask-import
-etc/bash_completion.d/dstask.sh
+/etc/bash_completion.d/dstask.sh
 %%DOCSDIR%%/README.md
 %%DOCSDIR%%/dstask-import.md
 %%DOCSDIR%%/taskwarrior-migration.md

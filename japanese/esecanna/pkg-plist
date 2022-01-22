@@ -1,4 +1,4 @@
-etc/esecannarc
+/etc/esecannarc
 @dir lib/esecanna
 sbin/esecannaserver
 %%PORTDOCS%%share/doc/esecanna/CREDITS

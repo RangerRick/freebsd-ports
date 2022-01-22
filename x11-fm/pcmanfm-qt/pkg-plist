@@ -1,8 +1,8 @@
 bin/pcmanfm-qt
-etc/xdg/autostart/lxqt-desktop.desktop
+/etc/xdg/autostart/lxqt-desktop.desktop
 share/applications/pcmanfm-qt-desktop-pref.desktop
 share/applications/pcmanfm-qt.desktop
-share/man/man1/pcmanfm-qt.1.gz
+%%MANPREFIX%%/man/man1/pcmanfm-qt.1.gz
 @sample %%DATADIR%%/lxqt/settings.conf.sample
 %%DATADIR%%/translations/pcmanfm-qt_ar.qm
 %%DATADIR%%/translations/pcmanfm-qt_arn.qm

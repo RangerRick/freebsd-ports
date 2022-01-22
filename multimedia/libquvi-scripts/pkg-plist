@@ -1,5 +1,5 @@
 libdata/pkgconfig/libquvi-scripts.pc
-man/man7/libquvi-scripts.7.gz
+%%MANPREFIX%%/man/man7/libquvi-scripts.7.gz
 %%DATADIR%%/lua/README
 %%DATADIR%%/lua/util/charset.lua
 %%DATADIR%%/lua/util/content_type.lua

@@ -2,7 +2,7 @@ bin/compton
 bin/compton-trans
 bin/picom
 bin/picom-trans
-@sample etc/xdg/picom.conf.sample
+@sample /etc/xdg/picom.conf.sample
 share/applications/compton.desktop
 share/applications/picom.desktop
 share/icons/hicolor/48x48/apps/compton.png

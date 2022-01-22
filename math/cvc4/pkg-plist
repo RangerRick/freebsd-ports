@@ -102,10 +102,10 @@ lib/libcvc4parser.so.6
 %%DATADIR%%/th_real.plf
 %%JAVA%%%%JAVASHAREDIR%%/cvc4/CVC4-1.7.0.jar
 %%JAVA%%%%JAVASHAREDIR%%/cvc4/CVC4.jar
-man/man1/cvc4.1.gz
+%%MANPREFIX%%/man/man1/cvc4.1.gz
 %%GMP%%man/man1/pcvc4.1.gz
-man/man3/SmtEngine.3cvc.gz
-man/man3/libcvc4.3.gz
-man/man3/libcvc4parser.3.gz
-man/man3/options.3cvc.gz
-man/man5/cvc4.5.gz
+%%MANPREFIX%%/man/man3/SmtEngine.3cvc.gz
+%%MANPREFIX%%/man/man3/libcvc4.3.gz
+%%MANPREFIX%%/man/man3/libcvc4parser.3.gz
+%%MANPREFIX%%/man/man3/options.3cvc.gz
+%%MANPREFIX%%/man/man5/cvc4.5.gz

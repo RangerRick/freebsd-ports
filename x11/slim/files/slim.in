@@ -29,7 +29,7 @@ stop_postcmd=${name}_rmfile
 
 find_pidfile()
 {
-	if get_pidfile_from_conf lockfile %%PREFIX%%/etc/${name}.conf; then
+	if get_pidfile_from_conf lockfile /etc/${name}.conf; then
 		pidfile="$_pidfile_from_conf"
 	else
 		pidfile="/var/run/${name}.pid"

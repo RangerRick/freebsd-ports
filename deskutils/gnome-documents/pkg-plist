@@ -3,7 +3,7 @@ lib/gnome-documents/girepository-1.0/Gd-1.0.typelib
 lib/gnome-documents/girepository-1.0/GdPrivate-1.0.typelib
 lib/gnome-documents/libgd.so
 lib/gnome-documents/libgdprivate-1.0.so
-man/man1/gnome-documents.1.gz
+%%MANPREFIX%%/man/man1/gnome-documents.1.gz
 share/applications/org.gnome.Documents.desktop
 share/dbus-1/services/org.gnome.Documents.service
 %%DATADIR%%/gir-1.0/Gd-1.0.gir

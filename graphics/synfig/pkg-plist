@@ -1,6 +1,6 @@
 bin/synfig
 bin/synfig-config
-etc/synfig_modules.cfg
+/etc/synfig_modules.cfg
 include/synfig-1.0/synfig/activepoint.h
 include/synfig-1.0/synfig/angle.h
 include/synfig-1.0/synfig/base_types.h

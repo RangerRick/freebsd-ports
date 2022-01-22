@@ -1,6 +1,6 @@
-@sample etc/snmp/newsyslog-snmptt.conf.sample etc/newsyslog.conf.d/snmptt.conf
-@sample etc/snmp/snmptt.conf.generic.sample
-@sample etc/snmp/snmptt.ini.sample
+@sample /etc/snmp/newsyslog-snmptt.conf.sample etc/newsyslog.conf.d/snmptt.conf
+@sample /etc/snmp/snmptt.conf.generic.sample
+@sample /etc/snmp/snmptt.ini.sample
 sbin/snmptt
 sbin/snmptt-net-snmp-test
 sbin/snmpttconvert

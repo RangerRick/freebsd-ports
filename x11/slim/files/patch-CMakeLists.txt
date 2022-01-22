@@ -20,7 +20,7 @@
 +		)
 +	set(SYSCONFDIR "${CMAKE_INSTALL_FULL_SYSCONFDIR}")
 +	set(LIBDIR "${CMAKE_INSTALL_FULL_LIBDIR}")
-+	set(MANDIR "${CMAKE_INSTALL_PREFIX}/man")
++	set(MANDIR "${CMAKE_INSTALL_PREFIX}/share/man")
 +else()
 +        set(SYSCONFDIR "/etc")
 +        set(LIBDIR "/lib")

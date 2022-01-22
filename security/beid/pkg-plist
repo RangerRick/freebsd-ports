@@ -1,7 +1,7 @@
 bin/about-eid-mw
 bin/beid-update-nssdb
 bin/eid-viewer
-etc/xdg/autostart/beid-update-nssdb.desktop
+/etc/xdg/autostart/beid-update-nssdb.desktop
 include/beid/rsaref220/pkcs11.h
 include/beid/rsaref220/pkcs11f.h
 include/beid/rsaref220/pkcs11t.h

@@ -44,8 +44,8 @@ include/guido/VGSystem.h
 lib/libGUIDOEngine.so
 lib/libGUIDOEngine.so.1
 lib/libGUIDOEngine.so.1.7.1
-share/fonts/guidolib/guido2.svg
-share/fonts/guidolib/guido2.ttf
+/System/Library/Fonts/guidolib/guido2.svg
+/System/Library/Fonts/guidolib/guido2.ttf
 %%DATADIR%%/doc/GMNRefCard.pdf
 %%DATADIR%%/doc/GUIDO-Music-Notation-Format.pdf
 %%DATADIR%%/doc/GUIDO_Additional_Specifications_1.3.8.pdf

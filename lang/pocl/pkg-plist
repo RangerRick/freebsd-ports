@@ -1,5 +1,5 @@
 bin/poclcc
-etc/OpenCL/vendors/pocl.icd
+/etc/OpenCL/vendors/pocl.icd
 lib/libpocl.so
 lib/libpocl.so.2
 lib/libpocl.so.2.8.0

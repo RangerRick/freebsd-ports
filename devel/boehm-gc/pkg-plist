@@ -31,4 +31,4 @@ lib/libgccpp.so
 lib/libgccpp.so.1
 lib/libgccpp.so.1.4.1
 libdata/pkgconfig/bdw-gc.pc
-man/man3/gc.3.gz
+%%MANPREFIX%%/man/man3/gc.3.gz

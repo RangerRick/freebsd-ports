@@ -1,2 +1,2 @@
-@sample etc/traff.conf.sample
+@sample /etc/traff.conf.sample
 sbin/traff

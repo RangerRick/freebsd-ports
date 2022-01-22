@@ -2956,19 +2956,19 @@ lib/coq/toploop/coqidetop.cma
 lib/coq/toploop/proofworkertop.cma
 lib/coq/toploop/queryworkertop.cma
 lib/coq/toploop/tacworkertop.cma
-man/man1/coq-tex.1.gz
-man/man1/coq_makefile.1.gz
-man/man1/coqc.1.gz
-man/man1/coqchk.1.gz
-man/man1/coqdep.1.gz
-man/man1/coqdoc.1.gz
-man/man1/coqide.1.gz
-man/man1/coqmktop.1.gz
-man/man1/coqtop.1.gz
-man/man1/coqtop.byte.1.gz
-man/man1/coqtop.opt.1.gz
-man/man1/coqwc.1.gz
-man/man1/gallina.1.gz
+%%MANPREFIX%%/man/man1/coq-tex.1.gz
+%%MANPREFIX%%/man/man1/coq_makefile.1.gz
+%%MANPREFIX%%/man/man1/coqc.1.gz
+%%MANPREFIX%%/man/man1/coqchk.1.gz
+%%MANPREFIX%%/man/man1/coqdep.1.gz
+%%MANPREFIX%%/man/man1/coqdoc.1.gz
+%%MANPREFIX%%/man/man1/coqide.1.gz
+%%MANPREFIX%%/man/man1/coqmktop.1.gz
+%%MANPREFIX%%/man/man1/coqtop.1.gz
+%%MANPREFIX%%/man/man1/coqtop.byte.1.gz
+%%MANPREFIX%%/man/man1/coqtop.opt.1.gz
+%%MANPREFIX%%/man/man1/coqwc.1.gz
+%%MANPREFIX%%/man/man1/gallina.1.gz
 %%PORTDOCS%%%%DATADIR%%/coq-ssreflect.lang
 %%PORTDOCS%%%%DATADIR%%/coq.lang
 %%PORTDOCS%%%%DATADIR%%/coq.png
@@ -2981,4 +2981,4 @@ man/man1/gallina.1.gz
 %%EMACS_SITE_LISPDIR%%/coq/gallina.el
 %%PORTDOCS%%%%EMACS_SITE_LISPDIR%%/coqdoc.sty
 @dir lib/coq/user-contrib
-%%IDE%%@dir etc/xdg/coq
+%%IDE%%@dir /etc/xdg/coq

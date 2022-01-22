@@ -35,9 +35,9 @@ bin/hp-uninstall
 bin/hp-unload
 bin/hp-upgrade
 bin/hp-wificonfig
-@sample etc/hp/hplip.conf.sample
-%%SCAN%%etc/sane.d/dll.d/hpaio
-%%X11%%etc/xdg/autostart/hplip-systray.desktop
+@sample /etc/hp/hplip.conf.sample
+%%SCAN%%/etc/sane.d/dll.d/hpaio
+%%X11%%/etc/xdg/autostart/hplip-systray.desktop
 %%SNMP%%lib/libhpdiscovery.so
 %%SNMP%%lib/libhpdiscovery.so.0
 %%SNMP%%lib/libhpdiscovery.so.0.0.1

@@ -1,4 +1,4 @@
-etc/xdg/libkleopatrarc
+/etc/xdg/libkleopatrarc
 include/KF5/Libkleo/Algorithm
 include/KF5/Libkleo/Assuan
 include/KF5/Libkleo/ChecksumDefinition

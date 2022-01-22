@@ -1,5 +1,5 @@
 bin/crystal
-%%BASH%%etc/bash_completion.d/_crystal.bash
+%%BASH%%/etc/bash_completion.d/_crystal.bash
 lib/crystal/VERSION
 lib/crystal/annotations.cr
 lib/crystal/array.cr
@@ -1215,5 +1215,5 @@ lib/crystal/yaml/schema/core/parser.cr
 lib/crystal/yaml/schema/fail_safe.cr
 lib/crystal/yaml/serialization.cr
 lib/crystal/yaml/to_yaml.cr
-man/man1/crystal.1.gz
+%%MANPREFIX%%/man/man1/crystal.1.gz
 %%ZSH%%share/zsh/site-functions/_crystal

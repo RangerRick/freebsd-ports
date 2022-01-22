@@ -15,7 +15,7 @@ GH_TUPLE=	DragonFlyBSD:${PORTNAME}:v${PORTVERSION}
 MAKEFILE=	GNUmakefile
 MAKE_ARGS+=	LIBS="-L${OPENSSLLIB} -lcrypto"
 
-PLIST_FILES=	bin/cpdup man/man1/cpdup.1.gz
+PLIST_FILES=	bin/cpdup ${MANPREFIX}/man/man1/cpdup.1.gz
 
 post-patch:
 	${REINPLACE_CMD} \

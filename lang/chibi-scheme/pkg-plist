@@ -489,6 +489,6 @@ share/chibi/srfi/99/records/procedural.sld
 share/chibi/srfi/99/records/syntactic.scm
 share/chibi/srfi/99/records/syntactic.sld
 share/chibi/srfi/99/test.sld
-share/man/man1/chibi-doc.1.gz
-share/man/man1/chibi-ffi.1.gz
-share/man/man1/chibi-scheme.1.gz
+%%MANPREFIX%%/man/man1/chibi-doc.1.gz
+%%MANPREFIX%%/man/man1/chibi-ffi.1.gz
+%%MANPREFIX%%/man/man1/chibi-scheme.1.gz

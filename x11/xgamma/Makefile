@@ -8,6 +8,6 @@ COMMENT=	Gamma correction through the X server
 USES=		xorg xorg-cat:app
 USE_XORG=	x11 xxf86vm
 
-PLIST_FILES=	bin/xgamma man/man1/xgamma.1.gz
+PLIST_FILES=	bin/xgamma ${MANPREFIX}/man/man1/xgamma.1.gz
 
 .include <bsd.port.mk>

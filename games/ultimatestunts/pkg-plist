@@ -3,7 +3,7 @@ bin/ustunts3dedit
 bin/ustuntsai
 bin/ustuntsserver
 bin/ustuntstrackedit
-etc/ultimatestunts.conf
+/etc/ultimatestunts.conf
 share/icons/hicolor/128x128/apps/ultimatestunts.png
 share/icons/hicolor/32x32/apps/ultimatestunts.png
 share/icons/hicolor/48x48/apps/ultimatestunts.png

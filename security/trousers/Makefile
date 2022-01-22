@@ -24,7 +24,7 @@ USE_RC_SUBR=	tcsd
 INSTALL_TARGET=	install-strip
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-gui=none --enable-static \
-		--localstatedir=${PREFIX}/var \
+		--localstatedir=/var \
 		--with-tssuser=${USERS} \
 		--with-tssgroup=${GROUPS} \
 		--with-openssl=${OPENSSLBASE} \
@@ -43,8 +43,9 @@ OPTIONS_DEFINE=	DEBUG
 DEBUG_CONFIGURE_ENABLE=	debug
 
 post-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 	${INSTALL_DATA} \
-	    ${WRKSRC}/dist/tcsd.conf ${STAGEDIR}${PREFIX}/etc/tcsd.conf.sample
-	@${MKDIR} ${STAGEDIR}${PREFIX}/var/lib/tpm
+	    ${WRKSRC}/dist/tcsd.conf ${STAGEDIR}/etc/tcsd.conf.sample
+	@${MKDIR} ${STAGEDIR}/var/lib/tpm
 
 .include <bsd.port.mk>

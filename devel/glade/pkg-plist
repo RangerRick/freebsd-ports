@@ -44,8 +44,8 @@ lib/libgladeui-2.so
 lib/libgladeui-2.so.6
 lib/libgladeui-2.so.6.5.1
 libdata/pkgconfig/gladeui-2.0.pc
-man/man1/glade-previewer.1.gz
-man/man1/glade.1.gz
+%%MANPREFIX%%/man/man1/glade-previewer.1.gz
+%%MANPREFIX%%/man/man1/glade.1.gz
 share/applications/glade.desktop
 share/gir-1.0/Gladeui-2.0.gir
 %%DATADIR%%/catalogs/glade-catalog.dtd

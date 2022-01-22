@@ -132,7 +132,7 @@ post-build:
 pre-su-install:
 .if !(defined(BLAS_SLAVEPORT) || defined(CBLAS_SLAVEPORT) || defined(XLAPACK_SLAVEPORT) || defined(LAPACKE_SLAVEPORT))
 	cd ${WRKDIR} && ${FIND} man/man3 -type f | ${GREP} -v Users_julie | \
-	tee ${WRKDIR}/manpages | ${SED} 's|$$|.gz|' >> ${TMPPLIST}
+	tee ${WRKDIR}/manpages | ${SED} 's|$$|.gz|;s|man/man3|${MANPREFIX}/&|' >> ${TMPPLIST}
 	cd ${WRKDIR} && \
 	${XARGS} -J @ ${INSTALL_MAN} @ ${STAGEDIR}${MAN3PREFIX}/man/man3 < ${WRKDIR}/manpages
 .endif

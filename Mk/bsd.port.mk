@@ -400,7 +400,7 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				  If this is set to a list of files, these files will be
 #				  automatically added to ${SUB_FILES}, some %%VAR%%'s will
 #				  automatically be expanded, they will be installed in
-#				  ${PREFIX}/etc/rc.d if ${PREFIX} is not /usr, otherwise they
+#				  /etc/rc.d if ${PREFIX} is not /usr, otherwise they
 #				  will be installed in /etc/rc.d/ and added to the packing list.
 ##
 # Conflict checking.  Use if your port cannot be installed at the same time as
@@ -1546,7 +1546,7 @@ NO_MTREE=				yes
 
 DATADIR?=		${PREFIX}/share/${PORTNAME}
 DOCSDIR?=		${PREFIX}/share/doc/${PORTNAME}
-ETCDIR?=		${PREFIX}/etc/${PORTNAME}
+ETCDIR?=		/etc/${PORTNAME}
 EXAMPLESDIR?=	${PREFIX}/share/examples/${PORTNAME}
 WWWDIR?=		${PREFIX}/www/${PORTNAME}
 
@@ -2733,12 +2733,18 @@ EXAMPLESDIR_REL?=	${EXAMPLESDIR:S,^${PREFIX}/,,}
 DATADIR_REL?=	${DATADIR:S,^${PREFIX}/,,}
 WWWDIR_REL?=	${WWWDIR:S,^${PREFIX}/,,}
 ETCDIR_REL?=	${ETCDIR:S,^${PREFIX}/,,}
+MANPREFIX_REL?=	${MANPREFIX:S,^${PREFIX}/,,}
+PLIST_SUB+=	MANPREFIX="${MANPREFIX_REL}"
+
 
 PLIST_SUB+=	DOCSDIR="${DOCSDIR_REL}" \
 		EXAMPLESDIR="${EXAMPLESDIR_REL}" \
 		DATADIR="${DATADIR_REL}" \
 		WWWDIR="${WWWDIR_REL}" \
 		ETCDIR="${ETCDIR_REL}"
+MANPREFIX_REL?=	${MANPREFIX:S,^${PREFIX}/,,}
+PLIST_SUB+=	MANPREFIX="${MANPREFIX_REL}"
+
 
 DESKTOPDIR?=		${PREFIX}/share/applications
 

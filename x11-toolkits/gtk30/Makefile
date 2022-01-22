@@ -33,7 +33,7 @@ USE_GNOME=	atk cairo gdkpixbuf2 introspection:build pango \
 USES=		compiler:c11 cpe gettext gmake gnome libtool localbase \
 		pathfix perl5 pkgconfig tar:xz
 CPE_VENDOR=	gnome
-CONFIGURE_ARGS=	--enable-introspection
+CONFIGURE_ARGS= --sysconfdir=/etc --mandir=${MANPREFIX}/man	--enable-introspection
 CPPFLAGS+=	-fno-omit-frame-pointer
 INSTALL_TARGET=	install-strip
 
@@ -101,6 +101,6 @@ post-install:
 	@${MKDIR} ${STAGEDIR}${PREFIX}/lib/gtk-3.0/${GTK3_VERSION}/engines
 	@${MKDIR} ${STAGEDIR}${PREFIX}/lib/gtk-3.0/${GTK3_VERSION}/loaders
 	${INSTALL_MAN} ${WRKSRC}/docs/reference/gtk/gtk-query-immodules-3.0.1 \
-		${STAGEDIR}${PREFIX}/man/man1
+		${STAGEDIR}${MANPREFIX}/man/man1
 
 .include <bsd.port.mk>

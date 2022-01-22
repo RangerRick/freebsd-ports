@@ -26,4 +26,4 @@ lib/cmake/reflex/ReflexConfig.cmake
 lib/cmake/reflex/ReflexTargets-%%CMAKE_BUILD_TYPE%%.cmake
 lib/cmake/reflex/ReflexTargets.cmake
 %%DATADIR%%/lex.vim
-man/man1/reflex.1.gz
+%%MANPREFIX%%/man/man1/reflex.1.gz

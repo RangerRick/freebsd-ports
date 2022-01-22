@@ -39,8 +39,8 @@ UDEV_LIB_DEPENDS=	libudev.so:devel/libudev-devd
 
 .include <bsd.port.options.mk>
 
-FONTPATH_ROOT?=	${LOCALBASE}/share/fonts
-FONTPATHD?=	${PREFIX}/etc/X11/fontpath.d
+FONTPATH_ROOT?=	/System/Library/Fonts
+FONTPATHD?=	/etc/X11/fontpath.d
 DEFAULT_FONTPATH_LIST= \
 	${FONTPATH_ROOT}/misc/	\
 	${FONTPATH_ROOT}/TTF/ \
@@ -56,7 +56,7 @@ USES=		compiler:c11 cpe gl gmake perl5 ssl tar:xz xorg xorg-cat:xserver
 USE_PERL5=	build
 USE_GL+=	gl
 USE_XORG+=	pixman xau xdmcp xfont2 xkbfile xorgproto xshmfence xtrans
-CONFIGURE_ARGS+=--without-doxygen --without-xmlto --without-fop \
+CONFIGURE_ARGS+=--sysconfdir=/etc --without-doxygen --without-xmlto --without-fop \
 		--with-default-font-path="$$(${DEFAULT_FONTPATH_CMD})" \
 		--without-dtrace --disable-config-hal	\
 		--disable-install-setuid --disable-unit-tests \
@@ -114,7 +114,7 @@ post-install:
 	@${MKDIR} ${STAGEDIR}${PREFIX}/lib/xorg/modules/extensions/.xorg
 	${MV} ${STAGEDIR}${PREFIX}/lib/xorg/modules/extensions/libglx.so \
 		${STAGEDIR}${PREFIX}/lib/xorg/modules/extensions/.xorg/
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/X11/xorg.conf.d
+	@${MKDIR} ${STAGEDIR}/etc/X11/xorg.conf.d
 	@${MKDIR} ${STAGEDIR}${FONTPATHD}
 	@${MKDIR} ${STAGEDIR}${PREFIX}/share/X11/xorg.conf.d
 	@${INSTALL_DATA} ${FILESDIR}/20-evdev-kbd.conf \

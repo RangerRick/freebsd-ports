@@ -1,5 +1,5 @@
 bin/gxkb
-man/man1/gxkb.1.gz
+%%MANPREFIX%%/man/man1/gxkb.1.gz
 share/applications/gxkb.desktop
 %%DATADIR%%/flags/am.png
 %%DATADIR%%/flags/bg.png

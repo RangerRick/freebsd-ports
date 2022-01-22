@@ -1,7 +1,7 @@
 bin/mscore
 bin/musescore
-man/man1/mscore.1.gz
-man/man1/musescore.1.gz
+%%MANPREFIX%%/man/man1/mscore.1.gz
+%%MANPREFIX%%/man/man1/musescore.1.gz
 share/applications/mscore.desktop
 share/icons/hicolor/128x128/apps/mscore.png
 share/icons/hicolor/16x16/apps/mscore.png

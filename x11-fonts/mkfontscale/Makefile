@@ -17,7 +17,7 @@ USE_XORG=	xorgproto fontenc
 
 PLIST_FILES=	bin/mkfontdir \
 		bin/mkfontscale \
-		man/man1/mkfontdir.1.gz \
-		man/man1/mkfontscale.1.gz
+		${MANPREFIX}/man/man1/mkfontdir.1.gz \
+		${MANPREFIX}/man/man1/mkfontscale.1.gz
 
 .include <bsd.port.mk>

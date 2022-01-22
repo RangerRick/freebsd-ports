@@ -5,7 +5,7 @@ lib/libmumble.so
 lib/libmumble.so.%%MAJORVERSION%%
 lib/libmumble.so.%%MINORVERSION%%
 lib/libmumble.so.%%PATCHVERSION%%
-man/man1/mumble.1.gz
+%%MANPREFIX%%/man/man1/mumble.1.gz
 share/applications/mumble.desktop
 share/icons/hicolor/128x128/apps/mumble.png
 share/icons/hicolor/scalable/apps/mumble.svg

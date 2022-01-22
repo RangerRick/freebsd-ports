@@ -2,15 +2,6 @@ Install docs into share/doc/ rather than include/
 
 --- CMakeLists.txt.orig	2018-12-28 23:33:58 UTC
 +++ CMakeLists.txt
-@@ -91,7 +91,7 @@ else()
-     if(WIN32)
-         set(MAN_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/man/man1)
-     else()
--        set(MAN_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/share/man/man1)
-+        set(MAN_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/man/man1)
-     endif()
- endif()
- if(DOC_INSTALL_DIR)
 @@ -330,7 +330,7 @@ set(
  
  include_directories(${CMAKE_SOURCE_DIR}/src)

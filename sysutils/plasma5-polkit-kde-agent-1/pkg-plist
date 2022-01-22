@@ -1,4 +1,4 @@
-etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
+/etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
 lib/libexec/polkit-kde-authentication-agent-1
 lib/systemd/user/plasma-polkit-agent.service
 share/applications/org.kde.polkit-kde-authentication-agent-1.desktop

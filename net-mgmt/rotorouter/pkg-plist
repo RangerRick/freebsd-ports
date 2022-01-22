@@ -1,2 +1,2 @@
 sbin/rotorouter
-@sample etc/rotorouter.conf.sample
+@sample /etc/rotorouter.conf.sample

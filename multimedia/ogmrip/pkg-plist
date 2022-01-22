@@ -144,8 +144,8 @@ libdata/pkgconfig/ogmdvd.pc
 libdata/pkgconfig/ogmjob.pc
 libdata/pkgconfig/ogmrip-gtk.pc
 libdata/pkgconfig/ogmrip.pc
-man/man1/dvdcpy.1.gz
-man/man1/avibox.1.gz
+%%MANPREFIX%%/man/man1/dvdcpy.1.gz
+%%MANPREFIX%%/man/man1/avibox.1.gz
 %%SRT%%man/man1/subp2pgm.1.gz
 %%SRT%%man/man1/subptools.1.gz
 %%GTK2%%share/applications/ogmrip.desktop

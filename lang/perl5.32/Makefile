@@ -282,6 +282,7 @@ post-install:
 			${STRIP_CMD} $$f; \
 			${CHMOD} 444 $$f; \
 		done
-	${INSTALL_DATA} ${WRKDIR}/perl-man.conf ${STAGEDIR}${PREFIX}/etc/man.d/perl${PKGNAMESUFFIX}.conf
+	${MKDIR} -p ${STAGEDIR}/etc/man.d ${STAGEDIR}/usr/libdata/ldconfig
+	${INSTALL_DATA} ${WRKDIR}/perl-man.conf ${STAGEDIR}/etc/man.d/perl${PKGNAMESUFFIX}.conf
 
 .include <bsd.port.mk>

@@ -11,9 +11,9 @@ bin/repo-elephant
 bin/repo-remove
 bin/testpkg
 bin/vercmp
-etc/bash_completion.d/pacman
-@sample etc/makepkg.conf.sample
-@sample etc/pacman.conf.sample
+/etc/bash_completion.d/pacman
+@sample /etc/makepkg.conf.sample
+@sample /etc/pacman.conf.sample
 include/alpm.h
 include/alpm_list.h
 lib/libalpm.a
@@ -21,20 +21,20 @@ lib/libalpm.so
 lib/libalpm.so.11
 lib/libalpm.so.11.0.3
 libdata/pkgconfig/libalpm.pc
-man/man1/makepkg-template.1.gz
-man/man3/libalpm.3.gz
-man/man5/BUILDINFO.5.gz
-man/man5/PKGBUILD.5.gz
-man/man5/alpm-hooks.5.gz
-man/man5/makepkg.conf.5.gz
-man/man5/pacman.conf.5.gz
-man/man8/makepkg.8.gz
-man/man8/pacman-key.8.gz
-man/man8/pacman.8.gz
-man/man8/pkgdelta.8.gz
-man/man8/repo-add.8.gz
-man/man8/repo-remove.8.gz
-man/man8/vercmp.8.gz
+%%MANPREFIX%%/man/man1/makepkg-template.1.gz
+%%MANPREFIX%%/man/man3/libalpm.3.gz
+%%MANPREFIX%%/man/man5/BUILDINFO.5.gz
+%%MANPREFIX%%/man/man5/PKGBUILD.5.gz
+%%MANPREFIX%%/man/man5/alpm-hooks.5.gz
+%%MANPREFIX%%/man/man5/makepkg.conf.5.gz
+%%MANPREFIX%%/man/man5/pacman.conf.5.gz
+%%MANPREFIX%%/man/man8/makepkg.8.gz
+%%MANPREFIX%%/man/man8/pacman-key.8.gz
+%%MANPREFIX%%/man/man8/pacman.8.gz
+%%MANPREFIX%%/man/man8/pkgdelta.8.gz
+%%MANPREFIX%%/man/man8/repo-add.8.gz
+%%MANPREFIX%%/man/man8/repo-remove.8.gz
+%%MANPREFIX%%/man/man8/vercmp.8.gz
 %%NLS%%share/locale/ar/LC_MESSAGES/libalpm.mo
 %%NLS%%share/locale/ar/LC_MESSAGES/pacman.mo
 %%NLS%%share/locale/ast/LC_MESSAGES/libalpm.mo

@@ -67,7 +67,7 @@
 %%FONTSDIR%%/ChangeLog
 %%FONTSDIR%%/COPYING
 %%FONTSDIR%%/AUTHORS
-etc/fonts/conf.avail/20-unhint-mona-ipa.conf
-etc/fonts/conf.avail/62-fonts-mona-ipa.conf
-etc/fonts/conf.d/20-unhint-mona-ipa.conf
-etc/fonts/conf.d/62-fonts-mona-ipa.conf
+/etc/fonts/conf.avail/20-unhint-mona-ipa.conf
+/etc/fonts/conf.avail/62-fonts-mona-ipa.conf
+/etc/fonts/conf.d/20-unhint-mona-ipa.conf
+/etc/fonts/conf.d/62-fonts-mona-ipa.conf

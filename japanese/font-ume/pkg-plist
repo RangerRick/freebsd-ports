@@ -18,7 +18,7 @@
 %%FONTSDIR%%/ume-tms3.ttf
 %%FONTSDIR%%/ume-ugo4.ttf
 %%FONTSDIR%%/ume-ugo5.ttf
-etc/fonts/conf.avail/20-unhint-ume.conf
-etc/fonts/conf.avail/62-fonts-ume.conf
-etc/fonts/conf.d/20-unhint-ume.conf
-etc/fonts/conf.d/62-fonts-ume.conf
+/etc/fonts/conf.avail/20-unhint-ume.conf
+/etc/fonts/conf.avail/62-fonts-ume.conf
+/etc/fonts/conf.d/20-unhint-ume.conf
+/etc/fonts/conf.d/62-fonts-ume.conf

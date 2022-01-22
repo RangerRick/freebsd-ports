@@ -1,5 +1,5 @@
 bin/freedroidRPG
-man/man6/freedroidRPG.6.gz
+%%MANPREFIX%%/man/man6/freedroidRPG.6.gz
 share/appdata/freedroidrpg.appdata.xml
 share/applications/freedroidrpg.desktop
 share/icons/HighContrast/128x128/apps/freedroidrpg.png

@@ -1,5 +1,5 @@
 bin/xfmpc
-man/man1/xfmpc.1.gz
+%%MANPREFIX%%/man/man1/xfmpc.1.gz
 share/applications/xfmpc.desktop
 %%NLS%%share/locale/am/LC_MESSAGES/xfmpc.mo
 %%NLS%%share/locale/ar/LC_MESSAGES/xfmpc.mo

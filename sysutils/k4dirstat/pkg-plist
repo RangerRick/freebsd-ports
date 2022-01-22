@@ -1,5 +1,5 @@
 bin/k4dirstat
-man/man1/k4dirstat.1.gz
+%%MANPREFIX%%/man/man1/k4dirstat.1.gz
 share/applications/k4dirstat.desktop
 share/config.kcfg/k4dirstat.kcfg
 share/doc/HTML/en/k4dirstat/feedback-mail.png

@@ -1,2 +1,2 @@
 bin/spamdyke
-@sample etc/spamdyke.conf.sample
+@sample /etc/spamdyke.conf.sample

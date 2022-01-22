@@ -52,7 +52,7 @@ MAKE_ARGS+=	CC="${CC}" \
 		TO_LIB="${LUA_LIB_SHARED} ${LUA_LIB_STATIC}" \
 		INSTALL_TOP=${STAGEDIR}${PREFIX} \
 		INSTALL_INC=${STAGEDIR}${LUA_INCDIR} \
-		INSTALL_EXEC="${INSTALL_PROGRAM}"
+		INSTALL_MAN=${STAGEDIR}${MANPREFIX}/man/man1 INSTALL_EXEC="${INSTALL_PROGRAM}"
 
 # Source, destination, and filenames to copy for the DOCS option
 # (automatically added to pkg-plist if DOCS is set)
@@ -134,10 +134,10 @@ post-patch-LIBEDIT_DL-on:
 
 post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/lib/${LUA_LIB_SHARED}
-	${MV} ${STAGEDIR}${PREFIX}/man/man1/lua.1 \
-		${STAGEDIR}${PREFIX}/man/man1/${LUA_CMD}.1
-	${MV} ${STAGEDIR}${PREFIX}/man/man1/luac.1 \
-		${STAGEDIR}${PREFIX}/man/man1/${LUAC_CMD}.1
+	${MV} ${STAGEDIR}${MANPREFIX}/man/man1/lua.1 \
+		${STAGEDIR}${MANPREFIX}/man/man1/${LUA_CMD}.1
+	${MV} ${STAGEDIR}${MANPREFIX}/man/man1/luac.1 \
+		${STAGEDIR}${MANPREFIX}/man/man1/${LUAC_CMD}.1
 	${INSTALL_DATA} ${WRKDIR}/${LUA_PC_FILE} \
 		${STAGEDIR}${PREFIX}/libdata/pkgconfig
 

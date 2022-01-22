@@ -8,4 +8,4 @@ lib/libexempi.so
 lib/libexempi.so.8
 lib/libexempi.so.8.0.2
 libdata/pkgconfig/exempi-2.0.pc
-man/man1/exempi.1.gz
+%%MANPREFIX%%/man/man1/exempi.1.gz

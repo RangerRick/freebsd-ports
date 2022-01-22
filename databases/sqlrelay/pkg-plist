@@ -13,7 +13,7 @@
 @dir /var/log/sqlrelay
 @dir /var/log/sqlrelay/debug
 @dir /var/run/sqlrelay
-@sample etc/sqlrelay/conf.sample
+@sample /etc/sqlrelay/conf.sample
 bin/sqlr-cachemanager
 bin/sqlr-connection
 bin/sqlr-export
@@ -28,9 +28,9 @@ bin/sqlrclient-config
 bin/sqlrclientwrapper-config
 bin/sqlrserver-config
 bin/sqlrsh
-etc/rc.d/sqlrcachemanager
-etc/rc.d/sqlrelay
-etc/sqlrelay/sqlrelay.xsd
+/etc/rc.d/sqlrcachemanager
+/etc/rc.d/sqlrelay
+/etc/sqlrelay/sqlrelay.xsd
 include/sqlrelay/private/sqlrauth.h
 include/sqlrelay/private/sqlrauths.h
 include/sqlrelay/private/sqlrbindvariabletranslation.h
@@ -155,14 +155,14 @@ libexec/sqlrelay/sqlrschedule_cron_userlist.so
 libexec/sqlrelay/sqlrtranslation_normalize.so
 libexec/sqlrelay/sqlrtranslation_patterns.so
 libexec/sqlrelay/sqlrtrigger_replay.so
-man/man1/sqlr-export.1.gz
-man/man1/sqlr-import.1.gz
-man/man1/sqlrsh.1.gz
-man/man8/sqlr-cachemanager.8.gz
-man/man8/sqlr-connection.8.gz
-man/man8/sqlr-listener.8.gz
-man/man8/sqlr-pwdenc.8.gz
-man/man8/sqlr-scaler.8.gz
-man/man8/sqlr-start.8.gz
-man/man8/sqlr-status.8.gz
-man/man8/sqlr-stop.8.gz
+%%MANPREFIX%%/man/man1/sqlr-export.1.gz
+%%MANPREFIX%%/man/man1/sqlr-import.1.gz
+%%MANPREFIX%%/man/man1/sqlrsh.1.gz
+%%MANPREFIX%%/man/man8/sqlr-cachemanager.8.gz
+%%MANPREFIX%%/man/man8/sqlr-connection.8.gz
+%%MANPREFIX%%/man/man8/sqlr-listener.8.gz
+%%MANPREFIX%%/man/man8/sqlr-pwdenc.8.gz
+%%MANPREFIX%%/man/man8/sqlr-scaler.8.gz
+%%MANPREFIX%%/man/man8/sqlr-start.8.gz
+%%MANPREFIX%%/man/man8/sqlr-status.8.gz
+%%MANPREFIX%%/man/man8/sqlr-stop.8.gz

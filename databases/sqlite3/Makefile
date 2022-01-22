@@ -221,7 +221,7 @@ post-configure:
 	@${ECHO_MSG} "===> LIBS=${LIBS}"
 
 post-install:
-	${INSTALL_MAN} ${WRKSRC}/sqlite3.1 ${STAGEDIR}${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/sqlite3.1 ${STAGEDIR}${MANPREFIX}/man/man1
 	${RM} ${STAGEDIR}${PREFIX}/include/msvc.h
 	${SETENV} LD_LIBMAP_DISABLE=1 ldd -a "${STAGEDIR}${PREFIX}/bin/${PORTNAME}" "${STAGEDIR}${PREFIX}/lib/lib${PORTNAME}.so"
 
@@ -233,7 +233,7 @@ post-install-STRIP-on:
 
 post-install-TCL-on:
 	${INSTALL_PROGRAM} ${WRKSRC}/sqlite3_analyzer ${STAGEDIR}${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/autoconf/tea/doc/${PORTNAME}.n ${STAGEDIR}${PREFIX}/man/mann/${PORTNAME}.tcl${TCL_VER:S/.//g}.n
+	${INSTALL_MAN} ${WRKSRC}/autoconf/tea/doc/${PORTNAME}.n ${STAGEDIR}${MANPREFIX}/man/mann/${PORTNAME}.tcl${TCL_VER:S/.//g}.n
 .if ${PORT_OPTIONS:MEXAMPLES}
 	${MKDIR} ${STAGEDIR}${EXAMPLESDIR}
 	${INSTALL_SCRIPT} ${WRKDIR}/${SUB_FILES} ${WRKSRC}/contrib/sqlitecon.tcl ${STAGEDIR}${EXAMPLESDIR}

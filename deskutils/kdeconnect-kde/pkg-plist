@@ -4,7 +4,7 @@ bin/kdeconnect-handler
 bin/kdeconnect-indicator
 bin/kdeconnect-settings
 bin/kdeconnect-sms
-etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
+/etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
 lib/libexec/kdeconnectd
 lib/libkdeconnectcore.so.%%KDE_APPLICATIONS_SHLIB_VER%%
 lib/libkdeconnectcore.so.%%KDE_APPLICATIONS_VERSION_SHORT%%

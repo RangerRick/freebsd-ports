@@ -1,5 +1,5 @@
 bin/slsh
-etc/slsh.rc
+/etc/slsh.rc
 include/slang.h
 include/slcurses.h
 lib/libslang.a
@@ -27,7 +27,7 @@ lib/slang/v2/modules/termios-module.so
 lib/slang/v2/modules/varray-module.so
 lib/slang/v2/modules/zlib-module.so
 libdata/pkgconfig/slang.pc
-man/man1/slsh.1.gz
+%%MANPREFIX%%/man/man1/slsh.1.gz
 %%DATADIR%%/arrayfuns.sl
 %%DATADIR%%/autoload.sl
 %%DATADIR%%/base64.sl

@@ -2,7 +2,7 @@ bin/amarok
 bin/amarok_afttagger
 bin/amarokcollectionscanner
 bin/amarokpkg
-etc/xdg/amarok_homerc
+/etc/xdg/amarok_homerc
 lib/libamarok-sqlcollection.so
 lib/libamarok-sqlcollection.so.1
 lib/libamarok-sqlcollection.so.1.0.0

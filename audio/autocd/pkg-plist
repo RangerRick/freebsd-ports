@@ -3,6 +3,6 @@ bin/cdctl
 bin/eject
 bin/pause
 sbin/autocd
-man/man1/acdplay.1.gz
-man/man1/cdctl.1.gz
-man/man8/autocd.8.gz
+%%MANPREFIX%%/man/man1/acdplay.1.gz
+%%MANPREFIX%%/man/man1/cdctl.1.gz
+%%MANPREFIX%%/man/man8/autocd.8.gz

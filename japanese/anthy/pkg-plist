@@ -1,6 +1,6 @@
 bin/anthy-agent
 bin/anthy-dic-tool
-etc/anthy-conf
+/etc/anthy-conf
 include/anthy/anthy.h
 include/anthy/dicutil.h
 include/anthy/input.h

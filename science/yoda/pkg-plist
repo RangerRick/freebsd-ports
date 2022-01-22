@@ -14,7 +14,7 @@ bin/yoda-config
 %%PYTHON%%bin/yodaplot
 %%PYTHON%%bin/yodascale
 %%PYTHON%%bin/yodastack
-etc/bash_completion.d/yoda-completion
+/etc/bash_completion.d/yoda-completion
 include/YODA/AnalysisObject.h
 include/YODA/Axis1D.h
 include/YODA/Axis2D.h

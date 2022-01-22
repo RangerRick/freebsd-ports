@@ -930,5 +930,5 @@ lib/libfaust.so.2.37.3
 %%HIGHLIGHT%%share/gtksourceview-2.0/language-specs/faust.lang
 %%HIGHLIGHT%%share/gtksourceview-3.0/language-specs/faust.lang
 %%HIGHLIGHT%%share/highlight/langDefs/dsp.lang
-share/man/man1/faust.1.gz
+%%MANPREFIX%%/man/man1/faust.1.gz
 %%HIGHLIGHT%%share/vim/vimfiles/syntax/faust.vim

@@ -19,7 +19,7 @@ USE_LDCONFIG=	${PREFIX}/lib/compat/pkg
 HAS_CONFIGURE=	yes
 PORTDOCS=	NEWS
 PORTSCOUT=	ignore:1
-CONFIGURE_ARGS=	--mandir=${PREFIX}/man --prefix="${PREFIX}"
+CONFIGURE_ARGS=	--sysconfdir=/etc --mandir=${MANPREFIX}/man --prefix="${PREFIX}"
 CONFIGURE_ENV=	CC_FOR_BUILD="${CC}"
 
 # Use a submake as 'deinstall install' needs to reevaluate PKG_REGISTER
@@ -87,10 +87,14 @@ PKG_DEPENDS=
 PKG_BIN=	${WRKSRC}/src/pkg-static
 .endif
 
+LIBLZMA_LIBS+= -llz4
 post-patch:
+	sed -i_ -e "s,^etcdir.*,etcdir=/etc," ${WRKSRC}/mk/defs.mk.in
 	${REINPLACE_CMD} -e "s|-llzma|${LIBLZMA_LIBS}|g" ${WRKSRC}/auto.def \
 		${WRKSRC}/src/Makefile.autosetup ${WRKSRC}/tests/Makefile.autosetup
 
+pre-install:
+	mkdir -p ${STAGEDIR}/etc ${STAGEDIR}/usr/libdata/ldconfig
 post-install:
 	@${MKDIR} ${STAGEDIR}${PREFIX}/lib/compat/pkg
 

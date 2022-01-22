@@ -4,11 +4,11 @@ bin/mkafmmap
 bin/over
 bin/sliceprint
 bin/states
-etc/enscript.cfg
-man/man1/diffpp.1.gz
-man/man1/enscript.1.gz
-man/man1/sliceprint.1.gz
-man/man1/states.1.gz
+/etc/enscript.cfg
+%%MANPREFIX%%/man/man1/diffpp.1.gz
+%%MANPREFIX%%/man/man1/enscript.1.gz
+%%MANPREFIX%%/man/man1/sliceprint.1.gz
+%%MANPREFIX%%/man/man1/states.1.gz
 %%DATADIR%%/88591.enc
 %%DATADIR%%/885910.enc
 %%DATADIR%%/88592.enc

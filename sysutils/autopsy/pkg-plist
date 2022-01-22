@@ -20,7 +20,7 @@ lib/autopsy/Vs.pm
 lib/autopsy/conf.pl
 lib/autopsy/define.pl
 lib/autopsy/search.pl
-man/man1/autopsy.1.gz
+%%MANPREFIX%%/man/man1/autopsy.1.gz
 %%DATADIR%%/help/blank.html
 %%DATADIR%%/help/caseman.html
 %%DATADIR%%/help/data_mode.html

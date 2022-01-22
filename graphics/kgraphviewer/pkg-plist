@@ -1,5 +1,5 @@
 bin/kgraphviewer
-etc/xdg/kgraphviewer.categories
+/etc/xdg/kgraphviewer.categories
 include/kgraphviewer/kgraphviewer_interface.h
 lib/cmake/KGraphViewerPart/KGraphViewerPartConfig.cmake
 lib/cmake/KGraphViewerPart/KGraphViewerPartConfigVersion.cmake

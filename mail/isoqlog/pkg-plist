@@ -1,6 +1,6 @@
 bin/isoqlog
-@sample etc/isoqlog.conf-dist etc/isoqlog.conf
-@sample etc/isoqlog.domains-dist etc/isoqlog.domains
+@sample /etc/isoqlog.conf-dist etc/isoqlog.conf
+@sample /etc/isoqlog.domains-dist etc/isoqlog.domains
 %%DATADIR%%/htmltemp/daily.html
 %%DATADIR%%/htmltemp/domain.html
 %%DATADIR%%/htmltemp/index.html

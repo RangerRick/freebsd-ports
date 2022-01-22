@@ -1,5 +1,5 @@
-@sample etc/mail/spamassassin/iXhash.cf.sample
-etc/mail/spamassassin/iXhash.pm
+@sample /etc/mail/spamassassin/iXhash.cf.sample
+/etc/mail/spamassassin/iXhash.pm
 %%PORTDOCS%%%%DOCSDIR%%/CHANGELOG
 %%PORTDOCS%%%%DOCSDIR%%/INSTALL
 %%PORTDOCS%%%%DOCSDIR%%/LICENSE

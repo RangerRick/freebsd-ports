@@ -10,6 +10,6 @@ LICENSE=	MIT
 USES=		xorg xorg-cat:app
 USE_XORG=	x11
 
-PLIST_FILES=	bin/xcmsdb man/man1/xcmsdb.1.gz
+PLIST_FILES=	bin/xcmsdb ${MANPREFIX}/man/man1/xcmsdb.1.gz
 
 .include <bsd.port.mk>

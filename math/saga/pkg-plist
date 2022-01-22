@@ -132,8 +132,8 @@ share/icons/hicolor/72x72/apps/saga.png
 share/icons/hicolor/80x80/apps/saga.png
 share/icons/hicolor/8x8/apps/saga.png
 share/icons/hicolor/96x96/apps/saga.png
-share/man/man1/saga_cmd.1.gz
-share/man/man1/saga_gui.1.gz
+%%MANPREFIX%%/man/man1/saga_cmd.1.gz
+%%MANPREFIX%%/man/man1/saga_gui.1.gz
 share/metainfo/org.saga-gis.saga-gui.appdata.xml
 share/pixmaps/saga.png
 %%DATADIR%%/docs/saga_on_mac.odt

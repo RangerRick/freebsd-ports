@@ -5,7 +5,7 @@ bin/cbsd
 @owner
 @group
 @mode
-man/man8/cbsd.8.gz
+%%MANPREFIX%%/man/man8/cbsd.8.gz
 %%X86%%cbsd/misc/popcnttest
 cbsd/.gitignore
 cbsd/.ssh/config

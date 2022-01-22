@@ -1,5 +1,5 @@
 bin/statsite
-@sample etc/statsite.conf.sample
+@sample /etc/statsite.conf.sample
 %%DATADIR%%/sinks/__init__.py
 %%DATADIR%%/sinks/binary_sink.py
 %%DATADIR%%/sinks/cloudwatch.sh

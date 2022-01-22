@@ -1,4 +1,4 @@
-etc/xdg/plasma-pass.categories
+/etc/xdg/plasma-pass.categories
 %%QT_QMLDIR%%/org/kde/plasma/private/plasmapass/libplasmapassplugin.so
 %%QT_QMLDIR%%/org/kde/plasma/private/plasmapass/qmldir
 share/kservices5/plasma-applet-org.kde.plasma.pass.desktop

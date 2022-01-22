@@ -60,7 +60,7 @@
 %%FONTSDIR%%/ChangeLog
 %%FONTSDIR%%/COPYING
 %%FONTSDIR%%/AUTHORS
-etc/fonts/conf.avail/20-unhint-mplus-ipa.conf
-etc/fonts/conf.avail/62-fonts-mplus-ipa.conf
-etc/fonts/conf.d/20-unhint-mplus-ipa.conf
-etc/fonts/conf.d/62-fonts-mplus-ipa.conf
+/etc/fonts/conf.avail/20-unhint-mplus-ipa.conf
+/etc/fonts/conf.avail/62-fonts-mplus-ipa.conf
+/etc/fonts/conf.d/20-unhint-mplus-ipa.conf
+/etc/fonts/conf.d/62-fonts-mplus-ipa.conf

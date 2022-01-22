@@ -1,4 +1,4 @@
-etc/pango/pangox.aliases
+/etc/pango/pangox.aliases
 include/pango-1.0/pango/pangox.h
 lib/libpangox-1.0.a
 lib/libpangox-1.0.so

@@ -1,6 +1,6 @@
 bin/rlwrap
-man/man1/rlwrap.1.gz
-man/man3/RlwrapFilter.3pm.gz
+%%MANPREFIX%%/man/man1/rlwrap.1.gz
+%%MANPREFIX%%/man/man3/RlwrapFilter.3pm.gz
 %%DATADIR%%/completions/coqtop
 %%DATADIR%%/completions/testclient
 %%DATADIR%%/filters/README

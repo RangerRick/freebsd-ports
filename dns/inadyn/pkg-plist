@@ -1,6 +1,6 @@
-@sample(inadyn,inadyn,640) etc/inadyn.conf.sample
-man/man5/inadyn.conf.5.gz
-man/man8/inadyn.8.gz
+@sample(inadyn,inadyn,640) /etc/inadyn.conf.sample
+%%MANPREFIX%%/man/man5/inadyn.conf.5.gz
+%%MANPREFIX%%/man/man8/inadyn.8.gz
 sbin/inadyn
 %%PORTDOCS%%%%DOCSDIR%%/COPYING
 %%PORTDOCS%%%%DOCSDIR%%/ChangeLog.md

@@ -1,9 +1,9 @@
 bin/%%PKGNAMEPREFIX%%webalizer
 bin/%%PKGNAMEPREFIX%%webazolver
 bin/%%PKGNAMEPREFIX%%wcmgr
-etc/%%PKGNAMEPREFIX%%webalizer.conf-dist
-man/man1/%%PKGNAMEPREFIX%%webalizer.1.gz
-man/man1/%%PKGNAMEPREFIX%%wcmgr.1.gz
+/etc/%%PKGNAMEPREFIX%%webalizer.conf-dist
+%%MANPREFIX%%/man/man1/%%PKGNAMEPREFIX%%webalizer.1.gz
+%%MANPREFIX%%/man/man1/%%PKGNAMEPREFIX%%wcmgr.1.gz
 %%WITH_ICONS%%share/geolizer/README
 %%WITH_ICONS%%share/geolizer/a1.png
 %%WITH_ICONS%%share/geolizer/a2.png

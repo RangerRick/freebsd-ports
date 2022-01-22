@@ -1,4 +1,4 @@
-@sample etc/bird.conf.sample
+@sample /etc/bird.conf.sample
 @shell sbin/birdc
 sbin/bird
 sbin/birdcl

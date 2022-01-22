@@ -464,6 +464,8 @@ post-build-COMPILER_RT-on:
 	    ${WRKSRC_compiler_rt} && \
 	    ${MAKE_ENV} ${MAKE_CMD}
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
 post-install:
 	${RM} -r ${STAGEDIR}${LLVM_PREFIX}/include/llvm/MC/MCAnalysis
 	${INSTALL_SCRIPT} ${WRKDIR}/llvm-wrapper.sh \

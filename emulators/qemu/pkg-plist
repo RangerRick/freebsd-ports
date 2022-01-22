@@ -50,8 +50,8 @@ include/qemu-plugin.h
 %%PORTDOCS%%man/man7/qemu-qmp-ref.7.gz
 %%PORTDOCS%%man/man1/qemu-storage-daemon.1.gz
 %%PORTDOCS%%man/man7/qemu-storage-daemon-qmp-ref.7.gz
-@sample etc/qemu-ifup.sample
-@sample etc/qemu-ifdown.sample
+@sample /etc/qemu-ifup.sample
+@sample /etc/qemu-ifdown.sample
 %%DATADIR%%/QEMU,tcx.bin
 %%DATADIR%%/QEMU,cgthree.bin
 %%DATADIR%%/bios-256k.bin

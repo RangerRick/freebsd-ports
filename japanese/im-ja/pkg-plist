@@ -3,8 +3,8 @@ bin/im-ja-xim-server
 lib/gtk-2.0/%%GTK2_VERSION%%/immodules/im-ja.so
 libexec/im-ja/im-ja-helper
 libexec/im-ja/kpengine
-man/man1/im-ja-conf.1.gz
-man/man1/im-ja-xim-server.1.gz
+%%MANPREFIX%%/man/man1/im-ja-conf.1.gz
+%%MANPREFIX%%/man/man1/im-ja-xim-server.1.gz
 share/applications/im-ja.desktop
 share/im-ja/01.unistrok
 share/im-ja/02.unistrok

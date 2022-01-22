@@ -1,4 +1,4 @@
-etc/dwatch-json-net.conf.sample
+/etc/dwatch-json-net.conf.sample
 libexec/dwatch/json-net
 libexec/dwatch/json-net-config
 libexec/dwatch/json-net-config-raw

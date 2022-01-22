@@ -2,5 +2,5 @@ bin/asciippafilter
 bin/calibrate_ppa
 bin/pnm2ppa
 bin/ppafilter
-@sample etc/pnm2ppa.conf.sample
-man/man1/pnm2ppa.1.gz
+@sample /etc/pnm2ppa.conf.sample
+%%MANPREFIX%%/man/man1/pnm2ppa.1.gz

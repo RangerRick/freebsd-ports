@@ -1,5 +1,5 @@
 @(,,0755) sbin/debootstrap
-man/man8/debootstrap.8.gz
+%%MANPREFIX%%/man/man8/debootstrap.8.gz
 %%DATADIR%%/functions
 %%DATADIR%%/scripts/aequorea
 %%DATADIR%%/scripts/amber

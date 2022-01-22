@@ -1,2 +1,2 @@
 sbin/sqlbox
-@sample etc/sqlbox.conf.sample
+@sample /etc/sqlbox.conf.sample

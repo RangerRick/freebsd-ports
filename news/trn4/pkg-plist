@@ -25,6 +25,6 @@ lib/trn/HelpFiles/config/environment
 lib/trn/HelpFiles/samples/index
 lib/trn/HelpFiles/samples/access
 lib/trn/HelpFiles/samples/trnrc
-man/man1/Pnews.1.gz
-man/man1/Rnmail.1.gz
-man/man1/trn.1.gz
+%%MANPREFIX%%/man/man1/Pnews.1.gz
+%%MANPREFIX%%/man/man1/Rnmail.1.gz
+%%MANPREFIX%%/man/man1/trn.1.gz

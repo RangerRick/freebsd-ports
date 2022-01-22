@@ -4,8 +4,8 @@ bin/irc
 bin/ircflush
 libexec/ircio
 libexec/wserv
-man/man1/irc.1.gz
-man/man1/ircII.1.gz
+%%MANPREFIX%%/man/man1/irc.1.gz
+%%MANPREFIX%%/man/man1/ircII.1.gz
 %%HELP%%%%DATADIR%%/help/!
 %%HELP%%%%DATADIR%%/help/.date
 %%HELP%%%%DATADIR%%/help/:

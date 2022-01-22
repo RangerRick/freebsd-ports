@@ -1,5 +1,5 @@
 bin/pisg
-etc/pisg/pisg.cfg.sample
+/etc/pisg/pisg.cfg.sample
 %%SITE_PERL%%/Pisg.pm
 %%SITE_PERL%%/Pisg/Common.pm
 %%SITE_PERL%%/Pisg/HTMLGenerator.pm

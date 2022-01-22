@@ -5844,7 +5844,7 @@ share/locale/xh/LC_MESSAGES/evolution.mo
 share/locale/zh_CN/LC_MESSAGES/evolution.mo
 share/locale/zh_HK/LC_MESSAGES/evolution.mo
 share/locale/zh_TW/LC_MESSAGES/evolution.mo
-share/man/man1/evolution.1.gz
+%%MANPREFIX%%/man/man1/evolution.1.gz
 %%BOGOFILTER%%share/metainfo/org.gnome.Evolution-bogofilter.metainfo.xml
 %%PST%%share/metainfo/org.gnome.Evolution-pst.metainfo.xml
 %%SPAMASSASSIN%%share/metainfo/org.gnome.Evolution-spamassassin.metainfo.xml

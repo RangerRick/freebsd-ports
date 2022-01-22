@@ -1,10 +1,10 @@
 bin/mtn
 bin/mtn-cleanup
 bin/mtnopt
-etc/bash_completion.d/monotone.bash_completion
-man/man1/mtn-cleanup.1.gz
-man/man1/mtn.1.gz
-man/man1/mtnopt.1.gz
+/etc/bash_completion.d/monotone.bash_completion
+%%MANPREFIX%%/man/man1/mtn-cleanup.1.gz
+%%MANPREFIX%%/man/man1/mtn.1.gz
+%%MANPREFIX%%/man/man1/mtnopt.1.gz
 %%NLS%%share/locale/de/LC_MESSAGES/monotone.mo
 %%NLS%%share/locale/fr/LC_MESSAGES/monotone.mo
 %%NLS%%share/locale/it/LC_MESSAGES/monotone.mo

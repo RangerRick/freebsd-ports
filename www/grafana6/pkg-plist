@@ -1,6 +1,6 @@
 bin/grafana-cli
 bin/grafana-server
-@sample etc/grafana.conf.sample
+@sample /etc/grafana.conf.sample
 %%DATADIR%%/conf/defaults.ini
 %%DATADIR%%/public/app/app.ts
 %%DATADIR%%/public/app/core/actions/cleanUp.ts

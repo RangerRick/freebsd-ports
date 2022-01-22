@@ -25,6 +25,8 @@ GL_COMMIT=	091887d09bb635fa31f69ed16d384563cddc8009
 # oauth2plugin.cpp:133:9: error: 'addQueryItem' is deprecated [-Werror,-Wdeprecated-declarations]
 #  url.addQueryItem(CLIENT_ID, d->m_oauth2Data.ClientId());
 #      ^
+pre-install:
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
 post-patch:
 	${REINPLACE_CMD} '/-Werror/d' ${PATCH_WRKSRC}/common-project-config.pri
 

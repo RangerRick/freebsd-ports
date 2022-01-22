@@ -1,6 +1,6 @@
 bin/ntopng
 bin/ntopng-geoip2update.sh
-man/man8/ntopng.8.gz
+%%MANPREFIX%%/man/man8/ntopng.8.gz
 %%DATADIR%%/httpdocs/bootstrap/css/bootstrap-grid.css
 %%DATADIR%%/httpdocs/bootstrap/css/bootstrap-grid.css.map
 %%DATADIR%%/httpdocs/bootstrap/css/bootstrap-grid.min.css

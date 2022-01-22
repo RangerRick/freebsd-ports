@@ -1,6 +1,6 @@
 bin/dnscheck-dispatcher
 bin/dnscheckengine
-etc/rc.d/dnscheck-dispatcher
+/etc/rc.d/dnscheck-dispatcher
 libexec/dnscheck/dnscheck
 libexec/dnscheck/dnscheck-12hourmailer
 libexec/dnscheck/dnscheck-dispatcher

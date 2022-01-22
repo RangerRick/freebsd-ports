@@ -1,5 +1,5 @@
 bin/chrome-gnome-shell
-etc/chrome/native-messaging-hosts/org.gnome.chrome_gnome_shell.json
+/etc/chrome/native-messaging-hosts/org.gnome.chrome_gnome_shell.json
 lib/mozilla/native-messaging-hosts/org.gnome.chrome_gnome_shell.json
 %%PYTHON_SITELIBDIR%%/chrome_gnome_shell-0.0.0-py%%PYTHON_VER%%.egg-info
 share/applications/org.gnome.ChromeGnomeShell.desktop

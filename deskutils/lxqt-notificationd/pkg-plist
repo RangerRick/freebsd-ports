@@ -1,6 +1,6 @@
 bin/lxqt-config-notificationd
 bin/lxqt-notificationd
-etc/xdg/autostart/lxqt-notifications.desktop
+/etc/xdg/autostart/lxqt-notifications.desktop
 share/applications/lxqt-config-notificationd.desktop
 %%LXQT_TRANSLATIONS%%/lxqt-config-notificationd/lxqt-config-notificationd_ar.qm
 %%LXQT_TRANSLATIONS%%/lxqt-config-notificationd/lxqt-config-notificationd_arn.qm

@@ -2,8 +2,8 @@ bin/atslogcleardb.pl
 bin/atslogd
 bin/atslogdb.pl
 bin/atslogmaster
-@sample etc/atslog.conf.sample
-@sample etc/atslog.conf.rus.sample
+@sample /etc/atslog.conf.sample
+@sample /etc/atslog.conf.rus.sample
 libexec/atslog/4200e.lib
 libexec/atslog/bp-250.lib
 libexec/atslog/gd-320.lib
@@ -26,10 +26,10 @@ libexec/atslog/neax-2000.lib
 libexec/atslog/nx-820.lib
 libexec/atslog/officeserv-7200.lib
 libexec/atslog/skp-816.lib
-man/man8/atslogd.8.gz
-man/man8/atslogmaster.8.gz
-man/ru.KOI8-R/man8/atslogd.8.gz
-man/ru.KOI8-R/man8/atslogmaster.8.gz
+%%MANPREFIX%%/man/man8/atslogd.8.gz
+%%MANPREFIX%%/man/man8/atslogmaster.8.gz
+%%MANPREFIX%%/man/ru.KOI8-R/man8/atslogd.8.gz
+%%MANPREFIX%%/man/ru.KOI8-R/man8/atslogmaster.8.gz
 %%DATADIR%%/lang/en_US
 %%DATADIR%%/lang/ru_RU.CP1251
 %%DATADIR%%/lang/ru_RU.KOI8-R

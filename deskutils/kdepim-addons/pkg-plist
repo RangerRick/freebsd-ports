@@ -2,8 +2,8 @@ bin/kmail_antivir.sh
 bin/kmail_clamav.sh
 bin/kmail_fprot.sh
 bin/kmail_sav.sh
-etc/xdg/kmail.antispamrc
-etc/xdg/kmail.antivirusrc
+/etc/xdg/kmail.antispamrc
+/etc/xdg/kmail.antivirusrc
 lib/contacteditor/editorpageplugins/cryptopageplugin.so
 lib/libadblocklibprivate.so.%%KDE_APPLICATIONS_SHLIB_VER%%
 lib/libadblocklibprivate.so.5

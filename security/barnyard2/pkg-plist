@@ -1,5 +1,5 @@
 bin/barnyard2
-@sample etc/barnyard2.conf.sample
+@sample /etc/barnyard2.conf.sample
 %%PORTDOCS%%%%DOCSDIR%%/INSTALL
 %%PORTDOCS%%%%DOCSDIR%%/README
 %%PORTDOCS%%%%DOCSDIR%%/README.aruba

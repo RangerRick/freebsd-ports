@@ -21,7 +21,7 @@ USERS=		_ntp
 GROUPS=		_ntp
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-cacert=${LOCALBASE}/etc/ssl/cert.pem
+CONFIGURE_ARGS= --sysconfdir=/etc 	--with-cacert=/etc/ssl/cert.pem
 
 SUB_FILES=	480.status-openntpd pkg-message
 SUB_LIST=	MANPREFIX="${MANPREFIX}"
@@ -30,11 +30,13 @@ pre-build:
 	${REINPLACE_CMD} -e 's,%%PREFIX%%,${PREFIX},g' \
 	    ${WRKSRC}/src/ntpd.conf.5 ${WRKSRC}/src/ntpd.8
 
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 post-install:
-	cd ${STAGEDIR}${PREFIX}/etc && ${MV} ntpd.conf ntpd.conf.sample
-	${MKDIR} ${STAGEDIR}${PREFIX}/etc/periodic/daily
+	cd ${STAGEDIR}/etc && ${MV} ntpd.conf ntpd.conf.sample
+	${MKDIR} ${STAGEDIR}/etc/periodic/daily
 	${INSTALL_SCRIPT} ${WRKDIR}/480.status-openntpd \
-		${STAGEDIR}${PREFIX}/etc/periodic/daily
+		${STAGEDIR}/etc/periodic/daily
 
 .include <bsd.port.pre.mk>
 

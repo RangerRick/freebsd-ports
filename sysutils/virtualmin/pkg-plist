@@ -11651,4 +11651,4 @@ lib/webmin/virtual-server/webmincron-fixed.pl
 lib/webmin/virtual-server/wizard-lib.pl
 lib/webmin/virtual-server/wizard.cgi
 lib/webmin/virtual-server/writelogs.pl
-@dir etc/webmin/virtual-server
+@dir /etc/webmin/virtual-server

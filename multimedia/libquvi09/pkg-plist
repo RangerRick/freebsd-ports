@@ -16,5 +16,5 @@ include/quvi-%%QUVIVERSION%%/quvi/qversion.h
 lib/libquvi-%%QUVIVERSION%%-%%PORTVERSION%%.so
 lib/libquvi-%%QUVIVERSION%%.so
 libdata/pkgconfig/libquvi-%%QUVIVERSION%%.pc
-man/man3/libquvi%%PKGNAMESUFFIX%%.3.gz
-man/man7/quvi-object%%PKGNAMESUFFIX%%.7.gz
+%%MANPREFIX%%/man/man3/libquvi%%PKGNAMESUFFIX%%.3.gz
+%%MANPREFIX%%/man/man7/quvi-object%%PKGNAMESUFFIX%%.7.gz

@@ -24,7 +24,7 @@ share/icons/hicolor/64x64/apps/openra-d2k.png
 share/icons/hicolor/64x64/apps/openra-ra.png
 share/icons/hicolor/scalable/apps/openra-cnc.svg
 share/icons/hicolor/scalable/apps/openra-ra.svg
-share/man/man6/openra.6.gz
+%%MANPREFIX%%/man/man6/openra.6.gz
 share/mime/packages/openra-cnc.xml
 share/mime/packages/openra-d2k.xml
 share/mime/packages/openra-ra.xml

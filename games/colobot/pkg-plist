@@ -4256,5 +4256,5 @@ share/locale/fr/LC_MESSAGES/colobot.mo
 share/locale/pl/LC_MESSAGES/colobot.mo
 share/locale/pt/LC_MESSAGES/colobot.mo
 share/locale/ru/LC_MESSAGES/colobot.mo
-share/man/man6/colobot.6.gz
+%%MANPREFIX%%/man/man6/colobot.6.gz
 share/metainfo/info.colobot.Colobot.appdata.xml

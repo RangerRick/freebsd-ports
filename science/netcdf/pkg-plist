@@ -15,11 +15,11 @@ lib/libnetcdf.so
 lib/libnetcdf.so.18
 lib/libnetcdf.so.18.0.0
 libdata/pkgconfig/netcdf.pc
-man/man1/nccopy.1.gz
-man/man1/ncdump.1.gz
-man/man1/ncgen.1.gz
-man/man1/ncgen3.1.gz
-man/man3/netcdf.3.gz
+%%MANPREFIX%%/man/man1/nccopy.1.gz
+%%MANPREFIX%%/man/man1/ncdump.1.gz
+%%MANPREFIX%%/man/man1/ncgen.1.gz
+%%MANPREFIX%%/man/man1/ncgen3.1.gz
+%%MANPREFIX%%/man/man3/netcdf.3.gz
 %%DOXYGEN%%%%PORTDOCS%%%%DOCSDIR%%/CDL.html
 %%DOXYGEN%%%%PORTDOCS%%%%DOCSDIR%%/InstallTreeWindows.png
 %%DOXYGEN%%%%PORTDOCS%%%%DOCSDIR%%/RELEASE_NOTES.html

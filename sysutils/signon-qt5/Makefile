@@ -28,10 +28,6 @@ pre-configure:
 	${REINPLACE_CMD} -e 's,qdbusxml2cpp,${QT_BINDIR}/qdbusxml2cpp,' \
 		${WRKSRC}/src/signond/signond.pro
 	#correctly install signond.conf
-	${REINPLACE_CMD} -e '/conf_file.path/ s,/etc/,${LOCALBASE}/etc/,' \
-		${WRKSRC}/src/signond/signond.pro
 	#find moved signond.conf
-	${REINPLACE_CMD} -e 's,/etc,${LOCALBASE}/etc,' \
-		${WRKSRC}/src/signond/signondaemon.cpp
 
 .include <bsd.port.mk>

@@ -1,5 +1,5 @@
 bin/xmoto
-man/man6/xmoto.6.gz
+%%MANPREFIX%%/man/man6/xmoto.6.gz
 %%NLS%%share/locale/ca_AD/LC_MESSAGES/xmoto.mo
 %%NLS%%share/locale/ca_ES/LC_MESSAGES/xmoto.mo
 %%NLS%%share/locale/ca_FR/LC_MESSAGES/xmoto.mo

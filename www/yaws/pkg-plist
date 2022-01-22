@@ -1,5 +1,5 @@
 bin/yaws
-etc/rc.d/yaws
+/etc/rc.d/yaws
 @sample %%ETCDIR%%/dhparams.pem.sample
 @sample %%ETCDIR%%/yaws-cert.pem.sample
 @sample %%ETCDIR%%/yaws-key.pem.sample
@@ -83,10 +83,10 @@ lib/erlang/lib/yaws-%%VERSION%%/priv/wsdl.xsd
 lib/erlang/lib/yaws-%%VERSION%%/priv/wsdl11soap12.xsd
 lib/erlang/lib/yaws-%%VERSION%%/priv/xml.xsd
 libdata/pkgconfig/yaws.pc
-man/man1/yaws.1.gz
-man/man5/yaws.conf.5.gz
-man/man5/yaws_api.5.gz
-man/man5/yaws_soap_lib.5.gz
+%%MANPREFIX%%/man/man1/yaws.1.gz
+%%MANPREFIX%%/man/man5/yaws.conf.5.gz
+%%MANPREFIX%%/man/man5/yaws_api.5.gz
+%%MANPREFIX%%/man/man5/yaws_soap_lib.5.gz
 %%WWW%%%%WWWDIR%%/END
 %%WWW%%%%WWWDIR%%/END2
 %%WWW%%%%WWWDIR%%/HEAD

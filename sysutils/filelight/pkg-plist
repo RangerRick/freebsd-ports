@@ -1,6 +1,6 @@
 bin/filelight
 share/qlogging-categories5/filelight.categories
-etc/xdg/filelightrc
+/etc/xdg/filelightrc
 share/applications/org.kde.filelight.desktop
 share/icons/hicolor/128x128/apps/filelight.png
 share/icons/hicolor/16x16/apps/filelight.png

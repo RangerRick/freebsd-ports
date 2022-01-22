@@ -13,9 +13,10 @@ LICENSE_FILE=	${PORTSDIR}/COPYRIGHT
 
 NO_BUILD=	yes
 NO_ARCH=	yes
-PLIST_FILES=	etc/gnome.subr
+PLIST_FILES=	/etc/gnome.subr
 
 do-install:
-	${INSTALL_DATA} ${FILESDIR}/gnome.subr ${STAGEDIR}${PREFIX}/etc
+	${MKDIR} -p ${STAGEDIR}/etc
+	${INSTALL_DATA} ${FILESDIR}/gnome.subr ${STAGEDIR}/etc
 
 .include <bsd.port.mk>

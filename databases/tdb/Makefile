@@ -78,10 +78,10 @@ CFLAGS+=		-fno-color-diagnostics
 CONFIGURE_ENV+=		NOCOLOR=yes
 MAKE_ENV+=		NOCOLOR=yes
 
-TDB_MAN8=		man/man8/tdbbackup.8.gz \
-			man/man8/tdbdump.8.gz \
-			man/man8/tdbrestore.8.gz \
-			man/man8/tdbtool.8.gz
+TDB_MAN8=		${MANPREFIX}/man/man8/tdbbackup.8.gz \
+			${MANPREFIX}/man/man8/tdbdump.8.gz \
+			${MANPREFIX}/man/man8/tdbrestore.8.gz \
+			${MANPREFIX}/man/man8/tdbtool.8.gz
 
 PLIST_FILES+=		${TDB_MAN8}
 

@@ -22,6 +22,7 @@ TEST_DEPENDS=	runtest:misc/dejagnu \
 USES=		autoreconf gmake pathfix
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS= --sysconfdir=/etc
 NO_ARCH=	yes
 
 SUB_FILES=	pkg-message
@@ -52,13 +53,11 @@ MAKE_CMD=	${LOCALBASE}/bin/gmake
 
 post-configure:
 	@${REINPLACE_CMD} \
-		-e 's|/etc/ssl/openssl.cnf|${PREFIX}& &|g' \
 		-e 's|/usr/lib\(/aspell\)|${PREFIX}/share\1|g' \
 		-e 's|/usr/local|${PREFIX}|g' \
 		-e 's|/usr/ports|${PORTSDIR}|g' \
 		-e 's|/usr\(/sbin/postconf\)|${PREFIX}\1|g' \
 		-e 's|/usr/share/info|&:${PREFIX}/info|g' \
-		-e 's|/var\(/lib/rpm/macros\)|${PREFIX}\1|g' \
 			${WRKSRC}/completions/*
 
 post-install:

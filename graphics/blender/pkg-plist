@@ -1,7 +1,7 @@
 bin/blender
 bin/blender-thumbnailer.py
 %%DRACO%%%%PYTHON_SITELIBDIR%%/libextern_draco.so
-man/man1/blender.1.gz
+%%MANPREFIX%%/man/man1/blender.1.gz
 share/applications/blender.desktop
 %%OPENCOLORIO%%%%DATADIR%%/%%VER%%/datafiles/colormanagement/config.ocio
 %%OPENCOLORIO%%%%DATADIR%%/%%VER%%/datafiles/colormanagement/filmic/filmic_desat65cube.spi3d

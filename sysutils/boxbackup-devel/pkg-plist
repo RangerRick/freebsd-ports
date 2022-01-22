@@ -19,7 +19,7 @@
 %%CLIENT%%man/man8/bbackupctl.8.gz
 %%CLIENT%%man/man8/bbackupd-config.8.gz
 %%CLIENT%%man/man8/bbackupquery.8.gz
-%%CLIENT%%etc/periodic/monthly/999.boxbackup
+%%CLIENT%%/etc/periodic/monthly/999.boxbackup
 @mode 0077
-%%CLIENT%%@dir etc/box/bbackupd
-%%SERVER%%@dir etc/box/bbstored
+%%CLIENT%%@dir /etc/box/bbackupd
+%%SERVER%%@dir /etc/box/bbstored

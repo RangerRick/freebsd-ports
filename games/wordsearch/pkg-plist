@@ -1,5 +1,5 @@
 bin/wordsearch
-share/man/man6/wordsearch.6.gz
+%%MANPREFIX%%/man/man6/wordsearch.6.gz
 %%DATADIR%%/airplanes.txt
 %%DATADIR%%/anatomy.txt
 %%DATADIR%%/animals.txt

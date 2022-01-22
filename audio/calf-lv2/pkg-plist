@@ -58,8 +58,8 @@ lib/lv2/calf.lv2/presets-MonoCompressor.ttl
 lib/lv2/calf.lv2/presets-Monosynth.ttl
 lib/lv2/calf.lv2/presets-Organ.ttl
 lib/lv2/calf.lv2/presets-Reverb.ttl
-man/man1/calfjackhost.1.gz
-man/man7/calf.7.gz
+%%MANPREFIX%%/man/man1/calfjackhost.1.gz
+%%MANPREFIX%%/man/man7/calf.7.gz
 share/applications/calf.desktop
 share/bash-completion/completions/calf
 %%DATADIR%%/calf-gui.xml

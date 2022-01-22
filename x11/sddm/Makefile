@@ -36,8 +36,8 @@ CONFLICTS_INSTALL=	lightdm
 
 CMAKE_ON=	BUILD_MAN_PAGES
 CMAKE_ARGS=	-DUID_MIN=1000 \
-		-DUID_MAX=65000 \
-		-DCMAKE_INSTALL_SYSCONFDIR:PATH=${LOCALBASE}/etc \
+		-DCMAKE_INSTALL_MANDIR=${MANPREFIX}/man -DUID_MAX=65000 \
+		-DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc \
 		-DRST2MAN_EXECUTABLE=${LOCALBASE}/bin/rst2man.py-${PYTHON_VER}
 
 USE_RC_SUBR=	sddm
@@ -47,7 +47,7 @@ USERS=		sddm
 GROUPS=		sddm
 
 post-patch:
-	@${REINPLACE_CMD} -e 's#/etc/X11#${LOCALBASE}/etc/X11#' \
+	@${REINPLACE_CMD} -e 's#/etc/X11#/etc/X11#' \
 		-e 's#/usr/bin/#${LOCALBASE}/bin/#g' \
 		-e 's#/usr/share/#${LOCALBASE}/share/#' \
 		${WRKSRC}/data/scripts/Xsession \
@@ -55,7 +55,7 @@ post-patch:
 
 post-install:
 # Install xsession.desktop to launch .xinitrc via sddm.
-	${MKDIR} ${STAGEDIR}${PREFIX}/share/xsessions
+	${MKDIR} ${STAGEDIR}/etc/rc.d  ${STAGEDIR}${PREFIX}/share/xsessions
 	${INSTALL_DATA} ${WRKDIR}/xinitrc.desktop ${STAGEDIR}${PREFIX}/share/xsessions
 	${INSTALL_SCRIPT} ${FILESDIR}/xinit-session ${STAGEDIR}${PREFIX}/share/sddm/scripts
 	${REINPLACE_CMD} -e 's#@@LOCALBASE@@#${LOCALBASE}#' ${STAGEDIR}${PREFIX}/share/sddm/scripts/xinit-session

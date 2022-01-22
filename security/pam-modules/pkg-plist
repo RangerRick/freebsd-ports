@@ -13,7 +13,7 @@ lib/libgraypam.so.0.0.0
 %%PGSQL%%lib/security/pam_pgsql.so
 %%REGEX%%lib/security/pam_regex.a
 %%REGEX%%lib/security/pam_regex.so
-man/man1/pamck.1.gz
+%%MANPREFIX%%/man/man1/pamck.1.gz
 %%GROUPMEMBER%%man/man8/pam_groupmember.8.gz
 %%SYSLOG%%man/man8/pam_log.8.gz
 %%MYSQL%%man/man8/pam_mysql.8.gz

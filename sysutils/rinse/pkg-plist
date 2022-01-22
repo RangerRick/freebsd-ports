@@ -1,4 +1,4 @@
-etc/bash_completion.d/rinse
+/etc/bash_completion.d/rinse
 %%ETCDIR%%/centos-4.packages
 %%ETCDIR%%/centos-5.packages
 %%ETCDIR%%/centos-6.packages
@@ -75,5 +75,5 @@ etc/bash_completion.d/rinse
 %%DATADIR%%/slc-5/post-install.sh
 %%DATADIR%%/slc-6/post-install.sh
 sbin/rinse
-share/man/man8/rinse.8.gz
+%%MANPREFIX%%/man/man8/rinse.8.gz
 @dir /var/cache/rinse

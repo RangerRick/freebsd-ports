@@ -30,7 +30,7 @@ PLIST_FILES=	sbin/wpa_gui \
 		share/applications/wpa_gui.desktop \
 		share/icons/hicolor/16x16/apps/wpa_gui.png \
 		share/icons/hicolor/scalable/apps/wpa_gui.svgz \
-		man/man8/wpa_gui.8.gz
+		${MANPREFIX}/man/man8/wpa_gui.8.gz
 WRKSRC_SUBDIR=	wpa_supplicant
 
 OPTIONS_DEFINE=	DEBUG NLS
@@ -56,6 +56,7 @@ post-patch-DEBUG-on:
 		${INSTALL_WRKSRC}/wpa_gui.pro
 
 do-install:
+	${MKDIR} -p ${STAGEDIR}/usr/share/applications
 	# executable
 	${INSTALL_PROGRAM} ${INSTALL_WRKSRC}/wpa_gui \
 		${STAGEDIR}${PREFIX}/sbin
@@ -71,7 +72,7 @@ do-install:
 		> ${STAGEDIR}${PREFIX}/share/icons/hicolor/scalable/apps/wpa_gui.svgz
 	# manpage
 	${GZIP_CMD} < ${WRKSRC}/doc/docbook/wpa_gui.8 \
-		> ${STAGEDIR}${PREFIX}/man/man8/wpa_gui.8.gz
+		> ${STAGEDIR}${MANPREFIX}/man/man8/wpa_gui.8.gz
 
 do-install-NLS-on:
 	@${MKDIR} ${STAGEDIR}${DATADIR}/translations

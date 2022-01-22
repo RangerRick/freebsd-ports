@@ -6,7 +6,7 @@
 %%ETCDIR%%/tpl/badfrom.tpl
 %%ETCDIR%%/tpl/badto.tpl
 %%ETCDIR%%/tpl/loop.tpl
-share/man/man1/rntrack.1.gz
+%%MANPREFIX%%/man/man1/rntrack.1.gz
 sbin/rntrack
 %%PORTDOCS%%%%DOCSDIR%%/FAQ_en
 %%PORTDOCS%%%%DOCSDIR%%/FAQ_ru

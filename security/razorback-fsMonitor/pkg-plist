@@ -1,2 +1,2 @@
 bin/fsMonitor
-@sample etc/razorback/fsMonitor.conf.sample
+@sample /etc/razorback/fsMonitor.conf.sample

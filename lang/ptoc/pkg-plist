@@ -1,6 +1,6 @@
 bin/cganal
 bin/ptoc
-etc/ptoc.cfg
+/etc/ptoc.cfg
 include/ptoc/array.h
 include/ptoc/graph.h
 include/ptoc/io.h

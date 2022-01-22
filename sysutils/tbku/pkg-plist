@@ -1,5 +1,5 @@
 bin/tbku
-man/cat1/tbku.1.gz
+%%MANPREFIX%%/man/cat1/tbku.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/Imaging-FreeBSD-With-tbku.html
 %%PORTDOCS%%%%DOCSDIR%%/Imaging-FreeBSD-With-tbku.pdf
 %%PORTDOCS%%%%DOCSDIR%%/Imaging-FreeBSD-With-tbku.ps

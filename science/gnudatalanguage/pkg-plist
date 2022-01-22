@@ -1,5 +1,5 @@
 bin/gdl
-man/man1/gdl.1.gz
+%%MANPREFIX%%/man/man1/gdl.1.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/banner_for_testsuite.pro
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/benchmark/basic_benchmarks_by_type.pro
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/benchmark/basic_benchmarks.pro
@@ -39,12 +39,12 @@ man/man1/gdl.1.gz
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/errors_cumul.pro
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/errors_reset.pro
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/example.grib
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_etc/file_t_copy.pro
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_etc/file_t_delete.pro
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_etc/file_t_move.pro
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_etc/test_file_t_copy.pro
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_etc/test_file_t_delete.pro
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_etc/test_file_t_move.pro
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_/etc/file_t_copy.pro
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_/etc/file_t_delete.pro
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_/etc/file_t_move.pro
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_/etc/test_file_t_copy.pro
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_/etc/test_file_t_delete.pro
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_/etc/test_file_t_move.pro
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/file_search_for_testsuite.pro
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/formats.GDL
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/testsuite/formats.IDL

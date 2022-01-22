@@ -1,8 +1,8 @@
 bin/tlsdate
 bin/tlsdate-helper
-etc/tlsdate/ca-roots/tlsdate-ca-roots.conf
-man/man1/tlsdate-helper.1.gz
-man/man1/tlsdate.1.gz
+/etc/tlsdate/ca-roots/tlsdate-ca-roots.conf
+%%MANPREFIX%%/man/man1/tlsdate-helper.1.gz
+%%MANPREFIX%%/man/man1/tlsdate.1.gz
 %%PORTDOCS%%%%DOCSDIR%%/AUTHORS
 %%PORTDOCS%%%%DOCSDIR%%/CHANGELOG
 %%PORTDOCS%%%%DOCSDIR%%/LICENSE

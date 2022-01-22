@@ -7018,4 +7018,4 @@ lib/python%%XYDOT%%/xmlrpc/server.py
 lib/python%%XYDOT%%/zipapp.py
 lib/python%%XYDOT%%/zipfile.py
 libdata/pkgconfig/python-%%XYDOT%%.pc
-man/man1/python%%XYDOT%%.1.gz
+%%MANPREFIX%%/man/man1/python%%XYDOT%%.1.gz

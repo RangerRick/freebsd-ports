@@ -1,5 +1,5 @@
-etc/dgd-kernel/kernel.dgd
-etc/rc.d/dgd-kernel.sh.sample
+/etc/dgd-kernel/kernel.dgd
+/etc/rc.d/dgd-kernel.sh.sample
 @owner mud
 @group mud
 %%DATADIR%%/kernel/include/config.h

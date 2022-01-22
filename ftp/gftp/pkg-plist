@@ -1,7 +1,7 @@
 bin/gftp
 bin/gftp-gtk
 bin/gftp-text
-man/man1/gftp.1.gz
+%%MANPREFIX%%/man/man1/gftp.1.gz
 share/applications/gftp.desktop
 share/pixmaps/gftp.png
 share/icons/hicolor/16x16/apps/gftp.png

@@ -13,4 +13,4 @@ lib/compiz/libccp.la
 lib/compiz/libccp.a
 libdata/pkgconfig/libcompizconfig.pc
 share/compiz/ccp.xml
-etc/compizconfig/config
+/etc/compizconfig/config

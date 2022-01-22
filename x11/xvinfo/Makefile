@@ -11,6 +11,6 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USES=		xorg xorg-cat:app
 USE_XORG=	xv x11
 
-PLIST_FILES=	bin/xvinfo man/man1/xvinfo.1.gz
+PLIST_FILES=	bin/xvinfo ${MANPREFIX}/man/man1/xvinfo.1.gz
 
 .include <bsd.port.mk>

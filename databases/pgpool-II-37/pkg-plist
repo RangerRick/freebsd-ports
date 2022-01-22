@@ -13,13 +13,13 @@ bin/pg_md5
 bin/pgpool
 bin/pgpool_setup
 bin/watchdog_setup
-@sample etc/pcp.conf.sample
-@sample etc/pgpool.conf.sample
-etc/pgpool.conf.sample-logical
-etc/pgpool.conf.sample-master-slave
-etc/pgpool.conf.sample-replication
-etc/pgpool.conf.sample-stream
-@sample etc/pool_hba.conf.sample
+@sample /etc/pcp.conf.sample
+@sample /etc/pgpool.conf.sample
+/etc/pgpool.conf.sample-logical
+/etc/pgpool.conf.sample-master-slave
+/etc/pgpool.conf.sample-replication
+/etc/pgpool.conf.sample-stream
+@sample /etc/pool_hba.conf.sample
 include/libpcp_ext.h
 include/pcp.h
 include/pool_process_reporting.h

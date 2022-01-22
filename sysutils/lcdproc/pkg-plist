@@ -1,8 +1,8 @@
 bin/lcdexec
 bin/lcdproc
-etc/LCDd.conf.sample
-etc/lcdexec.conf.sample
-etc/lcdproc.conf.sample
+/etc/LCDd.conf.sample
+/etc/lcdexec.conf.sample
+/etc/lcdproc.conf.sample
 lib/lcdproc/CFontz.so
 lib/lcdproc/CFontzPacket.so
 lib/lcdproc/CwLnx.so
@@ -43,8 +43,8 @@ lib/lcdproc/text.so
 lib/lcdproc/tyan.so
 %%FTDI%%lib/lcdproc/ula200.so
 lib/lcdproc/vlsys_m428.so
-man/man1/lcdexec.1.gz
-man/man1/lcdproc.1.gz
-man/man5/lcdproc-config.5.gz
-man/man8/LCDd.8.gz
+%%MANPREFIX%%/man/man1/lcdexec.1.gz
+%%MANPREFIX%%/man/man1/lcdproc.1.gz
+%%MANPREFIX%%/man/man5/lcdproc-config.5.gz
+%%MANPREFIX%%/man/man8/LCDd.8.gz
 sbin/LCDd

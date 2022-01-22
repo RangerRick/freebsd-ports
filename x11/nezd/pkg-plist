@@ -1,6 +1,6 @@
 bin/nezd
 %%DOCSDIR%%/README.nezd
-share/man/man1/nezd.1.gz
+%%MANPREFIX%%/man/man1/nezd.1.gz
 %%GADGETS%%bin/dbar
 %%GADGETS%%bin/gcpubar
 %%GADGETS%%bin/gdbar

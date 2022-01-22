@@ -3,7 +3,7 @@ bin/crsh
 bin/csftp
 bin/cssh
 bin/ctel
-%%BASH%%etc/bash_completion.d/clusterssh
+%%BASH%%/etc/bash_completion.d/clusterssh
 %%PERL5_MAN1%%/ccon.1.gz
 %%PERL5_MAN1%%/crsh.1.gz
 %%PERL5_MAN1%%/csftp.1.gz

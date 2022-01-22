@@ -5,6 +5,6 @@ bin/ved-w
 %%PORTDOCS%%%%DOCSDIR%%/vedsheet.ps
 %%PORTDOCS%%%%DOCSDIR%%/vedsheet.tr
 %%PORTDOCS%%share/man/help/ved.help.gz
-share/man/man1/ved-e.1.gz
-share/man/man1/ved-w.1.gz
-share/man/man1/ved.1.gz
+%%MANPREFIX%%/man/man1/ved-e.1.gz
+%%MANPREFIX%%/man/man1/ved-w.1.gz
+%%MANPREFIX%%/man/man1/ved.1.gz

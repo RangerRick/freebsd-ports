@@ -1,11 +1,11 @@
 bin/i2pd
 @sample %%ETCDIR%%/i2pd.conf.sample
 @sample %%ETCDIR%%/tunnels.conf.sample
-@sample etc/newsyslog.conf.d/i2pd.conf.sample
+@sample /etc/newsyslog.conf.d/i2pd.conf.sample
 lib/libi2pd.a
 lib/libi2pdclient.a
 lib/libi2pdlang.a
-man/man1/i2pd.1.gz
+%%MANPREFIX%%/man/man1/i2pd.1.gz
 %%DATADIR%%/certificates/family/gostcoin.crt
 %%DATADIR%%/certificates/family/i2p-dev.crt
 %%DATADIR%%/certificates/family/i2pd-dev.crt

@@ -396,7 +396,7 @@ MAKE_ENV+=	GCONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1
 .endif
 
 .if defined(USE_GNOME_SUBR)
-GNOME_SUBR=		${LOCALBASE}/etc/gnome.subr
+GNOME_SUBR=		/etc/gnome.subr
 RUN_DEPENDS+=	${GNOME_SUBR}:sysutils/gnome_subr
 SUB_LIST+=		GNOME_SUBR=${GNOME_SUBR}
 .endif

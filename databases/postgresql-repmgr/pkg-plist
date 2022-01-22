@@ -20,4 +20,4 @@ share/postgresql/extension/repmgr--unpackaged--4.0.sql
 share/postgresql/extension/repmgr--unpackaged--5.1.sql
 share/postgresql/extension/repmgr--unpackaged--5.2.sql
 share/postgresql/extension/repmgr.control
-@sample etc/repmgr.conf.sample
+@sample /etc/repmgr.conf.sample

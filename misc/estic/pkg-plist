@@ -1,10 +1,10 @@
 bin/estic.res
 %%WITHOUT_X%%bin/estic
 %%WITH_X%%bin/xestic
-etc/pbx/aliases.example
-@(root,wheel,600) etc/pbx/config.example
-etc/pbx/estic.ini.freebsd_example
-etc/pbx/estic.ini.generic_example
+/etc/pbx/aliases.example
+@(root,wheel,600) /etc/pbx/config.example
+/etc/pbx/estic.ini.freebsd_example
+/etc/pbx/estic.ini.generic_example
 %%PORTDOCS%%%%DOCSDIR%%/README
 %%PORTDOCS%%%%DOCSDIR%%/estic.doc
 @preunexec [ -e %D/var/log/pbx/debug ] && rm -f %D/var/log/pbx/debug || true

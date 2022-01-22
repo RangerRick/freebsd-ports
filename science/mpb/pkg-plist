@@ -8,9 +8,9 @@ include/mpb/maxwell.h
 include/mpb/scalar.h
 include/mpb/verbosity.h
 lib/libmpb.a
-man/man1/mpb-data.1.gz
-man/man1/mpb-split.1.gz
-man/man1/mpb.1.gz
+%%MANPREFIX%%/man/man1/mpb-data.1.gz
+%%MANPREFIX%%/man/man1/mpb-split.1.gz
+%%MANPREFIX%%/man/man1/mpb.1.gz
 %%EXAMPLESDIR%%/bragg-sine.ctl
 %%EXAMPLESDIR%%/bragg.ctl
 %%EXAMPLESDIR%%/check.ctl

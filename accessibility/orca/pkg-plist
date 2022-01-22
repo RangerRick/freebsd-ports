@@ -1,5 +1,5 @@
 bin/orca
-etc/xdg/autostart/orca-autostart.desktop
+/etc/xdg/autostart/orca-autostart.desktop
 %%PYTHON_SITELIBDIR%%/orca/__init__.py
 %%PYTHON_SITELIBDIR%%/orca/__pycache__/__init__%%PYTHON_EXT_SUFFIX%%.opt-1.pyc
 %%PYTHON_SITELIBDIR%%/orca/__pycache__/__init__%%PYTHON_EXT_SUFFIX%%.pyc
@@ -600,7 +600,7 @@ etc/xdg/autostart/orca-autostart.desktop
 %%PYTHON_SITELIBDIR%%/orca/structural_navigation.py
 %%PYTHON_SITELIBDIR%%/orca/text_attribute_names.py
 %%PYTHON_SITELIBDIR%%/orca/tutorialgenerator.py
-man/man1/orca.1.gz
+%%MANPREFIX%%/man/man1/orca.1.gz
 share/help/C/orca/commands.page
 share/help/C/orca/commands_bookmarks.page
 share/help/C/orca/commands_braille.page

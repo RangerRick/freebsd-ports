@@ -18,7 +18,7 @@ USES=		compiler:c11 gettext gmake gnome libtool localbase pathfix \
 USE_GNOME=	glib20 introspection:build
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-gtk-doc \
+CONFIGURE_ARGS= --sysconfdir=/etc 	--disable-gtk-doc \
 		--localstatedir=/var \
 		--with-backend=freebsd \
 		--without-idevice

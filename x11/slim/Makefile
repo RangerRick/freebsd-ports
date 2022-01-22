@@ -63,6 +63,7 @@ post-patch:
 		${WRKSRC}/slim.1
 
 post-install-PAM-on:
-	${INSTALL_DATA} ${FILESDIR}/pam.conf ${STAGEDIR}${PREFIX}/etc/pam.d/slim.sample
+	mkdir -p ${STAGEDIR}/etc/rc.d ${STAGEDIR}/etc/pam.d
+	${INSTALL_DATA} ${FILESDIR}/pam.conf ${STAGEDIR}/etc/pam.d/slim.sample
 
 .include <bsd.port.mk>

@@ -18,6 +18,7 @@ LIB_DEPENDS=	liblcms2.so:graphics/lcms2 \
 		libtiff.so:graphics/tiff
 
 USES=		cmake cpe
+CMAKE_ARGS+= -DOPENJPEG_INSTALL_MAN_DIR=${MANPREFIX}/man
 
 GNU_CONFIGURE=	yes
 USE_LDCONFIG=	yes

@@ -1,7 +1,7 @@
 %%PKI%%bin/pki
 %%TPM%%bin/tpm_extendpcr
-@sample etc/ipsec.conf.sample
-@sample etc/ipsec.secrets.sample
+@sample /etc/ipsec.conf.sample
+@sample /etc/ipsec.secrets.sample
 @sample %%ETCDIR%%.conf.sample
 @sample %%ETCDIR%%.d/charon-logging.conf.sample
 @sample %%ETCDIR%%.d/charon.conf.sample
@@ -84,7 +84,7 @@
 %%SCEP%%@sample %%ETCDIR%%.d/scepclient.conf.sample
 @sample %%ETCDIR%%.d/starter.conf.sample
 %%SWANCTL%%@sample %%ETCDIR%%.d/swanctl.conf.sample
-%%SWANCTL%%@sample etc/swanctl/swanctl.conf.sample
+%%SWANCTL%%@sample /etc/swanctl/swanctl.conf.sample
 %%VICI%%include/libvici.h
 lib/ipsec/libcharon.la
 lib/ipsec/libcharon.so
@@ -288,12 +288,12 @@ libexec/ipsec/whitelist
 %%PKI%%man/man1/pki---signcrl.1.gz
 %%PKI%%man/man1/pki---verify.1.gz
 %%PKI%%man/man1/pki.1.gz
-man/man5/ipsec.conf.5.gz
-man/man5/ipsec.secrets.5.gz
-man/man5/strongswan.conf.5.gz
+%%MANPREFIX%%/man/man5/ipsec.conf.5.gz
+%%MANPREFIX%%/man/man5/ipsec.secrets.5.gz
+%%MANPREFIX%%/man/man5/strongswan.conf.5.gz
 %%SWANCTL%%man/man5/swanctl.conf.5.gz
-man/man8/charon-cmd.8.gz
-man/man8/ipsec.8.gz
+%%MANPREFIX%%/man/man8/charon-cmd.8.gz
+%%MANPREFIX%%/man/man8/ipsec.8.gz
 %%SCEP%%man/man8/scepclient.8.gz
 %%SWANCTL%%man/man8/swanctl.8.gz
 sbin/charon-cmd
@@ -383,28 +383,28 @@ sbin/ipsec
 %%SWANCTL%%%%DATADIR%%/templates/config/strongswan.d/swanctl.conf
 %%SQL%%%%DATADIR%%/templates/database/sql/mysql.sql
 %%SQL%%%%DATADIR%%/templates/database/sql/sqlite.sql
-@dir etc/ipsec.d/aacerts
-@dir etc/ipsec.d/acerts
-@dir etc/ipsec.d/cacerts
-@dir etc/ipsec.d/certs
-@dir etc/ipsec.d/crls
-@dir etc/ipsec.d/ocspcerts
-@dir etc/ipsec.d/private
-@dir etc/ipsec.d/reqs
-%%SWANCTL%%@dir etc/swanctl/bliss
-%%SWANCTL%%@dir etc/swanctl/conf.d
-%%SWANCTL%%@dir etc/swanctl/ecdsa
-%%SWANCTL%%@dir etc/swanctl/pkcs12
-%%SWANCTL%%@dir etc/swanctl/pkcs8
-%%SWANCTL%%@dir etc/swanctl/private
-%%SWANCTL%%@dir etc/swanctl/pubkey
-%%SWANCTL%%@dir etc/swanctl/rsa
-%%SWANCTL%%@dir etc/swanctl/x509
-%%SWANCTL%%@dir etc/swanctl/x509aa
-%%SWANCTL%%@dir etc/swanctl/x509ac
-%%SWANCTL%%@dir etc/swanctl/x509ca
-%%SWANCTL%%@dir etc/swanctl/x509crl
-%%SWANCTL%%@dir etc/swanctl/x509ocsp
+@dir /etc/ipsec.d/aacerts
+@dir /etc/ipsec.d/acerts
+@dir /etc/ipsec.d/cacerts
+@dir /etc/ipsec.d/certs
+@dir /etc/ipsec.d/crls
+@dir /etc/ipsec.d/ocspcerts
+@dir /etc/ipsec.d/private
+@dir /etc/ipsec.d/reqs
+%%SWANCTL%%@dir /etc/swanctl/bliss
+%%SWANCTL%%@dir /etc/swanctl/conf.d
+%%SWANCTL%%@dir /etc/swanctl/ecdsa
+%%SWANCTL%%@dir /etc/swanctl/pkcs12
+%%SWANCTL%%@dir /etc/swanctl/pkcs8
+%%SWANCTL%%@dir /etc/swanctl/private
+%%SWANCTL%%@dir /etc/swanctl/pubkey
+%%SWANCTL%%@dir /etc/swanctl/rsa
+%%SWANCTL%%@dir /etc/swanctl/x509
+%%SWANCTL%%@dir /etc/swanctl/x509aa
+%%SWANCTL%%@dir /etc/swanctl/x509ac
+%%SWANCTL%%@dir /etc/swanctl/x509ca
+%%SWANCTL%%@dir /etc/swanctl/x509crl
+%%SWANCTL%%@dir /etc/swanctl/x509ocsp
 %%VIA%%%%DATADIR%%/templates/config/plugins/padlock.conf
 %%VIA%%lib/ipsec/plugins/libstrongswan-padlock.la
 %%VIA%%lib/ipsec/plugins/libstrongswan-padlock.so

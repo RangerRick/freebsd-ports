@@ -1,12 +1,12 @@
 bin/ibus
 bin/ibus-daemon
 bin/ibus-setup
-etc/xdg/autostart/ibus.desktop
-%%DCONF%%etc/dconf/db/ibus.d/00-upstream-settings
+/etc/xdg/autostart/ibus.desktop
+%%DCONF%%/etc/dconf/db/ibus.d/00-upstream-settings
 %%DCONF%%man/man5/00-upstream-settings.5.gz
 %%DCONF%%@postunexec rm -f %D/etc/dconf/db/ibus
 %%DCONF%%@postexec dconf update
-%%DCONF%%etc/dconf/profile/ibus
+%%DCONF%%/etc/dconf/profile/ibus
 include/ibus-1.0/ibus.h
 include/ibus-1.0/ibusaccelgroup.h
 include/ibus-1.0/ibusattribute.h
@@ -66,9 +66,9 @@ libdata/pkgconfig/ibus-1.0.pc
 libexec/ibus-portal
 %%EMOJI%%libexec/ibus-ui-emojier
 %%WAYLAND%%libexec/ibus-wayland
-man/man1/ibus-daemon.1.gz
-man/man1/ibus-setup.1.gz
-man/man1/ibus.1.gz
+%%MANPREFIX%%/man/man1/ibus-daemon.1.gz
+%%MANPREFIX%%/man/man1/ibus-setup.1.gz
+%%MANPREFIX%%/man/man1/ibus.1.gz
 %%DCONF%%man/man5/ibus.5.gz
 %%EMOJI%%man/man7/ibus-emoji.7.gz
 share/applications/org.freedesktop.IBus.Setup.desktop
@@ -308,7 +308,7 @@ share/bash-completion/completions/ibus.bash
 %%COMPDIR%%@dir %%DATADIR%%/component
 @dir %%DATADIR%%
 @dir include/ibus-1.0
-%%DCONF%%@dir etc/dconf/db/ibus.d
+%%DCONF%%@dir /etc/dconf/db/ibus.d
 %%GTK3%%@postexec %%LOCALBASE%%/bin/gtk-query-immodules-3.0 --update-cache
 %%GTK2%%@postexec %%LOCALBASE%%/bin/gtk-query-immodules-2.0 --update-cache
 %%GTK3%%@postunexec %%LOCALBASE%%/bin/gtk-query-immodules-3.0 --update-cache

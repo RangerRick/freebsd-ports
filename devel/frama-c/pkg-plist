@@ -1151,8 +1151,8 @@ lib/frama-c/wutil.o
 %%DATADIR%%/wp/why3/coq.drv
 %%DATADIR%%/wp/why3/why3.conf
 %%DATADIR%%/wp/wp.driver
-man/man1/frama-c-gui.1.gz
-man/man1/frama-c.1.gz
+%%MANPREFIX%%/man/man1/frama-c-gui.1.gz
+%%MANPREFIX%%/man/man1/frama-c.1.gz
 share/emacs/site-lisp/acsl.el
 share/emacs/site-lisp/frama-c-dev.el
 share/emacs/site-lisp/frama-c-init.el

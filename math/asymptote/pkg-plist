@@ -1,7 +1,7 @@
 bin/asy
 bin/xasy
-man/man1/asy.1.gz
-man/man1/xasy.1x.gz
+%%MANPREFIX%%/man/man1/asy.1.gz
+%%MANPREFIX%%/man/man1/xasy.1x.gz
 %%DATADIR%%/CAD.asy
 %%DATADIR%%/GUI/CustMatTransform.py
 %%DATADIR%%/GUI/DebugFlags.py

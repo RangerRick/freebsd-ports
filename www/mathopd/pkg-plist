@@ -1,5 +1,5 @@
-etc/mathopd.conf.sample
-etc/rc.d/mathopd.sh-dist
+/etc/mathopd.conf.sample
+/etc/rc.d/mathopd.sh-dist
 sbin/mathopd
 %%PORTDOCS%%%%DOCSDIR%%/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%/COPYING

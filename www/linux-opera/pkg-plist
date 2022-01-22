@@ -8,7 +8,7 @@ lib/linux-opera/opera_autoupdatechecker
 lib/linux-opera/plugins/README
 lib/linux-opera/pluginwrapper/operapluginwrapper
 lib/linux-opera/pluginwrapper/operapluginwrapper-native
-man/man1/linux-opera.1.gz
+%%MANPREFIX%%/man/man1/linux-opera.1.gz
 share/applications/linux-opera-browser.desktop
 %%PORTDOCS%%%%DOCSDIR%%/LGPL-2
 %%PORTDOCS%%%%DOCSDIR%%/LGPL-3

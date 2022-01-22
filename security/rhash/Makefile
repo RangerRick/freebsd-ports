@@ -19,7 +19,7 @@ LICENSE=	BSD0CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 HAS_CONFIGURE=	yes
-CONFIGURE_ARGS=	--prefix="${PREFIX}" --mandir="${PREFIX}/man" \
+CONFIGURE_ARGS= --sysconfdir=/etc 	--prefix="${PREFIX}" --mandir="${MANPREFIX}/man" \
 		--pkgconfigdir="${PREFIX}/libdata/pkgconfig" \
 		--enable-lib-static --enable-openssl-runtime \
 		--extra-cflags="${CFLAGS}" --extra-ldflags="${LDFLAGS}"

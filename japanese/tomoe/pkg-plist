@@ -1,4 +1,4 @@
-etc/tomoe/config
+/etc/tomoe/config
 include/tomoe/tomoe-candidate.h
 include/tomoe/tomoe-char.h
 include/tomoe/tomoe-config.h

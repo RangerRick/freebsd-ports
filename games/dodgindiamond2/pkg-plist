@@ -1,6 +1,6 @@
 @(,games,2755) bin/dd2
 @sample(,games,664) /var/games/dd2-hiscore.sample
-@sample etc/dd2.cfg.sample
+@sample /etc/dd2.cfg.sample
 %%DATADIR%%/bgm1.xm
 %%DATADIR%%/bgm2.xm
 %%DATADIR%%/efx1.wav

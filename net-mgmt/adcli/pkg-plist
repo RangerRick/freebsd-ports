@@ -1,5 +1,5 @@
 sbin/adcli
-man/man8/adcli.8.gz
+%%MANPREFIX%%/man/man8/adcli.8.gz
 %%PORTDOCS%%%%DOCSDIR%%/adcli.html
 %%PORTDOCS%%%%DOCSDIR%%/contrib.html
 %%PORTDOCS%%%%DOCSDIR%%/devel-building-style.html

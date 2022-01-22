@@ -1,4 +1,4 @@
-man/man1/amavis-stats.1.gz
+%%MANPREFIX%%/man/man1/amavis-stats.1.gz
 sbin/amavis-stats
 @(%%USERS%%,%%GROUPS%%,) www/amavis-stats/index.php
 @(%%USERS%%,%%GROUPS%%,) www/amavis-stats/amavis-stats.php

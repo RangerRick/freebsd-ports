@@ -106,6 +106,7 @@ post-configure:
 		| ${XARGS} -0 ${REINPLACE_CMD} -e "s|-I${LOCALBASE}/include||g"
 
 post-install:
+	gzip <${STAGEDIR}/usr/man/man1/node.1 >${STAGEDIR}${MANPREFIX}/man/man1/node.1.gz
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/node
 
 .include <bsd.port.mk>

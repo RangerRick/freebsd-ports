@@ -1,8 +1,8 @@
 bin/pastebin
 bin/upload-system-info
 bin/xfce4-set-wallpaper
-etc/X11/xinit/xinitrc.d/80xapp-gtk3-module.sh
-etc/xdg/autostart/xapp-sn-watcher.desktop
+/etc/X11/xinit/xinitrc.d/80xapp-gtk3-module.sh
+/etc/xdg/autostart/xapp-sn-watcher.desktop
 include/xapp/libxapp/xapp-favorites.h
 include/xapp/libxapp/xapp-gtk-window.h
 include/xapp/libxapp/xapp-icon-chooser-button.h

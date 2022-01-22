@@ -1,4 +1,4 @@
-@sample etc/fcheck.cfg.sample
+@sample /etc/fcheck.cfg.sample
 sbin/fcheck
 %%PORTDOCS%%%%DOCSDIR%%/README
 %%PORTDOCS%%%%DOCSDIR%%/install

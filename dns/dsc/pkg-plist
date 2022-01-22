@@ -4,8 +4,8 @@ libexec/dsc/upload-prep.pl
 libexec/dsc/upload-rsync.sh
 libexec/dsc/upload-ssh.sh
 libexec/dsc/upload-x509.sh
-man/man1/dsc.1.gz
-man/man5/dsc.conf.5.gz
+%%MANPREFIX%%/man/man1/dsc.1.gz
+%%MANPREFIX%%/man/man5/dsc.conf.5.gz
 %%PORTDOCS%%%%DOCSDIR%%/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%/README.md

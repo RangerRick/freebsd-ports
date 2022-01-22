@@ -1,4 +1,4 @@
-share/fonts/100dpi/fonts.alias
-share/fonts/75dpi/fonts.alias
-share/fonts/cyrillic/fonts.alias
-share/fonts/misc/fonts.alias
+/System/Library/Fonts/100dpi/fonts.alias
+/System/Library/Fonts/75dpi/fonts.alias
+/System/Library/Fonts/cyrillic/fonts.alias
+/System/Library/Fonts/misc/fonts.alias

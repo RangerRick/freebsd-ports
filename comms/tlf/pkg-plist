@@ -1,7 +1,7 @@
 bin/play_vk
 bin/soundlog
 bin/tlf
-man/man1/tlf.1.gz
+%%MANPREFIX%%/man/man1/tlf.1.gz
 %%DATADIR%%/arrl10m_mults
 %%DATADIR%%/arrldx_mults
 %%DATADIR%%/arrlsections

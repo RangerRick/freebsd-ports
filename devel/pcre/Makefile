@@ -21,7 +21,7 @@ USES_sparc64=		compiler:c++11-lang
 USE_LDCONFIG=		yes
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--enable-pcre16 \
+CONFIGURE_ARGS= --mandir=${MANPREFIX}/man	--enable-pcre16 \
 		--enable-pcre32 \
 		--enable-pcre8 \
 		--enable-unicode-properties \

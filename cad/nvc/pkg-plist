@@ -1,5 +1,5 @@
 bin/nvc
-man/man1/nvc.1.gz
+%%MANPREFIX%%/man/man1/nvc.1.gz
 %%DATADIR%%/coverage.css
 %%DATADIR%%/ieee/IEEE.MATH_COMPLEX
 %%DATADIR%%/ieee/IEEE.MATH_COMPLEX-body

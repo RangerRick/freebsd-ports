@@ -1,6 +1,6 @@
 bin/rbenv
-etc/rbenv.d/exec/gem-rehash.bash
-etc/rbenv.d/exec/gem-rehash/rubygems_plugin.rb
+/etc/rbenv.d/exec/gem-rehash.bash
+/etc/rbenv.d/exec/gem-rehash/rubygems_plugin.rb
 libexec/rbenv
 libexec/rbenv---version
 libexec/rbenv-commands

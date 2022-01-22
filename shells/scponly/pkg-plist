@@ -11,5 +11,5 @@
 %%CHROOT%%@shell sbin/scponlyc
 %%CHROOT%%%%EXAMPLESDIR%%/setup_chroot.sh
 %%CHROOT%%%%EXAMPLESDIR%%/config.h
-etc/scponly/debuglevel
-man/man8/scponly.8.gz
+/etc/scponly/debuglevel
+%%MANPREFIX%%/man/man8/scponly.8.gz

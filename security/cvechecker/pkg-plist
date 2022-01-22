@@ -4,11 +4,11 @@ bin/cvereport
 bin/cverules
 bin/pullcves
 @sample %%ETCDIR%%.conf.sample
-man/man1/cvechecker.1.gz
-man/man1/cvegenversdat.1.gz
-man/man1/cvereport.1.gz
-man/man1/cverules.1.gz
-man/man1/pullcves.1.gz
+%%MANPREFIX%%/man/man1/cvechecker.1.gz
+%%MANPREFIX%%/man/man1/cvegenversdat.1.gz
+%%MANPREFIX%%/man/man1/cvereport.1.gz
+%%MANPREFIX%%/man/man1/cverules.1.gz
+%%MANPREFIX%%/man/man1/pullcves.1.gz
 %%DATADIR%%/csv2xml.awk
 %%DATADIR%%/cvereport.xsl
 %%DATADIR%%/mysql_cvechecker.sql

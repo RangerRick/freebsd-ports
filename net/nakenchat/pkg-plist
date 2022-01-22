@@ -1,2 +1,2 @@
 bin/nakenchat
-@sample etc/nakenchat.conf.sample
+@sample /etc/nakenchat.conf.sample

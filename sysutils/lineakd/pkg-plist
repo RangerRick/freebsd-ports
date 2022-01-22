@@ -1,5 +1,5 @@
 bin/lineakd
-etc/lineakkb.def
+/etc/lineakkb.def
 include/lineak/cdromctrl.h
 include/lineak/commandexec.h
 include/lineak/configdirectives.h
@@ -28,5 +28,5 @@ lib/liblineak.a
 lib/liblineak.so
 lib/liblineak.so.0
 lib/liblineak.so.0.8.0
-man/man1/lineakd.1.gz
+%%MANPREFIX%%/man/man1/lineakd.1.gz
 @dir lib/lineakd/plugins

@@ -1,5 +1,5 @@
 bin/polyglot
-man/man6/polyglot.6.gz
+%%MANPREFIX%%/man/man6/polyglot.6.gz
 %%PORTDOCS%%%%DOCSDIR%%/README
 %%PORTDOCS%%%%DOCSDIR%%/README1.3
 %%PORTDOCS%%%%DOCSDIR%%/README1.4

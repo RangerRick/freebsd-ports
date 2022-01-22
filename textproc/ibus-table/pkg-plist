@@ -2,7 +2,7 @@ bin/ibus-table-createdb
 libdata/pkgconfig/ibus-table.pc
 libexec/ibus-engine-table
 libexec/ibus-setup-table
-man/man1/ibus-table-createdb.1.gz
+%%MANPREFIX%%/man/man1/ibus-table-createdb.1.gz
 share/applications/ibus-setup-table.desktop
 %%DATADIR%%/data/coin9.wav
 %%DATADIR%%/data/phrase.txt.bz2

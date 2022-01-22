@@ -1893,5 +1893,5 @@ lib/swipl/swipl.home
 %%XPCE%%lib/swipl/xpce/prolog/lib/xref/quintus.pl
 %%XPCE%%lib/swipl/xpce/prolog/lib/xref/sicstus.pl
 libdata/pkgconfig/swipl.pc
-share/man/man1/swipl-ld.1.gz
-share/man/man1/swipl.1.gz
+%%MANPREFIX%%/man/man1/swipl-ld.1.gz
+%%MANPREFIX%%/man/man1/swipl.1.gz

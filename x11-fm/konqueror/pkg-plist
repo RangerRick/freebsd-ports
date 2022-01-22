@@ -2,9 +2,9 @@ bin/kcreatewebarchive
 bin/fsview
 bin/kfmclient
 bin/konqueror
-etc/xdg/autostart/konqy_preload.desktop
-etc/xdg/konqsidebartngrc
-etc/xdg/translaterc
+/etc/xdg/autostart/konqy_preload.desktop
+/etc/xdg/konqsidebartngrc
+/etc/xdg/translaterc
 include/KF5/konq_events.h
 include/KF5/konq_historyentry.h
 include/KF5/konq_historyprovider.h

@@ -3,10 +3,10 @@ bin/log2ndo
 bin/ndo2db
 bin/ndomod.o
 bin/sockdebug
-etc/nagios/misccommands.cfg-sample
-etc/nagios/ndo2db.cfg-sample
-etc/nagios/ndomod.cfg-sample
-etc/nagios/ndoutils.cfg-sample
+/etc/nagios/misccommands.cfg-sample
+/etc/nagios/ndo2db.cfg-sample
+/etc/nagios/ndomod.cfg-sample
+/etc/nagios/ndoutils.cfg-sample
 %%PORTDOCS%%%%DOCSDIR%%/NDOUTILS DB Model.odt
 %%PORTDOCS%%%%DOCSDIR%%/NDOUTILS DB Model.pdf
 %%PORTDOCS%%%%DOCSDIR%%/NDOUtils Documentation.odt

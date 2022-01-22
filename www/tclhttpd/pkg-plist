@@ -1,7 +1,7 @@
 bin/httpd.tcl
 bin/httpdthread.tcl
-etc/tclhttpd.rc.default
-man/man1/tclhttpd.1.gz
+/etc/tclhttpd.rc.default
+%%MANPREFIX%%/man/man1/tclhttpd.1.gz
 @owner nobody
 lib/tclhttpd%%PORTVERSION%%/%%SHLIB_NAME%%
 lib/tclhttpd%%PORTVERSION%%/admin.tcl
