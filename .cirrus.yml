@@ -6,9 +6,6 @@ compute_engine_instance:
   memory: 16G
   disk: 100
 
-environment:
-  KEY: dummy
-
 clone_task_template: &CLONE_TASK_TEMPLATE
   clone_script: |
     if [ -z "$CIRRUS_PR" ]; then
@@ -28,7 +25,6 @@ build_task:
     PORTSROOT: /usr/obj/$(uname -m).$(uname -m)/portsroot
   << : *CLONE_TASK_TEMPLATE
   script:
-    - rm -fv /etc/pkg/FreeBSD.conf
     - fetch -o /tmp/openjdk-17.jdk.txz https://github.com/mszoek/airyx/releases/download/jdk-17.0.1/openjdk-17.0.1.jdk.txz
     - make -f Makefile.ports prepports
     - mkdir -p ${PORTSROOT}/Library/Java/JavaVirtualMachines
@@ -38,6 +34,6 @@ build_task:
     - make -j$(sysctl -n hw.ncpus) -f Makefile.ports buildports
     - make -f Makefile.ports makepackages
     - echo FIXME: upload to cloudsmith now
-  only_if: $CIRRUS_BRANCH == 'airyx/*'
+  only_if: $CIRRUS_BRANCH =~ 'airyx/.*'
   cache:
     folder: /usr/obj
