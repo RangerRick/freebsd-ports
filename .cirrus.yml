@@ -7,7 +7,7 @@ compute_engine_instance:
   disk: 100
 
 environment:
-  KEY: ENCRYPTED[f68765a53df76c1b9cd6d870e0054317f9cc517313bf6c56d0b094a1ad01e968a95e6328b37b53db7840d112ff165c46]
+  KEY: dummy
 
 clone_task_template: &CLONE_TASK_TEMPLATE
   clone_script: |
