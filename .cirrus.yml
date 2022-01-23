@@ -24,7 +24,7 @@ build_task:
     JAVA_HOME: /Library/Java/JavaVirtualMachines/openjdk-17.0.1.jdk/Contents/Home
     PORTSROOT: /usr/obj/$(uname -m).$(uname -m)/portsroot
   << : *CLONE_TASK_TEMPLATE
-  script:
+  build_script:
     - fetch -o /tmp/openjdk-17.jdk.txz https://github.com/mszoek/airyx/releases/download/jdk-17.0.1/openjdk-17.0.1.jdk.txz
     - make -f Makefile.ports prepports
     - mkdir -p ${PORTSROOT}/Library/Java/JavaVirtualMachines
@@ -35,5 +35,5 @@ build_task:
     - make -f Makefile.ports makepackages
     - echo FIXME: upload to cloudsmith now
   only_if: $CIRRUS_BRANCH =~ 'airyx/.*'
-  cache:
+  ports_cache:
     folder: /usr/obj
