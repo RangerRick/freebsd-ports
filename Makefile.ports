@@ -35,7 +35,9 @@ prepports:
 		rm -rf ${PORTSROOT}; \
 	fi
 	mkdir -p ${PORTSROOT}/etc ${PORTSROOT}/var/run ${PORTSROOT}/usr/sbin
-	cp -f ${TOPDIR}/make.conf ${TOPDIR}/resolv.conf ${PORTSROOT}/etc/
+	cp -f ${TOPDIR}/Tools/make.conf ${PORTSROOT}/etc/
+	echo 'nameserver 1.1.1.1' > ${PORTSROOT}/etc/resolv.conf
+	echo 'nameserver 8.8.8.8' >> ${PORTSROOT}/etc/resolv.conf
 	cp -f /var/run/ld-elf.so.hints ${PORTSROOT}/var/run
 	cp -f /usr/sbin/pkg-static ${PORTSROOT}/usr/sbin || true
 	if [ ! -f ${PORTSROOT}/usr/sbin/pkg-static ]; then cp ${PORTSROOT}/usr/sbin/pkg ${PORTSROOT}/usr/sbin/pkg-static; fi
@@ -44,7 +46,8 @@ prepports:
 	tar xvf ${TOPDIR}/dist/base.txz -C ${PORTSROOT}
 	ln -s libncurses.so ${PORTSROOT}/usr/lib/libncurses.so.6
 	ln -s python3.8 ${PORTSROOT}/usr/bin/python # for nodejs build
-	git clone https://github.com/mszoek/airyx.git /usr/src
+	if [ ! -f /usr/src/version.txt ]; then \
+	  git clone https://github.com/mszoek/airyx.git /usr/src; fi
 	mount_nullfs ${.CURDIR} /usr/ports
 
 /usr/ports/{archivers,audio,databases,devel,dns,editors,emulators,graphics,lang,misc,multimedia,net,ports-mgmt,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
