@@ -62,6 +62,7 @@ post-configure:
 
 post-install:
 	cd ${WRKSRC}/freebsd/ && ${SETENV} ${MAKE_ENV} ${MAKE_CMD} ${MAKE_ARGS}
+	mv ${STAGEDIR}${PREFIX}/etc ${STAGEDIR}/etc
 
 post-install-DOCS-on:
 	${MKDIR} ${STAGEDIR}${DOCSDIR}/

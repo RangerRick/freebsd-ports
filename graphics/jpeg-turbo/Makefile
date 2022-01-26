@@ -53,4 +53,6 @@ CONFLICTS_INSTALL=	jpeg
 PLIST_SUB+=	JPEG="" LIBTURBOJPEG="@comment "
 .endif
 
+CMAKE_ARGS+= -DCMAKE_INSTALL_MANDIR=${MANPREFIX}/man
+
 .include <bsd.port.mk>

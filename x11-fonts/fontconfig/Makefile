@@ -69,9 +69,9 @@ post-patch:
 	    ${PATCH_WRKSRC}/conf.d/meson.build
 
 post-install:
-	${INSTALL_MAN} ${WRKSRC}/fc-*/*.1 ${STAGEDIR}${PREFIX}/man/man1
-	${INSTALL_MAN} ${WRKSRC}/doc/*.3 ${STAGEDIR}${PREFIX}/man/man3
-	${INSTALL_MAN} ${WRKSRC}/doc/*.5 ${STAGEDIR}${PREFIX}/man/man5
+	${INSTALL_MAN} ${WRKSRC}/fc-*/*.1 ${STAGEDIR}${MANPREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/doc/*.3 ${STAGEDIR}${MANPREFIX}/man/man3
+	${INSTALL_MAN} ${WRKSRC}/doc/*.5 ${STAGEDIR}${MANPREFIX}/man/man5
 	${MV} ${STAGEDIR}/etc/fonts/fonts.conf ${STAGEDIR}/etc/fonts/fonts.conf.sample
 	@${MKDIR} ${STAGEDIR}/var/db/fontconfig
 

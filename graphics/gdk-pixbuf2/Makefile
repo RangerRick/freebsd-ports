@@ -20,7 +20,7 @@ USES=		cpe gettext gnome localbase:ldflags meson pkgconfig \
 CPE_VENDOR=	gnome
 USE_GNOME=	glib20 introspection:build libxslt:build
 USE_LDCONFIG=	yes
-MESON_ARGS=	-Dman=true
+MESON_ARGS=	-Dman=true -Dinstalled_tests=false
 
 BINARY_ALIAS=	python3=${PYTHON_VERSION}
 

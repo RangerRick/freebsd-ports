@@ -31,7 +31,13 @@ build_task:
     - tar -C ${PORTSROOT}/Library/Java/JavaVirtualMachines -xf /tmp/openjdk-17.jdk.txz
     - ln -sf $JAVA_HOME/bin/java ${PORTSROOT}/usr/bin/
     - ln -sf $JAVA_HOME/bin/javac ${PORTSROOT}/usr/bin/javac
-    - make -j$(sysctl -n hw.ncpus) -f Makefile.ports buildports
+    - mkdir -p ${PORTSROOT}/usr/src ${PORTSROOT}/usr/ports
+    - mount_nullfs /usr/src ${PORTSROOT}/usr/src
+    - mount_nullfs $(pwd) ${PORTSROOT}/usr/ports
+    - mkdir ${PORTSROOT}/dev ${PORTSROOT}/proc
+    - mount -t devfs none ${PORTSROOT}/dev
+    - mount -t procfs none ${PORTSROOT}/proc
+    - chroot ${PORTSROOT} make -C /usr/ports -f Makefile.ports buildports
     - make -f Makefile.ports makepackages
     - echo FIXME: upload to cloudsmith now
   only_if: $CIRRUS_BRANCH =~ 'airyx/.*'
