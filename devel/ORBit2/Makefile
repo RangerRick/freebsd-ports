@@ -18,7 +18,7 @@ USES+=		gettext gmake gnome libtool:keepla pathfix pkgconfig
 USE_GNOME=	libidl referencehack
 USE_LDCONFIG=	yes
 CONFIGURE_ARGS=	--with-html-dir=${PREFIX}/share/doc \
-		--disable-gtk-doc
+		--disable-gtk-doc --sysconfdir=/etc
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
 
@@ -33,8 +33,9 @@ post-patch:
 		${WRKSRC}/src/services/name/Makefile.in
 
 post-install:
-	@${ECHO_CMD} "ORBIIOPIPv4=0" > ${STAGEDIR}${PREFIX}/etc/orbit2rc.sample
-	@${ECHO_CMD} "ORBIIOPIPv6=0" >> ${STAGEDIR}${PREFIX}/etc/orbit2rc.sample
+	mkdir -p ${STAGEDIR}/etc
+	@${ECHO_CMD} "ORBIIOPIPv4=0" > ${STAGEDIR}/etc/orbit2rc.sample
+	@${ECHO_CMD} "ORBIIOPIPv6=0" >> ${STAGEDIR}/etc/orbit2rc.sample
 	@${MKDIR} ${STAGEDIR}${PREFIX}/lib/orbit-2.0/idl-backends
 
 .include <bsd.port.mk>

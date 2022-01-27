@@ -35,7 +35,7 @@ MESON_ARGS=	-Dman=true \
 		-Dvapi=true
 
 post-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/dconf/db
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/dconf/profile
+	@${MKDIR} ${STAGEDIR}/etc/dconf/db
+	@${MKDIR} ${STAGEDIR}/etc/dconf/profile
 
 .include <bsd.port.mk>

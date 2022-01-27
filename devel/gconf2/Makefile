@@ -27,7 +27,7 @@ USE_GNOME=	orbit2 gtk20 libxml2 \
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-html-dir=${PREFIX}/share/doc \
-		--with-gtk=2.0 \
+		--with-gtk=2.0 --sysconfdir=/etc \
 		--disable-gtk-doc
 CPPFLAGS+=	-I${LOCALBASE}/include
 LDFLAGS+=	-L${LOCALBASE}/lib
@@ -43,6 +43,6 @@ LDAP_USE=		OPENLDAP=yes
 LDAP_CONFIGURE_WITH=	openldap
 
 post-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/gconf/gconf.xml.system
+	@${MKDIR} ${STAGEDIR}/etc/gconf/gconf.xml.system
 
 .include <bsd.port.mk>

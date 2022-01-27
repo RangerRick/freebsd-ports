@@ -69,6 +69,9 @@ PLIST_SUB+=	CLASSIC=""
 post-extract:
 	@echo '#define SVN_VERSION "${GH_TAGNAME}"' > ${WRKSRC}/svnversion.h
 
+pre-install:
+	mkdir -p ${STAGEDIR}/etc/rc.d
+
 post-install:
 	@cd ${STAGEDIR}${PREFIX} && ${STRIP_CMD} \
 		lib/libjack*.so \

@@ -1,0 +1,11 @@
+--- Makefile.orig	2022-01-26 18:56:04 UTC
++++ Makefile
+@@ -1,7 +1,7 @@
+ LIB		= sysinfo
+ LIBDIR		= ${PREFIX}/lib/
+ INCLUDEDIR 	= ${DESTDIR}/${PREFIX}/include/sys/
+-MANDIR		= ${DESTDIR}/${PREFIX}/man/man3
++MANDIR		= ${DESTDIR}/${MANPREFIX}/man/man3
+ SHLIB_MAJOR	= 0
+ WITHOUT_PROFILE = yes
+ MAKEOBJDIRPREFIX= /

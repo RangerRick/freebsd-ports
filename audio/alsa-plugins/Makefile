@@ -60,4 +60,7 @@ SPEEX_LIB_DEPENDS=	libspeex.so:audio/speex
 SPEEX_CONFIGURE_ON=	--with-speex=lib
 SPEEX_CONFIGURE_OFF=	--without-speex
 
+pre-install:
+	mkdir -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
+
 .include <bsd.port.mk>

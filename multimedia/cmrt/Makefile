@@ -20,6 +20,7 @@ USE_GITHUB=	yes
 USE_LDCONFIG=	yes
 GH_ACCOUNT=	intel
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS+=	--sysconfdir=/etc
 INSTALL_TARGET=	install-strip
 
 post-patch:

@@ -31,5 +31,6 @@ post-install:
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/lv2bench
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/lv2info
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/lv2ls
+	mv -f ${STAGEDIR}${PREFIX}/etc ${STAGEDIR}/etc
 
 .include <bsd.port.mk>

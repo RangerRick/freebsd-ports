@@ -119,9 +119,9 @@ SSL3_CONFIGURE_ON+=	enable-ssl3-method
 ZLIB_CONFIGURE_ON=	zlib-dynamic
 
 .include <bsd.port.pre.mk>
-.if ${PREFIX} == /usr
-IGNORE=	the OpenSSL port can not be installed over the base version
-.endif
+#.if ${PREFIX} == /usr
+#IGNORE=	the OpenSSL port can not be installed over the base version
+#.endif
 
 .if ${OPSYS} == FreeBSD && ${OSVERSION} < 1300000 && !${PORT_OPTIONS:MCRYPTODEV}
 CONFIGURE_ARGS+=	no-devcryptoeng
@@ -138,7 +138,7 @@ BROKEN_sparc64=	option ASM generates illegal instructions
 
 post-patch:
 	${REINPLACE_CMD} \
-		-e 's|^MANDIR=.*$$|MANDIR=$$(INSTALLTOP)/man|' \
+		-e 's|^MANDIR=.*$$|MANDIR=$$(INSTALLTOP)/share/man|' \
 		-e 's| install_html_docs$$||' \
 		-e 's|$$(LIBDIR)/pkgconfig|libdata/pkgconfig|g' \
 		${WRKSRC}/Configurations/unix-Makefile.tmpl
@@ -165,7 +165,7 @@ post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/openssl
 
 post-install-MAN3-on:
-	( cd ${STAGEDIR}/${PREFIX} ; ${FIND} man/man3 man/man7 -not -type d ) | \
+	( cd ${STAGEDIR}/${PREFIX} ; ${FIND} share/man/man3 share/man/man7 -not -type d ) | \
 		${SED} 's/$$/.gz/' >>${TMPPLIST}
 
 .include <bsd.port.post.mk>
