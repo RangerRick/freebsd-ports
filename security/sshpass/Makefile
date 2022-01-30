@@ -15,6 +15,6 @@ USES=		autoreconf
 GNU_CONFIGURE=	yes
 
 PLIST_FILES=	bin/sshpass \
-		man/man1/sshpass.1.gz
+		${MANPREFIX_REL}/man/man1/sshpass.1.gz
 
 .include <bsd.port.mk>
