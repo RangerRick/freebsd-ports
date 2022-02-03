@@ -546,7 +546,6 @@
     SUBDIR += dxa65
     SUBDIR += dyncall
     SUBDIR += e00compr
-    SUBDIR += e2fsprogs-libss
     SUBDIR += eastl
     SUBDIR += easyexif
     SUBDIR += easygit
@@ -4766,6 +4765,7 @@
     SUBDIR += py-marshmallow
     SUBDIR += py-marshmallow-enum
     SUBDIR += py-matrix-angular-sdk
+    SUBDIR += py-matrix-common
     SUBDIR += py-maturin
     SUBDIR += py-mccabe
     SUBDIR += py-mdv
