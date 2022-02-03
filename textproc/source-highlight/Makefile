@@ -19,7 +19,7 @@ LIB_DEPENDS=	libboost_regex.so:devel/boost-libs
 
 USES=		compiler:c++11-lang gmake pathfix libtool localbase
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-bash-completion
+CONFIGURE_ARGS=	--with-bash-completion --sysconfdir=/etc
 INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
 

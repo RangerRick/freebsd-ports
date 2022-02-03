@@ -68,6 +68,7 @@ pre-configure:
 	(cd ${WRKSRC}/js/src/ && ${LOCALBASE}/bin/autoconf-2.13)
 
 post-install:
+	mkdir -p ${STAGEDIR}${PREFIX}/share/applications
 	${INSTALL_DATA} ${FIREFOX_DESKTOP} ${STAGEDIR}${PREFIX}/share/applications/
 	${MKDIR} ${STAGEDIR}${PREFIX}/share/pixmaps
 	${LN} -sf ${FIREFOX_ICON_SRC} ${STAGEDIR}${PREFIX}/share/pixmaps/${FIREFOX_ICON}
