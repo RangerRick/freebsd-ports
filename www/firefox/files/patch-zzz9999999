@@ -1,0 +1,24 @@
+--- toolkit/moz.configure.orig	2022-02-03 12:49:58.125721000 -0500
++++ toolkit/moz.configure	2022-02-03 12:52:25.487871000 -0500
+@@ -1814,8 +1814,8 @@
+     def jpeg_flags(value):
+         if len(value):
+             return namespace(
+-                cflags=("-I%s/include" % value[0],),
+-                ldflags=("-L%s/lib" % value[0], "-ljpeg"),
++                cflags=("-D_SYSTEM_JPEG_",),
++                ldflags=("-ljpeg",),
+             )
+         return namespace(
+             ldflags=("-ljpeg",),
+--- security/rlbox/moz.build.orig	2022-02-03 13:49:28.400726000 -0500
++++ security/rlbox/moz.build	2022-02-03 13:50:59.282218000 -0500
+@@ -62,7 +62,7 @@
+     ]
+     for k, v in graphite_defines:
+         WASM_DEFINES[k] = v
+-    LOCAL_INCLUDES += ["/gfx/graphite2/src"]
++    LOCAL_INCLUDES += ["/gfx/graphite2/include", "/gfx/graphite2/src"]
+ 
+ if CONFIG["MOZ_WASM_SANDBOXING_OGG"]:
+     include("/media/libogg/sources.mozbuild")
