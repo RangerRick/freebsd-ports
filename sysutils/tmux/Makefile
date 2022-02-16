@@ -16,7 +16,7 @@ LICENSE_FILE_GPLv2=	${WRKSRC_bash}/COPYING
 LICENSE_DISTFILES_ISCL=	${DISTNAME}${EXTRACT_SUFX}
 LICENSE_DISTFILES_GPLv2=	${DISTFILE_bash}
 
-USES=		cpe ncurses pkgconfig
+USES=		cpe pkgconfig
 
 CPE_VENDOR=	tmux_project
 
@@ -25,13 +25,13 @@ GH_TUPLE=	imomaliev:tmux-bash-completion:f5d5323:bash
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-utempter \
-		--sysconfdir=${PREFIX}/etc
+		--sysconfdir=/etc
 
 CONFLICTS_INSTALL=	tmux23
 
 PLIST_FILES=	bin/tmux \
-		etc/bash_completion.d/tmux \
-		man/man1/tmux.1.gz
+		/etc/bash_completion.d/tmux \
+		${MANPREFIX_REL}/man/man1/tmux.1.gz
 
 PORTDOCS=	CHANGES README
 PORTEXAMPLES=	*
@@ -48,8 +48,8 @@ LIBEVENT_STATIC_VARS=			LESTATIC=${LOCALBASE}/lib/libevent.a
 UTF8PROC_LIB_DEPENDS=		libutf8proc.so:textproc/utf8proc
 UTF8PROC_CONFIGURE_ENABLE=	utf8proc
 
-post-patch:
-	@${REINPLACE_CMD} -e 's|/etc/tmux.conf|${PREFIX}/etc/tmux.conf|g' ${WRKSRC}/CHANGES \
+#post-patch:
+#	@${REINPLACE_CMD} -e 's|/etc/tmux.conf|${PREFIX}/etc/tmux.conf|g' ${WRKSRC}/CHANGES \
 		${WRKSRC}/tmux.h
 
 post-configure-LIBEVENT_STATIC-on:
@@ -57,8 +57,8 @@ post-configure-LIBEVENT_STATIC-on:
 		${WRKSRC}/${MAKEFILE}
 
 post-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/bash_completion.d
-	${INSTALL_DATA} ${WRKSRC_bash}/completions/tmux ${STAGEDIR}${PREFIX}/etc/bash_completion.d/tmux
+	@${MKDIR} ${STAGEDIR}/etc/bash_completion.d
+	${INSTALL_DATA} ${WRKSRC_bash}/completions/tmux ${STAGEDIR}/etc/bash_completion.d/tmux
 
 post-install-DOCS-on:
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}
