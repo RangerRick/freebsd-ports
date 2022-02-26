@@ -23,7 +23,7 @@ NO_CCACHE=	yes
 MAKE_ENV+=	__MAKE_CONF=/dev/null SRCCONF=/dev/null
 
 .if !defined(D4P_SLAVE)
-PLIST_FILES=	bin/dialog4ports man/man1/${PORTNAME}.1.gz
+PLIST_FILES=	bin/dialog4ports share/man/man1/${PORTNAME}.1.gz
 .endif
 
 .include <bsd.port.pre.mk>

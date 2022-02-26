@@ -12,7 +12,7 @@ COMMENT=	Display information about protocols supported by Wayland compositor
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-BUILD_DEPENDS=	wayland-protocols>=1.18:graphics/wayland-protocols
+#BUILD_DEPENDS=	wayland-protocols>=1.18:graphics/wayland-protocols
 LIB_DEPENDS=	libwayland-client.so:graphics/wayland
 
 USES=		meson pkgconfig
@@ -21,6 +21,6 @@ GL_SITE=	https://gitlab.freedesktop.org
 GL_ACCOUNT=	wayland
 GL_COMMIT=	1664a20eb1dfd830113a38d02ad0937de73e4f90
 PLIST_FILES=	bin/wayland-info \
-		man/man1/wayland-info.1.gz
+		share/man/man1/wayland-info.1.gz
 
 .include <bsd.port.mk>

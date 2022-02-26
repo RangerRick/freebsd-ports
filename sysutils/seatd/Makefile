@@ -39,7 +39,10 @@ BASU_MESON_ON=		-Dlibseat-consolekit2=enabled
 
 MANPAGES_BUILD_DEPENDS=	scdoc:textproc/scdoc
 MANPAGES_MESON_ENABLED=	man-pages
-MANPAGES_PLIST_FILES=	man/man1/${PORTNAME}.1.gz \
-			man/man1/${PORTNAME}-launch.1.gz
+MANPAGES_PLIST_FILES=	${MANPREFIX_REL}/man/man1/${PORTNAME}.1.gz \
+			${MANPREFIX_REL}/man/man1/${PORTNAME}-launch.1.gz
+
+pre-install:
+	${MKDIR} -p ${STAGEDIR}/etc/rc.d
 
 .include <bsd.port.mk>
