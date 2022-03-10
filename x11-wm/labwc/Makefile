@@ -7,13 +7,7 @@ COMMENT=	Wayland stacking compositor
 
 LICENSE=	GPLv2
 
-BUILD_DEPENDS=	evdev-proto>0:devel/evdev-proto \
-		wayland-protocols>0:graphics/wayland-protocols \
-		wlroots>=0.15.0<0.16.0:x11-toolkits/wlroots
-LIB_DEPENDS=	libwayland-server.so:graphics/wayland \
-		libwlroots.so:x11-toolkits/wlroots \
-		libinput.so:x11/libinput \
-		libxkbcommon.so:x11/libxkbcommon
+BUILD_DEPENDS=	evdev-proto>0:devel/evdev-proto 
 
 USES=		compiler:c11 gnome meson pkgconfig xorg
 USE_GITHUB=	yes

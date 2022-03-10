@@ -77,10 +77,10 @@ MESON_ARGS+=	-Ddri-drivers="${DRI_DRIVERS:ts,:tl}" \
 MESON_ARGS+=	-Dgallium-xa=disabled \
 		-Dgallium-vdpau=disabled \
 		-Dgallium-va=disabled \
-		-Dgles1=disabled \
-		-Dgles2=disabled \
+		-Dgles1=enabled \
+		-Dgles2=enabled \
 		-Dglx=disabled \
-		-Degl=disabled \
+		-Degl=enabled \
 		-Dosmesa=false \
 		-Dtools=""
 

@@ -19,7 +19,7 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 MAKE_JOBS_UNSAFE=	yes
 
-USES=		autoreconf cpe iconv localbase:ldflags ncurses shebangfix tar:xz
+USES=		autoreconf cpe iconv localbase:ldflags shebangfix tar:xz
 
 SHEBANG_LANG=	zsh
 zsh_OLD_CMD=	zsh	# shebang appears as /bin/zsh and just zsh
@@ -87,9 +87,9 @@ SUB_FILES=	pkg-message
 CONFIGURE_ENV+=	ac_cv_lib_iconv_libiconv=no
 .endif
 
-.if ${ncurses_ARGS} == port
-EXTRA_PATCHES=	${PATCHDIR}/extra-patch-Src_Modules_curses__keys.awk
-.endif
+#.if ${ncurses_ARGS} == port
+#EXTRA_PATCHES=	${PATCHDIR}/extra-patch-Src_Modules_curses__keys.awk
+#.endif
 
 post-patch:
 # FreeBSD's clock_gettime(2) is in libc, not librt; see PR 167857

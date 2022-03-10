@@ -26,6 +26,7 @@ USE_GNOME=	glib20
 USE_LDCONFIG=	yes
 MESON_ARGS=	-Ddoctool=disabled \
 		-Dpython=${PYTHON_CMD}
+INTROSPECTION_SCANNER_ARGS+= --c-include=mach/mach.h
 
 post-patch:
 	@${REINPLACE_CMD} -e 's|%%PYTHON_CMD%%|${PYTHON_CMD}|' ${WRKSRC}/tools/meson.build

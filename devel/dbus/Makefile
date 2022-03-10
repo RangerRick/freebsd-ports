@@ -19,7 +19,7 @@ CPE_PRODUCT=	d-bus
 USE_LDCONFIG=	yes
 USE_RC_SUBR=	dbus
 SHEBANG_FILES=	tools/GetAllMatchRules.py
-
+LDFLAGS+=	-lSystem
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --sysconfdir=/etc 	--disable-apparmor \
 		--disable-doxygen-docs \

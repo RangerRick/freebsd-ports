@@ -1,6 +1,8 @@
 TOPDIR= ${.CURDIR}
 PORTSROOT= /usr/obj/${MACHINE}.${MACHINE}/portsroot
 CORES!= sysctl -n hw.ncpu
+MAKE_TARGET?= reinstall
+
 .export TOPDIR PORTSROOT CORES
 
 all:
@@ -46,34 +48,37 @@ prepports:
 	tar xvf ${TOPDIR}/dist/base.txz -C ${PORTSROOT}
 	ln -s libncurses.so ${PORTSROOT}/usr/lib/libncurses.so.6
 	ln -s python3.8 ${PORTSROOT}/usr/bin/python # for nodejs build
+	ln -s ../apple/sys/kern_control.h ${PORTSROOT}/usr/include/sys/kern_control.h
+	ln -s ../apple/sys/appleapiopts.h ${PORTSROOT}/usr/include/sys/appleapiopts.h
 	if [ ! -f /usr/src/version.txt ]; then \
 	  git clone https://github.com/mszoek/airyx.git /usr/src; fi
 
 /usr/ports/{archivers,audio,databases,devel,dns,editors,emulators,graphics,lang,misc,multimedia,net,ports-mgmt,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
-	${MAKE} -C ${.TARGET} install
-	#${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} install
+	${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} ${MAKE_TARGET}
 
 mountsrc:
-	echo mount_nullfs /usr/src ${PORTSROOT}/usr/src
+	umount /usr/obj/amd64.amd64/portsroot/usr/src || true
+	mount_nullfs /usr/src ${PORTSROOT}/usr/src
 
 umountsrc:
-	echo umount ${PORTSROOT}/usr/src
+	umount ${PORTSROOT}/usr/src
 
-shells: /usr/ports/shells/zsh /usr/ports/shells/bash /usr/ports/shells/bash-completion
+shells: /usr/ports/shells/zsh /usr/ports/devel/bison /usr/ports/shells/bash /usr/ports/shells/bash-completion
 	ln -f /usr/bin/zsh /bin/zsh
 
 python3: /usr/ports/lang/python3 /usr/ports/www/py-beautifulsoup /usr/ports/devel/py-dateutil \
         /usr/ports/sysutils/py-psutil /usr/ports/devel/py-xmltodict /usr/ports/devel/py-pip \
-        /usr/ports/databases/py-sqlite3
+        /usr/ports/databases/py-sqlite3 /usr/ports/textproc/py-libxml2
 misc: /usr/ports/archivers/brotli /usr/ports/graphics/argyllcms /usr/ports/devel/dbus \
 	/usr/ports/devel/glib20 /usr/ports/graphics/libexif /usr/ports/devel/libudev-devd \
         /usr/ports/x11/libinput
 misc2: /usr/ports/sysutils/cpdup /usr/ports/audio/freedesktop-sound-theme \
-        /usr/ports/sysutils/fusefs-libs mountsrc /usr/ports/graphics/gpu-firmware-kmod drm-fbsd13-kmod drm-kmod \
+        /usr/ports/sysutils/fusefs-libs /usr/ports/graphics/gpu-firmware-kmod \
+	/usr/ports/graphics/drm-fbsd13-kmod /usr/ports/graphics/drm-kmod \
         /usr/ports/net/libdnet /usr/ports/archivers/libmspack /usr/ports/security/libretls \
         /usr/ports/devel/libsigc++20 /usr/ports/multimedia/libva-intel-driver /usr/ports/dns/nss_mdns \
         /usr/ports/emulators/open-vm-tools /usr/ports/net/openntpd /usr/ports/sysutils/pv /usr/ports/misc/usbids \
-        /usr/ports/misc/utouch-kmod umountsrc /usr/ports/devel/xdg-user-dirs /usr/ports/devel/xdg-utils
+        /usr/ports/misc/utouch-kmod /usr/ports/devel/xdg-user-dirs /usr/ports/devel/xdg-utils
 misc3: /usr/ports/security/sudo /usr/ports/devel/libqtxdg /usr/ports/devel/git  \
         /usr/ports/sysutils/dmidecode /usr/ports/ports-mgmt/pkg /usr/ports/graphics/mesa-libs \
         /usr/ports/graphics/mesa-dri /usr/ports/graphics/mesa-gallium-xa \
@@ -86,7 +91,7 @@ misc4:  /usr/ports/www/node /usr/ports/devel/libdbusmenu /usr/ports/editors/vim 
         /usr/ports/graphics/vulkan-loader /usr/ports/graphics/wayland /usr/ports/graphics/wayland-utils
 fonts: /usr/ports/x11-fonts/font-awesome /usr/ports/x11-fonts/sourcecodepro-ttf /usr/ports/x11-fonts/wqy  
 
-buildports: shells python3 misc misc2 misc3 misc4 fonts
+buildports: mountsrc shells python3 misc misc2 misc3 misc4 fonts umountsrc
 
 makepackages:
 	rm -rf /usr/ports/packages

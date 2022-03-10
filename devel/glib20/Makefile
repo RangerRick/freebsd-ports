@@ -50,6 +50,8 @@ MANPAGES_MESON_TRUE=	man
 TEST_DEPENDS=		dbus-daemon:devel/dbus
 TEST_MESON_TRUE=	tests
 
+LDFLAGS+=	-lSystem
+
 .include <bsd.port.pre.mk>
 
 # doesn't build yet
