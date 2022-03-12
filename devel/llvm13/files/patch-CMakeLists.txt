@@ -1,0 +1,60 @@
+--- lld/CMakeLists.txt.orig	2022-03-10 16:16:37.706124000 +0000
++++ lld/CMakeLists.txt	2022-03-10 16:22:47.143869000 +0000
+@@ -5,6 +5,7 @@
+ 
+   set(CMAKE_INCLUDE_CURRENT_DIR ON)
+   set(LLD_BUILT_STANDALONE TRUE)
++  add_link_options("-lmach")
+ 
+   find_program(LLVM_CONFIG_PATH "llvm-config" DOC "Path to llvm-config binary")
+   if(NOT LLVM_CONFIG_PATH)
+--- llvm/tools/llvm-jitlink/llvm-jitlink-executor/CMakeLists.txt.orig	2022-03-11 16:32:42.731783000 +0000
++++ llvm/tools/llvm-jitlink/llvm-jitlink-executor/CMakeLists.txt	2022-03-11 16:33:14.222603000 +0000
+@@ -11,6 +11,7 @@
+   intrinsics_gen
+ )
+ 
++target_link_libraries(llvm-jitlink-executor PRIVATE mach)
+ if(${CMAKE_SYSTEM_NAME} MATCHES "Haiku")
+   target_link_libraries(llvm-jitlink-executor PRIVATE network)
+ endif()
+--- llvm/lib/CMakeLists.txt.orig	2022-03-11 16:51:48.836956000 +0000
++++ llvm/lib/CMakeLists.txt	2022-03-11 16:51:35.143874000 +0000
+@@ -56,6 +56,7 @@
+   add_llvm_component_group(Native)
+   add_llvm_component_group(NativeCodeGen)
+ endif()
++link_libraries(mach)
+ 
+ # Component post-processing
+ LLVMBuildResolveComponentsLink()
+--- clang/test/CMakeLists.txt.orig	2022-03-12 00:51:40.436693000 +0000
++++ clang/test/CMakeLists.txt	2022-03-12 00:51:28.185871000 +0000
+@@ -9,6 +9,7 @@
+ 
+ string(REPLACE ${CMAKE_CFG_INTDIR} ${LLVM_BUILD_MODE} CLANG_TOOLS_DIR ${LLVM_RUNTIME_OUTPUT_INTDIR})
+ 
++link_libraries(mach)
+ llvm_canonicalize_cmake_booleans(
+   CLANG_BUILD_EXAMPLES
+   CLANG_ENABLE_ARCMT
+--- llvm/tools/llvm-shlib/CMakeLists.txt.orig	2022-03-12 13:54:52.180382000 +0000
++++ llvm/tools/llvm-shlib/CMakeLists.txt	2022-03-12 13:56:41.207558000 +0000
+@@ -61,6 +61,7 @@
+     set(LIB_NAMES -Wl,-all_load ${LIB_NAMES})
+   endif()
+ 
++  set(LIB_NAMES ${LIB_NAMES} -lmach)
+   target_link_libraries(LLVM PRIVATE ${LIB_NAMES})
+ 
+   if (APPLE)
+--- llvm/lib/Support/CMakeLists.txt.orig	2022-01-20 21:31:59.000000000 +0000
++++ llvm/lib/Support/CMakeLists.txt	2022-03-12 19:05:44.175415000 +0000
+@@ -62,6 +62,7 @@
+     set(system_libs ${system_libs} bsd)
+   endif()
+ endif( MSVC OR MINGW )
++set(system_libs ${system_libs} mach)
+ 
+ # Delay load shell32.dll if possible to speed up process startup.
+ set (delayload_flags)
