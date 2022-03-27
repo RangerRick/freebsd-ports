@@ -78,7 +78,7 @@ USE_XORG=	x11 xcb xcomposite xcursor xdamage xext xfixes xi xkbfile \
 USE_GL=		gbm gl glesv2
 USE_GNOME=	atk cairo pango gdkpixbuf2 gtk30 libxml2 libxslt
 
-USE_LDCONFIG=	${DATADIR}
+USE_LDCONFIG=	${PREFIX}/libdata
 
 # See ${WRKSRC}/remote/.yarnrc for NODE_VER
 NODE_VER=	14.16.0
@@ -183,7 +183,7 @@ pre-build:
 	# ${CP} ${LOCALBASE}/bin/rg ${WRKSRC}/remote/node_modules/vscode-ripgrep/bin
 	# install node_modules
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} \
-		yarn --frozen-lockfile --offline
+		yarn #--frozen-lockfile #--offline
 	# copy rg binary files to vscode-ripgrep module directory
 	${MKDIR} ${WRKSRC}/node_modules/vscode-ripgrep/bin
 	${CP} ${LOCALBASE}/bin/rg ${WRKSRC}/node_modules/vscode-ripgrep/bin
@@ -206,9 +206,9 @@ do-build:
 	${MV} ${WRKDIR}/builtInExtensions/* ${WRKDIR}/VSCode-linux-x64/resources/app/extensions
 
 do-install:
-	${MKDIR} ${STAGEDIR}${PREFIX}/etc/bash_completion.d
+	${MKDIR} ${STAGEDIR}/etc/bash_completion.d
 	${INSTALL_DATA} ${WRKSRC}/resources/completions/bash/code \
-		${STAGEDIR}${PREFIX}/etc/bash_completion.d/code-oss
+		${STAGEDIR}/etc/bash_completion.d/code-oss
 	${MKDIR} ${STAGEDIR}${PREFIX}/share/zsh/site-functions
 	${INSTALL_DATA} ${WRKSRC}/resources/completions/zsh/_code \
 		${STAGEDIR}${PREFIX}/share/zsh/site-functions/_code-oss
@@ -236,6 +236,7 @@ do-install:
 	${RM} -r ${STAGEDIR}${DATADIR}/resources/completions
 	${RLN} ${STAGEDIR}${DATADIR}/bin/code-oss ${STAGEDIR}${PREFIX}/bin
 	${INSTALL_SCRIPT} ${FILESDIR}/wrapper.sh ${STAGEDIR}${PREFIX}/bin/${PORTNAME}
+	${MKDIR} -p ${STAGEDIR}${PREFIX}/libdata/ldconfig
 
 pre-test:
 	# setup electron dependency for unit tests

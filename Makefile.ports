@@ -88,7 +88,8 @@ misc4:  /usr/ports/www/node /usr/ports/devel/libdbusmenu /usr/ports/editors/vim 
         /usr/ports/multimedia/libva /usr/ports/multimedia/libva-intel-driver \
         /usr/ports/multimedia/libva-intel-hybrid-driver /usr/ports/multimedia/libvdpau \
         /usr/ports/sysutils/seatd /usr/ports/sysutils/tmux /usr/ports/graphics/vulkan-headers \
-        /usr/ports/graphics/vulkan-loader /usr/ports/graphics/wayland /usr/ports/graphics/wayland-utils
+        /usr/ports/graphics/vulkan-loader /usr/ports/graphics/wayland /usr/ports/graphics/wayland-utils \
+	/usr/ports/graphics/qt5-wayland /usr/ports/editors/vscode /usr/ports/security/sshpass
 fonts: /usr/ports/x11-fonts/font-awesome /usr/ports/x11-fonts/sourcecodepro-ttf /usr/ports/x11-fonts/wqy  
 
 buildports: mountsrc shells python3 misc misc2 misc3 misc4 fonts umountsrc

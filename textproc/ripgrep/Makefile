@@ -91,7 +91,7 @@ CARGO_ENV=	RIPGREP_OUTDIR=${RIPGREP_OUTDIR}
 
 PLIST_FILES=	bin/rg \
 		etc/bash_completion.d/rg.bash \
-		man/man1/rg.1.gz \
+		${MANPREFIX_REL}/man/man1/rg.1.gz \
 		share/fish/vendor_completions.d/rg.fish \
 		share/zsh/site-functions/_rg
 
@@ -117,7 +117,7 @@ post-patch:
 
 post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/rg
-	${INSTALL_MAN} ${RIPGREP_OUTDIR}/rg.1 ${STAGEDIR}${MAN1PREFIX}/man/man1
+	${INSTALL_MAN} ${RIPGREP_OUTDIR}/rg.1 ${STAGEDIR}${MANPREFIX}/man/man1
 	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/bash_completion.d/
 	${INSTALL_DATA} ${RIPGREP_OUTDIR}/rg.bash \
 		${STAGEDIR}${PREFIX}/etc/bash_completion.d/

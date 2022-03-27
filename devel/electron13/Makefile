@@ -66,15 +66,13 @@ GH_TUPLE=	nodejs:node:v${NODE_VER}:node \
 		nodejs:nan:v${NAN_VER}:nan
 USE_GL=		gbm gl glesv2
 USE_GNOME=	atk cairo gdkpixbuf2 gtk30 libxml2 libxslt pango
-USE_LDCONFIG=	${DATADIR}
+USE_LDCONFIG=	${PREFIX}/libdata
 USE_XORG=	x11 xcb xcomposite xcursor xdamage xext xfixes xi xrandr \
 		xrender xscrnsaver xtst
 
 SHEBANG_FILES=	buildtools/freebsd/clang-format
 
 MAKE_ARGS=			-C out/${BUILDTYPE}
-MAKE_ENV+=			C_INCLUDE_PATH=${LOCALBASE}/include \
-				CPLUS_INCLUDE_PATH=${LOCALBASE}/include
 ALL_TARGET=			electron third_party/electron_node:headers
 POST_BUILD_TARGETS=		licenses version
 POST_BUILD_DIST_TARGETS=	electron_dist_zip electron_chromedriver_zip \
@@ -266,7 +264,7 @@ post-build-DIST-on:
 		${SHA256} -r *-v${ELECTRON_VER}-freebsd-*.zip | ${SED} -e 's/ / */' > SHASUMS256.txt
 
 do-install:
-	${MKDIR} ${STAGEDIR}${DATADIR}
+	${MKDIR} -p ${STAGEDIR}${DATADIR} ${STAGEDIR}${PREFIX}/libdata/ldconfig
 .for f in electron mksnapshot v8_context_snapshot_generator
 	${INSTALL_PROGRAM} ${WRKSRC}/out/${BUILDTYPE}/${f} ${STAGEDIR}${DATADIR}
 .endfor

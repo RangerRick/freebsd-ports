@@ -109,5 +109,6 @@ post-configure:
 
 post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/node
+	mv -fv ${STAGEDIR}${PREFIX}/man/man1/* ${STAGEDIR}${PREFIX}/share/man/man1/
 
 .include <bsd.port.mk>
