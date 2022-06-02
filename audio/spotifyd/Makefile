@@ -412,11 +412,10 @@ CARGO_CRATES=	addr2line-0.14.1 \
 CARGO_FEATURES=	--no-default-features
 
 PLIST_FILES=	bin/spotifyd \
-		"@sample etc/spotifyd.conf.sample"
 PORTDOCS=	README.md
 
 OPTIONS_DEFINE=		DBUS DOCS PORTAUDIO PULSEAUDIO ALSA
-OPTIONS_DEFAULT=	PORTAUDIO
+OPTIONS_DEFAULT=	PULSEAUDIO
 
 DBUS_DESC=		D-Bus MPRIS support
 
@@ -432,12 +431,12 @@ PORTAUDIO_VARS=		CARGO_FEATURES+=portaudio_backend
 PULSEAUDIO_LIB_DEPENDS=	libpulse.so:audio/pulseaudio
 PULSEAUDIO_VARS=	CARGO_FEATURES+=pulseaudio_backend
 
-post-patch:
-	@${REINPLACE_CMD} 's,/etc/,${PREFIX}/etc/,g' ${WRKSRC}/src/config.rs
+pre-install:
+	mkdir -p ${STAGEDIR}/etc/rc.d
 
 post-install:
 	${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/spotifyd
-	${INSTALL_DATA} ${FILESDIR}/spotifyd.conf ${STAGEDIR}${PREFIX}/etc/spotifyd.conf.sample
+	${INSTALL_DATA} ${FILESDIR}/spotifyd.conf ${STAGEDIR}/etc/spotifyd.conf.sample
 
 post-install-DOCS-on:
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}

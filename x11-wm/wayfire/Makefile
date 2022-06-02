@@ -49,10 +49,10 @@ GH_TUPLE=	WayfireWM:wf-touch:8974eb0:wftouch/subprojects/wf-touch \
 		WayfireWM:wf-utils:889fdaf:wfutils/subprojects/wf-utils
 
 OPTIONS_DEFINE=	X11
-OPTIONS_DEFAULT=X11
+OPTIONS_DEFAULT=
 
-X11_USE=		XORG=xcb
-X11_MESON_ENABLED=	xwayland
+#X11_USE=		XORG=xcb
+#X11_MESON_ENABLED=	xwayland
 
 post-patch:
 # Extract (snapshot) version from the port instead of meson.build

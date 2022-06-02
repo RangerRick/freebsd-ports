@@ -75,7 +75,7 @@ PKGNAMESUFFIX=	-${PINENTRY_GUI}
 LIB_DEPENDS=	libassuan.so:security/libassuan \
 		libgpg-error.so:security/libgpg-error
 
-USES+=		gmake iconv localbase ncurses pkgconfig
+USES+=		gmake iconv localbase pkgconfig
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-pinentry-emacs
 LDFLAGS+=	-Wl,--as-needed
