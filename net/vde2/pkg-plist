@@ -16,11 +16,11 @@ bin/vdeq
 bin/vdeqemu
 bin/vdeterm
 bin/wirefilter
-/etc/vde2/libvdemgmt/asyncrecv.rc
-/etc/vde2/libvdemgmt/closemachine.rc
-/etc/vde2/libvdemgmt/openmachine.rc
-/etc/vde2/libvdemgmt/sendcmd.rc
-/etc/vde2/vdecmd
+etc/vde2/libvdemgmt/asyncrecv.rc
+etc/vde2/libvdemgmt/closemachine.rc
+etc/vde2/libvdemgmt/openmachine.rc
+etc/vde2/libvdemgmt/sendcmd.rc
+etc/vde2/vdecmd
 include/libvdehist.h
 include/libvdemgmt.h
 include/libvdeplug.h
