@@ -93,7 +93,7 @@ misc4:  /usr/ports/www/node /usr/ports/devel/libdbusmenu /usr/ports/editors/vim 
 fonts: /usr/ports/x11-fonts/font-awesome /usr/ports/x11-fonts/sourcecodepro-ttf /usr/ports/x11-fonts/wqy  
 footy: /usr/ports/x11-fonts/xorg-fonts-truetype /usr/ports/x11-fonts/libXft /usr/ports/x11-fonts/encodings \
         /usr/ports/graphics/cairo /usr/ports/converters/fribidi /usr/ports/x11-fonts/fcft /usr/ports/textproc/utf8proc \
-        /usr/ports/x11/foot /usr/ports/x11-toolkits/pango
+        /usr/ports/x11/foot /usr/ports/x11-toolkits/pango /usr/ports/x11/xcb-util-errors
 
 buildports: mountsrc shells python3 misc misc2 misc3 misc4 fonts footy umountsrc
 
