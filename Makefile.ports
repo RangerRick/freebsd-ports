@@ -1,5 +1,5 @@
 TOPDIR= ${.CURDIR}
-PORTSROOT= /usr/obj/${MACHINE}.${MACHINE}/portsroot
+PORTSROOT= /usr/obj/${MACHINE}.${MACHINE_ARCH}/portsroot
 CORES!= sysctl -n hw.ncpu
 MAKE_TARGET?= reinstall
 
@@ -57,7 +57,7 @@ prepports:
 	${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} ${MAKE_TARGET}
 
 mountsrc:
-	umount /usr/obj/amd64.amd64/portsroot/usr/src || true
+	umount ${PORTSROOT}/usr/src || true
 	mount_nullfs /usr/src ${PORTSROOT}/usr/src
 
 umountsrc:
