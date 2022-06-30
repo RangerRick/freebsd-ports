@@ -69,6 +69,26 @@ shells: /usr/ports/shells/zsh /usr/ports/devel/bison /usr/ports/shells/bash /usr
 python3: /usr/ports/lang/python3 /usr/ports/www/py-beautifulsoup /usr/ports/devel/py-dateutil \
         /usr/ports/sysutils/py-psutil /usr/ports/devel/py-xmltodict /usr/ports/devel/py-pip \
         /usr/ports/databases/py-sqlite3 /usr/ports/textproc/py-libxml2
+bootstrap: \
+	/usr/ports/converters/libiconv \
+	/usr/ports/converters/p5-Text-Unidecode \
+	/usr/ports/devel/autoconf \
+	/usr/ports/devel/autoconf-wrapper \
+	/usr/ports/devel/bison \
+	/usr/ports/devel/gettext-runtime \
+	/usr/ports/devel/gettext-tools \
+	/usr/ports/devel/gmake \
+	/usr/ports/devel/libtextstyle \
+	/usr/ports/devel/p5-Locale-gettext \
+	/usr/ports/devel/p5-Locale-libintl \
+	/usr/ports/devel/readline \
+	/usr/ports/lang/perl5.32 \
+	/usr/ports/misc/help2man \
+	/usr/ports/print/indexinfo \
+	/usr/ports/print/texinfo \
+	/usr/ports/shells/bash \
+	/usr/ports/shells/bash-completion \
+	/usr/ports/shells/zsh
 misc: /usr/ports/archivers/brotli /usr/ports/graphics/argyllcms /usr/ports/devel/dbus \
 	/usr/ports/devel/glib20 /usr/ports/graphics/libexif /usr/ports/devel/libudev-devd \
         /usr/ports/x11/libinput
@@ -92,7 +112,7 @@ misc4:  /usr/ports/www/node /usr/ports/devel/libdbusmenu /usr/ports/editors/vim 
 	/usr/ports/graphics/qt5-wayland /usr/ports/editors/vscode /usr/ports/security/sshpass
 fonts: /usr/ports/x11-fonts/font-awesome /usr/ports/x11-fonts/sourcecodepro-ttf /usr/ports/x11-fonts/wqy  
 
-buildports: mountsrc shells python3 misc misc2 misc3 misc4 fonts umountsrc
+buildports: mountsrc shells python3 bootstrap misc misc2 misc3 misc4 fonts umountsrc
 
 makepackages:
 	rm -rf /usr/ports/packages
