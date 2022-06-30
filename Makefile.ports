@@ -44,14 +44,14 @@ prepports:
 	cp -f /usr/sbin/pkg-static ${PORTSROOT}/usr/sbin || true
 	if [ ! -f ${PORTSROOT}/usr/sbin/pkg-static ]; then cp ${PORTSROOT}/usr/sbin/pkg ${PORTSROOT}/usr/sbin/pkg-static; fi
 	mkdir -p ${TOPDIR}/dist ${TOPDIR}/distfiles
-	if [ ! -f ${TOPDIR}/dist/base.txz ]; then fetch -o ${TOPDIR}/dist/base.txz https://dl.cloudsmith.io/public/airyx/core/raw/names/base_main.txz/files/base.txz; fi
+	if [ ! -f ${TOPDIR}/dist/base.txz ]; then echo "ERROR: you must have a ${TOPDIR}/dist/base.txz from a ravynOS bootstrap. If you are on amd64, run fetch -o ${TOPDIR}/dist/base.txz https://dl.cloudsmith.io/public/airyx/core/raw/names/base_main.txz/files/base.txz"; exit 1; fi
 	tar xvf ${TOPDIR}/dist/base.txz -C ${PORTSROOT}
 	ln -s libncurses.so ${PORTSROOT}/usr/lib/libncurses.so.6
 	ln -s python3.8 ${PORTSROOT}/usr/bin/python # for nodejs build
 	ln -s ../apple/sys/kern_control.h ${PORTSROOT}/usr/include/sys/kern_control.h
 	ln -s ../apple/sys/appleapiopts.h ${PORTSROOT}/usr/include/sys/appleapiopts.h
 	if [ ! -f /usr/src/version.txt ]; then \
-	  git clone https://github.com/mszoek/airyx.git /usr/src; fi
+	  git clone https://github.com/ravynsoft/ravynos.git /usr/src; fi
 
 /usr/ports/{archivers,audio,databases,devel,dns,editors,emulators,graphics,lang,misc,multimedia,net,ports-mgmt,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
 	${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} ${MAKE_TARGET}
