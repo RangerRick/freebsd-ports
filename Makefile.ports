@@ -71,21 +71,32 @@ python3: /usr/ports/lang/python3 /usr/ports/www/py-beautifulsoup /usr/ports/deve
         /usr/ports/databases/py-sqlite3 /usr/ports/textproc/py-libxml2
 bootstrap: \
 	/usr/ports/converters/libiconv \
-	/usr/ports/converters/p5-Text-Unidecode \
+	/usr/ports/devel/gmake \
+	/usr/ports/devel/m4 \
+	/usr/ports/print/texinfo \
 	/usr/ports/devel/autoconf \
+	/usr/ports/devel/gettext-runtime \
+	/usr/ports/devel/automake \
+	/usr/ports/converters/p5-Text-Unidecode \
 	/usr/ports/devel/autoconf-wrapper \
 	/usr/ports/devel/bison \
-	/usr/ports/devel/gettext-runtime \
 	/usr/ports/devel/gettext-tools \
-	/usr/ports/devel/gmake \
 	/usr/ports/devel/libtextstyle \
 	/usr/ports/devel/p5-Locale-gettext \
 	/usr/ports/devel/p5-Locale-libintl \
 	/usr/ports/devel/readline \
+	/usr/ports/devel/libffi \
+	/usr/ports/math/mpdecimal \
+	/usr/ports/lang/python38 \
+	/usr/ports/devel/py-setuptools \
+	/usr/ports/textproc/py-sphinx \
+	/usr/ports/devel/cmake \
+	/usr/ports/graphics/jpeg-turbo \
+	/usr/ports/graphics/png \
+	/usr/ports/graphics/tiff \
 	/usr/ports/lang/perl5.32 \
 	/usr/ports/misc/help2man \
 	/usr/ports/print/indexinfo \
-	/usr/ports/print/texinfo \
 	/usr/ports/shells/bash \
 	/usr/ports/shells/bash-completion \
 	/usr/ports/shells/zsh
