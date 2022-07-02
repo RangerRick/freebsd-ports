@@ -42,8 +42,8 @@ post-patch:
 		${WRKSRC}/src/slirpvde/Makefile.in
 
 post-install:
-	${LN} -sf unixcmd.1 ${STAGEDIR}${PREFIX}/man/man1/vdecmd.1
-	${LN} -sf vdeq.1 ${STAGEDIR}${PREFIX}/man/man1/vdeqemu.1
-	${LN} -sf vdeq.1 ${STAGEDIR}${PREFIX}/man/man1/vdekvm.1
+	${LN} -sf unixcmd.1 ${STAGEDIR}${MANPREFIX}/man/man1/vdecmd.1
+	${LN} -sf vdeq.1 ${STAGEDIR}${MANPREFIX}/man/man1/vdeqemu.1
+	${LN} -sf vdeq.1 ${STAGEDIR}${MANPREFIX}/man/man1/vdekvm.1
 
 .include <bsd.port.mk>

@@ -41,7 +41,8 @@ FIREFOX_ICON=		${MOZILLA}.png
 FIREFOX_ICON_SRC=	${PREFIX}/lib/${MOZILLA}/browser/chrome/icons/default/default48.png
 FIREFOX_DESKTOP=	${MOZSRC}/taskcluster/docker/${MOZILLA}-snap/${MOZILLA}.desktop
 MOZ_OPTIONS=	--enable-application=browser \
-		--enable-official-branding
+		--enable-official-branding \
+                --enable-default-toolkit=cairo-gtk3-wayland
 
 .include "${.CURDIR}/../../www/firefox/Makefile.options"
 
