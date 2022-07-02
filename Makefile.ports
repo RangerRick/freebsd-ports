@@ -1,5 +1,5 @@
 TOPDIR= ${.CURDIR}
-PORTSROOT= /usr/obj/${MACHINE}.${MACHINE}/portsroot
+PORTSROOT= /usr/obj/${MACHINE}.${MACHINE_ARCH}/portsroot
 CORES!= sysctl -n hw.ncpu
 MAKE_TARGET?= reinstall
 
@@ -44,7 +44,7 @@ prepports:
 	cp -f /usr/sbin/pkg-static ${PORTSROOT}/usr/sbin || true
 	if [ ! -f ${PORTSROOT}/usr/sbin/pkg-static ]; then cp ${PORTSROOT}/usr/sbin/pkg ${PORTSROOT}/usr/sbin/pkg-static; fi
 	mkdir -p ${TOPDIR}/dist ${TOPDIR}/distfiles
-	if [ ! -f ${TOPDIR}/dist/base.txz ]; then fetch -o ${TOPDIR}/dist/base.txz https://dl.cloudsmith.io/public/ravynsoft/ravynOS/raw/names/base_main.txz/files/base.txz; fi
+	if [ ! -f ${TOPDIR}/dist/base.txz ]; then echo "ERROR: you must have a ${TOPDIR}/dist/base.txz from a ravynOS bootstrap. If you are on amd64, run fetch -o ${TOPDIR}/dist/base.txz https://dl.cloudsmith.io/public/ravynsoft/ravynOS/raw/names/base_main.txz/files/base.txz"; exit 1; fi
 	tar xvf ${TOPDIR}/dist/base.txz -C ${PORTSROOT}
 	ln -s libncurses.so ${PORTSROOT}/usr/lib/libncurses.so.6
 	ln -s python3.8 ${PORTSROOT}/usr/bin/python # for nodejs build
@@ -57,7 +57,7 @@ prepports:
 	${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} ${MAKE_TARGET}
 
 mountsrc:
-	umount /usr/obj/amd64.amd64/portsroot/usr/src || true
+	umount ${PORTSROOT}/usr/src || true
 	mount_nullfs /usr/src ${PORTSROOT}/usr/src
 
 umountsrc:
@@ -69,6 +69,26 @@ shells: /usr/ports/shells/zsh /usr/ports/devel/bison /usr/ports/shells/bash /usr
 python3: /usr/ports/lang/python3 /usr/ports/www/py-beautifulsoup /usr/ports/devel/py-dateutil \
         /usr/ports/sysutils/py-psutil /usr/ports/devel/py-xmltodict /usr/ports/devel/py-pip \
         /usr/ports/databases/py-sqlite3 /usr/ports/textproc/py-libxml2
+bootstrap: \
+	/usr/ports/converters/libiconv \
+	/usr/ports/converters/p5-Text-Unidecode \
+	/usr/ports/devel/autoconf \
+	/usr/ports/devel/autoconf-wrapper \
+	/usr/ports/devel/bison \
+	/usr/ports/devel/gettext-runtime \
+	/usr/ports/devel/gettext-tools \
+	/usr/ports/devel/gmake \
+	/usr/ports/devel/libtextstyle \
+	/usr/ports/devel/p5-Locale-gettext \
+	/usr/ports/devel/p5-Locale-libintl \
+	/usr/ports/devel/readline \
+	/usr/ports/lang/perl5.32 \
+	/usr/ports/misc/help2man \
+	/usr/ports/print/indexinfo \
+	/usr/ports/print/texinfo \
+	/usr/ports/shells/bash \
+	/usr/ports/shells/bash-completion \
+	/usr/ports/shells/zsh
 misc: /usr/ports/archivers/brotli /usr/ports/graphics/argyllcms /usr/ports/devel/dbus \
 	/usr/ports/devel/glib20 /usr/ports/graphics/libexif /usr/ports/devel/libudev-devd \
         /usr/ports/x11/libinput
@@ -95,7 +115,9 @@ footy: /usr/ports/x11-fonts/xorg-fonts-truetype /usr/ports/x11-fonts/libXft /usr
         /usr/ports/graphics/cairo /usr/ports/converters/fribidi /usr/ports/x11-fonts/fcft /usr/ports/textproc/utf8proc \
         /usr/ports/x11/foot /usr/ports/x11-toolkits/pango /usr/ports/x11/xcb-util-errors
 
-buildports: mountsrc shells python3 misc misc2 misc3 misc4 fonts footy umountsrc
+buildbootstrap: mountsrc bootstrap umountsrc
+
+buildports: mountsrc shells python3 bootstrap misc misc2 misc3 misc4 fonts footy umountsrc
 
 makepackages:
 	rm -rf /usr/ports/packages
