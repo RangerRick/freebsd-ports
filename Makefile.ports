@@ -99,7 +99,8 @@ bootstrap: \
 	/usr/ports/print/indexinfo \
 	/usr/ports/shells/bash \
 	/usr/ports/shells/bash-completion \
-	/usr/ports/shells/zsh
+	/usr/ports/shells/zsh \
+	/usr/ports/devel/dbus
 misc: /usr/ports/archivers/brotli /usr/ports/graphics/argyllcms /usr/ports/devel/dbus \
 	/usr/ports/devel/glib20 /usr/ports/graphics/libexif /usr/ports/devel/libudev-devd \
         /usr/ports/x11/libinput
