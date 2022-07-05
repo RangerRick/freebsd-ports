@@ -53,7 +53,7 @@ prepports:
 	if [ ! -f /usr/src/version.txt ]; then \
 	  git clone https://github.com/ravynsoft/ravynos.git /usr/src; fi
 
-/usr/ports/{archivers,audio,converters,databases,devel,dns,editors,emulators,graphics,lang,misc,multimedia,net,ports-mgmt,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
+/usr/ports/{archivers,audio,converters,databases,devel,dns,editors,emulators,graphics,lang,misc,multimedia,net,ports-mgmt,print,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
 	${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} ${MAKE_TARGET}
 
 mountsrc:
@@ -63,12 +63,6 @@ mountsrc:
 umountsrc:
 	umount ${PORTSROOT}/usr/src
 
-shells: /usr/ports/shells/zsh /usr/ports/devel/bison /usr/ports/shells/bash /usr/ports/shells/bash-completion
-	ln -f /usr/bin/zsh /bin/zsh
-
-python3: /usr/ports/lang/python3 /usr/ports/www/py-beautifulsoup /usr/ports/devel/py-dateutil \
-        /usr/ports/sysutils/py-psutil /usr/ports/devel/py-xmltodict /usr/ports/devel/py-pip \
-        /usr/ports/databases/py-sqlite3 /usr/ports/textproc/py-libxml2
 bootstrap: \
 	/usr/ports/converters/libiconv \
 	/usr/ports/devel/gmake \
@@ -88,6 +82,7 @@ bootstrap: \
 	/usr/ports/devel/libffi \
 	/usr/ports/math/mpdecimal \
 	/usr/ports/lang/python38 \
+	/usr/ports/lang/python3 \
 	/usr/ports/devel/py-setuptools \
 	/usr/ports/textproc/py-sphinx \
 	/usr/ports/devel/cmake \
@@ -97,39 +92,56 @@ bootstrap: \
 	/usr/ports/lang/perl5.32 \
 	/usr/ports/misc/help2man \
 	/usr/ports/print/indexinfo \
-	/usr/ports/shells/bash \
-	/usr/ports/shells/bash-completion \
-	/usr/ports/shells/zsh \
-	/usr/ports/devel/dbus
-misc: /usr/ports/archivers/brotli /usr/ports/graphics/argyllcms /usr/ports/devel/dbus \
+	shells \
+	/usr/ports/devel/dbus \
+	/usr/ports/devel/pkgconf \
+	/usr/ports/print/freetype2 \
+	/usr/ports/graphics/libglvnd \
+	/usr/ports/graphics/wayland \
+	/usr/ports/x11-fonts/fontconfig \
+	/usr/ports/x11/libxkbcommon \
+	/usr/ports/databases/sqlite3 \
+	/usr/ports/devel/qt5-dbus \
+	/usr/ports/devel/libqtxdg \
+	/usr/ports/sysutils/seatd \
+	/usr/ports/x11-toolkits/pango
+shells: /usr/ports/shells/zsh /usr/ports/devel/bison /usr/ports/shells/bash /usr/ports/shells/bash-completion
+	if [ -x /usr/bin/zsh ]; then ln -f /usr/bin/zsh /bin/zsh; fi
+	if [ -x $PORTSROOT/usr/bin/zsh ]; then ln -f $PORTSROOT/usr/bin/zsh $PORTSROOT/bin/zsh; fi
+python3: /usr/ports/www/py-beautifulsoup /usr/ports/devel/py-dateutil \
+        /usr/ports/sysutils/py-psutil /usr/ports/devel/py-xmltodict /usr/ports/devel/py-pip \
+        /usr/ports/databases/py-sqlite3 /usr/ports/textproc/py-libxml2
+misc: /usr/ports/archivers/brotli /usr/ports/graphics/argyllcms \
 	/usr/ports/devel/glib20 /usr/ports/graphics/libexif /usr/ports/devel/libudev-devd \
         /usr/ports/x11/libinput
 misc2: /usr/ports/sysutils/cpdup /usr/ports/audio/freedesktop-sound-theme \
         /usr/ports/sysutils/fusefs-libs /usr/ports/graphics/gpu-firmware-kmod \
-	/usr/ports/graphics/drm-fbsd13-kmod /usr/ports/graphics/drm-kmod \
+	/usr/ports/graphics/drm-kmod \
         /usr/ports/net/libdnet /usr/ports/archivers/libmspack /usr/ports/security/libretls \
-        /usr/ports/devel/libsigc++20 /usr/ports/multimedia/libva-intel-driver /usr/ports/dns/nss_mdns \
-        /usr/ports/emulators/open-vm-tools /usr/ports/net/openntpd /usr/ports/sysutils/pv /usr/ports/misc/usbids \
+        /usr/ports/devel/libsigc++20 /usr/ports/dns/nss_mdns \
+        /usr/ports/net/openntpd /usr/ports/sysutils/pv /usr/ports/misc/usbids \
         /usr/ports/misc/utouch-kmod /usr/ports/devel/xdg-user-dirs /usr/ports/devel/xdg-utils
-misc3: /usr/ports/security/sudo /usr/ports/devel/libqtxdg /usr/ports/devel/git  \
+x64: /usr/ports/graphics/drm-fbsd13-kmod /usr/ports/multimedia/libva-intel-driver
+broken: /usr/ports/emulators/open-vm-tools
+misc3: /usr/ports/security/sudo /usr/ports/devel/git  \
         /usr/ports/sysutils/dmidecode /usr/ports/ports-mgmt/pkg /usr/ports/graphics/mesa-libs \
         /usr/ports/graphics/mesa-dri /usr/ports/graphics/mesa-gallium-xa \
-        /usr/ports/archivers/zip /usr/ports/databases/sqlite3 /usr/ports/devel/cmake /usr/ports/devel/pkgconf
-misc4:  /usr/ports/www/node /usr/ports/devel/libdbusmenu /usr/ports/editors/vim /usr/ports/net/avahi-app \
+        /usr/ports/archivers/zip
+misc4: /usr/ports/www/node /usr/ports/devel/libdbusmenu /usr/ports/editors/vim /usr/ports/net/avahi-app \
         /usr/ports/security/ca_root_nss /usr/ports/graphics/glslang /usr/ports/graphics/libdrm \
         /usr/ports/multimedia/libva /usr/ports/multimedia/libva-intel-driver \
         /usr/ports/multimedia/libva-intel-hybrid-driver /usr/ports/multimedia/libvdpau \
-        /usr/ports/sysutils/seatd /usr/ports/sysutils/tmux /usr/ports/graphics/vulkan-headers \
-        /usr/ports/graphics/vulkan-loader /usr/ports/graphics/wayland /usr/ports/graphics/wayland-utils \
+        /usr/ports/sysutils/tmux /usr/ports/graphics/vulkan-headers \
+        /usr/ports/graphics/vulkan-loader /usr/ports/graphics/wayland-utils \
 	/usr/ports/graphics/qt5-wayland /usr/ports/editors/vscode /usr/ports/security/sshpass
 fonts: /usr/ports/x11-fonts/font-awesome /usr/ports/x11-fonts/sourcecodepro-ttf /usr/ports/x11-fonts/wqy  
 footy: /usr/ports/x11-fonts/xorg-fonts-truetype /usr/ports/x11-fonts/libXft /usr/ports/x11-fonts/encodings \
         /usr/ports/graphics/cairo /usr/ports/converters/fribidi /usr/ports/x11-fonts/fcft /usr/ports/textproc/utf8proc \
-        /usr/ports/x11/foot /usr/ports/x11-toolkits/pango /usr/ports/x11/xcb-util-errors
+        /usr/ports/x11/foot /usr/ports/x11/xcb-util-errors
 
 buildbootstrap: mountsrc bootstrap umountsrc
 
-buildports: mountsrc shells python3 bootstrap misc misc2 misc3 misc4 fonts footy umountsrc
+buildports: mountsrc bootstrap shells python3 misc misc2 misc3 misc4 fonts footy umountsrc
 
 makepackages:
 	rm -rf /usr/ports/packages
