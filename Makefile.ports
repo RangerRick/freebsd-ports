@@ -32,10 +32,10 @@ patch:
 
 # Prepare the chroot jail for our ports builds
 prepports:
-	if [ -d ${PORTSROOT} ]; then \
-		chflags -R noschg,nouchg ${PORTSROOT}; \
-		rm -rf ${PORTSROOT}; \
-	fi
+	#if [ -d ${PORTSROOT} ]; then \
+	#	chflags -R noschg,nouchg ${PORTSROOT}; \
+	#	rm -rf ${PORTSROOT}; \
+	#fi
 	mkdir -p ${PORTSROOT}/etc ${PORTSROOT}/var/run ${PORTSROOT}/usr/sbin
 	cp -f ${TOPDIR}/Tools/make.conf ${PORTSROOT}/etc/
 	echo 'nameserver 1.1.1.1' > ${PORTSROOT}/etc/resolv.conf
