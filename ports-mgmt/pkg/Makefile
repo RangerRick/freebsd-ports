@@ -1,5 +1,5 @@
 PORTNAME=	pkg
-DISTVERSION=	1.17.5
+DISTVERSION=	1.18.3
 _PKG_VERSION=	${DISTVERSION}
 CATEGORIES=	ports-mgmt
 #MASTER_SITES=	\
@@ -70,13 +70,6 @@ pre-everything::
 .endif
 .endif
 
-.if !exists(/usr/libdata/pkgconfig/liblzma.pc)
-LIBLZMA_LIBS=	-llzma
-.else
-LIBLZMA_PC!=	${EGREP} ^Libs /usr/libdata/pkgconfig/liblzma.pc
-LIBLZMA_LIBS=	${LIBLZMA_PC:M-l*}
-.endif
-
 #define PKG_DEPENDS to nothing to avoid infinite loop looking for pkg :)
 PKG_DEPENDS=
 .undef INSTALLS_DEPENDS
@@ -90,11 +83,10 @@ PKG_BIN=	${WRKSRC}/src/pkg-static
 LIBLZMA_LIBS+= -llz4
 post-patch:
 	sed -i_ -e "s,^etcdir.*,etcdir=/etc," ${WRKSRC}/mk/defs.mk.in
-	${REINPLACE_CMD} -e "s|-llzma|${LIBLZMA_LIBS}|g" ${WRKSRC}/auto.def \
-		${WRKSRC}/src/Makefile.autosetup ${WRKSRC}/tests/Makefile.autosetup
 
 pre-install:
 	mkdir -p ${STAGEDIR}/etc ${STAGEDIR}/usr/libdata/ldconfig
+
 post-install:
 	@${MKDIR} ${STAGEDIR}${PREFIX}/lib/compat/pkg
 
