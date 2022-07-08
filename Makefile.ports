@@ -53,7 +53,7 @@ prepports:
 	if [ ! -f /usr/src/version.txt ]; then \
 	  git clone https://github.com/ravynsoft/ravynos.git /usr/src; fi
 
-/usr/ports/{archivers,audio,converters,databases,devel,dns,editors,emulators,graphics,lang,misc,multimedia,net,ports-mgmt,print,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
+/usr/ports/{archivers,audio,converters,databases,devel,dns,editors,emulators,graphics,java,lang,misc,multimedia,net,ports-mgmt,print,security,shells,sysutils,textproc,www,x11,x11-drivers,x11-fonts,x11-fm,x11-themes,x11-toolkits}/*: .PHONY
 	${MAKE} -C ${.TARGET} DESTDIR=${PORTSROOT} ${MAKE_TARGET}
 
 mountsrc:
